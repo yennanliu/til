@@ -1,5 +1,4 @@
 # til
----
 > Today I Learned
 - Collection & record regarding my daily learning. 
 - Tech + product + business. 
@@ -22,6 +21,7 @@
 	- [`implicit`](https://docs.scala-lang.org/tour/implicit-parameters.html)
 - Python 
 - Invest
-	- Risk VS uncertainty
-	- margin of safety
-	- Rate of return  
+	- [Risk VS uncertainty](https://www.motilaloswal.com/blog-details/Understanding-difference-between-risk-and-uncertainty-in-investing../1835)
+	- [margin of safety](https://www.investopedia.com/terms/m/marginofsafety.asp#:~:text=Margin%20of%20safety%20is%20a,is%20the%20margin%20of%20safety.)
+	- [Rate of return](https://www.investopedia.com/terms/r/rateofreturn.asp)
+	- [investopedia](https://www.investopedia.com/)  
