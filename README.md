@@ -7,6 +7,15 @@
 
 ## Progress
 
+### 20200823
+- Product Development
+	- Agile
+		- [Kanban](https://dotblogs.com.tw/mystic_pieces/2019/03/12/223533)
+		- [Scrum](https://www.scrumguides.org/scrum-guide.html)
+		- Lean
+		- [Kanban VS scrum](http://teddy-chen-tw.blogspot.com/2013/08/scrum-kanban.html)
+	- Waterfall
+
 ### 20200822
 - Java
 	- [Method reload](https://github.com/yennanliu/utility_Java/blob/master/src/java/main/JavaBasics/ConstructorOverload.java) 
