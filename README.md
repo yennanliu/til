@@ -28,7 +28,13 @@
 	- [Finatra HTTP Server](https://github.com/yennanliu/FinatraHelloWorld/blob/master/doc/progress.md)
 - Python 
 - Invest
-
+	- Basic Financial statements
+		- Profit and Loss Account
+		- Balance Sheet
+		- Cash Flow Statement
+		- Statement of Stockholders Equity
+	- [Apple inc. 2019 Q4 financial report](https://www.apple.com/newsroom/pdfs/Q4%20FY19%20Consolidated%20Financial%20Statements.pdf)
+	- [Apple inc. financial report (yahoo finance)](https://hk.finance.yahoo.com/quote/AAPL/financials/)
 ### 20200822
 - Java
 	- [Method reload](https://github.com/yennanliu/utility_Java/blob/master/src/java/main/JavaBasics/ConstructorOverload.java) 
