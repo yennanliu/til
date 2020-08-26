@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20200826
+- Scala 
+	- UpperCass
+	- option
+	- find
+	- Some
+	- exists
+	- contains
+	- isDefined
+
 ### 20200825
 - Git
 	- `git rebase`
