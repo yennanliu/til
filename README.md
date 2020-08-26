@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20200825
+- Git
+	- `git rebase`
+	- `git rebase --continue`
+	- `git rebase --abort`
+		- ref : [rebase step by step](http://gitforteams.com/resources/rebasing.html#:~:text=git%2Frebase%2Dapply%2Fpatch,%22git%20rebase%20%2D%2Dabort%22.)
+	-  git pull = git clone + git merge
+	
 ### 20200823
 - Tech
 	- [RPC](https://blog.csdn.net/yjp198713/article/details/79410521)
