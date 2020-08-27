@@ -7,7 +7,15 @@
 
 ## Progress
 
+### 20200827
+- Spark
+	- load parquet 
+
 ### 20200826
+- Java
+	- object class
+	- rewrite method
+	- final
 - Scala 
 	- UpperCass
 	- option
