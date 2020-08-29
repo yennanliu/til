@@ -11,6 +11,13 @@
 - Java
 	- abstract
 	- interface
+- Python
+	- [Design pattern](https://refactoring.guru/design-patterns/python)
+		- [example code](https://github.com/yennanliu/python-patterns)
+
+### 20200828
+- [Druid simple query](https://druid.apache.org/)
+- [twitter-server](https://github.com/twitter/twitter-server)
 
 ### 20200827
 - Spark
