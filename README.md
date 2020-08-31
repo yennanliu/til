@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20200830
+- Scala
+	- Implicit
+- Dev-op
+	- Ansible playbook
+- Invest
+	- Stock exposure
+
 ### 20200829
 - Java
 	- abstract
