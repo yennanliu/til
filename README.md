@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20200903
+- Git
+	- `git fetch` VS `git clone`
+- Java 
+	- Polymorphism
+
+### 20200902
+- Scala
+	- implicit
+	
 ### 20200830
 - Scala
 	- Implicit
