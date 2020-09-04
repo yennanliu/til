@@ -7,12 +7,13 @@
 
 ## Progress
 
-### 20200903
+### 20200904
 - Dev-op
 	- Ansible
-	- Twitter-server
 - IntelliJ
 	- ctrl + ctrl (in IntelliJ console) => find "main" script
+- Scala
+	- Twitter-server
 - SBT
 	- sbt run
 
@@ -21,10 +22,10 @@
 	- `git fetch` VS `git clone`
 - Java 
 	- Polymorphism
-
-###
 - Scala
 	- implicit
+- BQ
+	- AMZ Leadership Principles
 	
 ### 20200830
 - Scala
