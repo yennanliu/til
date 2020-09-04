@@ -8,12 +8,21 @@
 ## Progress
 
 ### 20200903
+- Dev-op
+	- Ansible
+	- Twitter-server
+- IntelliJ
+	- ctrl + ctrl (in IntelliJ console) => find "main" script
+- SBT
+	- sbt run
+
+### 20200903
 - Git
 	- `git fetch` VS `git clone`
 - Java 
 	- Polymorphism
 
-### 20200902
+###
 - Scala
 	- implicit
 	
