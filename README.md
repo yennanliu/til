@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20200905
+- Java
+	- Lambda internal class
+	- Lambda function
+	- functional programming
+
 ### 20200904
 - Dev-op
 	- Ansible
