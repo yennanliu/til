@@ -7,6 +7,18 @@
 
 ## Progress
 
+### 20200907
+- Scala
+	- case class
+	- import from compiled jar
+	- [json4s](https://github.com/json4s/json4s)
+- Spark
+	- send df to ES
+
+### 20200906
+- Flink
+	- intro
+	
 ### 20200905
 - Java
 	- Lambda internal class
