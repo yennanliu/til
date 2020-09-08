@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20200908
+- Scala
+	- option
+	- this
+	- Future
+	- [sbt-buildinfo](https://github.com/sbt/sbt-buildinfo) 
+- RabbitMQ
+- Spark
+	- regex expression in spark 
+
 ### 20200907
 - Scala
 	- case class
