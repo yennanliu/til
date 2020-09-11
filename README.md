@@ -6,6 +6,12 @@
 ---
 
 ## Progress
+### 20200910
+- Scala
+	- Some
+	- Future
+	- Finagle (lib for API/http call)
+	- import, re-write class, trait, method...
 
 ### 20200909
 - Scala
