@@ -6,12 +6,22 @@
 ---
 
 ## Progress
+### 20200911
+- Java
+	- Error handling
+		- error 
+		- exception
+	- try{} catch{Exception e}
+	- throws
+	- finally
+
 ### 20200910
 - Scala
 	- Some
-	- Future
+	- Future  (in JS as well ?)
 	- Finagle (lib for API/http call)
 	- import, re-write class, trait, method...
+	- Getters, Setters 
 
 ### 20200909
 - Scala
