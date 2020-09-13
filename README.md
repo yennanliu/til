@@ -6,6 +6,14 @@
 ---
 
 ## Progress
+### 20200913
+- ES
+	- [REST command](https://github.com/yennanliu/utility_shell/blob/master/elasticsearch/elasticsearch_command.sh)
+	- ES api command
+	- ES general concepts
+- Java
+	- garbage collection (GC)
+
 ### 20200911
 - Java
 	- Error handling
