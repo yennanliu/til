@@ -6,6 +6,14 @@
 ---
 
 ## Progress
+### 20200915
+- SBT
+	- [sbt Resolvers](https://www.scala-sbt.org/1.x/docs/Resolvers.html)
+	- [sbt shading](https://github.com/rallyhealth/sbt-shading)
+	- [sbt exclude](https://www.scala-sbt.org/1.x/docs/Library-Management.html)
+- Java
+	- [netty](https://netty.io/)
+
 ### 20200913
 - ES
 	- [REST command](https://github.com/yennanliu/utility_shell/blob/master/elasticsearch/elasticsearch_command.sh)
