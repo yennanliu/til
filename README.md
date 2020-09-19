@@ -6,6 +6,20 @@
 ---
 
 ## Progress
+### 20200919
+- Java
+	- System & Runtime class
+	- Math & Random class
+	- Java basic data strcture class (byte char short long int Boolean float double )
+
+### 20200918
+- Scala
+	- date format
+	- long
+	- log4j 
+	- joda-time
+	- json4s
+
 ### 20200915
 - SBT
 	- [sbt Resolvers](https://www.scala-sbt.org/1.x/docs/Resolvers.html)
@@ -13,6 +27,7 @@
 	- [sbt exclude](https://www.scala-sbt.org/1.x/docs/Library-Management.html)
 - Java
 	- [netty](https://netty.io/)
+	- Common lib (java.lang)
 
 ### 20200913
 - ES
