@@ -6,11 +6,22 @@
 ---
 
 ## Progress
+### 20200920
+- Flink
+	- cluster mood
+		- standalone
+		- Flink on yarn
+	- Flink works with HDFS/yarn..
+
 ### 20200919
 - Java
 	- System & Runtime class
 	- Math & Random class
 	- Java basic data strcture class (byte char short long int Boolean float double )
+- Scala
+	- logger (log4j)
+- Kafka
+	- Partitioner
 
 ### 20200918
 - Scala
