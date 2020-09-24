@@ -6,6 +6,14 @@
 ---
 
 ## Progress
+### 20200924
+- RabbitMQ
+	- config
+	- inport/export queue setting
+- Elasticsearch
+	- Define logging dtype
+	- dtype
+
 ### 20200923
 - RabbitMQ
 	- intro
