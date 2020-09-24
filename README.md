@@ -6,6 +6,14 @@
 ---
 
 ## Progress
+### 20200923
+- RabbitMQ
+	- intro
+	- simple sender, receiver model
+	- working queue
+	- broker (exchanger)
+	- publish/subscribe
+
 ### 20200920
 - Flink
 	- cluster mood
