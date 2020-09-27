@@ -6,6 +6,24 @@
 ---
 
 ## Progress
+### 20200927
+- Flink
+	- config on Hadoop, Yarn
+	- run flink via Hadoop, stand alone
+	- scala Flink shell
+- Hadoop
+	- Build hadoop namenode-datanode
+	- set up zookeeper
+	- think about HA
+
+### 20200926
+- Kafaka
+	- kfaka stream
+		- join 
+		- transformation
+		- group by
+	- kafka unit test
+
 ### 20200924
 - RabbitMQ
 	- config
