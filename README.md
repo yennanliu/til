@@ -6,6 +6,24 @@
 ---
 
 ## Progress
+### 20200928
+- RabbitMQ
+	- Scala examples
+	- RPC (Remote procedure call) example
+- API
+	- GRPC
+	- REST VS GRPC VS GRAPHQL VS OPENAPI...
+- Java
+	- for each
+	- HashSet
+	- MapSet
+	- Map
+	- sorting
+- Git
+	- git squash
+		- [example](http://jiduanyaoji.logdown.com/hints/2015/05/14/how-to-commit-into-a-multiple)
+	- git log 
+
 ### 20200927
 - Flink
 	- config on Hadoop, Yarn
