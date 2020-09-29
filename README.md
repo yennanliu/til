@@ -23,10 +23,12 @@
 ### 20200928
 - RabbitMQ
 	- Scala examples
+		- [ref](https://github.com/rabbitmq/rabbitmq-tutorials)
 	- RPC (Remote procedure call) example
 - API
 	- GRPC
 	- REST VS GRPC VS GRAPHQL VS OPENAPI...
+		- [ref](https://medium.com/@sankar.p/how-grpc-convinced-me-to-chose-it-over-rest-30408bf42794)
 - Java
 	- for each
 	- HashSet
