@@ -6,6 +6,20 @@
 ---
 
 ## Progress
+### 20200929
+- Scala
+	- Try orElse getOrElse
+	- Try catch excaption
+	- Try[Unit]
+	- Any
+- HDFS
+	- file op, compress, ls, mv...
+- Python
+	- subprocess
+		- check_output
+	- [persist-queue](https://pypi.org/project/persist-queue/)
+		- persist-queue implements a file-based queue and a serial of sqlite3-based queues
+		
 ### 20200928
 - RabbitMQ
 	- Scala examples
