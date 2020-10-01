@@ -6,6 +6,12 @@
 ---
 
 ## Progress
+### 20200930
+- HDFS
+	- hdfs copy, create directory, check file size
+		-[ref](https://github.com/yennanliu/utility_shell/blob/master/hadoop/hadoop_command.sh)
+	- do above OP via python (subprocess, queue...)
+
 ### 20200929
 - Scala
 	- Try orElse getOrElse
