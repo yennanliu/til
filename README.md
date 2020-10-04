@@ -6,10 +6,19 @@
 ---
 
 ## Progress
+### 20201004
+- Kafka
+	- Asyc producer (sending msg)
+	- serializer - deserializer
+- Flink
+	- [SocketWindowCount](https://github.com/yennanliu/flinkhelloworld/blob/master/src/main/scala/examples/SocketWindowWordCount.scala)
+- Java
+	- Map, HashMap, HashMapTree...
+
 ### 20200930
 - HDFS
 	- hdfs copy, create directory, check file size
-		-[ref](https://github.com/yennanliu/utility_shell/blob/master/hadoop/hadoop_command.sh)
+		- [ref](https://github.com/yennanliu/utility_shell/blob/master/hadoop/hadoop_command.sh)
 	- do above OP via python (subprocess, queue...)
 
 ### 20200929
