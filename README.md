@@ -14,6 +14,11 @@
 	- Batch, Sink API
 - Spark
 	- custom Spark shell port in config
+- Kafka
+	- [acks](https://medium.com/better-programming/kafka-acks-explained-c0515b3b707e)
+		- acks=0 —the write is considered successful the moment the request is sent out. No need to wait for a response.
+		- acks=1 — the leader must receive the record and respond before the write is considered successful.
+		- acks=all — all online in sync replicas must receive the write. If there are less than min.insync.replicas online, then the write won’t be processed.
 
 ### 20201004
 - Kafka
