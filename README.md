@@ -6,6 +6,15 @@
 ---
 
 ## Progress
+### 20201006
+- Java
+	- Stream
+	- Array List
+- Flink
+	- Batch, Sink API
+- Spark
+	- custom Spark shell port in config
+
 ### 20201004
 - Kafka
 	- Asyc producer (sending msg)
