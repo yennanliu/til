@@ -6,6 +6,13 @@
 ---
 
 ## Progress
+### 20201008
+- HDFS
+	- client connect to HDFS (file IO)
+		- webhdfs -> simpe file move/OP
+		- pyarrow -> lot of files, heavy OP, or serializatio
+	- Java connect to HDFS
+
 ### 20201006
 - Java
 	- Stream
