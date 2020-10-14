@@ -6,6 +6,17 @@
 ---
 
 ## Progress
+### 20201014
+- Python
+	- multi - processing
+		- tuning
+		- get pid, parent pid..
+		- start, join
+		- [example](https://github.com/yennanliu/utility_Python/blob/master/multiprocessing/multi_process_6.py)
+- HDFS
+	- REST http API
+	- webhdfs check
+
 ### 20201008
 - HDFS
 	- client connect to HDFS (file IO)
