@@ -6,6 +6,23 @@
 ---
 
 ## Progress
+### 20201017
+- Scala
+	- Class VS Object
+		- [example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_1.scala)
+
+- Distributed system
+	- Load balancer -> "register center", e.g. Zookeeper
+		- [video](https://www.youtube.com/watch?v=JUq1N8NClcg&list=PLmOn9nNkQxJEDjzl0iBYZ3WuXUuUStxZl&index=2&fbclid=IwAR1LZf_G0hMF2oqAFKk7wYLjPmwyR36nLX6XtlrZ0EW20u1a-3dxfLNgJ_M)
+	- Kafka
+		- Message center dispense within multiple distributed system
+- Java
+	- File IO
+	- stream transformation
+
+- Flink
+	- Table api, SQL api
+
 ### 20201014
 - Python
 	- multi - processing
