@@ -6,6 +6,19 @@
 ---
 
 ## Progress
+### 20201018
+- Flink
+	- Broadcast (in DataStream/Flink)
+
+- Java
+	- Random access files
+	- serialize/deserialize
+		- transform data into binary for 
+			- transmission
+			- storage
+	- Buffer
+	- NIO
+
 ### 20201017
 - Scala
 	- Class VS Object
@@ -20,6 +33,7 @@
 - Java
 	- File IO
 	- stream transformation
+	- Spring framework 
 
 - Flink
 	- Table api, SQL api
@@ -29,6 +43,7 @@
 	- as "information center, can do some cache"
 	- python zookeeper client :
 		- [kazoo](https://kazoo.readthedocs.io/en/latest/)
+	- Load balancer -> Zookeeper
 
 ### 20201014
 - Python
@@ -40,6 +55,10 @@
 - HDFS
 	- REST http API
 	- webhdfs check
+- Hadoop
+	- kerberos
+	- core-default.xml
+	- connection auth
 
 ### 20201008
 - HDFS
