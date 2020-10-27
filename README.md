@@ -6,6 +6,16 @@
 ---
 
 ## Progress
+### 20201027
+- Spark
+	- Spark-submit config
+	- Spark-submit tuning
+	- Spark-submit with different env
+### 20201026 
+- Kafka 
+	- partition mode
+	- offset background concept
+	- load data with load
 ### 20201020
 - Flink
 	- Broadcast VS accumulator
