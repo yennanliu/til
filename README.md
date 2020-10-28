@@ -6,16 +6,33 @@
 ---
 
 ## Progress
+### 20201028
+- Shell
+	- run 1 shell func inside the other shell func
+		- [example](https://github.com/yennanliu/utility_shell/blob/master/export_var_func.sh)
+- Spark
+	- Spark-submit tuning : memory usage caculation
+	- network traffic 
+		-  more data size -> more traffic -> cost more time
+
 ### 20201027
 - Spark
 	- Spark-submit config
 	- Spark-submit tuning
 	- Spark-submit with different env
+- Java
+	- build project with maven
+	- maven commands
+	- [pom.xml set up](https://github.com/yennanliu/JavaHelloWorld/blob/main/pom.xml)
+	- add dependency in  pom.xml
+	- unit test in java
+
 ### 20201026 
 - Kafka 
 	- partition mode
 	- offset background concept
 	- load data with load
+
 ### 20201020
 - Flink
 	- Broadcast VS accumulator
