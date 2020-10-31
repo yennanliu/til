@@ -6,6 +6,18 @@
 ---
 
 ## Progress
+### 20201030
+- SBT
+	- [sbt-docker](https://index.scala-lang.org/regis-leray/sbt-docker/sbt-docker/0.6.0?target=_2.12_1.0)
+		- [sbt-docker repo](https://github.com/marcuslonnberg/sbt-docker)
+- Spark
+	- Dataframe filter
+		- `df.filter("col1 not like 'MSL%' and col2 not like 'HCP%'").show`
+		- https://stackoverflow.com/questions/42951905/spark-dataframe-filter
+
+- Hadoop-Spark set up via Docker-compose
+	- [repo](https://github.com/yennanliu/data_infra_repo/tree/master/hadoop_yarn_spark)
+
 ### 20201028
 - Shell
 	- run 1 shell func inside the other shell func
