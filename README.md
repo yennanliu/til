@@ -7,17 +7,18 @@
 
 ## Progress
 ### 20201107
-- Redis 5 main data structure
-	- Strings
-	- Lists
-	- Sets
-		- can save "offset" of kafka consumer, avoid "duplicated consuming" issue
-	- Hashes
-	- Sorted sets
-	- Bitmaps and HyperLogLogs (also supports)
-	- ref
-		- https://redis.io/topics/data-types
-		- https://redis.io/topics/data-types-intro
+- Redis 
+	- 5 main data structure
+		- Strings
+		- Lists
+		- Sets
+			- can save "offset" of kafka consumer, avoid "duplicated consuming" issue
+		- Hashes
+		- Sorted sets
+		- Bitmaps and HyperLogLogs (also supports)
+		- ref
+			- https://redis.io/topics/data-types
+			- https://redis.io/topics/data-types-intro
 - Java
 	- project naming
 		- "domain name inverse" + "project name" + "module" + "program type"
