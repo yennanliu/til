@@ -6,6 +6,50 @@
 ---
 
 ## Progress
+### 20201107
+- Java
+	- Multi-threading
+	- Multi-process
+		- thread
+		- runnable
+		- callable
+	- process cycle
+		- NEW
+		- RUNNABLE
+			- READY
+			- RUNNING
+		- BLOCKED
+		- WATING
+		- TIMED_WATING
+		- TERMINATED
+	- process priority
+	- process sleep
+	- process yield
+- Flink
+	- Watermark
+		- ordering stream
+		- non-ordering stream
+		- multi-thread stream
+	- Window
+
+### 20201107
+- Luigi
+	- luigi.Task
+	- luigi basic concepts review
+	- luigi get arg, config...
+- Hadoop
+	- discp
+- Hive
+	- hive partitioned table
+	- spark save to hive partitioned table
+- Docker
+	- spark/hadoop physical/pseudo memory using setting
+		- [example](https://github.com/yennanliu/data_infra_repo/commit/f74da253e5d159c853bd832aeab46e9092ac54f4)
+- Spark
+	- run via yarn/client...
+- Python args
+	- [example](https://github.com/yennanliu/utility_Python/blob/master/args_kwargs/args_kwargs_demo_2.py)
+
 ### 20201030
 - SBT
 	- [sbt-docker](https://index.scala-lang.org/regis-leray/sbt-docker/sbt-docker/0.6.0?target=_2.12_1.0)
@@ -60,7 +104,6 @@
 ### 20201018
 - Flink
 	- Broadcast (in DataStream/Flink)
-
 - Java
 	- Random access files
 	- serialize/deserialize
@@ -89,7 +132,6 @@
 - Flink
 	- Table api, SQL api
 	- [Leanring resource](https://www.youtube.com/watch?v=SmqmIvgqp5M&list=PLmOn9nNkQxJGLnTsoWaHfvXrfpWiihoxV&index=1&fbclid=IwAR2wIc2BGMiA-JTi41X_YDd3EVrdO0NQCG4VnGPRVNJScHON40CmKGIvCSY)
-
 - Zookeeper
 	- as "information center, can do some cache"
 	- python zookeeper client :
