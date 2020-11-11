@@ -6,6 +6,15 @@
 ---
 
 ## Progress
+### 20201111
+- Hive
+	- save partitioned hive tabl
+	- insert file/HDFS file to existing hive table
+
+- Spark
+	- set up metastore, warehouse path for hive IO
+	- write df to hive with option
+
 ### 20201107
 - Redis 
 	- 5 main data structure
@@ -49,7 +58,7 @@
 		- multi-thread stream
 	- Window
 
-### 20201107
+### 20201106
 - Luigi
 	- luigi.Task
 	- luigi basic concepts review
