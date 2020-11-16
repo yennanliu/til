@@ -7,6 +7,15 @@
 
 ## Progress
 ### 20201111
+- Apache Flume
+	- https://flume.apache.org/
+- Apache Nifi
+	- https://nifi.apache.org/
+- Spark
+	- RM (resource manager)
+	- AM (application manager)
+	
+### 20201111
 - Hive
 	- save partitioned hive tabl
 	- insert file/HDFS file to existing hive table
