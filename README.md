@@ -6,7 +6,16 @@
 ---
 
 ## Progress
-### 20201111
+### 20201116
+- Kafka
+	- high level API
+	- low level API
+	- re-write method
+	- re-load method
+	- Java API consumer
+	- Java API producer
+- Zookeeper
+	- zookeeper file structure (storage for meta)
 - Apache Flume
 	- https://flume.apache.org/
 - Apache Nifi
@@ -14,6 +23,11 @@
 - Spark
 	- RM (resource manager)
 	- AM (application manager)
+
+### 20201115
+- Kafka
+	- Java API consumer source code
+	- Java API producer source code
 	
 ### 20201111
 - Hive
