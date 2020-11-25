@@ -6,6 +6,19 @@
 ---
 
 ## Progress
+### 20201124
+- Spark
+	- dataframe concat 2 / multitple columns
+	- saveToTable/save partition by list of columns
+	- data skew consideration (per executor)
+- Hive
+	- external table
+	- partition
+	- create table from parquet file
+- Airflow
+	- run hive distcp
+	- run spark
+	
 ### 20201116
 - Kafka
 	- high level API
