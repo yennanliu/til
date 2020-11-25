@@ -18,7 +18,21 @@
 - Airflow
 	- run hive distcp
 	- run spark
-	
+
+### 20201124
+- Kafka
+	- Producer hive level API implementation
+		- [ProducerHighLevelAPI](https://github.com/yennanliu/KafkaHelloWorld/blob/master/KafkaJava/src/main/java/KafkaCourse/ProducerHighLevelAPI.java)
+	- kafka stream
+	- source code
+- Scala
+	- scala compile process
+	- scala basic syntax/style revisit
+	- scala VS java
+- Java
+	- Spring RESTful API dev
+		- [/src/main/java/com/yen/payrollREST](https://github.com/yennanliu/JavaHelloWorld/tree/main/SpringRESTService/src/main/java/com/yen/payrollREST)
+
 ### 20201116
 - Kafka
 	- high level API
