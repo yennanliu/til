@@ -12,6 +12,7 @@
 	- var, val point to storage space
 	- how scala use/re-write part of java lib as well as write itself one
 	- sbt publish
+		- [ref](https://www.itdaan.com/tw/7467238dd6d1)
 - Hive
 	- repartition
 - [Apache ORC](https://orc.apache.org/)
