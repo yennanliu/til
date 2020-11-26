@@ -6,6 +6,19 @@
 ---
 
 ## Progress
+### 20201125
+- Scala
+	- comment -> auto generate API doc
+	- var, val point to storage space
+	- how scala use/re-write part of java lib as well as write itself one
+	- sbt publish
+- Hive
+	- repartition
+- [Apache ORC](https://orc.apache.org/)
+	- the smallest, fastest columnar storage for Hadoop workloads.
+- Jenkins
+	- check `.git` when specific branch is merged/... then run
+	
 ### 20201124
 - Spark
 	- dataframe concat 2 / multitple columns
