@@ -6,6 +6,24 @@
 ---
 
 ## Progress
+### 20201209
+- Kafka
+	- consumer low level API
+	- source code go through
+- Scala
+	- Any, AnyValue, AnyRef
+	- implicit transform
+	- can give "low level" dtype to "high level" dtype, but not vice versa
+- Hive
+	- alter table command
+	- update schema
+	- external VS internal table
+	- ddl build, alter table
+- sbt
+	- build-info
+	- sbt version
+	- sbt assembly, sbt plugin
+
 ### 20201125
 - Scala
 	- comment -> auto generate API doc
