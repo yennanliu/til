@@ -8,6 +8,12 @@
 ## Progress
 ### 20201209
 - Kafka
+	- Confluent examples
+		- https://kafka-tutorials.confluent.io/kafka-connect-datagen-local/kafka.html
+		- https://kafka-tutorials.confluent.io/create-tumbling-windows/ksql.html
+
+### 20201209
+- Kafka
 	- consumer low level API
 	- source code go through
 - Scala
