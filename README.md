@@ -6,7 +6,20 @@
 ---
 
 ## Progress
-### 20201209
+### 20201211
+- Hadoop
+	- hadoop distcp
+		- atomic
+		- update
+		- replace
+- SBT
+	- sbt-docker
+	- sbt publish
+- Scala
+	- AppConfig
+	- Configfactory
+
+### 20201210
 - Kafka
 	- Confluent examples
 		- https://kafka-tutorials.confluent.io/kafka-connect-datagen-local/kafka.html
