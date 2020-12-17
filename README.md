@@ -6,6 +6,31 @@
 ---
 
 ## Progress
+### 20201217
+- git
+	- git stash
+	- git stash list
+	- git stash pop stash@{2}
+	- git stash pop ( = git stash pop stash@{0})
+	- git stash apply stash@{0} ( = git stash pop stash@{0} )
+	- git stash drop stash@{0}
+	- [ref](https://gitbook.tw/chapters/faq/stash.html)
+	
+- hadoop distcp arguments
+- Scala
+	- implicits
+	- partial function
+	- partial apply function
+	
+### 20201216
+- sbt
+	- sbt docker
+		- [poc project](https://github.com/yennanliu/sbtDockerPOC)
+		- [spark-jobserver](https://github.com/yennanliu/spark-jobserver)
+- Scala
+	- Typeconfig
+	- load different config
+	
 ### 20201211
 - Hadoop
 	- hadoop distcp
