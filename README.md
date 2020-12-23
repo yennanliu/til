@@ -16,12 +16,13 @@
 		- [ref code : read std](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala)
 
 - Hive
-	- metastore
-	- catering
+	- [Metastore](https://jaceklaskowski.gitbooks.io/mastering-spark-sql/spark-sql-hive-metastore.html)
+	- [Catelog](https://docs.cloudera.com/csa/1.2.0/flink-sql-table-api/topics/csa-hive-catalog.html)
 
 ### 20201222
 - Alluxio
 	- HDFS cache
+	- [Alluxio](https://www.alluxio.io/)
 - HDFS
 	- compression
 	- file type
