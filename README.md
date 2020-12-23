@@ -6,6 +6,28 @@
 ---
 
 ## Progress
+### 20201223
+- Scala
+	- run object method directly in application scala
+	- Scala read std in from CLI
+	- Scala read args in from CLI
+		- [ref](https://www.youtube.com/watch?v=L5guBZlFsU8&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=31)
+		- [ref code : read args](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala)
+		- [ref code : read std](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ScalaReadCLIArgs_Demo1.scala)
+
+- Hive
+	- metastore
+	- catering
+
+### 20201222
+- Alluxio
+	- HDFS cache
+- HDFS
+	- compression
+	- file type
+- Scala
+	- akka intro : [ref](https://www.yangbajing.me/scala-web-development/)
+
 ### 20201217
 - git
 	- git stash
