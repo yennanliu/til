@@ -6,6 +6,21 @@
 ---
 
 ## Progress
+### 20201224
+- Scala
+	- Scala `control logic` (if else..)
+- HDFS
+	- compression HDFS file
+		- [ref](https://dev.classmethod.jp/articles/compress-output-of-hadoop-streaming-on-emr/)
+- Flink
+	- java code exmaple
+	- pipeline workflow
+	- clusters build doc
+	- build project with maven
+	
+- Airflow
+	- work with macro, timestamp
+
 ### 20201223
 - Scala
 	- run object method directly in application scala
