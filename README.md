@@ -8,6 +8,9 @@
 ## Progress
 ### 20201224
 - Scala
+	- `Implicit`
+		- `implicit` is the way that you dont need to pass parameters explicitly in functions in Scala, but Scala will be able to find them from the `implitict scope` once you defined them. Use implicit can make your function more general and easy to import/deal with different cases per pattern
+		- [ref](https://docs.scala-lang.org/tour/implicit-parameters.html)
 	- Scala `control logic` (if else..)
 - HDFS
 	- compression HDFS file
