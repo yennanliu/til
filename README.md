@@ -6,6 +6,19 @@
 ---
 
 ## Progress
+### 20201226
+- Java
+	- Ternary Operator
+		- [ref1](https://yubin551.gitbook.io/java-note/basic_java_programming/operator/ternary_instanceof)
+- Scala
+	- Control logic
+	
+### 20201225
+- Spark
+	- Streaming basic
+	- Streaming config
+	- Streaming from port
+
 ### 20201224
 - Scala
 	- `Implicit`
