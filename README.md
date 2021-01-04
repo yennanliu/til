@@ -6,6 +6,30 @@
 ---
 
 ## Progress
+### 20210104
+- Hadoop
+	- keytab & Kerberos
+		- ref : https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/585988/
+	- hadoop-streaming
+		- ref : https://hadoop.apache.org/docs/r1.2.1/streaming.html#:~:text=Hadoop%20streaming%20is%20a%20utility,mapper%20and%2For%20the%20reducer.
+		
+### 20210103
+- Scala
+	- recursion
+	- function 
+		- without return : Unit
+		- type inference
+		- case class
+- Spark-streaming
+	- working with kafka
+	- kafka stream serialization & deserialization
+	- kafka AVRO sinks 
+	- kafka AVRO sources
+	- Stateless VS Stateful
+- Hive
+	- general intro
+	- architecture
+	
 ### 20201226
 - Java
 	- Ternary Operator
