@@ -8,10 +8,26 @@
 ## Progress
 ### 20210104
 - Hadoop
+	- klist
+	- kinit
+	- hadoop client connect to clusters
+	- hadoop compress
+- Flink
+	- value broadcast
+	- cache
+	- distributed cache
+	- [ref code](https://github.com/yennanliu/flinkhelloworld/blob/master/src/main/scala/examples/BatchDemoDistributedCache.scala)
+
+### 20210104
+- Hadoop
 	- keytab & Kerberos
 		- ref : https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/585988/
 	- hadoop-streaming
-		- ref : https://hadoop.apache.org/docs/r1.2.1/streaming.html#:~:text=Hadoop%20streaming%20is%20a%20utility,mapper%20and%2For%20the%20reducer.
+		- ref : https://hadoop.apache.org/docs/r1.2.1/streaming.html#:~:text=Hadoop%20streaming%20is%20a%20utility,mapper%20and%2For%20the%20reducer
+- Spark-streaming
+	- Tumbling window VS sliding window
+		- Tumbling window : `Non-overlap` window
+		- Sliding window : `Overlap` window
 		
 ### 20210103
 - Scala
