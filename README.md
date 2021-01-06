@@ -6,6 +6,16 @@
 ---
 
 ## Progress
+### 20210106
+- Spark-streaming
+	- watermark
+	- watermark with window
+- Scala
+	- error handling
+	- exception
+		- try-catch-finally
+	- Scala OOP
+		- everything in Scala is "object"
 ### 20210105
 - Kubernetes
 	- [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)
