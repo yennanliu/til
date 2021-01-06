@@ -31,7 +31,7 @@
 	- distributed cache
 	- [ref code](https://github.com/yennanliu/flinkhelloworld/blob/master/src/main/scala/examples/BatchDemoDistributedCache.scala)
 
-### 20210104
+### 20210103
 - Hadoop
 	- keytab & Kerberos
 		- ref : https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/585988/
@@ -42,7 +42,7 @@
 		- Tumbling window : `Non-overlap` window
 		- Sliding window : `Overlap` window
 		
-### 20210103
+### 20210102
 - Scala
 	- recursion
 	- function 
