@@ -6,6 +6,13 @@
 ---
 
 ## Progress
+### 20210107
+- Hadoop
+	- [BZIP2 is splittable in hadoop](https://stackoverflow.com/questions/14820450/best-splittable-compression-for-hadoop-input-bz2)
+	- [Spark process BZIP2](https://www.waitingforcode.com/apache-spark/bzip2-compression-apache-spark/read)
+- Spark-streaming
+	- watermarking on windows
+	- watermarking on output modes (append..)
 ### 20210106
 - Spark-streaming
 	- watermark
