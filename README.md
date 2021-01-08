@@ -7,12 +7,20 @@
 
 ## Progress
 ### 20210107
+- Scala
+	- class attribute value, class member value
+	- default value must with explicit type 
+		- [video](https://www.youtube.com/watch?v=_4nmcvaB3Tg&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=53)
+- Java
+	- getter, setter : the way encapsulation for field in the object
+		- [ref](https://pydoing.blogspot.com/2011/05/java-getter-and-setter.html)
 - Hadoop
 	- [BZIP2 is splittable in hadoop](https://stackoverflow.com/questions/14820450/best-splittable-compression-for-hadoop-input-bz2)
 	- [Spark process BZIP2](https://www.waitingforcode.com/apache-spark/bzip2-compression-apache-spark/read)
 - Spark-streaming
 	- watermarking on windows
 	- watermarking on output modes (append..)
+
 ### 20210106
 - Spark-streaming
 	- watermark
@@ -23,6 +31,7 @@
 		- try-catch-finally
 	- Scala OOP
 		- everything in Scala is "object"
+
 ### 20210105
 - Kubernetes
 	- [Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)
