@@ -12,8 +12,12 @@
 	- default value must with explicit type 
 		- [video](https://www.youtube.com/watch?v=_4nmcvaB3Tg&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=53)
 - Java
-	- getter, setter : the way encapsulation for field in the object
+	- getter, setter : 
+		- the way encapsulation for field in the object.
+		- The `public access interface` for `private values/field` interaction
+		- In OOP, we want to keep some values "private", prevent them from changed by others, so we use `setter` set up the values, and `getter` get the values
 		- [ref](https://pydoing.blogspot.com/2011/05/java-getter-and-setter.html)
+		- [ref2](https://dotblogs.com.tw/law1009/2012/01/06/64665)
 - Hadoop
 	- [BZIP2 is splittable in hadoop](https://stackoverflow.com/questions/14820450/best-splittable-compression-for-hadoop-input-bz2)
 	- [Spark process BZIP2](https://www.waitingforcode.com/apache-spark/bzip2-compression-apache-spark/read)
