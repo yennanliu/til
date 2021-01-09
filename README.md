@@ -6,6 +6,17 @@
 ---
 
 ## Progress
+### 20210108
+- Java
+	- JDK, JRE, JVM
+	- JDK : java development kit (for java program development), including JRE.
+	- JRE : java runtime environment (offer environment for java program running), including JVM.
+	- JVM : java virtual machine (the virtual machine that runs java program).
+	- [ref](https://www.youtube.com/watch?v=JMqb_VP_Myw&list=PLmOn9nNkQxJH0qBIrtV6otI0Ep4o2q67A&index=27)
+- Scala
+	- default value, class, class Polymorphism, more OOP
+- Spark-streaming
+	- sliding window VS tumbling window
 ### 20210107
 - Scala
 	- class attribute value, class member value
