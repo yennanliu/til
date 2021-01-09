@@ -12,6 +12,9 @@
 	- JDK : java development kit (for java program development), including JRE.
 	- JRE : java runtime environment (offer environment for java program running), including JVM.
 	- JVM : java virtual machine (the virtual machine that runs java program).
+	- summary:
+		- JDK = JRE + development kit ( e.g. javac ..)
+		- JRE = JVM + JAVA SE library
 	- [ref](https://www.youtube.com/watch?v=JMqb_VP_Myw&list=PLmOn9nNkQxJH0qBIrtV6otI0Ep4o2q67A&index=27)
 - Scala
 	- default value, class, class Polymorphism, more OOP
