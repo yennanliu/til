@@ -6,6 +6,24 @@
 ---
 
 ## Progress
+### 20210111
+- Spark-streaming
+	- joining streaming to static source
+	
+### 20210110
+- System design
+	- GFS (google file system)
+	- big table
+- Scala
+	- constructor
+- Java
+	- constructor
+- Hadoop
+	- haddop 1 VS hadoop 2
+	- hadoop version
+	- hadoop ecosystem (in layers)
+	- hadoop architecture
+
 ### 20210108
 - Java
 	- JDK, JRE, JVM
@@ -20,6 +38,7 @@
 	- default value, class, class Polymorphism, more OOP
 - Spark-streaming
 	- sliding window VS tumbling window
+	
 ### 20210107
 - Scala
 	- class attribute value, class member value
