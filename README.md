@@ -20,6 +20,11 @@
 	- default value, class, class Polymorphism, more OOP
 - Spark-streaming
 	- sliding window VS tumbling window
+- Hadoop
+	- `NameNode (nn)` : storage metadata for data, e.g. : created_time, doc name, doc structure, partition, access level ..
+	- `DataNode (dn)` : storage data (data block) and data block information
+	- `Secondary NameNode (2nn)` : monitor hadoop backend processing, do snapshot on hadoop data 
+
 ### 20210107
 - Scala
 	- class attribute value, class member value
