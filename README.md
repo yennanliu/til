@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20210112
+- Scala
+	- constructor parameter, attribution
+	- @BeanProperty
+	- Scala class create steps
+- Java
+	- basic data type revisit : char, double, float...
+	- variable
+	- operator
+
 ### 20210111
 - Spark-streaming
 	- joining streaming to static source
