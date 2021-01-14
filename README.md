@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20210114
+- Hadoop
+	- [NS2](https://hadoop.apache.org/docs/r2.7.0/hadoop-project-dist/hadoop-hdfs/HDFSHighAvailabilityWithQJM.html)
+- Java
+	- [Stack](https://www.javatpoint.com/java-stack)
+
 ### 20210112
 - Scala
 	- constructor parameter, attribution
