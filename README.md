@@ -7,6 +7,23 @@
 
 ## Progress
 
+### 20210120
+- Scala
+	- import packages
+	- OOP design 1st part
+	
+- Hadoop
+	- namespace intro
+	- connection between namenode, datanode
+	- set up namespace in datanode
+	- white, black list
+	
+- Spark stream
+	- join stream
+	
+- Airflow
+	- docker-compose airflow
+	
 ### 20210114
 - Hadoop
 	- [NS2](https://hadoop.apache.org/docs/r2.7.0/hadoop-project-dist/hadoop-hdfs/HDFSHighAvailabilityWithQJM.html)
