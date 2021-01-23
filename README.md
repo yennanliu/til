@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20210123
+- Java Visibility of Variables and Methods
+	-  Visibility modifiers
+		- default, public , protected, private
+	- [ref1](https://www.oreilly.com/library/view/learning-java-4th/9781449372477/ch06s04.html#:~:text=Private%20members%20are%20not%20visible,other%20classes%20in%20the%20package.&text=The%20protected%20modifier%20allows%20special%20access%20permissions%20for%20subclasses.&text=Methods%20and%20variables%20are%20always,doesn't%20address%20that%20scope.)
+	- [ref2](https://www.runoob.com/java/java-modifier-types.html)
+	- [ref3](https://www.youtube.com/watch?v=t0rVwF5AF4E&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=69)
+
 ### 20210120
 - Scala
 	- import packages
