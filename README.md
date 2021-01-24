@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20210124
+- Hadoop kerberos
+	 - [ref1](https://www.twblogs.net/a/5c3608aabd9eee35b21d35ed)
+- Hadoop realms
+
 ### 20210123
 - Java Visibility of Variables and Methods
 	-  Visibility modifiers
