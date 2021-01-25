@@ -7,6 +7,19 @@
 
 ## Progress
 
+### 20210125
+- Hadoop
+	- hadoop streaming concept
+	- hadoop streaming arguments
+	- hadoop streaming output
+	- [ref1](http://hadoop.apache.org/docs/r1.2.1/streaming.html#:~:text=Hadoop%20streaming%20is%20a%20utility,mapper%20and%2For%20the%20reducer.)
+- Scala
+	- super method in class
+	- transform class type
+	- rewrite method
+- Spark streaming
+	- left, right join
+
 ### 20210124
 - Hadoop kerberos
 	 - [ref1](https://www.twblogs.net/a/5c3608aabd9eee35b21d35ed)
