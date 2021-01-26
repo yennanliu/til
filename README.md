@@ -12,6 +12,8 @@
 	- hadoop streaming concept
 	- hadoop streaming arguments
 	- hadoop streaming output
+	- hadoop streaming avoid key as prefix :
+		- [ref](https://stackoverflow.com/questions/7153087/hadoop-compress-file-in-hdfs/9572706)
 	- [ref1](http://hadoop.apache.org/docs/r1.2.1/streaming.html#:~:text=Hadoop%20streaming%20is%20a%20utility,mapper%20and%2For%20the%20reducer.)
 - Scala
 	- super method in class
