@@ -7,6 +7,15 @@
 
 ## Progress
 
+### 20210129
+- Hadoop
+	- kerberos, core-site.xml...
+- Airflow
+	- ssh to local machine (via insert setting to connections table in DB)
+	- [example](https://github.com/DataEngDev/airflow_in_docker_compose/blob/master/docs/quick_start_airflow.md)
+- Scala
+	- super method, re-write method
+
 ### 20210125
 - Hadoop
 	- hadoop streaming concept
