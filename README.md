@@ -7,6 +7,19 @@
 
 ## Progress
 
+### 20210201
+- Scala
+	- Companion, Singleton
+	- Anonymity sub class
+	- abstract class
+- Hadoop
+	- HDFS trash
+	- "small files" in Namenode
+	- copy files
+- Java
+	- Bit operation   (>>, <<, ..)
+	- logic operation (||, &&, |, &, ^, ...)
+
 ### 20210129
 - Hadoop
 	- kerberos, core-site.xml...
