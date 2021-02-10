@@ -13,6 +13,10 @@
 		- [ref1](https://www.informit.com/articles/article.aspx?p=2755708&seqNum=5)
 	- Hadoop NN active, standby (HA)
 	- Hadoop config
+	- Hadoop pseudo mode
+	- HDFS formatting
+	- Hadoop MR (map reduce) job (wordcount)
+	- Hadoop check logs
 - Scala
 	- trait (sth similar to java interface)
 	- trait basics, trait "dynamic import"
@@ -21,7 +25,7 @@
 	- interface
 - Git
 	- git stash, git stash apply
-		- [ref cpde](https://github.com/yennanliu/utility_shell/blob/master/git_github/git_command.sh#L91)
+		- [ref code](https://github.com/yennanliu/utility_shell/blob/master/git_github/git_command.sh#L91)
 
 ### 20210201
 - Scala
