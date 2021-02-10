@@ -7,6 +7,22 @@
 
 ## Progress
 
+### 20210210
+- Hadoop
+	- Hadoop rebalancing
+		- [ref1](https://www.informit.com/articles/article.aspx?p=2755708&seqNum=5)
+	- Hadoop NN active, standby (HA)
+	- Hadoop config
+- Scala
+	- trait (sth similar to java interface)
+	- trait basics, trait "dynamic import"
+	- trait implementation
+- Java
+	- interface
+- Git
+	- git stash, git stash apply
+		- [ref cpde](https://github.com/yennanliu/utility_shell/blob/master/git_github/git_command.sh#L91)
+
 ### 20210201
 - Scala
 	- Companion, Singleton
