@@ -7,6 +7,20 @@
 
 ## Progress
 
+### 20210215
+- Java
+	- class im-memory
+		-[ref](https://github.com/yennanliu/CS_basics/tree/master/doc/pic/java)
+	- class basics
+	
+### 20210214
+- Flink
+	- scala example implementation
+		- [GroupedProcessingTimeWindowExample.scala](https://github.com/yennanliu/flinkhelloworld/blob/master/src/main/scala/examples/GroupedProcessingTimeWindowExample.scala)
+		- [TopSpeedWindowing.scala](https://github.com/yennanliu/flinkhelloworld/blob/master/src/main/scala/examples/TopSpeedWindowing.scala)
+- Scala
+	- review : super in parent, children class, constructor
+		
 ### 20210210
 - Hadoop
 	- Hadoop rebalancing
