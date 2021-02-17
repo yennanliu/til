@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 20210217
+- Hadoop
+	- [QoS (quality of service)](https://tech.ebayinc.com/engineering/quality-of-service-in-hadoop/) : use Qos deal with namenode slowdown
+
 ### 20210215
 - Java
 	- class im-memory
