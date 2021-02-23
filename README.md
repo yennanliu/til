@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20210223
+- Scala
+	- companion
+	- Object VS class : [ref](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Class_VS_Object_2.scala)
+
+- Java
+	- static method/value....
+
 ### 20210221
 - Flink
 	- flink save to HDFS
