@@ -7,6 +7,26 @@
 
 ## Progress
 
+### 20210221
+- Flink
+	- flink save to HDFS
+	- flink api with scala 12 (to fix)
+- Luigi
+	- allocate workers to jobs
+- Airflow
+	- default config, init DB get DAG reloaded
+- Java
+	- object, class in-momory
+	- Spring RESTful
+- Scala
+	- implicit value
+	- implicit class
+	- implicit method
+	- implicit transformation
+	- "class in class"
+- SBT
+	- allocate more resources on scala/sbt build server : [ref](https://github.com/yennanliu/utility_shell/blob/master/intellij/intellij_command.sh)
+
 ### 20210217
 - Hadoop
 	- [QoS (quality of service)](https://tech.ebayinc.com/engineering/quality-of-service-in-hadoop/) : use Qos deal with namenode slowdown
