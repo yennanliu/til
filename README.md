@@ -10,6 +10,10 @@
 ### 20210224
 - Spark
 	- [ScalaReflection](https://github.com/apache/spark/blob/master/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala)
+- Scala
+	- Option:
+		- [ref1](https://blog.csdn.net/JasonDing1354/article/details/46788787)
+		- [ref2](https://www.tutorialspoint.com/scala/scala_options.htm)
 
 ### 20210223
 - Scala
@@ -22,7 +26,8 @@
 ### 20210221
 - Flink
 	- flink save to HDFS
-	- flink api with scala 12 (to fix)
+	- flink api with scala 2.12.X (to fix)
+		- [scala versions](https://www.scala-lang.org/download/)
 - Luigi
 	- allocate workers to jobs
 - Airflow
