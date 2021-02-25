@@ -7,6 +7,15 @@
 
 ## Progress
 
+### 20210225
+- Java
+	- Lambda function
+	- array class in-memory
+
+- Scala
+	- immutable and mutable
+	- immutable and mutable layer
+
 ### 20210224
 - Spark
 	- [ScalaReflection](https://github.com/apache/spark/blob/master/sql/catalyst/src/main/scala/org/apache/spark/sql/catalyst/ScalaReflection.scala)
