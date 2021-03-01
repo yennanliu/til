@@ -7,6 +7,23 @@
 
 ## Progress
 
+### 20210301
+- Java
+	- value transfer : basic data structure
+	- value transfer : reference class/array
+- Scala
+	- Java collections <--> Scala collections
+	- 1-D, N-D (dimension) array
+	- tuple
+	- list
+	- update list method : (1), (2)
+
+### 20210228
+- Scala
+	- dynamic array
+	- 1-D  (dimension) array
+	- immutable, mutable relation
+
 ### 20210225
 - Java
 	- Lambda function
