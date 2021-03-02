@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20210302
+- Scala
+	- apply re-visit
+	- case class VS case class instance
+- HDFS
+	- stale datanode
+
 ### 20210301
 - Java
 	- value transfer : basic data structure
