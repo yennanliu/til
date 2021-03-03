@@ -7,6 +7,19 @@
 
 ## Progress
 
+### 20210304
+- Scala
+	- Queue : basic ops
+
+### 20210303
+- Scala
+	- List basics ops 1-3
+	- tuple
+	- Scala object <--> Java object
+- Java
+	- recursion
+	- method pass dynamic param
+
 ### 20210302
 - Scala
 	- apply re-visit
