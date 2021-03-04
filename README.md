@@ -10,7 +10,13 @@
 ### 20210304
 - Scala
 	- Queue : basic ops
-
+- Spark
+	- spark read ORC data : [ref](https://sparkbyexamples.com/spark/spark-read-orc-file-into-dataframe/)
+```python
+orc_data = spark.read.orc(orc_path)
+orc_data.createOrReplaceTempView("orc_table")
+```
+	
 ### 20210303
 - Scala
 	- List basics ops 1-3
