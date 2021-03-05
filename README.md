@@ -20,6 +20,7 @@
 	- Queue op : enqueue, dequeue, last, head...
 - Java
 	- class design part 2, class in-memory (stack, heap)
+	- Spring with css, jquery
 - Apache Flume : 
 	- Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store.
 	- [ref1](https://flume.apache.org/FlumeUserGuide.html)
@@ -31,7 +32,6 @@
 		- https://www.confluent.io/blog/kafka-connect-deep-dive-error-handling-dead-letter-queues/
 		- https://talks.rmoff.net/DQkDj3#sw2vXks
 		- https://www.instaclustr.com/apache-kafka-connect-architecture-overview/
-		- 
 -Big Data SMACK:  Apache Spark, Mesos, Akka, Cassandra, and Kafka
 	- https://bigdata-madesimple.com/smackspark-mesos-akka-kafka/
 
