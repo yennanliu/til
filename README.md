@@ -27,6 +27,7 @@
 - Spark
 	- spark read ORC data : [ref](https://sparkbyexamples.com/spark/spark-read-orc-file-into-dataframe/)
 ```python
+# pyspark
 orc_data = spark.read.orc(orc_path)
 orc_data.createOrReplaceTempView("orc_table")
 ```
