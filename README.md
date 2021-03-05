@@ -25,6 +25,15 @@
 	- [ref1](https://flume.apache.org/FlumeUserGuide.html)
 	- [ref2](https://data-flair.training/blogs/apache-flume-installation-tutorial/)
 	- [ref3](https://blog.csdn.net/qq_39521554/article/details/81194772)
+- Kafka:
+	- kafka connect:
+		- https://www.confluent.io/blog/kafka-connect-deep-dive-converters-serialization-explained/
+		- https://www.confluent.io/blog/kafka-connect-deep-dive-error-handling-dead-letter-queues/
+		- https://talks.rmoff.net/DQkDj3#sw2vXks
+		- https://www.instaclustr.com/apache-kafka-connect-architecture-overview/
+		- 
+-Big Data SMACK:  Apache Spark, Mesos, Akka, Cassandra, and Kafka
+	- https://bigdata-madesimple.com/smackspark-mesos-akka-kafka/
 
 ### 20210304
 - Scala
