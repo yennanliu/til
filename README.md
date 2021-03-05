@@ -32,7 +32,7 @@
 		- https://www.confluent.io/blog/kafka-connect-deep-dive-error-handling-dead-letter-queues/
 		- https://talks.rmoff.net/DQkDj3#sw2vXks
 		- https://www.instaclustr.com/apache-kafka-connect-architecture-overview/
--Big Data SMACK:  Apache Spark, Mesos, Akka, Cassandra, and Kafka
+- Big Data SMACK:  `Apache Spark, Mesos, Akka, Cassandra, and Kafka`
 	- https://bigdata-madesimple.com/smackspark-mesos-akka-kafka/
 
 ### 20210304
