@@ -20,6 +20,11 @@
 	- Queue op : enqueue, dequeue, last, head...
 - Java
 	- class design part 2, class in-memory (stack, heap)
+- Apache Flume : 
+	- Apache Flume is a distributed, reliable, and available system for efficiently collecting, aggregating and moving large amounts of log data from many different sources to a centralized data store.
+	- [ref1](https://flume.apache.org/FlumeUserGuide.html)
+	- [ref2](https://data-flair.training/blogs/apache-flume-installation-tutorial/)
+	- [ref3](https://blog.csdn.net/qq_39521554/article/details/81194772)
 
 ### 20210304
 - Scala
