@@ -7,6 +7,20 @@
 
 ## Progress
 
+### 20210305
+- Spark-streaming
+	- Kafka integration : spark-streaming-kafka jar
+		- KafkaUtils : read stream from kafka
+		- KafkaCluster : save the offset
+	- mainly using kafka `low level` API
+		- low level : Direct Dstrean
+		- high level : Receiver Dstream
+	- [ref](https://www.youtube.com/watch?v=kBvFSbXjKD4&list=PLmOn9nNkQxJF-qlCCDx9WsdAe6x5hhH77&index=97)
+- Scala
+	- Queue op : enqueue, dequeue, last, head...
+- Java
+	- class design part 2, class in-memory (stack, heap)
+
 ### 20210304
 - Scala
 	- Queue : basic ops
