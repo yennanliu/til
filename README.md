@@ -19,6 +19,10 @@
 	- digest from kafka (low level api)
 		- [ref](https://www.youtube.com/watch?v=sDytAIL7CJY&list=PLmOn9nNkQxJF-qlCCDx9WsdAe6x5hhH77&index=100)
 
+- Hadoop
+	- RM : resource manager : manage resources : [ref](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/ResourceManagerHA.html)
+	- NM : node manager : manager for single node : [ref](https://hadoop.apache.org/docs/r3.1.1/hadoop-yarn/hadoop-yarn-site/NodeManager.html)
+
 ### 20210305
 - Spark-streaming
 	- Kafka integration : spark-streaming-kafka jar
