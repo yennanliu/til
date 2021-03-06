@@ -7,6 +7,18 @@
 
 ## Progress
 
+### 20210306
+- Scala
+	- either : left, right
+		- [ref1](https://alvinalexander.com/scala/scala-either-left-right-example-option-some-none-null/)
+		- [ref2](https://www.scala-lang.org/api/2.12.0/scala/util/Either.html)
+
+	- option : some, none
+
+- Spark-streaming
+	- digest from kafka (low level api)
+		- [ref](https://www.youtube.com/watch?v=sDytAIL7CJY&list=PLmOn9nNkQxJF-qlCCDx9WsdAe6x5hhH77&index=100)
+
 ### 20210305
 - Spark-streaming
 	- Kafka integration : spark-streaming-kafka jar
