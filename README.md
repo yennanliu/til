@@ -8,6 +8,12 @@
 ## Progress
 
 ### 20210307
+- Java
+	Encapsulation intro
+- Scala
+	- Map (immuatable, mutable)
+	- Map create, get values from Map
+	- go through Map, add/delete elements from Map
 - HDFS
 	- [Unable to close file because the last block does not have enough number of replicas](https://blog.csdn.net/u013289115/article/details/105220663/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-0&spm=1001.2101.3001.4242)
 - Flink
