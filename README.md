@@ -9,7 +9,7 @@
 
 ### 20210307
 - Java
-	Encapsulation intro
+	- Encapsulation intro
 - Scala
 	- Map (immuatable, mutable)
 	- Map create, get values from Map
