@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20210308
+- HDFS
+	- `filter` : exclude files with pattern when copy via distcp
+		- [ref1](https://sapser.github.io/bigdata/2016/09/30/distcp-filters-usage)
+		- [ref2](https://cloudera.ericlin.me/2016/01/how-to-use-filters-to-exclude-files-when-in-distcp/)
+- Java
+	- anonymous object implementation
+		- [ref1](https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/Basics/AnonymousObject1.java)
+		- [ref2](https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/Basics/AnonymousObject2.java)
+
 ### 20210307
 - Java
 	- Encapsulation intro
