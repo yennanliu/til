@@ -7,6 +7,27 @@
 
 ## Progress
 
+### 20210310
+- Java
+	- [Java Class Modifiers](https://www.w3schools.com/java/java_modifiers.asp)
+- Scala	
+	- Map operation (functional programming)
+	- high order function intro
+		- [ref](https://docs.scala-lang.org/tour/higher-order-functions.html)
+		- Functions that accept functions
+
+### 20210309
+- Hive
+	- make db, create table, load jar, load data, add partition : [ref code](https://github.com/yennanliu/utility_shell/blob/master/hive/hive_command.sql)
+- Bash
+	- split string by value
+		- [code1](https://github.com/yennanliu/utility_shell/blob/master/text/split_string1.sh)
+		- [code2](https://github.com/yennanliu/utility_shell/blob/master/text/split_string2.sh)
+- Scala
+	- set
+- Java
+	- Encapsulation implementation (getter, setter)
+
 ### 20210308
 - HDFS
 	- `filter` : exclude files with pattern when copy via distcp
