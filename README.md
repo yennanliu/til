@@ -12,6 +12,11 @@
 	 - Encapsulation basic usage
 - Scala
 	- flatMap, filter (functional programming)
+- Spark
+	- executor memory
+	- executor OOM
+	- groupBykey
+	- cache VS persist
 
 ### 20210310
 - Java
