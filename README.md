@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20210311
+- Java
+	 - Encapsulation basic usage
+- Scala
+	- flatMap, filter (functional programming)
+
 ### 20210310
 - Java
 	- [Java Class Modifiers](https://www.w3schools.com/java/java_modifiers.asp)
