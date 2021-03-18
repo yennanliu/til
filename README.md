@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20210318
+- Scala
+	- group op : stream, view, concurrent 
+- Java
+	- `this` example, `this` call constructor
+
 ### 20210311
 - Java
 	 - Encapsulation basic usage
