@@ -12,6 +12,9 @@
 	- generate public key so can ssh connect to remote server : [ref](https://cloud.ibm.com/docs/ssh-keys?topic=ssh-keys-generating-and-using-ssh-keys-for-remote-host-authentication) : useful for airflow
 - Unix
 	- [unix file permission](https://www.elated.com/understanding-permissions/)
+- Hadoop
+	- [Hadoop Delegation Token 1](https://www.athemaster.com/resources/47)
+	- [Hadoop Delegation Token 2](https://www.athemaster.com/resources/48)
 
 ### 20210318
 - Scala
