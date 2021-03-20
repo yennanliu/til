@@ -12,6 +12,13 @@
 	- GENERIC CLASSES
 		- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
 		- [ref2](https://www.jianshu.com/p/caca1ba8976e)
+	- match intro (pattern match)
+- Java
+	- package intro
+	- MVC intro
+- Spark-streaming
+	- transform
+	- updateStatusBykey
 
 ### 20210319
 - Server
