@@ -7,7 +7,7 @@
 
 ## Progress
 
-# 20210320
+### 20210320
 - Scala
 	- GENERIC CLASSES
 		- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
