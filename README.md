@@ -7,6 +7,12 @@
 
 ## Progress
 
+# 20210320
+- Scala
+	- GENERIC CLASSES
+		- [ref1](https://docs.scala-lang.org/tour/generic-classes.html)
+		- [ref2](https://www.jianshu.com/p/caca1ba8976e)
+
 ### 20210319
 - Server
 	- generate public key so can ssh connect to remote server : [ref](https://cloud.ibm.com/docs/ssh-keys?topic=ssh-keys-generating-and-using-ssh-keys-for-remote-host-authentication) : useful for airflow
