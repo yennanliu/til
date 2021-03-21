@@ -7,6 +7,17 @@
 
 ## Progress
 
+### 20210321
+- Airflow
+	- dynamic workflows in DAG
+		- [ref1](https://stackoverflow.com/questions/41517798/proper-way-to-create-dynamic-workflows-in-airflow)
+- Scala
+	- pattern match "daemon"
+	- pattern match more examples
+- Java
+	- import
+	- MVC more understanding
+
 ### 20210320
 - Scala
 	- GENERIC CLASSES
