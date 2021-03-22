@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20210322
+- Scala
+	- value with pattern match
+- Spark-streaming
+	- updateStatusBykey more examples
+
 ### 20210321
 - Airflow
 	- dynamic workflows in DAG
