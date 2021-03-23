@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20210323
+- Airflow
+	- [Airflow 2.0: DAG Authoring Redesigned : XCom, XComArg, @task decorator, Custom XCom backends](https://medium.com/apache-airflow/airflow-2-0-dag-authoring-redesigned-651edc397178)
+	- [example_xcom](https://github.com/apache/airflow/blob/master/airflow/example_dags/example_xcom.py)
+- Hadoop
+	- Hadoop run jar (built from scala)
+
 ### 20210322
 - Scala
 	- value with pattern match
