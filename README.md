@@ -7,10 +7,15 @@
 
 ## Progress
 
+### 20210324
+- Scala
+	- pattern match with List, class array
+
 ### 20210323
 - Airflow
 	- [Airflow 2.0: DAG Authoring Redesigned : XCom, XComArg, @task decorator, Custom XCom backends](https://medium.com/apache-airflow/airflow-2-0-dag-authoring-redesigned-651edc397178)
 	- [example_xcom](https://github.com/apache/airflow/blob/master/airflow/example_dags/example_xcom.py)
+	- [xom example1](https://towardsdatascience.com/elementals-of-airflow-part-1-6e4ce1de4dfb)
 - Hadoop
 	- Hadoop run jar (built from scala)
 
