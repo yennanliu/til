@@ -10,6 +10,8 @@
 ### 20210324
 - Scala
 	- pattern match with List, class array
+- Airflow
+	- [retrieve a value in xcom pushed via BashOperator](https://groups.google.com/g/airbnb_airflow/c/-5WvigVS0ks/m/90b41NaMAQAJ)
 
 ### 20210323
 - Airflow
