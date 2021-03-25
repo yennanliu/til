@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20210325
+- Airflow
+	- [dynamic-task-definition-in-airflow](https://stackoverflow.com/questions/48825335/dynamic-task-definition-in-airflow)
+	- [airflow-trigger-schedule-dag-rerun-on-completion-file-sensor](https://stackoverflow.com/questions/44770070/apache-airflow-trigger-schedule-dag-rerun-on-completion-file-sensor)
+
 ### 20210324
 - Scala
 	- pattern match with List, class array
