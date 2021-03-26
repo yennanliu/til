@@ -7,6 +7,15 @@
 
 ## Progress
 
+### 20210326
+- Scala
+	- pattern match with tuple
+- Java
+	- mini project : CMutility
+		- "CustomView" development
+- Flink
+	- env set up (config, scripts) intro
+
 ### 20210325
 - Airflow
 	- [dynamic-task-definition-in-airflow](https://stackoverflow.com/questions/48825335/dynamic-task-definition-in-airflow)
