@@ -7,6 +7,18 @@
 
 ## Progress
 
+### 20210328
+- Scala
+	- var match pattern
+	- for loop match pattern
+	- Nest class (inner, outer) review
+- Java
+	- mini project : CMutility
+		- "CustomView" delete/modify client
+- Django
+	- [restaurants app](https://github.com/yennanliu/dj-restaurants)
+		- views, urls, db model, db migration
+
 ### 20210326
 - Scala
 	- pattern match with tuple
