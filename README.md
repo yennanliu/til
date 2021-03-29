@@ -8,6 +8,11 @@
 ## Progress
 
 ### 20210329
+- Scala
+	- case class
+- Java
+	- mini project : CMutility
+		- "CustomView" delete client 
 - Distcp
 	- what if file already existed in the "destination path" ?
 		- https://hadoop.apache.org/docs/current/hadoop-distcp/DistCp.html
