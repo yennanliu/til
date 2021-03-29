@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20210329
+- Distcp
+	- what if file already existed in the "destination path" ?
+		- https://hadoop.apache.org/docs/current/hadoop-distcp/DistCp.html
+		- By default, files already existing at the destination are skipped (i.e. not replaced by the source file). A count of skipped files is reported at the end of each job, but it may be inaccurate if a copier failed for some subset of its files, but succeeded on a later attempt.
+	- atomic commit
+		- https://hadoop.apache.org/docs/current/hadoop-distcp/DistCp.html
+		- `-atomic {-tmp <tmp_dir>}`
+		- `-atomic instructs DistCp to copy the source data to a temporary target location, and then move the temporary target to the final-location atomically. Data will either be available at final target in a complete and consistent form, or not at all. Optionally, -tmp may be used to specify the location of the tmp-target. If not specified, a default is chosen. Note: tmp_dir must be on the final target cluster. `
+
 ### 20210328
 - Scala
 	- var match pattern
