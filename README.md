@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20210330
+- Scala
+	- pattern matching "inner" expression :  ```case first::second::rest => println(first, second, rest.length)```
+- Java
+	- mini project : CMutility
+		- project summary
+- Hadoop
+	- scp
+	-  sudo chown give file permission from root to user : [code](https://github.com/yennanliu/utility_shell/blob/master/hadoop/hadoop_command.sh#L14) 
+
 ### 20210329
 - Scala
 	- case class
