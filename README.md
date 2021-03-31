@@ -12,6 +12,9 @@
 	- pattern matching "nest structure" 1
 - Java
 	- Inheritance intro
+- Spark-stream
+	- [streaming-kafka-integration](http://spark.apache.org/docs/latest/streaming-kafka-integration.html)
+	- [streaming-programming-guide](http://spark.apache.org/docs/latest/streaming-programming-guide.html)
 
 ### 20210330
 - Scala
