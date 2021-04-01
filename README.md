@@ -12,6 +12,11 @@
 - Java
 	- Spring
 		- cache
+- Hadoop 
+	- checksum
+		- [ref1](http://hadoop.apache.org/docs/current/hadoop-project-dist/hadoop-common/FileSystemShell.html#checksum)
+		- [ref2](https://blog.csdn.net/lb812913059/article/details/79718303)
+		- [ref3](https://community.cloudera.com/t5/Community-Articles/Comparing-checksums-in-HDFS/ta-p/248617)
 
 ### 20210331
 - Scala
