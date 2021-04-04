@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20210404
+- Scala
+	- partialFunction
+- Django
+	- model
+	- admin app
+
 ### 20210401
 - gRPC intro : [ref](https://pjchender.blogspot.com/2021/03/grpc-golang.html?fbclid=IwAR3xhGHhRQHLYm0I7Z3A42-PSU5CYRqRI4ioP0Gc0hq3vZtWNH0ky--k2nc)
 - Java
