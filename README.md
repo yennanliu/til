@@ -7,6 +7,20 @@
 
 ## Progress
 
+### 20210406
+- Java
+	- override details 
+
+### 20210405
+- Scala
+	- anonymous function
+- Java
+	- debug in Eclipse
+	- debug in Eclipse in a project
+- Saprk
+	- spark stand alone architecture
+	- spark stand alone env setup/build
+
 ### 20210404
 - Scala
 	- partialFunction
