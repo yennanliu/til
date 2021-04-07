@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 20210407
+- Scala
+	- [future](https://docs.scala-lang.org/overviews/scala-book/futures.html)
+
 ### 20210406
 - Java
 	- override details 
