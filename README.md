@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 20210408
+- Zookeeper
+	- [zk cli](http://www.corejavaguru.com/bigdata/zookeeper/cli)
+
 ### 20210407
 - Scala
 	- [future](https://docs.scala-lang.org/overviews/scala-book/futures.html)
