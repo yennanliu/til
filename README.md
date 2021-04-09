@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20210409
+- MapReduce
+	- MapReduce OOM exception (out of memory)
+	 	- [ref1](https://community.cloudera.com/t5/Support-Questions/Map-and-Reduce-Error-Java-heap-space/td-p/45874)
+- Hadoop Streaming
+	- [ref1](https://blog.csdn.net/baichoufei90/article/details/82861440)
+
 ### 20210408
 - Zookeeper
 	- [zk cli](http://www.corejavaguru.com/bigdata/zookeeper/cli)
