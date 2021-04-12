@@ -7,12 +7,30 @@
 
 ## Progress
 
+### 20210410
+- Django
+	- form interact with views, urls and DB
+		- [commit](https://github.com/yennanliu/dj-restaurants/commit/ea148eca550de9dba416b2958c799937914af4a9)
+- Scala
+	- Currying Function
+	- closure
+		- [ref](https://www.tutorialspoint.com/scala/scala_closures.htm#:~:text=A%20closure%20is%20a%20function,variables%20declared%20outside%20this%20function.&text=Now%20factor%20has%20a%20reference,its%20current%20value%20each%20time.)
+- Java
+	- steps by stpes : children class instantiation
+- Spark
+	- SparkYarnCluster running mode intro
+
 ### 20210409
 - MapReduce
 	- MapReduce OOM exception (out of memory)
 	 	- [ref1](https://community.cloudera.com/t5/Support-Questions/Map-and-Reduce-Error-Java-heap-space/td-p/45874)
 - Hadoop Streaming
 	- [ref1](https://blog.csdn.net/baichoufei90/article/details/82861440)
+- Java
+	- super call attr, methods...
+	- super call constructor
+- Spark
+	- - SparkYarnStandAlone running mode intro
 
 ### 20210408
 - Zookeeper
