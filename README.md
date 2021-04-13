@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 20210413
+- Python
+	- [multi parallel process in python](https://stackabuse.com/parallel-processing-in-python/)
+
 ### 20210410
 - Django
 	- form interact with views, urls and DB
