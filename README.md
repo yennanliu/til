@@ -9,7 +9,9 @@
 
 ### 20210413
 - Python
-	- [multi parallel process in python](https://stackabuse.com/parallel-processing-in-python/)
+	- multi processing
+		- [multi parallel process via multiprocessing](https://stackabuse.com/parallel-processing-in-python/)
+		- [multi process via threading](https://realpython.com/intro-to-python-threading/)
 
 ### 20210410
 - Django
