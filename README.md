@@ -7,11 +7,26 @@
 
 ## Progress
 
+### 20210416
+- Java
+	- polymorphism intro
+- Scala
+	- "control abstraction"
+		- [video](https://www.youtube.com/watch?v=wxF1PWk7U4E&list=PLmOn9nNkQxJEqCNXBu5ozT_26xwvUbHyE&index=172)
+
+### 20210415
+- Spark
+	- case class -> RDD -> df (?)
+	- Array -> RDD -> df
+	- df -> Parquet (append mood)
+
 ### 20210413
 - Python
 	- multi processing
 		- [multi parallel process via multiprocessing](https://stackabuse.com/parallel-processing-in-python/)
 		- [multi process via threading](https://realpython.com/intro-to-python-threading/)
+	- multi threading
+		- [code](https://github.com/yennanliu/utility_Python/blob/master/multi_treading/multi_thread2.py)
 
 ### 20210410
 - Django
