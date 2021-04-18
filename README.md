@@ -7,6 +7,19 @@
 
 ## Progress
 
+### 20210417
+- Django
+	- form model (generate form from Django class)
+		- [example](https://github.com/yennanliu/dj-restaurants/blob/main/mysite/restaurants/views.py#L25)
+	- login auth
+- Scala
+	- DatetimeUtils
+- Java
+	- polymorphism examples
+- Spark
+	- stand alone VS yarn VS local
+	- spark yarn mood job history config setup
+
 ### 20210416
 - Java
 	- polymorphism intro
