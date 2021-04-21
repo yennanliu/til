@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20210421
+- Scala
+	- [try - catch example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ExceptionDemo3.scala)
+- Java
+	- polymorphism upcasting
+	- polymorphism downcasting
+
 ### 20210417
 - Django
 	- form model (generate form from Django class)
