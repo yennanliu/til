@@ -7,12 +7,53 @@
 
 ## Progress
 
+### 20210427
+- Scala
+	- [parallel collections](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaAdvance/parallel_Demo_1.scala)
+	- [operaor](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/Operator_demo1.scala)
+- Java
+	- [extends intro](https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/Basics/Extends_demo1)
+
+### 20210426
+- Spark
+	- add watermark to stream strcture df
+		- [code](https://github.com/yennanliu/KafkaSparkPoc/blob/main/spark/src/main/scala/com/yen/streamSocketToHDFS/streamSocketEventToHDFSV4.scala)
+	- load stream with schema
+		- [code](https://github.com/yennanliu/KafkaSparkPoc/blob/main/spark/src/main/scala/com/yen/streamSocketToHDFS/streamSocketEventToHDFSV3.scala)
+- Scala
+	- mino project : customer system - adding customer
+- Java
+	- `==` VS equals
+	- re-write `equals`
+- Hadoop
+	 - hadoop source code intro
+
+### 20210425
+- Java
+	- `==` intro
+	- `equals` intro
+
+### 20210424
+- Java
+	- object's finalize() method
+	- java's gc (garbage collection) mechanism
+- Spark
+	- spark core source code visit
+	- ways create RDD
+	- defince RDD partition explicitly
+- Hadoop
+	 - sync time within clusters
+	 
 ### 20210421
 - Scala
 	- [try - catch example](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaBasic/ExceptionDemo3.scala)
 - Java
 	- polymorphism upcasting
 	- polymorphism downcasting
+
+### 20210418
+- Hadoop
+	- Thing to note when lanuch hadoop cluster in "distributed" mood
 
 ### 20210417
 - Django
