@@ -7,6 +7,22 @@
 
 ## Progress
 
+### 20210430
+- Scala
+	- mini project : customer system - modify/delete customer
+- Java
+	- unit-test intro
+	- toString, equals re-write
+- Django
+	- user permission, comment permission
+	- local auth, comment auth
+
+### 20210429
+- Spark
+	- mapPartition - define partition explicitly
+	- "nearby rules" ( mapping with anonymous func)
+		- [ref](https://www.youtube.com/watch?v=TVWJ-YBfKWQ&list=PLmOn9nNkQxJF-qlCCDx9WsdAe6x5hhH77&index=33)
+
 ### 20210427
 - Scala
 	- [parallel collections](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/ScalaAdvance/parallel_Demo_1.scala)
@@ -21,13 +37,16 @@
 	- load stream with schema
 		- [code](https://github.com/yennanliu/KafkaSparkPoc/blob/main/spark/src/main/scala/com/yen/streamSocketToHDFS/streamSocketEventToHDFSV3.scala)
 - Scala
-	- mino project : customer system - adding customer
+	- mini project : customer system - adding customer
 - Java
 	- `==` VS equals
 	- re-write `equals`
 - Hadoop
 	 - hadoop source code intro
-
+	 - compile Hadoop source code
+- Flink
+	- submit task, and test
+	
 ### 20210425
 - Java
 	- `==` intro
