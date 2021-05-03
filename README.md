@@ -7,6 +7,35 @@
 
 ## Progress
 
+### 20210503
+- Java
+	- class Encapsulation
+- Spark
+	- RDD partition, map, flatMap source code go through
+- Hadoop
+	- hdfs architecture
+		- basic
+		- HA
+	- data block & size  -> default block size : 128 MB
+	- common hdfs issues
+	- factors affect HDFS IO speed
+		- partition
+		- block size
+		- file counts
+		- hard disk speed (data transmission)
+		- metastore
+
+### 20210501
+- DynamoDB
+	- read capacity unit (RCU)
+	- write capacity unit (WCU)
+	- architecture
+	- index, secondary index
+	- sorting key
+	- partition
+	- read/write consistency
+	- basic commands
+
 ### 20210430
 - Scala
 	- mini project : customer system - modify/delete customer
@@ -22,6 +51,7 @@
 	- mapPartition - define partition explicitly
 	- "nearby rules" ( mapping with anonymous func)
 		- [ref](https://www.youtube.com/watch?v=TVWJ-YBfKWQ&list=PLmOn9nNkQxJF-qlCCDx9WsdAe6x5hhH77&index=33)
+
 
 ### 20210427
 - Scala
