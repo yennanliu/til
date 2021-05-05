@@ -7,6 +7,19 @@
 
 ## Progress
 
+### 20210505
+- Flink
+	- process from socket
+	- process from kafka
+	- process from socket and save to HDFS
+	- submit job command
+- Spark
+	- source code : repartition VS coalesce
+	- source code : filter
+	- source code : distinct
+	- process stream from multiple kafaka topic and save to different HDFS bucket
+		- [code](https://github.com/yennanliu/KafkaSparkPoc/blob/main/spark/src/main/scala/com/yen/streamKafkaToHDFS/streamKafkaToHDFSV2.scala)
+
 ### 20210503
 - Java
 	- class Encapsulation
