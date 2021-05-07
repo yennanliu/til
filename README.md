@@ -11,7 +11,10 @@
 - HDFS
 	- more basic commands : 
 		- check file size : hdfs dfs -du, hdfs dfs -du -h, hdfs dfs -du -h -s
-		- file permission : -charp, chmod, -chown
+		- file permission : -chgrp, chmod, -chown
+			- [example](https://github.com/yennanliu/utility_shell/blob/master/hadoop/hadoop_command.sh#L205)
+	- HDFS RM API
+		- [example](https://github.com/yennanliu/utility_shell/blob/master/hadoop/hadoop_command.sh#L218)
 - Spark
 	- union, intersect, Cartesian product
 
