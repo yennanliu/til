@@ -7,12 +7,26 @@
 
 ## Progress
 
+### 20210507
+- HDFS
+	- more basic commands : 
+		- check file size : hdfs dfs -du, hdfs dfs -du -h, hdfs dfs -du -h -s
+		- file permission : -charp, chmod, -chown
+- Spark
+	- union, intersect, Cartesian product
+
+### 20210506
+- Flink
+	- save kafka event to HDFS
+		- [code](https://github.com/yennanliu/flinkhelloworld/blob/master/src/main/scala/streamKafkaToHDFS/streamKafkaToHDFSV1.scala)
+
 ### 20210505
 - Flink
 	- process from socket
 	- process from kafka
 	- process from socket and save to HDFS
-	- submit job command
+	- submit job command to local job manager
+	- stand alone mood VS job manager- task manager - worker mode
 - Spark
 	- source code : repartition VS coalesce
 	- source code : filter
