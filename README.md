@@ -7,6 +7,28 @@
 
 ## Progress
 
+### 20210510
+- Java
+	- static intro
+	- static method, use example, use case
+- Spark
+	- zip
+- Hadoop
+	- java client install, intro
+
+### 20210509
+- Django
+	- use `base.html` (html patten) and extend it in other htmls
+		- [base.html](https://github.com/yennanliu/dj-restaurants/blob/main/mysite/templates/base.html)
+		- [menu.html](https://github.com/yennanliu/dj-restaurants/blob/main/mysite/templates/menu.html)
+- Flink
+	- submit jobs
+	- stand alone VS yarn
+	- stand alone VS yarn architecture
+	- Note : only stand alone mood has `flink UI` (or will use yarn UI)
+	- flink CLI
+	- core cocept : task manager, job manager, resource manager task slot... ( may different in stand alone VS yarn mood)
+
 ### 20210507
 - HDFS
 	- more basic commands : 
