@@ -29,6 +29,16 @@
 	- flink CLI
 	- core cocept : task manager, job manager, resource manager task slot... ( may different in stand alone VS yarn mood)
 
+### 20210508
+- AWS EMR
+	- basics : master node, task node, worker node ..
+	- how namenode, datanode installed in EMR clusters
+	- minimum requirement for a working EMR clusters
+	- hive : basics
+	- hive 1.x over mapreduce VS hive 2.x on tez
+		- [ref](https://www.infoq.cn/article/apache-tez-saha-murthy?fbclid=IwAR3LpojhZRbUYWHBRX97CDLOhr0BpzgNsbL_IzqLOznPrOOBkEdSZMc8SDI)
+	- beestream 
+
 ### 20210507
 - HDFS
 	- more basic commands : 
