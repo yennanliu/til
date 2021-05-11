@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20210511
+- Scala
+	- build.sbt shadow dependency when assembly to jar
+		- [ref1](https://stackoverflow.com/questions/57521738/how-to-solve-sbt-dependency-problem-with-spark-and-whisklabs-docker-it-scala)
+
 ### 20210510
 - Java
 	- static intro
