@@ -7,6 +7,17 @@
 
 ## Progress
 
+### 20210512
+- Flink
+	- Rolling policy
+		- DefaultRollingPolicy
+		- OnCheckpointRollingPolicy
+		- [ref1](https://www.gushiciku.cn/pl/pdso/zh-tw)
+		- [ref2](https://min.news/tech/e3d77943f8784d74b2d6eca0545a3ec3.html)
+- Hadoop
+	- distcp command argument
+		- [ref1](https://hadoop.apache.org/docs/current/hadoop-distcp/DistCp.html)
+
 ### 20210511
 - Scala
 	- build.sbt shadow dependency when assembly to jar
