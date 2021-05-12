@@ -10,10 +10,14 @@
 ### 20210512
 - Flink
 	- Rolling policy
-		- DefaultRollingPolicy
-		- OnCheckpointRollingPolicy
+		- Row-encoded Formats
+			- Custom RollingPolicy : Rolling policy to override the DefaultRollingPolicy
+			- bucketCheckInterval (default = 1 min) : Millisecond interval for checking time based rolling policies
+		- Bulk-encoded Formats
+			- Bulk Formats can only have `OnCheckpointRollingPolicy`, which rolls (ONLY) on every checkpoint. 
 		- [ref1](https://www.gushiciku.cn/pl/pdso/zh-tw)
 		- [ref2](https://min.news/tech/e3d77943f8784d74b2d6eca0545a3ec3.html)
+		- [ref3](https://ci.apache.org/projects/flink/flink-docs-release-1.13/docs/connectors/datastream/streamfile_sink/)
 - Hadoop
 	- distcp command argument
 		- [ref1](https://hadoop.apache.org/docs/current/hadoop-distcp/DistCp.html)
