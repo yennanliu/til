@@ -18,6 +18,7 @@
 		- [ref1](https://www.gushiciku.cn/pl/pdso/zh-tw)
 		- [ref2](https://min.news/tech/e3d77943f8784d74b2d6eca0545a3ec3.html)
 		- [ref3](https://ci.apache.org/projects/flink/flink-docs-release-1.13/docs/connectors/datastream/streamfile_sink/)
+		- [ref4](http://jacobs.wanhb.cn/2018/12/20/Flink%E5%AE%9E%E6%88%98%E6%80%BB%E7%BB%93/)
 - Hadoop
 	- distcp command argument
 		- [ref1](https://hadoop.apache.org/docs/current/hadoop-distcp/DistCp.html)
