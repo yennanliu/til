@@ -7,6 +7,21 @@
 
 ## Progress
 
+### 20210515
+- Hadoop
+	- java client app : file io, file delete, repartition
+- Spark
+	- reducebyKey VS groupby
+	- map source code
+- Scala
+	- AKKA intro
+	- AKKA factory
+	- AKKA actror
+	- async
+- Java
+	- singleton use cases
+	- "餓漢式" VS "懶漢式" and its demo code
+
 ### 20210512
 - Flink
 	- Rolling policy
