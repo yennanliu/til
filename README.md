@@ -11,7 +11,11 @@
 - Flink
 	- slot
 	- parallelism
-	- combine multitple jobs into one step
+	- combine 2 "missions" into one mission : if
+		- one to one
+		- parallelism are the same
+		-  [ref1](https://www.youtube.com/watch?v=pYJsPxfytrY&list=PLmOn9nNkQxJGLnTsoWaHfvXrfpWiihoxV&index=14)
+		- [ref2](https://www.youtube.com/watch?v=pYJsPxfytrY&list=PLmOn9nNkQxJGLnTsoWaHfvXrfpWiihoxV&index=15)
 	- job DAG in taskmanager, workmanager, actual implementation step
 - Spark
 	- aggregatedBykey -> foldedBykey -> reducedBykey
