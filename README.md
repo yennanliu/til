@@ -7,9 +7,24 @@
 
 ## Progress
 
+### 20210517
+- Flink
+	- slot
+	- parallelism
+	- combine multitple jobs into one step
+	- job DAG in taskmanager, workmanager, actual implementation step
+- Spark
+	- aggregatedBykey -> foldedBykey -> reducedBykey
+- Java
+	- block : more examples (static block, regular block)
+
+### 20210516
+- Hadoop
+	- java client app : more file IO demos
+	
 ### 20210515
 - Hadoop
-	- java client app : file io, file delete, repartition
+	- java client app : file IO, file delete, repartition
 - Spark
 	- reducebyKey VS groupby
 	- map source code
