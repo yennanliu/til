@@ -7,6 +7,36 @@
 
 ## Progress
 
+### 20210531
+- Flink
+	- keyedStream and its op
+	- datastream -> keyedStream
+	- datastream op
+
+### 20210530
+- Scala
+	- AKKA mini project : yellow chicken messenger
+		- AKKA internet programming (via pcpip)
+		- closure, curry review
+- Java
+	- abstract class, method, examples
+	- polymorphism, downcasting review
+- Spring framework
+	- search twitter via controller
+		- [ref](https://github.com/yennanliu/JavaHelloWorld/blob/main/SpringTwitter/src/main/java/com/yen/tweet/controller/TweetController.java)
+	- code review
+- Flink
+	- DataStream API : basics
+	- DataStream API : transformation
+	- DataStream API : aggregation
+	- user defined source
+- Hadoop
+	- file IO upload (via java client)
+	- file IO download (via java client)
+	- check file or directory (via java client)
+- Django
+	- ListView, DetailView
+
 ### 20210517
 - Flink
 	- slot
