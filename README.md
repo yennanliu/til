@@ -7,6 +7,9 @@
 
 ## Progress
 
+### 20210612
+- https://medium.com/erens-tech-book/%E7%90%86%E8%A7%A3-process-thread-94a40721b492
+
 ### 20210531
 - Flink
 	- keyedStream and its op
