@@ -9,6 +9,7 @@
 
 ### 20210612
 - https://medium.com/erens-tech-book/%E7%90%86%E8%A7%A3-process-thread-94a40721b492
+- https://docs.python.org/zh-tw/3.8/library/collections.html#collections.defaultdict
 
 ### 20210531
 - Flink
