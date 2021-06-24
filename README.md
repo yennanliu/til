@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20210624
+- Spark stream
+	- spark stream save offset (in java)
+		- https://blog.csdn.net/xueba207/article/details/50381821
+	- spark stream Spark Streaming `numRecords must not be negative` error
+		- https://blog.csdn.net/xueba207/article/details/51135423?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.baidujs&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.baidujs
+
 ### 20210612
 - https://medium.com/erens-tech-book/%E7%90%86%E8%A7%A3-process-thread-94a40721b492
 - https://docs.python.org/zh-tw/3.8/library/collections.html#collections.defaultdict
