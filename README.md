@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20210629
+- Spark
+	- spark.speculation (Boolean)
+		- `If set to "true", performs speculative execution of tasks. This means if one or more tasks are running slowly in a stage, they will be re-launched.`
+		- https://spark.apache.org/docs/2.3.0/configuration.html
+		- https://stackoverflow.com/questions/45265682/speculative-execution-mapreduce-spark
+
 ### 20210624
 - Spark stream
 	- spark stream save offset (in java)
