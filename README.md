@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20210702
+- Java
+	- [java native memory tunnning](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr007.html)
+- Spark
+	- combineByKey
+
 ### 20210629
 - Spark
 	- spark.speculation (Boolean)
