@@ -7,11 +7,34 @@
 
 ## Progress
 
+### 20210703
+- Java
+	- SPRING VS Sprting MVC VS SPRING BOOT
+		- [ref1](https://codertw.com/%E4%BC%BA%E6%9C%8D%E5%99%A8/141111/)
+		- [ref2](https://kknews.cc/zh-tw/code/rlqroa4.html)
+	- Spring IOC
+		- Inversion Of Control
+		- [ref1](https://ithelp.ithome.com.tw/articles/10156571)
+		- [ref2](https://www.itread01.com/content/1550530454.html)
+	- Spring DI
+		- Dependency Injection
+		- [ref1](https://iter01.com/520833.html)
+	- java pojo
+		- Plain old Java object
+		- [ref1](https://www.baeldung.com/java-pojo-class)
+		- [ref2](https://programdoubledragon.blogspot.com/2017/12/javabean-pojo.html)
+- Scala
+	- Design pattern : factory
+	- Design pattern : abstract factory	
+
+
 ### 20210702
 - Java
 	- [java native memory tunnning](https://docs.oracle.com/javase/8/docs/technotes/guides/troubleshoot/tooldescr007.html)
 - Spark
 	- combineByKey
+- Flink
+	- Window API
 
 ### 20210629
 - Spark
