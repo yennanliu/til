@@ -17,13 +17,17 @@
 	- Exactly one when `sink`
 		- Idempotent writes (冪等寫入)
 			- [ref](https://stackoverflow.com/questions/2597876/how-to-make-write-operation-idempotent)
-		- Transactional write (事物寫入)
+		- Transactional write (事務寫入)
 			- Either all success or all fail
 			- DB ACID
 				- [ref](https://oldmo860617.medium.com/database-transaction-acid-156a3b75845e)
 - Spark
 	- make Spark CAN coneect to remote HIVE
 		- put core-site.xml .... in main/resources -> 
+
+- Scala
+	- FP map filter and remove
+		- [code](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/AkkaDemo4SparkMasterWorker/master/SparkMaster.scala#L72-L77)
 
 ### 20210716
 - Java
