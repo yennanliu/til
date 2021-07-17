@@ -7,6 +7,28 @@
 
 ## Progress
 
+### 20210717
+- Java
+	- RMI VS RCP
+		- [ref1](https://www.geeksforgeeks.org/difference-between-rpc-and-rmi/)
+	- RMI in java
+		- [ref1](https://www.tutorialspoint.com/java_rmi/java_rmi_introduction.htm)
+- Flink
+	- Exactly one when `sink`
+		- Idempotent writes (冪等寫入)
+			- [ref](https://stackoverflow.com/questions/2597876/how-to-make-write-operation-idempotent)
+		- Transactional write (事物寫入)
+			- Either all success or all fail
+			- DB ACID
+				- [ref](https://oldmo860617.medium.com/database-transaction-acid-156a3b75845e)
+- Spark
+	- make Spark CAN coneect to remote HIVE
+		- put core-site.xml .... in main/resources -> 
+
+### 20210716
+- Java
+	- Hadoop filesystem for HDFS IO
+
 ### 20210703
 - Java
 	- SPRING VS Sprting MVC VS SPRING BOOT
