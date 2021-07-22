@@ -7,6 +7,24 @@
 
 ## Progress
 
+### 20210722
+- Scala
+	- generic type
+	- upper/lower bound
+	
+### 20210720
+- Java
+	- mini progrject : Employer system
+- Scala
+	- flat map `transform to` for
+	- design pattern
+		- proxy
+		- decorator
+- Flink
+	- SQL, Table API
+	- status programming
+		- exactly once
+
 ### 20210717
 - Java
 	- RMI VS RCP
@@ -26,6 +44,7 @@
 		- put core-site.xml .... in main/resources -> 
 
 - Scala
+	- RMI in Scala
 	- FP map filter and remove
 		- [code](https://github.com/yennanliu/utility_Scala/blob/master/src/main/scala/AkkaDemo4SparkMasterWorker/master/SparkMaster.scala#L72-L77)
 
