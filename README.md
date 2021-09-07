@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20210908
+- Python
+	- `if __name__ == '__main__'`
+		- http://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html
+	
 ### 20210722
 - Scala
 	- generic type
