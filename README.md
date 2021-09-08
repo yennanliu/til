@@ -11,6 +11,12 @@
 - Python
 	- `if __name__ == '__main__'`
 		- http://blog.castman.net/%E6%95%99%E5%AD%B8/2018/01/27/python-name-main.html
+- Java
+	- heap, off-heap
+		- https://www.itread01.com/content/1549478361.html
+	- spark tune heap, off-heap memory
+		- https://www.waitingforcode.com/apache-spark/apache-spark-off-heap-memory/read
+		- https://stackoverflow.com/questions/43330902/spark-off-heap-memory-config-and-tungsten
 	
 ### 20210722
 - Scala
