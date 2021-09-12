@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 202109
+- ETL
+	- [Top 8 Best Practices for High-Performance ETL Processing Using Amazon Redshift](https://docs.aws.amazon.com/redshift/latest/dg/loading-data-files-using-manifest.html)
+
 ### 20210908
 - Python
 	- `if __name__ == '__main__'`
