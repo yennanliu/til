@@ -7,9 +7,9 @@
 
 ## Progress
 
-### 202109
+### 20210912
 - ETL
-	- [Top 8 Best Practices for High-Performance ETL Processing Using Amazon Redshift](https://docs.aws.amazon.com/redshift/latest/dg/loading-data-files-using-manifest.html)
+	- [Top 8 Best Practices for High-Performance ETL Processing Using Amazon Redshift](https://aws.amazon.com/tw/blogs/big-data/top-8-best-practices-for-high-performance-etl-processing-using-amazon-redshift/)
 
 ### 20210908
 - Python
