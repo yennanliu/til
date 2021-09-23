@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20210923
+- Python
+	- Deep copy VS shallow copy
+		- https://www.runoob.com/w3cnote/python-understanding-dict-copy-shallow-or-deep.html
+		- https://iter01.com/578999.html
+
 ### 20210912
 - ETL
 	- [Top 8 Best Practices for High-Performance ETL Processing Using Amazon Redshift](https://aws.amazon.com/tw/blogs/big-data/top-8-best-practices-for-high-performance-etl-processing-using-amazon-redshift/)
