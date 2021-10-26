@@ -7,6 +7,19 @@
 
 ## Progress
 
+### 20211026
+- Scala
+	- Shapeless
+		- https://jto.github.io/articles/getting-started-with-shapeless/
+		- https://github.com/milessabin/shapeless
+
+	- HList
+		- https://www.baeldung.com/scala/generic-programming
+
+- Spark
+	- Spark Standalone Mode
+		- https://spark.apache.org/docs/2.3.1/spark-standalone.html#cluster-launch-scripts
+
 ### 20210923
 - Python
 	- Deep copy VS shallow copy
