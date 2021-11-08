@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20211108
+- Spark
+	- Serialization issues part 1 & 2
+		- https://www.waitingforcode.com/apache-spark/serialization-issues-part-1/read
+		- https://www.waitingforcode.com/apache-spark/serialization-issues-part-2/read
+		- https://github.com/bartosz25/spark-scala-playground
 ### 20211026
 - Scala
 	- Shapeless
