@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20211109
+- Spark
+	- SF : Understanding Spark serialization
+		- https://stackoverflow.com/questions/40818001/understanding-spark-serialization?fbclid=IwAR3r4HcbOf0wQnPUg7UcKyTYkIMeaxUMGpgSsQJIKI6kXrGGpurCVKDfVg0
+		
 ### 20211108
 - Spark
 	- Serialization issues part 1 & 2
