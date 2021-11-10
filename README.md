@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20211110
+- Java
+	- java.lang.OutOfMemoryError: unable-to-create-new-native-thread
+		- https://www.baeldung.com/java-outofmemoryerror-unable-to-create-new-native-thread
+
 ### 20211109
 - Spark
 	- SF : Understanding Spark serialization
