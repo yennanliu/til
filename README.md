@@ -12,6 +12,11 @@
 	- java.lang.OutOfMemoryError: unable-to-create-new-native-thread
 		- https://www.baeldung.com/java-outofmemoryerror-unable-to-create-new-native-thread
 
+- Spark stream foreachRDD
+	- https://blog.allegro.tech/2015/08/spark-kafka-integration.html
+	- https://spark.apache.org/docs/latest/streaming-programming-guide.html
+	- https://stackoverflow.com/questions/46015704/spark-streaming-on-yarn-there-is-insufficient-memory-for-the-java-runtime-envi
+
 ### 20211109
 - Spark
 	- SF : Understanding Spark serialization
