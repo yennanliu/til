@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 20211203
+- Flink
+	- flink memory management ref
+		- https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/memory/mem_setup_tm/
 ### 20211110
 - Java
 	- java.lang.OutOfMemoryError: unable-to-create-new-native-thread
