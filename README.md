@@ -11,6 +11,7 @@
 - Flink
 	- flink memory management ref
 		- https://nightlies.apache.org/flink/flink-docs-master/docs/deployment/memory/mem_setup_tm/
+		- https://nightlies.apache.org/flink/flink-docs-release-1.12/deployment/memory/mem_setup.html#configure-total-memory
 ### 20211110
 - Java
 	- java.lang.OutOfMemoryError: unable-to-create-new-native-thread
