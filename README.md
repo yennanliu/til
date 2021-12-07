@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20211207
+- Flink
+	- Rolling policy
+	- file sink cycle
+	- conf checks
+
 ### 20211203
 - Flink
 	- flink memory management ref
