@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 20211208
+- Spark3
+	- https://spark.apache.org/docs/latest/monitoring.html : Monitoring and Instrumentation
+
 ### 20211207
 - Flink
 	- Rolling policy
