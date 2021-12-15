@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20211215
+- Scala
+	- package object
+		- https://docs.scala-lang.org/zh-cn/tour/package-objects.html
+		- https://www.jianshu.com/p/9d6facd14472
+		- https://blog.csdn.net/lovehuangjiaju/article/details/47022989
+
 ### 20211208
 - Spark3
 	- https://spark.apache.org/docs/latest/monitoring.html : Monitoring and Instrumentation
