@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20211221
+- Flink
+	- Flink internal memory model
+		- https://www.codetd.com/en/article/12787053
+
 ### 20211215
 - Scala
 	- package object
