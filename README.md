@@ -11,6 +11,7 @@
 - Spark
 	- write to HDFS setting
 		- https://spark.apache.org/docs/2.3.0/configuration.html
+		- https://www.cnblogs.com/chhyan-dream/p/13492589.html
 		- If you plan to read and write from HDFS using Spark, there are two Hadoop configuration files that should be included on Spark’s classpath:
 		 	- hdfs-site.xml, which provides default behaviors for the HDFS client.
 			- core-site.xml, which sets the default filesystem name.
