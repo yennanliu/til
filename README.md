@@ -7,6 +7,19 @@
 
 ## Progress
 
+### 20220115
+- Python
+	- py memory management
+		- https://realpython.com/python-memory-management/
+		- https://docs.python.org/zh-tw/3.7/c-api/memory.html
+		- https://www.itread01.com/content/1546061954.html
+- Java
+	- java memory management
+		- https://dzone.com/articles/java-memory-management
+		- https://docs.oracle.com/cd/E13150_01/jrockit_jvm/jrockit/geninfo/diagnos/garbage_collect.html
+		- https://www.geeksforgeeks.org/java-memory-management/
+		- https://www.javatpoint.com/memory-management-in-java
+
 ### 20220105
 - Spark
 	- write to HDFS setting
