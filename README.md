@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20220120
+- Flink
+	- bugs : `org.apache.flink.runtime.fs.hdfs.HadoopRecoverableFsDataOutputStream.safelyTruncateFile`
+		- https://issues.apache.org/jira/browse/FLINK-18592
+		- https://issues.apache.org/jira/browse/FLINK-18592
+		- https://www.saoniuhuo.com/question/detail-1935177.html
+
 ### 20220115
 - Python
 	- py memory management
