@@ -13,6 +13,8 @@
 		- https://issues.apache.org/jira/browse/FLINK-18592
 		- https://issues.apache.org/jira/browse/FLINK-18592
 		- https://www.saoniuhuo.com/question/detail-1935177.html
+		- example code
+			- https://xie.infoq.cn/article/4106f684280aa60ac7cb7c269
 
 ### 20220115
 - Python
