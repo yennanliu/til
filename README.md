@@ -15,6 +15,8 @@
 		- https://www.saoniuhuo.com/question/detail-1935177.html
 		- example code
 			- https://xie.infoq.cn/article/4106f684280aa60ac7cb7c269
+	- kafka consumer with custom offset
+		- https://nightlies.apache.org/flink/flink-docs-release-1.12/dev/connectors/kafka.html
 
 ### 20220115
 - Python
