@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20220125
+- Flink
+	- kafka client
+		- https://github.com/yennanliu/scala-kafka-client/blob/master/akka/src/main/scala/cakesolutions/kafka/akka/TrackPartitions.scala
+		- https://github.com/yennanliu/KafkaHelloWorld/tree/master/src/main/scala/Consumer
+		- https://github.com/yennanliu/KafkaHelloWorld/blob/master/src/main/scala/common/KafkaProducerRecord.scala
+
 ### 20220124
 - Flink
 	- implement `FlinkKafkaConsumer` read kafka traffic in `defined period`
