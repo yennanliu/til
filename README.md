@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20220124
+- Flink
+	- implement `FlinkKafkaConsumer` read kafka traffic in `defined period`
+		- https://blog.csdn.net/qq_42164959/article/details/109295530?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant_index=1
+		
 ### 20220120
 - Flink
 	- bugs : `org.apache.flink.runtime.fs.hdfs.HadoopRecoverableFsDataOutputStream.safelyTruncateFile`
