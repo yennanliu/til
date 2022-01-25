@@ -8,6 +8,10 @@
 ## Progress
 
 ### 20220125
+- Kafka
+	- get offset (per topic, partition)
+	- https://gist.github.com/erhwenkuo/019ada38e645b4b76862918fe5205c9c
+	- https://gist.github.com/erhwenkuo/bc4020112367af7abb78357963306ce0
 - Flink
 	- kafka client
 		- https://github.com/yennanliu/scala-kafka-client/blob/master/akka/src/main/scala/cakesolutions/kafka/akka/TrackPartitions.scala
