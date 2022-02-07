@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20220207
+- Spark
+	- Shuffle system
+		- https://books.japila.pl/apache-spark-internals/shuffle/
+		- https://www.slideshare.net/databricks/apache-spark-at-scale-in-the-cloud
+
 ### 20220125
 - Kafka
 	- get offset (per topic, partition)
