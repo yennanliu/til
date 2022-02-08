@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20220208
+- Scala
+	- if, and logic in pattern match
+		- https://www.codenong.com/17034404/
+		- https://stackoverflow.com/questions/17034404/matching-on-class-members-error-not-found-value
+		- https://alvinalexander.com/scala/how-to-use-if-then-expressions-guards-in-case-statements-scala/
+
 ### 20220207
 - Spark
 	- Shuffle system
