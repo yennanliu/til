@@ -13,6 +13,10 @@
 		- https://www.codenong.com/17034404/
 		- https://stackoverflow.com/questions/17034404/matching-on-class-members-error-not-found-value
 		- https://alvinalexander.com/scala/how-to-use-if-then-expressions-guards-in-case-statements-scala/
+- Python
+	- sum() time compmexity : O(N)
+	- https://blog.finxter.com/python-sum/#:~:text=Report%20Ad-,Python%20sum()%20Time%20Complexity,touch%E2%80%9D%20every%20iterable%20element%20once.
+	- https://stackoverflow.com/questions/20135093/what-is-the-time-complexity-of-sum-in-python
 
 ### 20220207
 - Spark
