@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20220209
+- Scala/Java
+	- MockConsumer : for kafka unit test
+		- https://www.baeldung.com/kafka-mockconsumer
+
 ### 20220208
 - Scala
 	- if, and logic in pattern match
