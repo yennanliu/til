@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20220223
+- Python
+	- Sorting time complexity
+		- quick sort : O(NlogN) ~ O(N**2)
+		- merge sort : O(NlogN) ~ O(N**2)
+	- arr.sort() # time complexity ? -> use quick sort by default
+
 ### 20220209
 - Scala/Java
 	- MockConsumer : for kafka unit test
