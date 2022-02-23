@@ -13,6 +13,10 @@
 		- quick sort : O(NlogN) ~ O(N**2)
 		- merge sort : O(NlogN) ~ O(N**2)
 	- arr.sort() # time complexity ? -> use quick sort by default
+	- py OOP
+		- https://learn.markteaching.com/%E3%80%90python-%E6%95%99%E5%AD%B8%E3%80%91oop-%E7%B9%BC%E6%89%BF-%E5%B0%81%E8%A3%9D-%E5%A4%9A%E5%9E%8B-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95-example/
+		- https://www.learncodewithmike.com/2020/01/python-class.html
+		- https://june.monster/python-101-object-oriented-programming/
 
 ### 20220209
 - Scala/Java
