@@ -7,6 +7,10 @@
 
 ## Progress
 
+### 20220313
+- Hexo : tool for static personnel site
+	- https://hsins.github.io/blog/2018/01/04/Built-Personal-Website-with-Hexo/
+
 ### 20220223
 - Python
 	- Sorting time complexity
