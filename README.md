@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20220314
+- webSocket
+	- https://hoohoo.top/blog/gain-an-in-depth-understanding-of-websocket-protocols-common-attack-techniques-and-protection-strategies/
+	- https://hackmd.io/@dez/rJRxmO2qS
+
 ### 20220313
 - Hexo : tool for static personnel site
 	- https://hsins.github.io/blog/2018/01/04/Built-Personal-Website-with-Hexo/
