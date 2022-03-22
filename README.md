@@ -14,6 +14,9 @@
 - Java
 	- reflection, dynamic Proxy
 		- https://dunwu.github.io/javacore/basics/java-reflection.html#_4-%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86
+- API
+	- Comparing API Architectural Styles: SOAP vs REST vs GraphQL vs RPC
+		- https://www.altexsoft.com/blog/soap-vs-rest-vs-graphql-vs-rpc/
 
 ### 20220321
 - Java
