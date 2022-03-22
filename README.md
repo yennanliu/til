@@ -7,6 +7,15 @@
 
 ## Progress
 
+### 20220322
+- Scala
+	- make GraphQL API call with scala
+		-  https://sysgears.com/articles/how-to-create-a-graphql-api-with-scala-and-sangria/
+### 20220321
+- Java
+	- JVM error handling
+	- how to config different apps run with different conf in SAME JVM
+		- different spring aps run in the same JVM for example
 ### 20220314
 - webSocket
 	- https://hoohoo.top/blog/gain-an-in-depth-understanding-of-websocket-protocols-common-attack-techniques-and-protection-strategies/
