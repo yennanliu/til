@@ -11,6 +11,10 @@
 - Scala
 	- make GraphQL API call with scala
 		-  https://sysgears.com/articles/how-to-create-a-graphql-api-with-scala-and-sangria/
+- Java
+	- reflection, dynamic Proxy
+		- https://dunwu.github.io/javacore/basics/java-reflection.html#_4-%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86
+
 ### 20220321
 - Java
 	- JVM error handling
