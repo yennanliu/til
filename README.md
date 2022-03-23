@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20220323
+- GraphQL
+	- intro
+		- https://ithelp.ithome.com.tw/articles/10200678
+		- https://graphql.cn/learn/
+		- https://hackmd.io/@dennySORA/GraphQL
 ### 20220322
 - Scala
 	- make GraphQL API call with scala
