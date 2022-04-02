@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20220401
+- DB
+	- Hbase
+	- dynamoDB
+	- column based VS row based storage
+
 ### 20220323
 - GraphQL
 	- intro
