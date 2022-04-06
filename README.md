@@ -9,9 +9,15 @@
 
 ### 20220406
 - GraphQL
-	- Scala lib
-		- https://github.com/ghostdogpr/caliban
-	- official
+	- Scala 
+		- server
+			- https://github.com/sangria-graphql/sangria
+			- https://github.com/ghostdogpr/caliban
+		- client
+			- https://github.com/ghostdogpr/caliban
+	- Python
+		- https://graphql.org/code/#python
+	- Ref
 		- https://graphql.cn/code/#scala
 
 
