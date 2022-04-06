@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20220406
+- GraphQL
+	- Scala lib
+		- https://github.com/ghostdogpr/caliban
+	- official
+		- https://graphql.cn/code/#scala
+
+
 ### 20220401
 - DB
 	- Hbase
