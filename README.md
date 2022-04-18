@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20220418
+- GraphQL
+	- Scala
+		- Caliban
+			- https://www.youtube.com/watch?v=lgxUKsOH65k
+			- https://www.youtube.com/channel/UCKvhw2CPR-0S4XZ1bNlihnw
+
 ### 20220406
 - GraphQL
 	- Scala 
