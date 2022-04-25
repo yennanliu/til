@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20220425
+- Java Spring
+	- https://www.baeldung.com/spring-cloud-netflix-eureka : Introduction to Spring Cloud Netflix
+	- https://netflix.github.io/ :  netflix oss
+	- https://spring.io/projects/spring-cloud-netflix : Spring Cloud Netflix
+
 ### 20220418
 - GraphQL
 	- Scala
