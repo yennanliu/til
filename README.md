@@ -12,6 +12,10 @@
 	- https://www.baeldung.com/spring-cloud-netflix-eureka : Introduction to Spring Cloud Netflix
 	- https://netflix.github.io/ :  netflix oss
 	- https://spring.io/projects/spring-cloud-netflix : Spring Cloud Netflix
+- CS general topics
+	- https://hexus.net/tech/tech-explained/ram/702-ddr-ii-how-it-works/ : DDR II : how it works
+	- https://en.wikipedia.org/wiki/Round-robin_scheduling : round robin scheduling
+	- https://en.wikipedia.org/wiki/C10k_problem : c10k problem
 
 ### 20220418
 - GraphQL
