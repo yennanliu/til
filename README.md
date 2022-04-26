@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20220426
+- CS general
+	- recent backend interview questions
+		- https://angelswengineer.medium.com/2021%E5%BA%95-2022%E5%88%9D-backend-software-engineer-interview-%E5%B8%B8%E8%A6%8B%E8%80%83%E9%A1%8C-92d5c6ba384c
+
 ### 20220425
 - Java Spring
 	- https://www.baeldung.com/spring-cloud-netflix-eureka : Introduction to Spring Cloud Netflix
