@@ -7,6 +7,20 @@
 
 ## Progress
 
+### 20220514
+- Spring boot
+	- `@bean`
+		- https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-bean-introduction.html
+		- https://chikuwa-tech-study.blogspot.com/2021/05/spring-boot-construct-bean-programmatically.html
+		- https://zhuanlan.zhihu.com/p/60256169
+		- https://iter01.com/609191.html
+		- https://ithelp.ithome.com.tw/articles/10268064
+	- `@Autowired`
+		- https://walkonnet.com/archives/464370
+		- https://iter01.com/558676.html
+		- http://tw511.com/20/238/8850.html
+	- 透過AppConfig元件進行建立兩項Bean類別元件，當我們服務啟動的時候，會自動將Bean載入Spring IoC容器中，故我們亦可透過ApplicationContext方式取得Bean類別，亦可透過註解方式(@Autowired)獲取Bean類別
+
 ### 20220426
 - CS general
 	- recent backend interview questions
