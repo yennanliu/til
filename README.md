@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20220519
+- Spring boot
+	- mybatis
+		- https://autoposter.pixnet.net/blog/post/121469360
+- DW/DB
+	- starrocks
+		- https://docs.starrocks.com/zh-cn/main/quick_start/Create_table
+
 ### 20220514
 - Spring boot
 	- `@bean`
