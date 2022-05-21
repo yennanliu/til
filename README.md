@@ -7,6 +7,20 @@
 
 ## Progress
 
+### 20220521
+- Internet
+	- API cert ? (SSL relative)
+		- API gateway
+			- https://docs.aws.amazon.com/zh_tw/apigateway/latest/developerguide/getting-started-client-side-ssl-authentication.html
+			- https://docs.microsoft.com/zh-tw/azure/api-management/api-management-howto-mutual-certificates-for-clients
+	- DNS
+		- https://aws.amazon.com/tw/route53/what-is-dns/#:~:text=DNS%EF%BC%8C%E4%B9%9F%E5%B0%B1%E6%98%AF%E7%B6%B2%E5%9F%9F,%E4%BE%8B%E5%A6%82%EF%BC%8C192.0.2.44)%E3%80%82
+		- https://www.nss.com.tw/domain-name-system/
+
+- Spring boot
+	- mybatis plus
+	- JPA
+
 ### 20220519
 - Spring boot
 	- mybatis
