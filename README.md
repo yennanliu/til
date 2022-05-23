@@ -7,6 +7,18 @@
 
 ## Progress
 
+### 20220522
+- Spring boot
+	- webflux : sync, async request
+		- https://medium.com/swlh/spring-boot-webclient-cheat-sheet-5be26cfa3e
+- Data
+	- data validation
+		- Integrity
+		- Uniqueness
+		- Consistency
+		- Accuracy
+		- Delay
+
 ### 20220521
 - Internet
 	- API cert ? (SSL relative)
