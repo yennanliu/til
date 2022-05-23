@@ -21,6 +21,8 @@
 
 ### 20220521
 - Internet
+	- `cert驗證機制 `
+		- https://ithelp.ithome.com.tw/articles/10193095 
 	- API cert ? (SSL relative)
 		- API gateway
 			- https://docs.aws.amazon.com/zh_tw/apigateway/latest/developerguide/getting-started-client-side-ssl-authentication.html
