@@ -7,6 +7,11 @@
 
 ## Progress
 
+### 20220523
+- Linux
+	- tmux
+		- https://blog.darkthread.net/blog/tmux/?fbclid=IwAR2TSuzKnqrp_6tZmD_6VZPT83valr_a16RBWD7Kg2wtdsd9FY8mBLYt_9cg
+
 ### 20220522
 - Spring boot
 	- webflux : sync, async request
