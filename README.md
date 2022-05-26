@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20220526
+- Spring boot
+	- Flyway : DB migration (version control)
+		- https://www.baeldung.com/database-migrations-with-flyway
+		- https://iter01.com/504630.html
+		- https://www.tpisoftware.com/tpu/articleDetails/2422
+ 
 ### 20220523
 - Linux
 	- tmux
