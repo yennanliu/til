@@ -11,6 +11,8 @@
 - JMS (Java Message Service) VS RabbitMQ
 	- https://www.oracle.com/technical-resources/articles/java/intro-java-message-service.html
 	- https://openhome.cc/Gossip/EJB3Gossip/JavaMessageService.html
+- RabbitMQ
+	- https://www.youtube.com/watch?v=IVjsiu0OrfQ&list=PLmOn9nNkQxJESDPnrV6v_aiFgsehwLgku&index=16
 
 ### 20220527
 - Postman
