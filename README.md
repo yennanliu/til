@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20220528
+- JMS (Java Message Service) VS RabbitMQ
+	- https://www.oracle.com/technical-resources/articles/java/intro-java-message-service.html
+	- https://openhome.cc/Gossip/EJB3Gossip/JavaMessageService.html
+
+### 20220527
+- Postman
+	- send request via raw paste
+		- https://github.com/yennanliu/utility_shell/blob/master/postman/postman_cmd.sh#L1
+
 ### 20220526
 - Spring boot
 	- Flyway : DB migration (version control)
