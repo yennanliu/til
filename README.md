@@ -14,6 +14,10 @@
 		- https://blog.csdn.net/qq_38974638/article/details/105739795
 		- https://blog.csdn.net/cnds123321/article/details/118224473
 		- https://stackoverflow.com/questions/70565863/interface-not-recognized-as-a-bean-by-spring-boot
+- Project management
+	- PRD (business requirements document)
+		-  The BRD describes the problems the project is trying to solve and the required outcomes necessary to deliver value.
+		-  https://www.lucidchart.com/blog/tips-for-a-perfect-business-requirements-document#:~:text=The%20foundation%20of%20a%20successful,everyone%20on%20the%20same%20page.
 
 ### 20220530
 - REST request
