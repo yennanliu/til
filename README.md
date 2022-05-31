@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20220531
+- Spring boot
+	- `Consider defining a bean of type ‘xxx.mapper.UserMapper‘ in your configuration`
+		- https://blog.csdn.net/cnds123321/article/details/118222109
+		- https://blog.csdn.net/qq_38974638/article/details/105739795
+		- https://blog.csdn.net/cnds123321/article/details/118224473
+		- https://stackoverflow.com/questions/70565863/interface-not-recognized-as-a-bean-by-spring-boot
+
 ### 20220530
 - REST request
 	- `put VS post`
