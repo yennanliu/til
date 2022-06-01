@@ -7,6 +7,14 @@
 
 ## Progress
 
+### 20220601
+- DW layer : `ODS,DM,DWD,DWS,DIM`
+	- https://help.aliyun.com/apsara/enterprise/v_3_15_0_20210816/dide/enterprise-ascm-user-guide/overview-of-data-warehouse-planning-1.html
+	- https://blog.51cto.com/u_15162069/2772331
+	- https://blog.csdn.net/pmdream/article/details/113601956
+	- https://chowdera.com/2021/12/202112310752342124.html
+	- https://www.cnblogs.com/yoyo008/p/15213829.html
+
 ### 20220531
 - Spring boot
 	- `Consider defining a bean of type ‘xxx.mapper.UserMapper‘ in your configuration`
