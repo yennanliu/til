@@ -12,6 +12,10 @@
 	- https://dubbo.apache.org/zh/index.html
 	- https://kknews.cc/zh-tw/tech/2nkyamy.html
 	- https://www.youtube.com/watch?v=k39CmgKxO3k&list=PLmOn9nNkQxJESDPnrV6v_aiFgsehwLgku&index=31
+- Spring Cloud
+	- https://www.youtube.com/watch?v=P5o-6Od5cfc&list=PLmOn9nNkQxJESDPnrV6v_aiFgsehwLgku&index=34
+	- https://www.gushiciku.cn/pl/pUgh/zh-tw
+	- https://ithelp.ithome.com.tw/articles/10192488
 
 ### 20220601
 - DW layer : `ODS,DM,DWD,DWS,DIM`
