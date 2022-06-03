@@ -16,6 +16,7 @@
 	- https://www.youtube.com/watch?v=P5o-6Od5cfc&list=PLmOn9nNkQxJESDPnrV6v_aiFgsehwLgku&index=34
 	- https://www.gushiciku.cn/pl/pUgh/zh-tw
 	- https://ithelp.ithome.com.tw/articles/10192488
+	- https://zhuanlan.zhihu.com/p/369125275#:~:text=Spring%20Cloud%E6%98%AF%E4%B8%80%E4%B8%AA%E4%B8%80,%E5%92%8C%E9%9B%86%E7%BE%A4%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E7%AD%89)%E3%80%82
 
 ### 20220601
 - DW layer : `ODS,DM,DWD,DWS,DIM`
