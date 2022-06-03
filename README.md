@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20220603
+- Apache Dubbo
+	- https://dubbo.apache.org/zh/index.html
+	- https://kknews.cc/zh-tw/tech/2nkyamy.html
+	- https://www.youtube.com/watch?v=k39CmgKxO3k&list=PLmOn9nNkQxJESDPnrV6v_aiFgsehwLgku&index=31
+
 ### 20220601
 - DW layer : `ODS,DM,DWD,DWS,DIM`
 	- https://help.aliyun.com/apsara/enterprise/v_3_15_0_20210816/dide/enterprise-ascm-user-guide/overview-of-data-warehouse-planning-1.html
