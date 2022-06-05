@@ -7,6 +7,17 @@
 
 ## Progress
 
+### 20220604
+- Spring boot
+	- ApplicationRunner VS CommandLineRunner 
+		- https://segmentfault.com/a/1190000039421968
+		- https://juejin.cn/post/6844903589232508942
+		- https://blog.csdn.net/qq_20919883/article/details/111412077
+		- https://www.gushiciku.cn/pl/pZxA/zh-tw
+		- ApplicationRunner跟CommandLineRunner是區別是在run方法裡接收的參數不同，
+			- CommandLineRuner接收的參數是String... args
+			- ApplicationRunner的run方法的參數是ApplicationArguments
+
 ### 20220603
 - Apache Dubbo
 	- https://dubbo.apache.org/zh/index.html
