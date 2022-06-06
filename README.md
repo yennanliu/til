@@ -7,6 +7,16 @@
 
 ## Progress
 
+### 20220606
+- Spring boot
+	- BeanUtils.copyProperties
+		- https://www.796t.com/article.php?id=20809
+		- https://www.796t.com/p/588001.html
+	- Mybatis plus
+		- @TableLogic
+			- https://blog.csdn.net/qq_39454665/article/details/116199952
+			- https://blog.csdn.net/Rm_and_Rf/article/details/106927318
+
 ### 20220604
 - Spring boot
 	- ApplicationRunner VS CommandLineRunner 
