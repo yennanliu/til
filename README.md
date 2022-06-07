@@ -16,6 +16,10 @@
 		- @TableLogic
 			- https://blog.csdn.net/qq_39454665/article/details/116199952
 			- https://blog.csdn.net/Rm_and_Rf/article/details/106927318
+- AWS
+	- Redshift API (java)
+		- https://docs.aws.amazon.com/zh_tw/redshift/latest/mgmt/data-api.html
+		- https://sdk.amazonaws.com/java/api/latest/software/amazon/awssdk/services/redshiftdata/RedshiftDataClient.html
 
 ### 20220604
 - Spring boot
