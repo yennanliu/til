@@ -61,9 +61,10 @@
 
 ### 20220530
 - REST request
-	- `put VS post`
+	- `PUT VS POST`
 		- https://blog.51cto.com/u_15301829/3095822#:~:text=%E5%9C%A8http%E4%B8%AD%EF%BC%8Cput%E8%A2%AB,%E7%9A%84%EF%BC%8C%E9%82%A3%E5%B0%B1%E6%98%AF%E5%B9%82%E7%AD%89%E3%80%82
 		- https://www.w3help.cc/a/202109/1093210.html
+		- https://hackmd.io/@monkenWu/Sk9Q5VoV4/https%3A%2F%2Fhackmd.io%2F%40gen6UjQISdy0QDN62cYPYQ%2FHJh9zOE7V?type=book
 
 ### 20220528
 - JMS (Java Message Service) VS RabbitMQ
