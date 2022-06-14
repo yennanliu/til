@@ -7,6 +7,12 @@
 
 ## Progress
 
+### 20220614
+- Deployment Strategies: `Blue-Green, Canary`
+	- https://harness.io/blog/continuous-verification/blue-green-canary-deployment-strategies/
+	- https://segmentfault.com/a/1190000040892537/en
+	- https://dev.to/mostlyjason/intro-to-deployment-strategies-blue-green-canary-and-more-3a3
+
 ### 20220606
 - Spring boot
 	- BeanUtils.copyProperties
