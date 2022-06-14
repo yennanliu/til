@@ -7,6 +7,13 @@
 
 ## Progress
 
+### 20220615
+- Spring boot/cloud
+	- use user-defined modules
+		- https://blog.csdn.net/liaomingwu/article/details/122442649
+		- https://blog.51cto.com/u_15239532/5144312
+		- https://blog.csdn.net/qq_29718835/article/details/120828561
+
 ### 20220614
 - Deployment Strategies: `Blue-Green, Canary (AKA 灰度發布 gray deployment), Red-Black Deployment`
 	- https://harness.io/blog/continuous-verification/blue-green-canary-deployment-strategies/
