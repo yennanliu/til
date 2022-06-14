@@ -8,10 +8,14 @@
 ## Progress
 
 ### 20220614
-- Deployment Strategies: `Blue-Green, Canary`
+- Deployment Strategies: `Blue-Green, Canary (AKA 灰度發布 gray deployment), Red-Black Deployment`
 	- https://harness.io/blog/continuous-verification/blue-green-canary-deployment-strategies/
 	- https://segmentfault.com/a/1190000040892537/en
 	- https://dev.to/mostlyjason/intro-to-deployment-strategies-blue-green-canary-and-more-3a3
+	- http://www.uj5u.com/qita/281580.html
+	- https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/725615/
+	- Red-Black Deployment
+		- https://www.gushiciku.cn/pl/gUOs/zh-tw
 
 ### 20220606
 - Spring boot
