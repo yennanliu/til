@@ -17,6 +17,9 @@
 		- https://www.callicoder.com/spring-boot-file-upload-download-rest-api-example/
 		- http://www.mastertheboss.com/jboss-frameworks/resteasy/using-rest-services-to-manage-download-and-upload-of-files/
 		- https://www.devglan.com/spring-boot/spring-boot-file-upload-download#:~:text=Spring%20Boot%20File%20Download%20from%20Local%20File%20System&text=It%20is%20a%20simple%20GET,as%20application%2Foctet%2Dstream.
+	- Spring Boot + AWS S3 Download Bucket File
+		- https://www.techgeeknext.com/cloud/aws/amazon-s3-springboot-download-file-in-s3-bucket
+		- https://codezup.com/upload-download-and-delete-file-from-aws-s3-spring-boot/
 
 ### 20220614
 - Deployment Strategies: `Blue-Green, Canary (AKA 灰度發布 gray deployment), Red-Black Deployment`
