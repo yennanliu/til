@@ -7,6 +7,15 @@
 
 ## Progress
 
+### 20220617
+- Spring boot
+	- @RestController VS @Controller
+		- 如果返回 String 或者 json 的話就直接類上用 @RestController
+		- 如果想要頁面跳轉的話，就使用 @Controller
+		- 如果只有在某方法上返回 json，其他方法跳轉頁面，則在類上新增 @Controller，在需要返回 String 和 json 的方法上新增 @ResponseBody 註解
+		- https://www.796t.com/content/1546330804.html
+		- https://blog.csdn.net/ld1170813335/article/details/78690713
+
 ### 20220615
 - Spring boot/cloud
 	- use user-defined modules
