@@ -9,7 +9,8 @@
 
 ### 20220621
 - Maven (pom.xml)
-	- dependencyManagement VS dependency
+	- `dependencyManagement VS dependency`
+		- https://youtu.be/uG_UKEa41-s?t=51
 		- https://kknews.cc/zh-tw/code/bmyyy4j.html
 		- https://blog.csdn.net/vtopqx/article/details/79034835
 		- https://www.796t.com/content/1546777827.html
