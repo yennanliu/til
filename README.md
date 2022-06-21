@@ -16,6 +16,9 @@
 		- https://www.796t.com/content/1546777827.html
 - Mybatis dynamic SQL
 	- https://mybatis.org/mybatis-3/dynamic-sql.html
+- spring-cloud-starter-feign
+	- https://spring-cloud-wiki.readthedocs.io/zh_CN/latest/pages/feign.html#:~:text=Feign%E6%98%AF%E4%B8%80%E4%B8%AA%E5%A3%B0%E6%98%8E%E5%BC%8F,%E6%9C%8D%E5%8A%A1%E8%AF%B7%E6%B1%82%E5%8F%8A%E7%9B%B8%E5%85%B3%E5%A4%84%E7%90%86%E3%80%82
+	- https://tw511.com/a/01/26332.html
 
 ### 20220617
 - Spring boot
