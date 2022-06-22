@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20220622
+- Mybatis
+	- `Error:java: Can‘t generate mapping method with primitive return type.`
+		- https://www.cnblogs.com/andjieran/p/15974630.html
+		- https://www.cnblogs.com/mike-mei/p/15792360.html
+
 ### 20220621
 - Maven (pom.xml)
 	- `dependencyManagement VS dependency`
