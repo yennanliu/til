@@ -13,6 +13,9 @@
 		- https://www.cnblogs.com/andjieran/p/15974630.html
 		- https://www.cnblogs.com/mike-mei/p/15792360.html
 
+- mysql insert with increment id
+	- https://www.fooish.com/sql/auto-increment.html
+
 ### 20220621
 - Maven (pom.xml)
 	- `dependencyManagement VS dependency`
