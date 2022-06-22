@@ -12,6 +12,10 @@
 	- `Error:java: Can‘t generate mapping method with primitive return type.`
 		- https://www.cnblogs.com/andjieran/p/15974630.html
 		- https://www.cnblogs.com/mike-mei/p/15792360.html
+- Mybatis plus
+	- BaseMapper
+		- https://walkonnet.com/archives/452416
+		- https://blog.csdn.net/qq924862077/article/details/81774958
 
 - mysql insert with increment id
 	- https://www.fooish.com/sql/auto-increment.html
