@@ -14,6 +14,11 @@
 		- https://github.com/yennanliu/SpringPlayground/blob/main/springCloud1/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml
 	- enable camel style (java bean <-> SQL fields)
 		- https://www.cnblogs.com/gavincoder/p/10140562.html
+- `Pom.xml`
+	- scope (e.g. `<scope>compile</scope>`, `<scope>provided</scope>`...)
+		- https://blog.csdn.net/mccand1234/article/details/60962283
+		- https://blog.csdn.net/kimylrong/article/details/50353161
+		- https://segmentfault.com/a/1190000038594247
 
 ### 20220622
 - Mybatis
