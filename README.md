@@ -12,6 +12,8 @@
 	- mapper.xml, java bean - JDBC table col name mapping
 		- https://youtu.be/4wWM7MmfxXw?t=1171
 		- https://github.com/yennanliu/SpringPlayground/blob/main/springCloud1/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml
+	- enable camel style (java bean <-> SQL fields)
+		- https://www.cnblogs.com/gavincoder/p/10140562.html
 
 ### 20220622
 - Mybatis
