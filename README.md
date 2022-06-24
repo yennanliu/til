@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20220624
+- MyBatis
+	- mapper.xml, java bean - JDBC table col name mapping
+		- https://youtu.be/4wWM7MmfxXw?t=1171
+		- https://github.com/yennanliu/SpringPlayground/blob/main/springCloud1/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml
+
 ### 20220622
 - Mybatis
 	- `Error:java: Can‘t generate mapping method with primitive return type.`
