@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20220627
+- Micro service
+	- CircuitBreaker (服務熔斷)
+		- https://martinfowler.com/bliki/CircuitBreaker.html
+
 ### 20220624
 - MyBatis
 	- mapper.xml, java bean - JDBC table col name mapping
