@@ -11,6 +11,7 @@
 - Micro service
 	- CircuitBreaker (服務熔斷)
 		- https://martinfowler.com/bliki/CircuitBreaker.html
+		- https://youtu.be/FOHjhgdc6tw?t=371
 
 ### 20220624
 - MyBatis
