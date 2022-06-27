@@ -17,6 +17,11 @@
 		- https://hackmd.io/@KaiChen/HJEN-mMVw
 		- https://rumenz.com/java-topic/spring-boot2/pagination-sorting-example/index.html
 		- https://matthung0807.blogspot.com/2019/09/spring-data-jpa-pagination-and-sorting.html
+	- Unit test
+		- https://kucw.github.io/blog/2020/2/spring-unit-test-mockito/
+		- https://www.tpisoftware.com/tpu/articleDetails/1256
+		- https://spring.io/guides/gs/testing-web/
+		- https://www.baeldung.com/spring-boot-testing
 
 ### 20220624
 - MyBatis
