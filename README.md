@@ -12,6 +12,11 @@
 	- CircuitBreaker (服務熔斷)
 		- https://martinfowler.com/bliki/CircuitBreaker.html
 		- https://youtu.be/FOHjhgdc6tw?t=371
+- Spring boot
+	- Paging
+		- https://hackmd.io/@KaiChen/HJEN-mMVw
+		- https://rumenz.com/java-topic/spring-boot2/pagination-sorting-example/index.html
+		- https://matthung0807.blogspot.com/2019/09/spring-data-jpa-pagination-and-sorting.html
 
 ### 20220624
 - MyBatis
