@@ -11,6 +11,9 @@
 - Spring boot
 	- `Error creating bean with name 'dataSource' defined in class path resource`
 		- https://blog.csdn.net/wcc27857285/article/details/90679424
+	- `@RequestBody VS @RequestParam`
+		- https://blog.csdn.net/weixin_38004638/article/details/99655322
+		- https://www.gushiciku.cn/pl/pnqB/zh-tw
 
 ### 20220627
 - Micro service
