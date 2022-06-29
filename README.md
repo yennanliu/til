@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20220629
+- Spring boot
+	- `Error creating bean with name 'dataSource' defined in class path resource`
+		- https://blog.csdn.net/wcc27857285/article/details/90679424
+
 ### 20220627
 - Micro service
 	- CircuitBreaker (服務熔斷)
