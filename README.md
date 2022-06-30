@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220701
+- Spring Boot
+	- `@Configuration` annotation
+		- https://blog.csdn.net/loongkingwhat/article/details/105752446
+		- https://juejin.cn/post/7034421582034370597
+		- https://iter01.com/580722.html
+
 ### 20220629
 - Spring boot
 	- `Error creating bean with name 'dataSource' defined in class path resource`
