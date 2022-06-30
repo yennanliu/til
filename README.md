@@ -14,6 +14,8 @@
 	- `@RequestBody VS @RequestParam`
 		- https://blog.csdn.net/weixin_38004638/article/details/99655322
 		- https://www.gushiciku.cn/pl/pnqB/zh-tw
+	- POSTMAN sends user-defined-class with `@RequestParam` via GET request
+		- https://www.twblogs.net/a/5eeec3017301656afddacbd8/?lang=zh-cn
 
 ### 20220627
 - Micro service
