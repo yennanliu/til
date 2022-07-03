@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20220703
+- Spring Boot
+	- Spring Data JPA
+		- https://www.gss.com.tw/blog/spring-data-jpa-1#:~:text=Spring%20Data%20JPA%20%E6%98%AFSpring,%E4%BD%A0%E5%AF%A6%E4%BD%9C%E5%85%B6%E5%8A%9F%E8%83%BD%E3%80%82
+		- https://ithelp.ithome.com.tw/articles/10194906
+
 ### 20220701
 - Spring Boot
 	- `@Configuration` annotation
