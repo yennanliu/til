@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220705
+- Mysql
+	- insert update update if duplicate
+		- https://www.alibabacloud.com/help/en/analyticdb-for-mysql/latest/insert-on-duplicate-key-update
+		- https://www.mysqltutorial.org/mysql-insert-or-update-on-duplicate-key-update/
+		- https://blog.csdn.net/u011066470/article/details/100098626
+
 ### 20220703
 - Spring Boot
 	- Spring Data JPA
