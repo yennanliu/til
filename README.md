@@ -15,6 +15,13 @@
 	- https://juejin.cn/post/6996303139540467749
 	- https://www.google.com/search?q=mybatis+%E5%88%86%E9%A0%81&rlz=1C5CHFA_enTW908TW908&oq=mybatis+%E5%88%86%E9%A0%81&aqs=chrome..69i57j0i5i30j0i8i30.3887j0j7&sourceid=chrome&ie=UTF-8
 
+### 20220708
+- Mybatis
+	- #{} VS ${}
+		- https://www.w3cschool.cn/mybatis/mybatis-yta93bpj.html
+	- w3school
+		- https://www.w3cschool.cn/mybatis/mybatis-dyr53b5w.html
+
 ### 20220705
 - Mysql
 	- insert update update if duplicate
