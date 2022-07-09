@@ -8,7 +8,7 @@
 # PROGRESS
 
 ### 20220709
-- Mybais paging (分頁)
+- Mybatis paging (分頁)
 	- https://www.cnblogs.com/tanghaorong/p/14017180.html
 	- https://tw.gitbook.net/mybatis/mybatis_pagination.html
 	- https://blog.csdn.net/feinifi/article/details/88769101
