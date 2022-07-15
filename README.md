@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220715
+- Java
+	- map Enum type to DB
+		- https://vladmihalcea.com/the-best-way-to-map-an-enum-type-with-jpa-and-hibernate/
+		- https://www.baeldung.com/jpa-persisting-enums-in-jpa
+		- https://thorben-janssen.com/hibernate-tips-map-enum-database-column/
+
 ### 20220709
 - Mybatis paging (分頁)
 	- https://www.cnblogs.com/tanghaorong/p/14017180.html
