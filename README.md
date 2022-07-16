@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20220716
+- Postman
+	- HTTP request to `gray deployment`
+		- TODO
+- Devop
+	- Using Services to Implement Simple Grayscale Release and Blue-Green Deployment
+		- https://support.huaweicloud.com/intl/en-us/bestpractice-cce/cce_bestpractice_10002.html
+		- https://support.huaweicloud.com/intl/en-us/bestpractice-cce/cce_bestpractice_10003.html
+
 ### 20220715
 - Java
 	- map Enum type to DB
