@@ -8,6 +8,9 @@
 # PROGRESS
 
 ### 20220716
+- Mybatis grammer
+	- dynamic SQL
+		- https://mybatis.org/mybatis-3/dynamic-sql.html
 - Postman
 	- HTTP request to `gray deployment`
 		- TODO
