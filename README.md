@@ -7,6 +7,19 @@
 
 # PROGRESS
 
+### 20220718
+- Spring boot
+	- POJO、PO、DTO、VO、BO
+		- brief :
+			- PO (persistent object)
+			- DTO (Data Transfer Object)
+			- VO (value object)
+			- DAO (data access object)
+			- BO (business object)
+		- Ref :
+			- https://hackmd.io/@MonsterLee/HJyAdgRBB
+			- https://www.cnblogs.com/tooyi/p/13340374.html
+
 ### 20220716
 - Mybatis grammer
 	- dynamic SQL
