@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220719
+- Java
+	- time zone enum example
+		- https://github.com/roth-source/roth-lang/blob/master/roth-lang/src/main/java/roth/lang/TimeZone.java
+		- https://www.w3resource.com/java-exercises/datetime/java-datetime-exercise-43.php
+		- https://mkyong.com/java/java-display-list-of-timezone-with-gmt/
+
 ### 20220718
 - Spring boot
 	- POJO、PO、DTO、VO、BO
