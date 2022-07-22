@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220722
+- Mybatis plus
+	- queryWrapper
+		- https://blog.csdn.net/m0_37034294/article/details/82917234
+	- com.baomidou.mybatisplus.extension.service.impl.ServiceImpl
+		- https://www.twblogs.net/a/5c8a4f2bbd9eee35cd6a9d76
+
 ### 20220719
 - Java
 	- time zone enum example
