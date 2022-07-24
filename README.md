@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220724
+- Nginx : `Reverse Proxy web server`
+	- Web Serveer VS Application Server, Forward Proxy VS Reverse Proxy
+		- https://medium.com/starbugs/web-server-nginx-1-cf5188459108
+		- https://www.maxlist.xyz/2020/06/18/flask-nginx/
+		- https://zh.m.wikipedia.org/zh-hant/Nginx#:~:text=Nginx%EF%BC%88%E7%99%BC%E9%9F%B3%E5%90%8C%E3%80%8Cengine%20X,%E5%85%AC%E5%8F%B8%E4%BB%A5%E6%8F%90%E4%BE%9B%E6%94%AF%E6%8C%81%E6%9C%8D%E5%8B%99%E3%80%82
+
 ### 20220722
 - Mybatis plus
 	- queryWrapper
