@@ -12,6 +12,11 @@
 	- https://www.writebug.com/explore/article/g5wnHnxy
 	- https://github.com/forezp/SpringBootLearning
 	- https://github.com/yennanliu/SpringPlayground/tree/main/ref_project/markdown-blog-main
+- Mybatis
+	- via `resultMap` do java attr - Db column name mapping
+		- https://www.youtube.com/watch?v=gk_pm_Uaa_Y&list=PLmOn9nNkQxJEWFBs6hVmDC5m8SbbIiDwY&index=42
+		- https://blog.csdn.net/weixin_40340362/article/details/93128692
+		- https://www.796t.com/content/1547529875.html
 
 ### 20220724
 - Nginx : `Reverse Proxy web server`
