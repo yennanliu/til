@@ -17,6 +17,9 @@
 		- https://www.youtube.com/watch?v=gk_pm_Uaa_Y&list=PLmOn9nNkQxJEWFBs6hVmDC5m8SbbIiDwY&index=42
 		- https://blog.csdn.net/weixin_40340362/article/details/93128692
 		- https://www.796t.com/content/1547529875.html
+	- `org.apache.ibatis.binding.BindingException: Invalid bound statement (not found)` error
+		- https://blog.csdn.net/weixin_43570367/article/details/103147854
+		-> can try to rebuild maven project first
 
 ### 20220724
 - Nginx : `Reverse Proxy web server`
