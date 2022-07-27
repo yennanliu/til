@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20220727
+- Airflow
+	- Airflow as KafkaProducer, send event to kafka topic
+		- https://pypi.org/project/airflow-provider-kafka/0.1.0/
+		- https://stackoverflow.com/questions/46778171/stream-files-to-kafka-using-airflow
+
 ### 20220726
 - Spring boot form
 	- https://www.writebug.com/explore/article/g5wnHnxy
