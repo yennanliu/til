@@ -12,6 +12,19 @@
 	- Airflow as KafkaProducer, send event to kafka topic
 		- https://pypi.org/project/airflow-provider-kafka/0.1.0/
 		- https://stackoverflow.com/questions/46778171/stream-files-to-kafka-using-airflow
+- Backend
+	- Distributed lock (Redis)
+		- https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/717420/
+		- https://www.796t.com/p/1123418.html
+		- https://gitbook.cn/books/5dd75cffd251cc422ab2e7fb/index.html
+		- https://blog.yowko.com/redlocknet-redis-lock/
+		- https://yuanchieh.page/posts/2020/2020-01-14_redis-lock-redlock-%E5%8E%9F%E7%90%86%E5%88%86%E6%9E%90%E8%88%87%E5%AF%A6%E4%BD%9C/
+		- https://redis.io/docs/reference/patterns/distributed-locks/
+	- ScheduledThreadPool (Java)
+		- https://blog.csdn.net/qq_35580883/article/details/78747263
+		- https://www.jianshu.com/p/925dba9f5969
+		- https://ithelp.ithome.com.tw/articles/10207656
+		- https://www.cjavapy.com/article/2621/
 
 ### 20220726
 - Spring boot form
