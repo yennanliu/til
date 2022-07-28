@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20220728
+- Java
+	- JSONObject -> HashMap
+		- https://stackoverflow.com/questions/21720759/convert-a-json-string-to-a-hashmap
+
 ### 20220727
 - Airflow
 	- Airflow as KafkaProducer, send event to kafka topic
