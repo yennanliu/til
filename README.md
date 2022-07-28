@@ -18,7 +18,8 @@
 		- https://pypi.org/project/airflow-provider-kafka/0.1.0/
 		- https://stackoverflow.com/questions/46778171/stream-files-to-kafka-using-airflow
 - Backend
-	- Distributed lock (Redis)
+	- Distributed lock - `Zookeeper, Redis, Mysql`
+		- `Zookeeper` is better solution in general
 		- https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/717420/
 		- https://www.796t.com/p/1123418.html
 		- https://gitbook.cn/books/5dd75cffd251cc422ab2e7fb/index.html
