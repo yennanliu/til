@@ -11,6 +11,17 @@
 - Java
 	- JSONObject -> HashMap
 		- https://stackoverflow.com/questions/21720759/convert-a-json-string-to-a-hashmap
+- Python
+	- GIL（Global Interpreter Lock）
+		- https://iter01.com/596673.html
+		- https://www.maxlist.xyz/2020/03/15/gil-thread-safe-atomic/
+	- GIL VS regular lock, and their low level implementation
+	- Mutable & Immutable Objects in Python
+		- https://www.guru99.com/mutable-and-immutable-in-python.html
+		- https://towardsdatascience.com/https-towardsdatascience-com-python-basics-mutable-vs-immutable-objects-829a0cb1530a
+	- python multiprocessing vs multithreading
+		- https://timber.io/blog/multiprocessing-vs-multithreading-in-python-what-you-need-to-know/
+		- https://stackoverflow.com/questions/3044580/multiprocessing-vs-threading-python
 
 ### 20220727
 - Airflow
