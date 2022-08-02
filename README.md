@@ -14,6 +14,12 @@
 		- https://www.796t.com/article.php?id=161562
 		- https://iter01.com/663746.html
 		- https://juejin.cn/post/7068110940499083271
+- Java AWS S3 SDK
+```java
+import com.amazonaws.services.s3.AmazonS3;
+import com.amazonaws.services.s3.AmazonS3ClientBuilder;
+import com.amazonaws.services.s3.AmazonS3URI;
+```
 
 ### 20220731
 - Java
