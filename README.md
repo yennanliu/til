@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20220802
+- XXL-JOB
+	- integrate with java (spring boot)
+		- https://www.xuxueli.com/xxl-job/#3.3%20GLUE%E6%A8%A1%E5%BC%8F(Java)
+		- https://www.796t.com/article.php?id=161562
+		- https://iter01.com/663746.html
+		- https://juejin.cn/post/7068110940499083271
+
 ### 20220731
 - Java
 	- 自旋鎖 spinlock
