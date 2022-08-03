@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20220803
+- AWS
+	- IAM key
+		- https://docs.aws.amazon.com/zh_tw/IAM/latest/UserGuide/id_credentials_access-keys.html
+
 ### 20220802
 - XXL-JOB
 	- integrate with java (spring boot)
