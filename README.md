@@ -11,6 +11,23 @@
 - AWS
 	- IAM key
 		- https://docs.aws.amazon.com/zh_tw/IAM/latest/UserGuide/id_credentials_access-keys.html
+- `lombok @Accessors(chain=true)`
+	https://blog.51cto.com/wangzhenjun/4314997
+	- https://www.jianshu.com/p/67a15b2e4a92
+	- https://blog.csdn.net/weixin_38229356/article/details/82937420
+```java
+// traditional
+Person person = new Person();
+person.setName("wang");
+person.setSex("male");
+person.setEmail("123@XXX.com");
+person.setDate(new Date());
+person.setAddr("NY");
+
+// with @Accessors(chain = true)
+Person person = new Person();
+person.setName("wang").setSex("male").setEmail("123@xxx.com").setDate(new Date()).setAddr("NY");
+```
 
 ### 20220802
 - XXL-JOB
