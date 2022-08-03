@@ -11,6 +11,8 @@
 - AWS
 	- IAM key
 		- https://docs.aws.amazon.com/zh_tw/IAM/latest/UserGuide/id_credentials_access-keys.html
+- Spring cron setting (e.g. : `@Scheduled(cron = "0 0 12 * * * ")`)
+	- https://blog.csdn.net/weixin_39925350/article/details/111391748
 - `lombok @Accessors(chain=true)`
 	https://blog.51cto.com/wangzhenjun/4314997
 	- https://www.jianshu.com/p/67a15b2e4a92
