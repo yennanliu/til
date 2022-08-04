@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220804
+- Apollo
+	- `conf ordering : Apollo VS local conf (e.g. application.yml, bootstrap.properties..)`
+		- https://www.modb.pro/db/126648
+		- https://blog.csdn.net/lonelymanontheway/article/details/119968760
+		- Conclusion : `will load Apollo conf only if both (Apollo, local) are set`
+
 ### 20220803
 - AWS
 	- IAM key
