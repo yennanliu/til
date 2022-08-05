@@ -13,6 +13,7 @@
 	- https://freemarker.apache.org/
 	- http://freemarker.foofun.cn/index.html
 	- http://blog.appx.tw/2017/05/10/freemarker1/
+	- http://blog.appx.tw/2017/05/11/freemarker2/
 
 ### 20220804
 - Apollo
