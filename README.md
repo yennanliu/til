@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220805
+- FreeMarker
+	- `Apache FreeMarker™ is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.`
+	- https://freemarker.apache.org/
+	- http://freemarker.foofun.cn/index.html
+	- http://blog.appx.tw/2017/05/10/freemarker1/
+
 ### 20220804
 - Apollo
 	- `conf ordering : Apollo VS local conf (e.g. application.yml, bootstrap.properties..)`
