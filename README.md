@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220806
+- Spring boot
+	- 跨域訪問
+		- jsoup
+		- CORS (cross-origin resource sharing)
+			- https://bbs.huaweicloud.com/blogs/346514
+
 ### 20220805
 - FreeMarker
 	- `Apache FreeMarker™ is a template engine: a Java library to generate text output (HTML web pages, e-mails, configuration files, source code, etc.) based on templates and changing data.`
@@ -14,6 +21,10 @@
 	- http://freemarker.foofun.cn/index.html
 	- http://blog.appx.tw/2017/05/10/freemarker1/
 	- http://blog.appx.tw/2017/05/11/freemarker2/
+- DB
+	- SQL jdbc connection pool
+		- https://www.baeldung.com/java-connection-pooling
+		- https://www.progress.com/tutorials/jdbc/jdbc-jdbc-connection-pooling
 
 ### 20220804
 - Apollo
