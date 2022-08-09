@@ -11,6 +11,9 @@
 - AWS S3
 	- download s3 file by the URL in a browser
 		- https://stackoverflow.com/questions/50151062/unable-to-download-a-file-from-s3-by-the-url-in-a-browser
+	- presigned URL from S3 object
+		- https://docs.aws.amazon.com/sdk-for-java/latest/developer-guide/examples-s3-presign.html
+		- https://docs.aws.amazon.com/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
 
 ### 20220806
 - Spring boot
