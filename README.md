@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20220809
+- AWS S3
+	- download s3 file by the URL in a browser
+		- https://stackoverflow.com/questions/50151062/unable-to-download-a-file-from-s3-by-the-url-in-a-browser
+
 ### 20220806
 - Spring boot
 	- 跨域訪問
