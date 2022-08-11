@@ -13,6 +13,7 @@
 		- https://blog.csdn.net/hdn_kb/article/details/108405971
 		- https://blog.csdn.net/weixin_45196863/article/details/119428018
 		- https://www.twblogs.net/a/5efdd05ee53eaf40aa871903
+		- https://www.cnblogs.com/chenfeng1122/p/6884576.html
 	```xml
 	<!-- example -->
 	<!-- put below in <build></build> in pom.xml -->
