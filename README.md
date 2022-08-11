@@ -13,6 +13,22 @@
 		- https://blog.csdn.net/hdn_kb/article/details/108405971
 		- https://blog.csdn.net/weixin_45196863/article/details/119428018
 		- https://www.twblogs.net/a/5efdd05ee53eaf40aa871903
+	```xml
+	<!-- example -->
+	<!-- put below in <build></build> in pom.xml -->
+	<resources>
+            <resource>
+                <directory>${basedir}/src/main/java</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+                <excludes>
+                    <exclude>**/*.java</exclude>
+                </excludes>
+                <filtering>false</filtering>
+            </resource>
+        </resources>
+	```
 
 ### 20220809
 - AWS S3
