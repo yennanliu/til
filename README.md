@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220811
+- Freemarker
+	- `freemarker.template.TemplateNotFoundException: Template not found for name “xxx.ftl“`
+		- https://blog.csdn.net/hdn_kb/article/details/108405971
+		- https://blog.csdn.net/weixin_45196863/article/details/119428018
+		- https://www.twblogs.net/a/5efdd05ee53eaf40aa871903
+
 ### 20220809
 - AWS S3
 	- download s3 file by the URL in a browser
