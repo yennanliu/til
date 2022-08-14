@@ -8,6 +8,12 @@
 # PROGRESS
 
 ### 20220814
+- Spring boot
+	- RestTemplate
+		- https://openhome.cc/Gossip/Spring/RestTemplate.html
+		- https://elim168.github.io/spring/bean/30.Spring%E4%B9%8BRestTemplate%E4%BB%8B%E7%BB%8D.html#:~:text=RestTemplate%E6%98%AFSpring%20Web%E6%A8%A1%E5%9D%97,RestTemplate%E6%93%8D%E4%BD%9C%E5%B0%86%E9%9D%9E%E5%B8%B8%E6%96%B9%E4%BE%BF%E3%80%82
+		- https://www.796t.com/article.php?id=38894
+		- https://zhuanlan.zhihu.com/p/78261630
 - Apache JMeter
 	- designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
 	- https://jmeter.apache.org/download_jmeter.cgi
