@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20220814
+- Apache JMeter
+	- designed to load test functional behavior and measure performance. It was originally designed for testing Web Applications but has since expanded to other test functions.
+	- https://jmeter.apache.org/download_jmeter.cgi
+	- https://ithelp.ithome.com.tw/articles/10203900#:~:text=%E7%B0%A1%E4%BB%8B,Mac%20OS%20X%20%E4%B8%8A%E5%9F%B7%E8%A1%8C%E3%80%82
+	- https://ithelp.ithome.com.tw/articles/10186852
+	- https://stackoverflow.com/questions/22610316/how-do-i-install-jmeter-on-a-mac
+
 ### 20220811
 - Freemarker
 	- `freemarker.template.TemplateNotFoundException: Template not found for name “xxx.ftl“`
