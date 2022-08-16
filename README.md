@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220816
+- AWS S3
+	- 存取控制清單(Access Control List, ACL
+		- https://zh.wikipedia.org/zh-tw/%E5%AD%98%E5%8F%96%E6%8E%A7%E5%88%B6%E4%B8%B2%E5%88%97
+		- https://docs.aws.amazon.com/zh_tw/AmazonS3/latest/userguide/amazon-s3-condition-keys.html
+		- https://aws.amazon.com/tw/premiumsupport/knowledge-center/s3-bucket-owner-full-control-acl/
+
 ### 20220814
 - Spring boot
 	- RestTemplate
