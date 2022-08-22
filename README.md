@@ -53,7 +53,7 @@
 		- https://www.twblogs.net/a/5efdd05ee53eaf40aa871903
 		- https://www.cnblogs.com/chenfeng1122/p/6884576.html
 	```xml
-	<!-- example -->
+	<!-- example V1 -->
 	<!-- put below in <build></build> in pom.xml -->
 	<resources>
             <resource>
@@ -65,6 +65,16 @@
                     <exclude>**/*.java</exclude>
                 </excludes>
                 <filtering>false</filtering>
+            </resource>
+        </resources>
+	
+	<!-- example V2 -->
+	<resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
             </resource>
         </resources>
 	```
