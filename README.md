@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220830
+- AWS S3
+	- Why is my presigned URL for an Amazon S3 bucket expiring before the expiration time that I specified?
+		- https://aws.amazon.com/premiumsupport/knowledge-center/presigned-url-s3-bucket-expiration/
+	- Examples: Signature Calculations in AWS Signature Version 4 (java)
+		- https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-examples-using-sdks.html#sig-v4-examples-using-sdk-java
+
 ### 20220822
 - Spring boot
 	- cron scheduling
