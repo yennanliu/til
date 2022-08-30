@@ -13,6 +13,8 @@
 		- https://aws.amazon.com/premiumsupport/knowledge-center/presigned-url-s3-bucket-expiration/
 	- Examples: Signature Calculations in AWS Signature Version 4 (java)
 		- https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-examples-using-sdks.html#sig-v4-examples-using-sdk-java
+	- How do I utilize AWS Signature v4 when generating a presigned S3 URL?
+		- https://stackoverflow.com/questions/50090241/how-do-i-utilize-aws-signature-v4-when-generating-a-presigned-s3-url
 
 ### 20220822
 - Spring boot
