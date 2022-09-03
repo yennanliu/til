@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20220903
+- Java
+	- set default val if null
+		- https://youtu.be/5aWkhC7plsc?t=1099
+		```java
+		// sample code
+		(menu1.getSort() == null ? 0);
+		```
+
 ### 20220901
 - PageHelper doc
 	- https://pagehelper.github.io/docs/howtouse/
