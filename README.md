@@ -8,6 +8,12 @@
 # PROGRESS
 
 ### 20220903
+- Spring boot
+	- lombok `@Builder`
+		- https://hackmd.io/@KaiChen/S145q3NP8
+		- https://matthung0807.blogspot.com/2019/11/lombok-builder.html
+		- https://walkonnet.com/archives/10611
+	- JSP
 - Java
 	- set default val if null
 		- https://youtu.be/5aWkhC7plsc?t=1099
