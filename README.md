@@ -12,6 +12,10 @@
 	- 跨域請求 Cross-Origin Resource Sharing (CORS)
 		- https://www.youtube.com/watch?v=VNP6inKmw5I&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=48
 		- https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS
+- Java
+	- load files under `/resources`
+		- https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/dev/ParseCSVTest.java
+		- https://stackoverflow.com/questions/15749192/how-do-i-load-a-file-from-resource-folder
 
 ### 20220903
 - Spring boot
