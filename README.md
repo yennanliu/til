@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20220904
+- Web dev
+	- 跨域請求 Cross-Origin Resource Sharing (CORS)
+		- https://www.youtube.com/watch?v=VNP6inKmw5I&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=48
+		- https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS
+
 ### 20220903
 - Spring boot
 	- lombok `@Builder`
