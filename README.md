@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20220907
+- Mysql
+	- BLOB VS Binary
+		- http://c.biancheng.net/view/2428.html
+		- https://blog.csdn.net/weixin_42363501/article/details/113424096
+
 ### 20220904
 - Web dev
 	- 跨域請求 Cross-Origin Resource Sharing (CORS)
