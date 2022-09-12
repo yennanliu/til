@@ -266,10 +266,14 @@ import com.amazonaws.services.s3.AmazonS3URI;
 
 ### 20220724
 - Nginx : `Reverse Proxy web server`
-	- Web Serveer VS Application Server, Forward Proxy VS Reverse Proxy
+	- Web Serveer VS Application Server, Forward Proxy VS Reverse Proxy, 反向代理
 		- https://medium.com/starbugs/web-server-nginx-1-cf5188459108
 		- https://www.maxlist.xyz/2020/06/18/flask-nginx/
 		- https://zh.m.wikipedia.org/zh-hant/Nginx#:~:text=Nginx%EF%BC%88%E7%99%BC%E9%9F%B3%E5%90%8C%E3%80%8Cengine%20X,%E5%85%AC%E5%8F%B8%E4%BB%A5%E6%8F%90%E4%BE%9B%E6%94%AF%E6%8C%81%E6%9C%8D%E5%8B%99%E3%80%82
+	- 反向代理
+		- https://zh.wikipedia.org/zh-tw/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86#:~:text=%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%9C%A8%E9%9B%BB%E8%85%A6,%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%8F%A2%E9%9B%86%E7%9A%84%E5%AD%98%E5%9C%A8%E3%80%82
+	- 代理（Proxy)（網路代理)
+		- https://zh.wikipedia.org/zh-tw/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8
 
 ### 20220722
 - Mybatis plus
