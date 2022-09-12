@@ -270,10 +270,14 @@ import com.amazonaws.services.s3.AmazonS3URI;
 		- https://medium.com/starbugs/web-server-nginx-1-cf5188459108
 		- https://www.maxlist.xyz/2020/06/18/flask-nginx/
 		- https://zh.m.wikipedia.org/zh-hant/Nginx#:~:text=Nginx%EF%BC%88%E7%99%BC%E9%9F%B3%E5%90%8C%E3%80%8Cengine%20X,%E5%85%AC%E5%8F%B8%E4%BB%A5%E6%8F%90%E4%BE%9B%E6%94%AF%E6%8C%81%E6%9C%8D%E5%8B%99%E3%80%82
-	- 反向代理
-		- https://zh.wikipedia.org/zh-tw/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86#:~:text=%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%9C%A8%E9%9B%BB%E8%85%A6,%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%8F%A2%E9%9B%86%E7%9A%84%E5%AD%98%E5%9C%A8%E3%80%82
-	- 代理（Proxy)（網路代理)
+	- 前向代理（Proxy)（網路代理)
+		- 也稱網路代理，是一種特殊的網路服務，允許一個終端（一般為客戶端）通過這個服務與另一個終端（一般為伺服器）進行非直接的連接。一些閘道器、路由器等網路裝置具備網路代理功能。一般認為代理服務有利於保障網路終端的隱私或安全，在一定程度上能夠阻止網路攻擊。
+		- 前向代理作為客戶端的代理，將從網際網路上取得的資源返回給一個或多個的客戶端，伺服器端（如Web伺服器）只知道代理的IP位址而不知道客戶端的IP位
 		- https://zh.wikipedia.org/zh-tw/%E4%BB%A3%E7%90%86%E6%9C%8D%E5%8A%A1%E5%99%A8
+	- 反向代理
+		- 反向代理在電腦網路中是代理伺服器的一種。伺服器根據客戶端的請求，從其關聯的一組或多組後端伺服器（如Web伺服器）上取得資源，然後再將這些資源返回給客戶端，`客戶端只會得知反向代理的IP位址，而不知道在代理伺服器後面的伺服器叢集的存在`。
+		- 而反向代理是作為伺服器端（如Web伺服器）的代理使用，而不是客戶端。客戶端藉由前向代理可以間接存取很多不同網際網路伺服器（叢集）的資源
+		- https://zh.wikipedia.org/zh-tw/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86#:~:text=%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%9C%A8%E9%9B%BB%E8%85%A6,%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%8F%A2%E9%9B%86%E7%9A%84%E5%AD%98%E5%9C%A8%E3%80%82
 
 ### 20220722
 - Mybatis plus
