@@ -13,6 +13,10 @@
 		- https://bingdoal.github.io/backend/2021/10/spring-boot-validate-request-body-and-nest-validate/
 		- https://bingdoal.github.io/backend/2021/10/spring-boot-validation-customize-validator-and-annotation/
 		- https://morosedog.gitlab.io/springboot-20190403-springboot20/
+	- `切面導向程式設計（Aspect Oriented Programming，AOP`
+		- https://chikuwa-tech-study.blogspot.com/2021/06/spring-boot-aop-introduction.html
+		- https://ithelp.ithome.com.tw/articles/10279178
+		- https://medium.com/appxtech/spring-aop%E7%99%BD%E8%A9%B1%E6%96%87-%E6%B7%BA%E8%AB%87spring-aop%E7%9A%84%E5%AD%B8%E7%BF%92%E5%88%86%E4%BA%AB-1985489d008
 - Scala
 	- `ZIO` course
 		- https://rockthejvm.com/p/zio
