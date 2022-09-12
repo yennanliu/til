@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20220912
+- Scala
+	- `ZIO` course
+		- https://rockthejvm.com/p/zio
+			- ZIO is a Scala toolkit that allows us to write powerful, concurrent, and high-performance applications in Scala using pure functional programming.
+		- https://github.com/rockthejvm/zio-course
+
 ### 20220907
 - Mysql
 	- BLOB VS Binary
