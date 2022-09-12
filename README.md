@@ -8,6 +8,11 @@
 # PROGRESS
 
 ### 20220912
+- Spring boot
+	- `Validation`, `valid`
+		- https://bingdoal.github.io/backend/2021/10/spring-boot-validate-request-body-and-nest-validate/
+		- https://bingdoal.github.io/backend/2021/10/spring-boot-validation-customize-validator-and-annotation/
+		- https://morosedog.gitlab.io/springboot-20190403-springboot20/
 - Scala
 	- `ZIO` course
 		- https://rockthejvm.com/p/zio
