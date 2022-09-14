@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20220914
+- Mybatis plus lambda
+	- https://www.796t.com/content/1541640975.html
+	- https://blog.csdn.net/m0_37034294/article/details/82917234
+	- https://blog.csdn.net/liuxing201122013/article/details/120874343
+
 ### 20220912
 - Spring boot
 	- `Validation`, `valid`
