@@ -12,6 +12,10 @@
 	- https://www.796t.com/content/1541640975.html
 	- https://blog.csdn.net/m0_37034294/article/details/82917234
 	- https://blog.csdn.net/liuxing201122013/article/details/120874343
+- Eng soft skill
+	- [An Elegant Puzzle: Systems of Engineering Management](https://www.amazon.com/dp/1732265186/ref=as_sl_pc_as_ss_li_til?tag=danlebrero-20&linkCode=w00&linkId=a91305ee2692c674733bd592ec7c897d&creativeASIN=1732265186)
+	- [Staff Engineer: Leadership beyond the management track ](https://www.amazon.com/Staff-Engineer-Leadership-beyond-management-ebook/dp/B08RMSHYGG)
+	- [will larson twitter](https://twitter.com/Lethain)
 
 ### 20220912
 - Spring boot
