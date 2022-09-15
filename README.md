@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20220915
+- Spring boot
+	- `@Transactional` (事務性)
+		- https://www.tpisoftware.com/tpu/articleDetails/2741
+		- https://www.readfog.com/a/1637926921197162496
+		- https://kknews.cc/zh-tw/code/9ggzjq8.html
+		- https://www.marcobehler.com/guides/spring-transaction-management-transactional-in-depth
+		- https://www.gushiciku.cn/pl/givy/zh-tw
+
 ### 20220914
 - Mybatis plus lambda
 	- https://www.796t.com/content/1541640975.html
