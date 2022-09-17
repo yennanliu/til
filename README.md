@@ -9,6 +9,11 @@
 
 ### 20220915
 - Spring boot
+	- `this` VS `self`
+
+
+### 20220915
+- Spring boot
 	- `@Transactional` (事務性)
 		- https://www.tpisoftware.com/tpu/articleDetails/2741
 		- https://www.readfog.com/a/1637926921197162496
