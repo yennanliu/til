@@ -7,10 +7,14 @@
 
 # PROGRESS
 
+### 20220919
+- Spring boot
+	- user-defined general exceptions
+		- https://www.youtube.com/watch?v=UT9lRWUwDGQ&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=68
+
 ### 20220915
 - Spring boot
 	- `this` VS `self`
-
 
 ### 20220915
 - Spring boot
