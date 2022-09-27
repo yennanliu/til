@@ -10,7 +10,7 @@
 ### 20220927
 - Java
 	- stream map op
-        - <img src ="https://github.com/yennanliu/til/blob/main/til/doc/pic/stream_map1.png">
+        - <img src ="https://github.com/yennanliu/til/blob/master/doc/pic/stream_map1.png">
 
 ### 20220919
 - Spring boot
