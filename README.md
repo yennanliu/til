@@ -11,6 +11,9 @@
 - Java
 	- stream map op
         - <img src ="https://github.com/yennanliu/til/blob/master/doc/pic/stream_map1.png">
+	- Ref
+		- https://www.youtube.com/watch?v=PFtMlUlCZgY&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=81
+		- https://www.youtube.com/watch?v=7JOhxs7lYbE&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=80
 
 ### 20220919
 - Spring boot
