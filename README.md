@@ -9,7 +9,7 @@
 
 ### 20220927
 - Java
-	- Stream map op
+	- Stream map op (get collections of Stream map result)
         - <img src ="https://github.com/yennanliu/til/blob/master/doc/pic/stream_map1.png">
 	- Ref
 		- video
