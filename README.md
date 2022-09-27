@@ -9,11 +9,21 @@
 
 ### 20220927
 - Java
-	- stream map op
+	- Stream map op
         - <img src ="https://github.com/yennanliu/til/blob/master/doc/pic/stream_map1.png">
 	- Ref
-		- https://www.youtube.com/watch?v=PFtMlUlCZgY&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=81
-		- https://www.youtube.com/watch?v=7JOhxs7lYbE&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=80
+		- video
+			- https://www.youtube.com/watch?v=PFtMlUlCZgY&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=81
+			- https://www.youtube.com/watch?v=7JOhxs7lYbE&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=80
+		- code
+			- https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/dev/StreamMapTest.java
+	```java
+	// java
+	List<String> brand_list = car_list.stream().map(x -> {
+            String brand = x.getBrand();
+            return brand;
+        }).collect(Collectors.toList());
+	```
 
 ### 20220919
 - Spring boot
