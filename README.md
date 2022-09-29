@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20220929
+- sdkman
+	- https://sdkman.io/
+
 ### 20220927
 - Java
 	- Stream map op (get collections of Stream map result)
