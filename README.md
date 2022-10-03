@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20221003
+- Java
+	- [netty](https://netty.io/)
+	- [dubbo apache](https://dubbo.apache.org/en/)
+
 ### 20220929
 - sdkman
 	- https://sdkman.io/
