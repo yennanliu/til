@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20221004
+- Spring boot
+	- MapStruct
+		- `XXXDTO <----> XXXVO <----> XXXBO <----> ....` transformation
+		- https://www.tpisoftware.com/tpu/articleDetails/2443
+		- https://springboot.io/t/topic/4162
+		- https://www.itread01.com/details/MnRvMA==.html
+
 ### 20221003
 - Java
 	- [netty](https://netty.io/)
