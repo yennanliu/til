@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20221013
+- Spring boot
+	- Pinpoint
+		- https://pinpoint-apm.github.io/pinpoint/2.1.0/main.html
+		- https://blog.csdn.net/it_lihongmin/article/details/124160500
+		- https://www.jianshu.com/p/03dc1377f137
+
 ### 20221004
 - Spring boot
 	- MapStruct
