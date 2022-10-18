@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20221019
+- Java
+	- x == null VS x.equals(null)
+
 ### 20221013
 - Spring boot
 	- Pinpoint
