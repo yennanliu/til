@@ -7,6 +7,18 @@
 
 # PROGRESS
 
+### 20221022
+- Java
+	- Java Collectors toMap()
+		- https://www.baeldung.com/java-collectors-tomap
+		- https://vimsky.com/zh-tw/examples/usage/collectors-tomap-method-in-java-with-examples.html
+		- https://youtu.be/lq-xGkEm140?t=693
+		```java
+		// java
+		data.stream()
+                    .collect(
+		    Collectors.toMap( k -> k.getId(), v -> {return v.gatValue()} ))	
+		```
 ### 20221019
 - Java
 	- x == null VS x.equals(null)
