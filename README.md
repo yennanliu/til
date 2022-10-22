@@ -17,6 +17,9 @@
 		// java
 		data.stream().collect(Collectors.toMap( k -> k.getId(), v -> {return v.gatValue()} ))	
 		```
+- Nginx conf
+	- <p><img src ="./doc/pic/nginx_conf.png" ></p>
+
 ### 20221019
 - Java
 	- x == null VS x.equals(null)
@@ -374,6 +377,8 @@ import com.amazonaws.services.s3.AmazonS3URI;
 		- 反向代理在電腦網路中是代理伺服器的一種。伺服器根據客戶端的請求，從其關聯的一組或多組後端伺服器（如Web伺服器）上取得資源，然後再將這些資源返回給客戶端，`客戶端只會得知反向代理的IP位址，而不知道在代理伺服器後面的伺服器叢集的存在`。
 		- 而反向代理是作為伺服器端（如Web伺服器）的代理使用，而不是客戶端。客戶端藉由前向代理可以間接存取很多不同網際網路伺服器（叢集）的資源
 		- https://zh.wikipedia.org/zh-tw/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86#:~:text=%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86%E5%9C%A8%E9%9B%BB%E8%85%A6,%E4%BC%BA%E6%9C%8D%E5%99%A8%E5%8F%A2%E9%9B%86%E7%9A%84%E5%AD%98%E5%9C%A8%E3%80%82
+	- <p><img src ="./doc/pic/reverse_proxy1.png" ></p>
+	- <p><img src ="./doc/pic/reverse_proxy2.png" ></p>
 
 ### 20220722
 - Mybatis plus
