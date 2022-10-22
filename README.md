@@ -15,9 +15,7 @@
 		- https://youtu.be/lq-xGkEm140?t=693
 		```java
 		// java
-		data.stream()
-                    .collect(
-		    Collectors.toMap( k -> k.getId(), v -> {return v.gatValue()} ))	
+		data.stream().collect(Collectors.toMap( k -> k.getId(), v -> {return v.gatValue()} ))	
 		```
 ### 20221019
 - Java
