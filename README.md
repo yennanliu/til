@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20221023
+- System monitoring
+	- Skywalking
+		- https://dubbo.apache.org/zh/docs/v2.7/admin/ops/skywalking/#:~:text=%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA-,Apache%20Skywalking%20%E7%AE%80%E4%BB%8B,%E9%97%B4%E5%85%B3%E7%B3%BB%E4%BB%A5%E5%8F%8A%E6%9C%8D%E5%8A%A1%E6%8C%87%E6%A0%87%E3%80%82
+		- https://juejin.cn/post/7002389720315461640
+		- https://www.jianshu.com/p/ffa7ddcda4ab
+
 ### 20221022
 - Java
 	- Java Collectors toMap()
