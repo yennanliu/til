@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20221024
+- Java
+	- Jshell (java REPL)
+		- https://docs.oracle.com/javase/9/jshell/introduction-jshell.htm
+		- https://www.tpisoftware.com/tpu/articleDetails/1089	
+
 ### 20221023
 - System monitoring
 	- Skywalking
