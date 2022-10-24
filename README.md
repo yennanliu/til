@@ -13,6 +13,8 @@
 		- https://dubbo.apache.org/zh/docs/v2.7/admin/ops/skywalking/#:~:text=%E5%88%86%E5%B8%83%E5%BC%8F%E8%B7%9F%E8%B8%AA-,Apache%20Skywalking%20%E7%AE%80%E4%BB%8B,%E9%97%B4%E5%85%B3%E7%B3%BB%E4%BB%A5%E5%8F%8A%E6%9C%8D%E5%8A%A1%E6%8C%87%E6%A0%87%E3%80%82
 		- https://juejin.cn/post/7002389720315461640
 		- https://www.jianshu.com/p/ffa7ddcda4ab
+	- General
+		- https://www.youtube.com/watch?v=6pquxpmk4R8&list=PLmOn9nNkQxJEwPjhNwGliP_bw3RjkgFCf&index=141
 		- <p><img src ="./doc/pic/sys_metric1.png" ></p>
 		- <p><img src ="./doc/pic/sys_metric2.png" ></p>
 
