@@ -14,6 +14,13 @@
 		- https://blog.csdn.net/tuoni123/article/details/80213050
 		- https://www.jianshu.com/p/6b2f672e2446
 		- https://blog.csdn.net/qq_52496081/article/details/121833395
+- AWS
+	- S3 presignedURL max expire time
+		- https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-query-string-auth.html
+			- Provides the time period, in seconds, for which the generated presigned URL is valid. For example, 86400 (24 hours). This value is an integer. The minimum value you can set is 1, and the maximum is 604800 (seven days).
+			- A presigned URL can be valid for a maximum of seven days because the signing key you use in signature calculation is valid for up to seven days.
+		- https://stackoverflow.com/questions/24014306/aws-s3-pre-signed-url-without-expiry-date
+		- https://docs.amazonaws.cn/en_us/AmazonS3/latest/userguide/ShareObjectPreSignedURL.html
 		
 ### 20221024
 - Java
