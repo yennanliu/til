@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20221028
+- Java
+	- `@Import` annotation
+		- https://www.itread01.com/article/1532997860.html
+		- https://blog.csdn.net/tuoni123/article/details/80213050
+		- https://www.jianshu.com/p/6b2f672e2446
+		- https://blog.csdn.net/qq_52496081/article/details/121833395
+		
 ### 20221024
 - Java
 	- Jshell (java REPL)
