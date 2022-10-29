@@ -55,6 +55,8 @@
 ### 20221019
 - Java
 	- x == null VS x.equals(null)
+	- can also use `spring StringUtils.isEmpty` check if empty
+		- https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/util/StringUtils.html
 
 ### 20221013
 - Spring boot
