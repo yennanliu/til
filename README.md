@@ -7,6 +7,17 @@
 
 # PROGRESS
 
+### 20221029
+- Java
+	- parse object (whatever type) to json
+		- https://youtu.be/wGtcsi65arQ?t=494
+		- https://blog.csdn.net/xuexi_gan/article/details/114915890
+		- https://www.runoob.com/w3cnote/fastjson-intro.html
+		```java
+		// java
+		Map<String, List<Catelog2Vo>> result = JSON.parseObject(CatelogJSON, new TypeReference<Map<String, List<Catelog2Vo>>>() {} );
+		```
+
 ### 20221028
 - Java
 	- `@Import` annotation
