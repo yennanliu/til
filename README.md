@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20221102
+- Java
+	- `Collectors.groupingBy`
+	```java
+	    Map<String, List<MyReport>> monthReportMap = myReport.stream()
+        .collect(Collectors.groupingBy(MyReport::getOwnerGroupKey));
+	```
+
 ### 20221029
 - Java
 	- parse object (whatever type) to json
