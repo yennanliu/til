@@ -16,6 +16,8 @@
 	@Documented
 	@Constraint(validatedBy = {EnumValue.EnumValueValidator.class})
 	```
+- Java
+	- Class<?>
 	
 
 ### 20221102
