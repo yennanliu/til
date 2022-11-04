@@ -7,6 +7,17 @@
 
 # PROGRESS
 
+### 20221104
+- Spring boot
+	```java
+	// java
+	@Target({METHOD, FIELD, ANNOTATION_TYPE, CONSTRUCTOR, PARAMETER}) // TODO : double check it
+	@Retention(RUNTIME)
+	@Documented
+	@Constraint(validatedBy = {EnumValue.EnumValueValidator.class})
+	```
+	
+
 ### 20221102
 - Java
 	- `Collectors.groupingBy`
