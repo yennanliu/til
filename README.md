@@ -21,6 +21,10 @@
 		N - Number（数值类型）
 		？ - 表示不确定的 java 类型
 		```
+	- stream
+		- https://mycollegenotebook.medium.com/java-stream-%E7%AD%86%E8%A8%98-%E4%B8%8A-34df0e282fc8
+		- https://mycollegenotebook.medium.com/java-stream-%E7%AD%86%E8%A8%98-%E4%B8%8B-d8fc2d227e16
+		- https://tw511.com/a/01/22301.html
 
 ### 20221104
 - Spring boot
