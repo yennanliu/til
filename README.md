@@ -9,6 +9,19 @@
 
 ### 20221105
 - Java
+	- super()
+	- https://github.com/yennanliu/SpringPlayground/blob/main/courses/springBoot_springCloud_%E9%A0%82%E7%B4%9A%E9%96%8B%E7%99%BC_src_code/chapter04-efence/src/main/java/com/wudimanong/efence/exception/ServiceException.java#L11
+	```java
+	// java
+	    public ServiceException(Integer code, String message) {
+		super(message); // TODO: double check this
+		this.code = code;
+	    }
+
+	```
+
+### 20221105
+- Java
 	- generic type
 		- https://www.runoob.com/java/java-generics.html
 		```
