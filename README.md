@@ -63,6 +63,7 @@
 	    Map<String, List<MyReport>> monthReportMap = myReport.stream()
         .collect(Collectors.groupingBy(MyReport::getOwnerGroupKey));
 	```
+	- https://github.com/yennanliu/JavaHelloWorld/blob/e3f4dc87ddbe034d5ae1eff09ea209478596e7fc/src/main/java/dev/StreamTest1.java#L60
 
 ### 20221029
 - Java
