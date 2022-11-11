@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20221111
+- Millisecond to day/hour/min..
+	- https://www.calculateme.com/time/milliseconds/to-days/900000
+
 ### 20221105
 - Java
 	- super()
