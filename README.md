@@ -268,6 +268,9 @@
 		- https://docs.aws.amazon.com/AmazonS3/latest/API/sig-v4-examples-using-sdks.html#sig-v4-examples-using-sdk-java
 	- How do I utilize AWS Signature v4 when generating a presigned S3 URL?
 		- https://stackoverflow.com/questions/50090241/how-do-i-utilize-aws-signature-v4-when-generating-a-presigned-s3-url
+	- How to check presignedURL expire time (Signature Version 4)?
+		- https://stackoverflow.com/questions/46865679/amazon-s3-how-to-check-if-presigned-url-is-expired
+		- `Amz-Expires is the expiration time in seconds, while X-Amz-Date is the the timestamp `
 
 ### 20220822
 - Spring boot
