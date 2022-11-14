@@ -282,6 +282,9 @@
 	- cron scheduling
 		- https://stackoverflow.com/questions/26147044/spring-cron-expression-for-every-day-101am
 		- https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/scheduling.html#scheduling-annotation-support
+	- spring cron generator/explanation (with cron code)
+ 		- https://www.javainuse.com/cron
+		- https://codepen.io/etienne582/pen/xxOgwzX
 	```java
 	* "0 0 * * * *" = the top of every hour of every day.
 	* "*/10 * * * * *" = every ten seconds.
