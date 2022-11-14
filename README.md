@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20221114
+- AWS S3 token expire with IAM, access key...
+	- https://aws.amazon.com/premiumsupport/knowledge-center/presigned-url-s3-bucket-expiration/
+	- https://stackoverflow.com/questions/57511301/load-data-from-s3-the-provided-token-has-expired
+
 ### 20221111
 - Millisecond to day/hour/min..
 	- https://www.calculateme.com/time/milliseconds/to-days/900000
