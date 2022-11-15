@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20221115
+- Sringboot Java
+	-  ObjectMapper : json <--> Java Object transformation
+		- https://kucw.github.io/blog/2020/6/java-jackson/
+		- https://tw.gitbook.net/jackson/jackson_objectmapper.html
+
 ### 20221114
 - AWS S3 token expire with IAM, access key...
 	- https://aws.amazon.com/premiumsupport/knowledge-center/presigned-url-s3-bucket-expiration/
