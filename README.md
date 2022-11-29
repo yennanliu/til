@@ -12,6 +12,12 @@
 	- compress SQL code
 		- https://tool.lu/sql/
 		- https://www.toolnb.com/tools-lang-zh-TW/sqlFormat.html
+	- Mysql text type : TEXT, TINYTEXT, MEDIUMTEXT, LONGTEXT
+		- https://www.analyticsvidhya.com/blog/2020/11/guide-data-types-mysql-data-science-beginners/#:~:text=LONGTEXT%20can%20store%20the%20maximum,LONGTEXT%20takes%204%2DBytes%20overhead.
+		```sql
+		# mysql cmd
+		alter table my_db.my_table modify sql_template LONGTEXT
+		```
 
 ### 20221115
 - Sringboot Java
