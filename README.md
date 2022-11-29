@@ -8,6 +8,12 @@
 # PROGRESS
 
 ### 20221115
+- SQL
+	- compress SQL code
+		- https://tool.lu/sql/
+		- https://www.toolnb.com/tools-lang-zh-TW/sqlFormat.html
+
+### 20221115
 - Sringboot Java
 	-  ObjectMapper : json <--> Java Object transformation
 		- https://kucw.github.io/blog/2020/6/java-jackson/
