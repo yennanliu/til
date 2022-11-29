@@ -7,7 +7,7 @@
 
 # PROGRESS
 
-### 20221115
+### 20221129
 - SQL
 	- compress SQL code
 		- https://tool.lu/sql/
