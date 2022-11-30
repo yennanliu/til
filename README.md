@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20221130
+- Java
+	- sort double list
+		- https://stackoverflow.com/questions/16252269/how-to-sort-a-list-arraylist
+		```java
+		// java
+		testList.sort((a, b) -> Double.compare(b, a));
+		```
+
 ### 20221129
 - SQL
 	- compress SQL code
