@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20221211
+- MySQL
+	- `group_concat()` function
+		- https://www.yiibai.com/mysql/group_concat.html#:~:text=GROUP_CONCAT%20%E5%87%BD%E6%95%B0%E8%BF%94%E5%9B%9E%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%88%96,%E5%8F%98%E9%87%8F%E6%9D%A5%E6%89%A9%E5%B1%95%E6%9C%80%E5%A4%A7%E9%95%BF%E5%BA%A6%E3%80%82
+		- https://www.footmark.com.tw/news/database/mysql/mysql-group-concat-json/
+		- https://www.w3resource.com/mysql/aggregate-functions-and-grouping/aggregate-functions-and-grouping-group_concat.php
+		- https://youtu.be/k9i6bOMt4rg?t=500
+
 ### 20221130
 - Java
 	- sort double list
