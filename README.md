@@ -12,6 +12,10 @@
 	- Nu HTML checker
 		- https://validator.w3.org/nu/#textarea
 		- https://stackoverflow.com/questions/56667637/getting-nullpointerexception-while-converting-html-to-pdf-using-java-and-itext7
+- DB
+	- partial index
+		- https://docs.postgresql.tw/the-sql-language/index/partial-indexes
+		- https://blog.csdn.net/neweastsun/article/details/113096327
 
 ### 20221211
 - MySQL
