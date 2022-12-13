@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20221213
+- HTML
+	- Nu HTML checker
+		- https://validator.w3.org/nu/#textarea
+		- https://stackoverflow.com/questions/56667637/getting-nullpointerexception-while-converting-html-to-pdf-using-java-and-itext7
+
 ### 20221211
 - MySQL
 	- `group_concat()` function
