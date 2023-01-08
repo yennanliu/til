@@ -12,6 +12,14 @@
 	- ThreadLocal : share data in the same thread
 		- https://youtu.be/dop2UFz4am4?t=1198
 		- https://kucw.github.io/blog/2018/7/java-thread-local/
+- Linux
+	- Access-Control list (ACL)
+		- https://youtu.be/0vYydtG1Xi4?t=1517
+		- `ownwer group others`
+		- R: read
+		- W : write
+		- X : execute
+		- modfiy ACL via `chmod`
 
 ### 20221213
 - HTML
