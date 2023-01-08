@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20230108
+- Java
+	- ThreadLocal : share data in the same thread
+		- https://youtu.be/dop2UFz4am4?t=1198
+		- https://kucw.github.io/blog/2018/7/java-thread-local/
+
 ### 20221213
 - HTML
 	- Nu HTML checker
