@@ -8,8 +8,10 @@
 # PROGRESS
 
 ### 20230114
-- Java spring boot : thread pool
-	- https://youtu.be/c134eGL062g?t=1603
+- Java spring boot : multi thread pool
+	- ref1
+		- https://youtu.be/c134eGL062g?t=1603
+		- https://youtu.be/c134eGL062g?t=2323
 
 ### 20230108
 - Java
