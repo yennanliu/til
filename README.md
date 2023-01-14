@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230114
+- Java spring boot : thread pool
+	- https://youtu.be/c134eGL062g?t=1603
+
 ### 20230108
 - Java
 	- ThreadLocal : share data in the same thread
