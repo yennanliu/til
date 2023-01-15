@@ -12,6 +12,8 @@
 	- ref1
 		- https://youtu.be/c134eGL062g?t=1603
 		- https://youtu.be/c134eGL062g?t=2323
+	- code
+		- https://github.com/yennanliu/SpringPlayground/tree/main/springAdvance/springThreadPool
 
 ### 20230108
 - Java
