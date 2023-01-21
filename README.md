@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230121
+- Java spring boot + RabbitMQ
+	- json serialize / deserialize
+		- https://youtu.be/8x4G7rRb9zo?t=624
+
 ### 20230114
 - Java spring boot : multi thread pool
 	- ref1
