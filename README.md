@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+
+### 20230124
+- Java spring boot/cloud
+	- Idea intelliJ : Create multiple modules under a project
+		- https://blog.csdn.net/wangmx1993328/article/details/121189232
+
 ### 20230121
 - Java spring boot + RabbitMQ
 	- json serialize / deserialize
