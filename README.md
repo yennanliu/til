@@ -7,6 +7,20 @@
 
 # PROGRESS
 
+### 20230125
+- gitignore
+```bash
+# negelect all files with below name (spring boot)
+# https://youtu.be/4NLgelF5-rk?t=546
+**/mvnw
+**/mvnw.cwd
+**/.idea
+**/.mvn
+**/.iml
+**/.cmd
+**/target/
+.idea
+```
 
 ### 20230124
 - Java spring boot/cloud
