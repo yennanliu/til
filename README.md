@@ -9,9 +9,10 @@
 
 ### 20230125
 - gitignore
+	- negelect all files with below name (spring boot)
+	-  https://youtu.be/4NLgelF5-rk?t=546
+	-  https://github.com/yennanliu/SpringPlayground/blob/main/.gitignore#L36
 ```bash
-# negelect all files with below name (spring boot)
-# https://youtu.be/4NLgelF5-rk?t=546
 **/mvnw
 **/mvnw.cwd
 **/.idea
