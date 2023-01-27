@@ -38,6 +38,7 @@
 	- ref1
 		- https://youtu.be/c134eGL062g?t=1603
 		- https://youtu.be/c134eGL062g?t=2323
+		- https://youtu.be/KeDhbCdmIvs?t=61
 	- code
 		- https://github.com/yennanliu/SpringPlayground/tree/main/springAdvance/springThreadPool
 
