@@ -13,9 +13,12 @@
 		- https://juejin.cn/post/6965008009009315848
 		- https://blog.csdn.net/JosephThatwho/article/details/103128794
 		- https://www.cnblogs.com/aaabbbcccddd/p/14405804.html
-- Redshift intro
-	- http://www.ilongda.com/knowledge/paper/redshift.html
-	- https://www.infoq.cn/article/3e09axb8glwhswiskfix
+- Redshift 
+	- Intro
+		- http://www.ilongda.com/knowledge/paper/redshift.html
+		- https://www.infoq.cn/article/3e09axb8glwhswiskfix
+	- WLM queue assignment rules
+		- https://docs.aws.amazon.com/redshift/latest/dg/cm-c-wlm-queue-assignment-rules.html
 
 ### 20230125
 - gitignore
