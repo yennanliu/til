@@ -13,6 +13,9 @@
 		- https://juejin.cn/post/6965008009009315848
 		- https://blog.csdn.net/JosephThatwho/article/details/103128794
 		- https://www.cnblogs.com/aaabbbcccddd/p/14405804.html
+- Redshift intro
+	- http://www.ilongda.com/knowledge/paper/redshift.html
+	- https://www.infoq.cn/article/3e09axb8glwhswiskfix
 
 ### 20230125
 - gitignore
