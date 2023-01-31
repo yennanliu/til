@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230126
+- Docker
+	- docker container connect to local mysql (macbook)
+		- https://juejin.cn/post/6965008009009315848
+		- https://blog.csdn.net/JosephThatwho/article/details/103128794
+		- https://www.cnblogs.com/aaabbbcccddd/p/14405804.html
+
 ### 20230125
 - gitignore
 	- negelect all files with below name (spring boot)
