@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20230201
+- Redshift
+	- optimazation
+		- https://zhuanlan.zhihu.com/p/398754264
+		- https://blog.csdn.net/awschina/article/details/121759986
+		- https://www.infoq.cn/article/yudaymzeokmbr3zgwxag
+		- https://aws.amazon.com/cn/blogs/china/overview-of-ten-amazon-redshift-performance-tuning-techniques/
+		- https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/c-optimizing-query-performance.html
+
 ### 20230126
 - Docker
 	- docker container connect to local mysql (macbook)
