@@ -15,6 +15,8 @@
 		- https://www.infoq.cn/article/yudaymzeokmbr3zgwxag
 		- https://aws.amazon.com/cn/blogs/china/overview-of-ten-amazon-redshift-performance-tuning-techniques/
 		- https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/c-optimizing-query-performance.html
+	- table design
+		- https://aws.amazon.com/cn/blogs/china/amazon-redshift-table-design-databasedata/
 
 ### 20230126
 - Docker
