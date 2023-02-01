@@ -17,6 +17,8 @@
 		- https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/c-optimizing-query-performance.html
 	- table design
 		- https://aws.amazon.com/cn/blogs/china/amazon-redshift-table-design-databasedata/
+	- `sharding, partition, ordering, design ideas` !!!
+		- https://aws.amazon.com/cn/blogs/china/amazon-redshift-table-design-databasedata/
 
 ### 20230126
 - Docker
