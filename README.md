@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230205
+- Java
+	- 本地事務隔離級別, 傳播行為
+		- https://youtu.be/Z-sR0K5dVPw?t=944
+
 ### 20230203
 - 驗證(Authentication)與授權(Authorization)
 	```
