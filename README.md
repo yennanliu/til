@@ -21,7 +21,8 @@
 			- https://www.alibabacloud.com/blog/an-in-depth-analysis-of-distributed-transaction-solutions_597232#:~:text=Try%2C%20Commit%2C%20and%20Cancel%20(,%2C%20commit%2C%20and%20cancel%20interfaces.
 			- https://medium.com/@dongfuye/the-seven-most-classic-solutions-for-distributed-transaction-management-3f915f331e15
 			- https://betterprogramming.pub/a-tcc-distributed-transaction-made-easy-with-go-c0a38d2a8c44
-		- <p><img src ="./doc/pic/tcc.png" ></p>
+		- TCC
+			- <p><img src ="./doc/pic/tcc.png" ></p>
 
 ### 20230205
 - Java
