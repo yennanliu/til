@@ -25,6 +25,8 @@
 			- <p><img src ="./doc/pic/tcc.png" ></p>
 - Metadata discover
 	- https://datahubproject.io/
+- IntelliJ create test from a class directly
+	- https://youtu.be/kyWllXOGMWQ?t=472
 
 ### 20230205
 - Java
