@@ -11,6 +11,15 @@
 - Java
 	- 本地事務隔離級別, 傳播行為
 		- https://youtu.be/Z-sR0K5dVPw?t=944
+	- 分布式事務方案 (Distribution transaction)
+		- 2PC (2 phase commit)
+		- 3PC (3 phase commit)
+		- TCC (Try, Commit, and Cancel (TCC))
+		- Ref
+			- https://youtu.be/fBGmuUdNejM
+			- https://www.alibabacloud.com/blog/an-in-depth-analysis-of-distributed-transaction-solutions_597232#:~:text=Try%2C%20Commit%2C%20and%20Cancel%20(,%2C%20commit%2C%20and%20cancel%20interfaces.
+			- https://medium.com/@dongfuye/the-seven-most-classic-solutions-for-distributed-transaction-management-3f915f331e15
+			- https://betterprogramming.pub/a-tcc-distributed-transaction-made-easy-with-go-c0a38d2a8c44
 
 ### 20230203
 - 驗證(Authentication)與授權(Authorization)
