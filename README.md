@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20230208
+- Message queue
+	- TTL: time to live
+		- https://youtu.be/xDK72L-XZps?t=455
+		- msg survive time
+
 ### 20230207
 - Distribution system
 	- 分布式事務方案 (Distribution transaction)
