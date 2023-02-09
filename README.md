@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230209
+- LDAP (Lightweight Directory Access Protocol)
+	- https://itman.pixnet.net/blog/post/26817279
+	- https://www.okta.com/identity-101/what-is-ldap/
+	- https://blog.poychang.net/ldap-introduction/
+- Others
+	- (the-technology-behind-githubs-new-code-search)[https://github.blog/2023-02-06-the-technology-behind-githubs-new-code-search/]
+
 ### 20230208
 - Message queue
 	- TTL: time to live
