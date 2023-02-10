@@ -7,6 +7,9 @@
 
 # PROGRESS
 
+### 20230210
+- [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys?fbclid=IwAR0qoNeFHfGfcnLzD2ZrxGGCw9v07rf6xYzsRUgY_yaIOqpsh-dxx104TCs)
+
 ### 20230209
 - LDAP (Lightweight Directory Access Protocol)
 	- https://itman.pixnet.net/blog/post/26817279
