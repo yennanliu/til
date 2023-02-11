@@ -782,6 +782,7 @@ import com.amazonaws.services.s3.AmazonS3URI;
 		- https://spring.io/guides/gs/testing-web/
 		- https://www.baeldung.com/spring-boot-testing
 		- [ref code](https://github.com/yennanliu/LambdaHelloWorld/blob/master/lab2/simple-handler/src/test/java/com/yen/SimpleHandlerTest.java) : unit test with mockito
+		- [ref code2](https://github.com/yennanliu/JavaHelloWorld/blob/main/src/test/java/MockitoDemo/MyClassTest.java)
 
 ### 20220624
 - MyBatis
