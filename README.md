@@ -22,7 +22,8 @@
 	arr: It is the optional parameter used to determine an array object the current element belongs to.
 		initialValue: The optional parameter specifies the value to be passed to the function as an initial value.
 	```
-	```javascript		
+	```javascript
+	// javascript
 	// example:
 	const data = [5, 10, 15, 20, 25];
 
@@ -32,8 +33,8 @@
 
 	console.log(res); // 75
 		```
-		- https://appdividend.com/2022/03/08/javascript-reduce/
-		- https://github.com/yennanliu/JS_Playground/blob/master/es6/map_reduce.html#L31
+	- https://appdividend.com/2022/03/08/javascript-reduce/
+	- https://github.com/yennanliu/JS_Playground/blob/master/es6/map_reduce.html#L31
 
 ### 20230210
 - [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys?fbclid=IwAR0qoNeFHfGfcnLzD2ZrxGGCw9v07rf6xYzsRUgY_yaIOqpsh-dxx104TCs)
