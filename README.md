@@ -7,6 +7,17 @@
 
 # PROGRESS
 
+### 20230212
+- Map Reduce
+	- Reduce
+		- arr.reduce(callback.[initialvalue])
+		- parameters:
+		    1. previousValue: return val from last op, or from initialvalue
+		    2. currentValue: val of element is op currently
+		    3. index: index of current element
+		    4. array: array implemented by reduce method
+		- https://github.com/yennanliu/JS_Playground/blob/master/es6/map_reduce.html#L31
+
 ### 20230210
 - [Implementing Stripe-like Idempotency Keys in Postgres](https://brandur.org/idempotency-keys?fbclid=IwAR0qoNeFHfGfcnLzD2ZrxGGCw9v07rf6xYzsRUgY_yaIOqpsh-dxx104TCs)
 
