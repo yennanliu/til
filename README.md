@@ -10,12 +10,29 @@
 ### 20230212
 - Map Reduce
 	- Reduce
-		- arr.reduce(callback.[initialvalue])
-		- parameters:
-		    1. previousValue: return val from last op, or from initialvalue
-		    2. currentValue: val of element is op currently
-		    3. index: index of current element
-		    4. array: array implemented by reduce method
+		```javascript
+		// JS
+		// syntax:
+		// array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
+		// or
+	 	// array.reduce(callback[, initialValue]);
+<!-- 		function(total, currentValue, index, arr): It is a required parameter used to run for each array element. It contains four parameters which are listed below:
+		total: It is the required parameter used to specify an initialValue or the previously returned value of a function.
+		currentValue: It is the needed parameter and is used to determine the value of a current element.
+		currentIndex: It is the optional parameter used to specify an array index of the current element.
+		arr: It is the optional parameter used to determine an array object the current element belongs to.
+		initialValue: The optional parameter specifies the value to be passed to the function as an initial value. -->
+		
+		// example:
+		const data = [5, 10, 15, 20, 25];
+
+		const res = data.reduce((total,currentValue) => {
+		  return total + currentValue;
+		});
+
+		console.log(res); // 75
+		```
+		- https://appdividend.com/2022/03/08/javascript-reduce/
 		- https://github.com/yennanliu/JS_Playground/blob/master/es6/map_reduce.html#L31
 
 ### 20230210
