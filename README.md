@@ -11,11 +11,11 @@
 - Map Reduce
 	- Reduce
 		```javascript
-		// JS
+<!-- 		// JS
 		// syntax:
 		// array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 		// or
-	 	// array.reduce(callback[, initialValue]);
+	 	// array.reduce(callback[, initialValue]); -->
 <!-- 		function(total, currentValue, index, arr): It is a required parameter used to run for each array element. It contains four parameters which are listed below:
 		total: It is the required parameter used to specify an initialValue or the previously returned value of a function.
 		currentValue: It is the needed parameter and is used to determine the value of a current element.
