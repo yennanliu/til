@@ -7,6 +7,24 @@
 
 # PROGRESS
 
+### 20230214
+- Java
+	- Future VS Promise, CompletableFuture ... (async call)
+		- https://popcornylu.gitbooks.io/java_multithread/content/async/cfuture.html
+                - https://cloud.tencent.com/developer/article/1845416
+                - https://www.liaoxuefeng.com/wiki/1252599548343744/1306581182447650
+                - https://www.readfog.com/a/1633195577082744832
+- Spring boot
+	- JpaRepository
+		- JpaRepository 是作為 Repository 應用的一種繼承的「抽象介面」，他允許我們可以透過介面的使用，就直接與資料庫進行映射與溝通。
+ 		- https://medium.com/learning-from-jhipster/20-controller-service-repository%E7%9A%84%E5%BB%BA%E7%AB%8B-1-jparepository-%E7%9A%84%E4%BD%BF%E7%94%A8-6606de7c9d41
+ 		- https://ithelp.ithome.com.tw/articles/10194906
+- Redshift
+	- data sharing
+		- https://www.wellarchitectedlabs.com/sustainability/300_labs/300_optimize_data_pattern_using_redshift_data_sharing/
+		- https://docs.aws.amazon.com/redshift/latest/dg/considerations.html
+		- [ref code](https://github.com/yennanliu/Redshift-poc/tree/main/lab5)
+
 ### 20230212
 - Map Reduce
 	- Reduce
