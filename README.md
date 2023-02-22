@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20230222
+- Java
+	- Spring @Async VS CompletableFuture
+		- https://cloud.tencent.com/developer/article/1686016
+		- https://spring.io/guides/gs/async-method/
+
 ### 20230214
 - Java
 	- Future VS Promise, CompletableFuture ... (async call)
