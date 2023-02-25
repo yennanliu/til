@@ -7,6 +7,18 @@
 
 # PROGRESS
 
+### 20230226
+- Spring boot
+	- Entity add field NOT exists in DB table:
+		- `@TableField(exist = false)`
+		- [code](https://github.com/yennanliu/SpringPlayground/blob/dev-016-be-3-layer-prod-data-query/springEcommerceGuli/backend/EcommerceGuli/gulimall-product/src/main/java/com/yen/gulimall/product/entity/CategoryEntity.java#L63)
+		- https://youtu.be/5aWkhC7plsc?t=646
+	```java
+	// java
+	@TableField(exist = false)
+	private List<CategoryEntity> children;
+	```
+
 ### 20230222
 - Java
 	- Spring @Async VS CompletableFuture
