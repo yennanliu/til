@@ -9,6 +9,12 @@
 
 ### 20230226
 - Spring boot
+	- logic deletion
+		- https://github.com/yennanliu/SpringPlayground/blob/main/springEcommerceGuli/backend/EcommerceGuli/gulimall-product/src/main/java/com/yen/gulimall/product/entity/CategoryEntity.java#L47
+	- print SQL in log
+		- https://github.com/yennanliu/SpringPlayground/blob/main/springEcommerceGuli/backend/EcommerceGuli/gulimall-product/src/main/resources/application.yml#L34
+### 20230225
+- Spring boot
 	- Entity add field NOT exists in DB table:
 		- `@TableField(exist = false)`
 		- [code](https://github.com/yennanliu/SpringPlayground/blob/dev-016-be-3-layer-prod-data-query/springEcommerceGuli/backend/EcommerceGuli/gulimall-product/src/main/java/com/yen/gulimall/product/entity/CategoryEntity.java#L63)
