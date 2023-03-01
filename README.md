@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20230301
+- AWS CloudFront
+	```
+	Amazon CloudFront 是一種內容交付網路 (CDN)，可加速向最終使用者交付靜態和動態 Web 內容。`
+	CloudFront 透過稱為邊緣節點的全球資料中心網路交付內容。當最終使用者請求您使用 CloudFront 提供的內容時，該請求將被路由至距離最終使用者最近且延遲最低的邊緣節點。
+	```
+	- https://aws.amazon.com/tw/cloudfront/getting-started/
+	- https://docs.aws.amazon.com/zh_tw/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html
+
 ### 20230226
 - Spring boot
 	- logic deletion
