@@ -10,13 +10,35 @@
 ### 20230304
 - Java
 	- volatile
-		- `Java volatile關鍵字作用是，使系統中所有線程對該關鍵字修飾的變量共享可見，可以禁止線程的工作內存對volatile修飾的變量進行緩存。`
+		- `Java volatile 關鍵字作用是，使系統中所有線程對該關鍵字修飾的變量共享可見，可以禁止線程的工作內存對volatile修飾的變量進行緩存。`
 		- https://www.baeldung.com/java-volatile
 		- https://jenkov.com/tutorials/java-concurrency/volatile.html
 		- https://zhuanlan.zhihu.com/p/151289085
 		- https://blog.csdn.net/u012723673/article/details/80682208
 		- https://cloud.tencent.com/developer/article/1803803
 		- https://zhuanlan.zhihu.com/p/145902867
+		- example
+			- https://youtu.be/TpdPsCGsFVk?t=151
+			```java
+			// java, Singleton double check (use volatile)
+			public class Singleton{
+				// NOTE here
+				private static volatile Singleton singleton;
+				private Singleton(){};
+				public static Singleton getInstance(){
+					if(singleton == null){
+						synchronized(Singleton.class){
+							if (singleton == null){
+									singleton = new Singleton();
+								}
+						}
+					}
+					
+					return singleton;
+				}
+			}
+			
+			```
 
 ### 20230301
 - AWS CloudFront
