@@ -843,6 +843,9 @@ import com.amazonaws.services.s3.AmazonS3URI;
 	- https://juejin.cn/post/6996303139540467749
 	- https://aijishu.com/a/1060000000023074
 	- https://www.google.com/search?q=mybatis+%E5%88%86%E9%A0%81&rlz=1C5CHFA_enTW908TW908&oq=mybatis+%E5%88%86%E9%A0%81&aqs=chrome..69i57j0i5i30j0i8i30.3887j0j7&sourceid=chrome&ie=UTF-8
+	- code
+		- https://github.com/yennanliu/SpringPlayground/blob/dev-017-prod-api-group-sub-group/springEcommerceGuli/backend/EcommerceGuli/gulimall-product/src/main/java/com/yen/gulimall/product/config/MybatisConfig.java
+		- https://github.com/yennanliu/SpringPlayground/tree/dev-017-prod-api-group-sub-group/springBasics/PaginationDemo
 
 ### 20220708
 - Mybatis
