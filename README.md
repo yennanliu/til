@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230309
+- CDK
+	- constructor
+		- https://towardsthecloud.com/aws-cdk-construct
+
 ### 20230304
 - Java
 	- volatile
