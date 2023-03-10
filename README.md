@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230310
+- how to solve "The maximum number of addresses has been reached" for AWS VPC Elastic IP addresses?
+	- Go to https://us-east-1.console.aws.amazon.com/servicequotas/home/services/ec2/quotas and search for "IP". Then, choose "EC2-VPC Elastic IPs".
+	- https://stackoverflow.com/questions/71807998/how-to-resolve-the-maximum-number-of-addresses-has-been-reached-for-aws-vpc-el
+
 ### 20230309
 - CDK
 	- constructor
