@@ -11,6 +11,7 @@
 - CDK
 	- constructor
 		- https://towardsthecloud.com/aws-cdk-construct
+		- https://github.com/aws/aws-cdk/discussions/23839
 
 ### 20230304
 - Java
