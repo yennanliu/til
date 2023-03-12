@@ -23,6 +23,13 @@
 		- https://youtu.be/tA5AzJBevzo?t=838
 	- class constructor : this
 		- https://youtu.be/BA7IvQGBB-k?t=373
+	- extends
+		- https://youtu.be/K0MQLF-qH2g?t=512
+	- override
+		- https://youtu.be/K0MQLF-qH2g?t=1171
+	- super
+		- https://youtu.be/UDBhubQGmVs?t=26
+		- https://youtu.be/UDBhubQGmVs?t=361 : important!!, super used in constructor
 
 ### 20230310
 - how to solve "The maximum number of addresses has been reached" for AWS VPC Elastic IP addresses?
