@@ -19,10 +19,10 @@
 		b = {name: 'iori'};
 		```
 		- https://youtu.be/aUxOW6Rirhs?t=314
-		- readonly
-			- https://youtu.be/tA5AzJBevzo?t=838
-		- class constructor : this
-			- https://youtu.be/BA7IvQGBB-k?t=373
+	- readonly
+		- https://youtu.be/tA5AzJBevzo?t=838
+	- class constructor : this
+		- https://youtu.be/BA7IvQGBB-k?t=373
 
 ### 20230310
 - how to solve "The maximum number of addresses has been reached" for AWS VPC Elastic IP addresses?
