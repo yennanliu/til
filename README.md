@@ -30,6 +30,8 @@
 	- super
 		- https://youtu.be/UDBhubQGmVs?t=26
 		- https://youtu.be/UDBhubQGmVs?t=361 : important!!, super used in constructor
+	- generic type
+		- https://youtu.be/Al44tYBPy_0?t=512
 
 ### 20230310
 - how to solve "The maximum number of addresses has been reached" for AWS VPC Elastic IP addresses?
