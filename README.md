@@ -7,6 +7,19 @@
 
 # PROGRESS
 
+### 20230312
+- Typescript
+	- ? in attr name
+	```typescript
+	// typescript
+	let a{name: string, age: number};
+	let b{name: string, age?: number}; // age attr for b is optional
+	
+	// test
+	b = {name: 'iori'};
+	```
+	- https://youtu.be/aUxOW6Rirhs?t=314
+
 ### 20230310
 - how to solve "The maximum number of addresses has been reached" for AWS VPC Elastic IP addresses?
 	- Go to https://us-east-1.console.aws.amazon.com/servicequotas/home/services/ec2/quotas and search for "IP". Then, choose "EC2-VPC Elastic IPs".
