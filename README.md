@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20230313
+- CDK
+	- Port mapping
+		- https://cloud.tencent.com/developer/ask/sof/947933
+		- https://stackoverflow.com/questions/69739519/cdk-fargate-map-subdomain-to-different-container-port
+
 ### 20230312
 - Typescript
 	- ? in attr name
