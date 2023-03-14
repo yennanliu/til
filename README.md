@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230314
+- RDS
+	- VPC
+		- https://docs.aws.amazon.com/zh_tw/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html
+		- https://docs.aws.amazon.com/zh_tw/AmazonRDS/latest/UserGuide/USER_VPC.Scenarios.html
+		- https://docs.aws.amazon.com/zh_tw/AmazonRDS/latest/UserGuide/CHAP_Tutorials.WebServerDB.CreateVPC.html
+
 ### 20230313
 - CDK
 	- Port mapping
