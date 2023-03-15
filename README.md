@@ -7,8 +7,15 @@
 
 # PROGRESS
 
+### 20230315
+- AWS
+	- VPC subnet, CIDR
+		- https://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/configure-subnets.html
+		- https://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/vpc-subnets-commands-example.html
+		- https://ithelp.ithome.com.tw/articles/10234482
+
 ### 20230314
-- RDS
+- AWS RDS
 	- VPC
 		- https://docs.aws.amazon.com/zh_tw/AmazonRDS/latest/UserGuide/USER_VPC.WorkingWithRDSInstanceinaVPC.html
 		- https://docs.aws.amazon.com/zh_tw/AmazonRDS/latest/UserGuide/USER_VPC.Scenarios.html
