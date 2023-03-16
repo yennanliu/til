@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230316
+- AWS
+	- CDK
+		- [update CDK online directly](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-direct.html)
+
 ### 20230315
 - AWS
 	- VPC subnet, CIDR
