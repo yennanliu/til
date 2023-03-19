@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230319
+- Deep copy, shallow copy
+	- https://youtu.be/iJmOIzo4kL0?t=268
+	<p><img src ="https://github.com/yennanliu/til/blob/master/doc/pic/shallow_copy.png" ></p>
+
 ### 20230316
 - AWS
 	- CDK
