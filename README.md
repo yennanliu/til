@@ -10,7 +10,9 @@
 ### 20230319
 - Deep copy, shallow copy
 	- https://youtu.be/iJmOIzo4kL0?t=268
+	- https://youtu.be/PU74J-hk7xg?t=1
 	<p><img src ="https://github.com/yennanliu/til/blob/master/doc/pic/shallow_copy.png" ></p>
+	<p><img src ="https://github.com/yennanliu/til/blob/master/doc/pic/deep_copy.png" ></p>
 
 ### 20230316
 - AWS
