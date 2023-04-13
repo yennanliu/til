@@ -119,6 +119,31 @@
 	- https://docs.aws.amazon.com/zh_tw/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html
 	- tutorial
 		- https://ithelp.ithome.com.tw/articles/10192080
+			- step 1) set S3 bucket as NON public
+			- step 2) go to S3 bucket set up "Bucket policy" as below
+			- step 3) then create cloudfront distribution with "Originaccess control settings (recommended)"
+		```
+		   {
+		    "Version": "2008-10-17",
+		    "Id": "PolicyForCloudFrontPrivateContent",
+		    "Statement": [
+			{
+			    "Sid": "AllowCloudFrontServicePrincipal",
+			    "Effect": "Allow",
+			    "Principal": {
+				"Service": "cloudfront.amazonaws.com"
+			    },
+			    "Action": "s3:GetObject",
+			    "Resource": "arn:aws:s3:::yen-test-20230413/*",
+			    "Condition": {
+				"StringEquals": {
+				    "AWS:SourceArn": "arn:aws:cloudfront::77777777777:distribution/EUPA2IOLE7S30"
+				}
+			    }
+			}
+		    ]
+		}
+		```
 	- video
 		- https://www.youtube.com/watch?v=Vr4N_ZA-uGo
 
