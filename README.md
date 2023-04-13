@@ -117,6 +117,8 @@
 	```
 	- https://aws.amazon.com/tw/cloudfront/getting-started/
 	- https://docs.aws.amazon.com/zh_tw/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html
+	- tutorial
+		- https://ithelp.ithome.com.tw/articles/10192080
 	- video
 		- https://www.youtube.com/watch?v=Vr4N_ZA-uGo
 
