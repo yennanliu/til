@@ -122,7 +122,8 @@
 			- step 1) set S3 bucket as NON public
 			- step 2) go to S3 bucket set up "Bucket policy" as below
 			- step 3) then create cloudfront distribution with "Originaccess control settings (recommended)"
-		```
+				- https://github.com/yennanliu/til/blob/master/doc/pic/cloud-front1.png
+		```json
 		   {
 		    "Version": "2008-10-17",
 		    "Id": "PolicyForCloudFrontPrivateContent",
