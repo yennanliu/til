@@ -123,6 +123,7 @@
 			- step 2) go to S3 bucket set up "Bucket policy" as below
 			- step 3) then create cloudfront distribution with "Originaccess control settings (recommended)"
 				- https://github.com/yennanliu/til/blob/master/doc/pic/cloud-front1.png
+				- [Example S3 bucket policy that allows read-only access to a CloudFront OAC](https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html#private-content-oac-permission-to-access-s3)
 		```json
 		   {
 		    "Version": "2008-10-17",
