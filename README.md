@@ -10,6 +10,8 @@
 ### 20230417
 - SSL/TLS certificate
 	- https://aws.amazon.com/tw/what-is/ssl-certificate/
+- Cloudfront - Lambda@Edge function (Viewer request, Origin request, Origin response, Viewer response)
+	- https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-cloudfront-trigger-events.html
 
 ### 20230319
 - Deep copy, shallow copy
