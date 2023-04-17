@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230417
+- SSL/TLS certificate
+	- https://aws.amazon.com/tw/what-is/ssl-certificate/
+
 ### 20230319
 - Deep copy, shallow copy
 	- https://youtu.be/iJmOIzo4kL0?t=268
