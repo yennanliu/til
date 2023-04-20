@@ -14,6 +14,8 @@
 	- https://medium.com/%E4%BC%81%E9%B5%9D%E4%B9%9F%E6%87%82%E7%A8%8B%E5%BC%8F%E8%A8%AD%E8%A8%88/jwt-json-web-token-%E5%8E%9F%E7%90%86%E4%BB%8B%E7%B4%B9-74abfafad7ba
 	- https://jwt.io/
 	- https://auth0.com/docs/secure/tokens/json-web-tokens
+	- https://www.metabase.com/docs/latest/people-and-groups/authenticating-with-jwt#enabling-jwt-authentication
+	- https://github.com/metabase/sso-examples
 
 ### 20230417
 - SSL/TLS certificate
