@@ -10,6 +10,8 @@
 ### 20230424
 - Redshift spectrum update with s3 partition
 	- https://stackoverflow.com/questions/66280160/redshift-partition-external-table-by-part-of-a-string
+	- partition
+		- https://blog.csdn.net/weixin_45914070/article/details/108835860
 
 ### 20230420
 - JWT (Json web tokens)
