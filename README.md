@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230424
+- Redshift spectrum update with s3 partition
+	- https://stackoverflow.com/questions/66280160/redshift-partition-external-table-by-part-of-a-string
+
 ### 20230420
 - JWT (Json web tokens)
 	- JSON web token (JWT), pronounced "jot", is an open standard (RFC 7519) that defines a compact and self-contained way for securely transmitting information between parties as a JSON object. Again, JWT is a standard, meaning that all JWTs are tokens, but not all tokens are JWTs.
