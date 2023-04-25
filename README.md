@@ -13,6 +13,9 @@
 	- https://docs.aws.amazon.com/redshift/latest/dg/c-spectrum-external-tables.html#c-spectrum-external-tables-partitioning
 	- partition
 		- https://blog.csdn.net/weixin_45914070/article/details/108835860
+		- https://mazimou.com/p/1028648551407645222.html
+	- Create external schema
+		- https://docs.aws.amazon.com/redshift/latest/dg/r_CREATE_EXTERNAL_SCHEMA.html
 
 ### 20230420
 - JWT (Json web tokens)
