@@ -7,6 +7,35 @@
 
 # PROGRESS
 
+### 20230428
+- Python
+	- How To Use the `__str__()` and `__repr__()` Methods in Python
+		- https://www.digitalocean.com/community/tutorials/python-str-repr-functions
+		- The __str__() method returns a human-readable, or informal, string representation of an object.
+		- The __repr__() method returns a more information-rich, or official, string representation of an object. This method is called by the built-in repr() function. If possible, the string returned should be a valid Python expression that can be used to recreate the object. 
+		- Note that str() and repr() return the same value, because str() calls __repr__() when __str__() isn’t implemented.
+		```python
+		# python
+		# implement a class with __repr__()
+		
+		class Ocean:
+
+		    def __init__(self, sea_creature_name, sea_creature_age):
+			self.name = sea_creature_name
+			self.age = sea_creature_age
+
+		    def __str__(self):
+			return f'The creature type is {self.name} and the age is {self.age}'
+
+		    def __repr__(self):
+			return f'Ocean(\'{self.name}\', {self.age})'
+
+		c = Ocean('Jellyfish', 5)
+
+		print(str(c))
+		print(repr(c))
+		```
+
 ### 20230424
 - Redshift spectrum update with s3 partition
 	- https://stackoverflow.com/questions/66280160/redshift-partition-external-table-by-part-of-a-string
