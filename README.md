@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230430
+- ELK
+	- Macbook M1 install ELK docker
+		- https://stackoverflow.com/questions/65962810/m1-mac-issue-bringing-up-elasticsearch-cannot-run-jdk-bin-java
+		```bash
+		docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.2
+		```
 ### 20230428
 - Python
 	- How To Use the `__str__()` and `__repr__()` Methods in Python
