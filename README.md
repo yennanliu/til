@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20230505
+- Python
+	- Decorator
+		- https://realpython.com/primer-on-python-decorators/#further-reading
+	- Test on decorator
+		- https://pythonin1minute.com/how-to-test-decorators-in-python/
 ### 20230430
 - ELK
 	- Macbook M1 install ELK docker
