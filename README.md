@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230508
+- Python
+	- time-machine
+		- https://pypi.org/project/time-machine/
+	- testing
+		- https://realpython.com/pytest-python-testing/
+		- https://realpython.com/python-testing/
+
 ### 20230505
 - Python
 	- Decorator
