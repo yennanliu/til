@@ -11,6 +11,8 @@
 - AWS Lambda
 	- Lambda call API and write to S3
 		- https://www.startdataengineering.com/post/pull-data-from-api-using-lambda-s3/
+	- Processing large payloads with Amazon API Gateway asynchronously
+		- https://dev.to/aws-builders/processing-large-payloads-with-amazon-api-gateway-asynchronously-1m4f
 
 ### 20230508
 - Python
