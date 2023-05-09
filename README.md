@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230509
+- AWS Lambda
+	- Lambda call API and write to S3
+		- https://www.startdataengineering.com/post/pull-data-from-api-using-lambda-s3/
+
 ### 20230508
 - Python
 	- time-machine
