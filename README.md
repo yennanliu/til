@@ -21,6 +21,14 @@
 			return sb.toString();
 		    }
 		```
+	- Reverse String
+		- https://stackoverflow.com/questions/49126461/java-reverse-string-method
+		```java
+		// java
+		    public static String reverseString(String str) {
+			return new StringBuilder(str).reverse().toString();
+		    }
+		```
 
 ### 20230509
 - AWS Lambda
