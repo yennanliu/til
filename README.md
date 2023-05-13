@@ -7,6 +7,21 @@
 
 # PROGRESS
 
+### 20230513
+- Java
+	- Multiply a String by an Integer (duplicate String N times)
+		- https://stackoverflow.com/questions/26875877/how-to-multiply-a-string-by-an-integer
+		```java
+		// java
+		    private static String multiplyString(String str, int multiplier){
+			StringBuilder sb = new StringBuilder();
+			for (int i = 0; i < multiplier; i++) {
+			    sb.append(str);
+			}
+			return sb.toString();
+		    }
+		```
+
 ### 20230509
 - AWS Lambda
 	- Lambda call API and write to S3
