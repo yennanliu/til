@@ -11,6 +11,11 @@
 - Spark
 	- read s3 and save to Redshift
 		- https://aws.amazon.com/blogs/big-data/simplify-and-speed-up-apache-spark-applications-on-amazon-redshift-data-with-amazon-redshift-integration-for-apache-spark/
+- Vue
+	- negelect format error when build
+		- update `.eslintignore`
+		- https://blog.csdn.net/qq_34814495/article/details/107990319
+		- https://blog.csdn.net/weixin_51169222/article/details/121329741
 
 ### 20230513
 - Java
