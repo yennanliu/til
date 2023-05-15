@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230515
+- Spark
+	- read s3 and save to Redshift
+		- https://aws.amazon.com/blogs/big-data/simplify-and-speed-up-apache-spark-applications-on-amazon-redshift-data-with-amazon-redshift-integration-for-apache-spark/
+
 ### 20230513
 - Java
 	- Multiply a String by an Integer (duplicate String N times)
