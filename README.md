@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230517
+- Python
+	- Logging facility for Python
+		- https://docs.python.org/3/library/logging.html#logrecord-attributes
+
 ### 20230515
 - Spark
 	- read s3 and save to Redshift
