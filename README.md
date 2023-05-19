@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230519
+- AWS Lambda
+	- install, deploy, use 3rd party libraries in Lambda py script
+		- https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/python-package.html
+
 ### 20230517
 - Python
 	- Logging facility for Python
