@@ -9,7 +9,7 @@
 
 ### 20230523
 - EMR
-	- load external in EMR studio (notebook)
+	- load external jar in EMR studio (notebook)
 		- https://stackoverflow.com/questions/57473914/adding-external-jars-in-emr-notebooks
 		```scala
 		// scala notebook
@@ -20,7 +20,7 @@
 		    }
 		}
 		```
-	- dump to EMR
+	- dump data to EMR
 		- https://aws.amazon.com/cn/blogs/china/new-amazon-redshift-integration-with-apache-spark/
 - Spark
 	- flatten array within a Dataframe in Spark
