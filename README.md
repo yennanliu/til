@@ -11,8 +11,19 @@
 - EMR
 	- load external jar in EMR studio (notebook)
 		- https://stackoverflow.com/questions/57473914/adding-external-jars-in-emr-notebooks
-		```scala
-		// scala notebook
+		```
+		// V1
+		// notebook
+		%%configure -f
+		{
+		    "conf": {
+			"spark.jars":"file:///usr/share/aws/redshift/jdbc/RedshiftJDBC.jar,file:///usr/share/aws/redshift/spark-redshift/lib/spark-redshift.jar,file:///usr/share/aws/redshift/spark-redshift/lib/spark-avro.jar,file:///usr/share/aws/redshift/spark-redshift/lib/minimal-json.jar"
+		    }
+}
+		```
+		```
+		// V2
+		// notebook
 		%%configure -f
 		{
 		    "conf": {
