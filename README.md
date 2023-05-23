@@ -7,6 +7,30 @@
 
 # PROGRESS
 
+### 20230523
+- EMR
+	- load external in EMR studio (notebook)
+		- https://stackoverflow.com/questions/57473914/adding-external-jars-in-emr-notebooks
+		```scala
+		// scala notebook
+		%%configure -f
+		{
+		    "conf": {
+			"spark.jars": "s3://YOUR_BUCKET/YOUR_DRIVER.jar"
+		    }
+		}
+		```
+	- dump to EMR
+		- https://aws.amazon.com/cn/blogs/china/new-amazon-redshift-integration-with-apache-spark/
+- Spark
+	- flatten array within a Dataframe in Spark
+		- https://stackoverflow.com/questions/55479530/flatten-array-within-a-dataframe-in-spark
+		```scala
+		// scala spark
+		scala> val nested = spark.read.option("multiline",true).json("nested.json")
+		nested: org.apache.spark.sql.DataFrame = [array: array<struct<a:string,b:bigint,c:string,d:string,e:bigint>>]
+		```
+
 ### 20230519
 - AWS Lambda
 	- install, deploy, use 3rd party libraries in Lambda py script
