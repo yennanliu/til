@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230524
+- EMR, Lambda
+	- Lambda run EMR job
+		- https://www.startdataengineering.com/post/trigger-emr-spark-job-from-lambda/
+		- https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/launch-a-spark-job-in-a-transient-emr-cluster-using-a-lambda-function.html
+	- Step function run EMR job
+		- https://aws.amazon.com/tw/blogs/big-data/run-a-data-processing-job-on-amazon-emr-serverless-with-aws-step-functions/
+
 ### 20230523
 - EMR
 	- load external jar in EMR studio (notebook)
