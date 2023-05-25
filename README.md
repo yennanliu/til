@@ -13,6 +13,9 @@
 		- https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-headless-cli.html
 	- databricks spark-redshift lib
 		- https://github.com/databricks/spark-redshift
+- VPC peering
+	- https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html
+	- https://stackoverflow.com/questions/44968000/connection-timed-out-exception-with-spark-redshift-on-emr
 
 ### 20230524
 - EMR, Lambda
