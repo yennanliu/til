@@ -8,6 +8,11 @@
 # PROGRESS
 
 ### 20230524
+- EMR
+	- aws command run EMR notebook
+		- https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-headless-cli.html
+
+### 20230524
 - EMR, Lambda
 	- Lambda run EMR job
 		- https://www.startdataengineering.com/post/trigger-emr-spark-job-from-lambda/
