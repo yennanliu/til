@@ -11,6 +11,8 @@
 - EMR
 	- aws command run EMR notebook
 		- https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-managed-notebooks-headless-cli.html
+	- databricks spark-redshift lib
+		- https://github.com/databricks/spark-redshift
 
 ### 20230524
 - EMR, Lambda
