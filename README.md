@@ -16,6 +16,8 @@
 - VPC peering
 	- https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html
 	- https://stackoverflow.com/questions/44968000/connection-timed-out-exception-with-spark-redshift-on-emr
+	- https://docs.databricks.com/external-data/amazon-redshift.html
+	- https://docs.databricks.com/administration-guide/cloud-configurations/aws/vpc-peering.html#programmatic-peering
 
 ### 20230524
 - EMR, Lambda
