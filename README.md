@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230526
+- Spark
+	- generate schema from case class
+		- https://kb.databricks.com/data/schema-from-case-class
+	- StructType with ArrayType in nested structure
+		- https://sparkbyexamples.com/spark/spark-array-arraytype-dataframe-column/
+
 ### 20230524
 - EMR
 	- aws command run EMR notebook
