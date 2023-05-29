@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20230529
+- Init scala spark project with IntelliJ
+	- https://sparkbyexamples.com/spark/spark-setup-run-with-scala-intellij/
+	- https://medium.com/@Sushil_Kumar/setting-up-spark-with-scala-development-environment-using-intellij-idea-b22644f73ef1
+- P90, P99
+	- https://juejin.cn/post/7057415444109459487
+	- https://stackoverflow.com/questions/12808934/what-is-p99-latency
+
+
 ### 20230526
 - Spark
 	- generate schema from case class
