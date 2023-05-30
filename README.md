@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230530
+- AWS eventbridge
+	- https://docs.aws.amazon.com/step-functions/latest/dg/cw-events.html
+- AWS lambda return status
+- AWS Step function run EMR spark-submit
+	- https://stackoverflow.com/questions/63025604/emr-spark-job-with-python-code-through-aws-lambda
+
 ### 20230529
 - Init scala spark project with IntelliJ
 	- https://sparkbyexamples.com/spark/spark-setup-run-with-scala-intellij/
