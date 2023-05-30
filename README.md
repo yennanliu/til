@@ -13,6 +13,8 @@
 - AWS lambda return status
 - AWS Step function run EMR spark-submit
 	- https://stackoverflow.com/questions/63025604/emr-spark-job-with-python-code-through-aws-lambda
+- Redshift spectrum
+	- https://aws.amazon.com/blogs/big-data/amazon-redshift-spectrum-extends-data-warehousing-out-to-exabytes-no-loading-required/
 
 ### 20230529
 - Init scala spark project with IntelliJ
