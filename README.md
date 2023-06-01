@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230601
+- S3 bucket size monitoring - console, cloudwatch, shell script
+	- https://aws.amazon.com/blogs/storage/find-out-the-size-of-your-amazon-s3-buckets/#:~:text=3.,stored%20in%20an%20S3%20bucket.
+
 ### 20230530
 - AWS eventbridge
 	- https://docs.aws.amazon.com/step-functions/latest/dg/cw-events.html
