@@ -12,6 +12,8 @@
 	- https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java
 	- https://howtodoinjava.com/design-patterns/creational/builder-pattern-in-java/
 	- https://refactoring.guru/design-patterns/builder/java/example
+- Spring boot - Swagger config
+	- https://youtu.be/MmVu0sGF8vE?t=123
 
 ### 20230601
 - S3 bucket size monitoring - console, cloudwatch, shell script
