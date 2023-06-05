@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20230605
+- Bulder pattern
+	- https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java
+	- https://howtodoinjava.com/design-patterns/creational/builder-pattern-in-java/
+	- https://refactoring.guru/design-patterns/builder/java/example
+
 ### 20230601
 - S3 bucket size monitoring - console, cloudwatch, shell script
 	- https://aws.amazon.com/blogs/storage/find-out-the-size-of-your-amazon-s3-buckets/#:~:text=3.,stored%20in%20an%20S3%20bucket.
