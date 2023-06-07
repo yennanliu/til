@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230607
+- Lambda : Passing data between Lambdas with AWS Step Functions	
+ 	- https://medium.com/@tturnbull/passing-data-between-lambdas-with-aws-step-functions-6f8d45f717c3
+
 ### 20230605
 - Bulder pattern
 	- https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java
