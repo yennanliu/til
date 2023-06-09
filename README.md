@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230609
+- Redshift Spectrum external tables add partition
+	- https://docs.aws.amazon.com/redshift/latest/dg/c-spectrum-external-tables.html
+
 ### 20230607
 - Lambda : Passing data between Lambdas with AWS Step Functions	
  	- https://medium.com/@tturnbull/passing-data-between-lambdas-with-aws-step-functions-6f8d45f717c3
