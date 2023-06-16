@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230616
+- squash commits via IntellJ
+	- https://www.jetbrains.com/help/idea/edit-project-history.html#squash-commits
+
 ### 20230609
 - Redshift Spectrum external tables add partition
 	- https://docs.aws.amazon.com/redshift/latest/dg/c-spectrum-external-tables.html
