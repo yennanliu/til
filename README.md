@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230619
+- Specify an Amazon S3 Destination for the Delivery Stream (Kinesis)
+	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisfirehose-deliverystream.html
+
 ### 20230616
 - squash commits via IntellJ
 	- https://www.jetbrains.com/help/idea/edit-project-history.html#squash-commits
