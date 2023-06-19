@@ -10,6 +10,8 @@
 ### 20230619
 - Specify an Amazon S3 Destination for the Delivery Stream (Kinesis)
 	- https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisfirehose-deliverystream.html
+- firehose namespace (Kinesis -> s3)
+	- https://docs.aws.amazon.com/firehose/latest/dev/s3-prefixes.html
 
 ### 20230616
 - squash commits via IntellJ
