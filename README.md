@@ -1,11 +1,16 @@
 # til
 > Today I Learned
-- Collection & record regarding my daily learning. 
+- Collection & record my daily learning. 
 - Tech + product + business. 
 
 ---
 
 # PROGRESS
+
+### 20230620
+- Spring boot
+	- Controller makes HTTP call to the other endpoint (inside it)
+  		- https://youtu.be/08mo8sMVZnE?t=1020
 
 ### 20230619
 - Specify an Amazon S3 Destination for the Delivery Stream (Kinesis)
@@ -14,7 +19,7 @@
 	- https://docs.aws.amazon.com/firehose/latest/dev/s3-prefixes.html
 
 ### 20230616
-- squash commits via IntellJ
+- squash commits via IntelliJ
 	- https://www.jetbrains.com/help/idea/edit-project-history.html#squash-commits
 
 ### 20230609
