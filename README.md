@@ -10,6 +10,8 @@
 ### 20230623
 - Airflow Docker compose
 	- https://towardsdatascience.com/setting-up-apache-airflow-with-docker-compose-in-5-minutes-56a1110f4122
+- Kinesis dynamic partition keys
+	- https://catalog.us-east-1.prod.workshops.aws/workshops/32e6bc9a-5c03-416d-be7c-4d29f40e55c4/en-US/lab-3/lab3-1-jq-partitioner/lab3-1-2-create-fh 
 
 ### 20230620
 - Spring boot
