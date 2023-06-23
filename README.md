@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230623
+- Airflow Docker compose
+	- https://towardsdatascience.com/setting-up-apache-airflow-with-docker-compose-in-5-minutes-56a1110f4122
+
 ### 20230620
 - Spring boot
 	- Controller makes HTTP call to the other endpoint (inside it)
