@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230626
+- Elastic search
+	- Nested type
+ 		- https://youtu.be/VsbIy4itz5U?t=263
+   		- https://www.elastic.co/guide/en/elasticsearch/reference/current/nested.html
+       		- https://opster.com/guides/elasticsearch/data-architecture/elasticsearch-nested-field-object-field/
+
 ### 20230623
 - Airflow Docker compose
 	- https://towardsdatascience.com/setting-up-apache-airflow-with-docker-compose-in-5-minutes-56a1110f4122
