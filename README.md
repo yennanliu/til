@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230627
+- Mapping docker port
+	- https://docs.docker.com/network/
+```
+Flag value	Description
+-p 8080:80	Map TCP port 80 in the container to port 8080 on the Docker host.
+```
+
 ### 20230626
 - Elastic search
 	- Nested type
