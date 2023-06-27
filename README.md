@@ -12,6 +12,9 @@
 	- https://youtu.be/RN8N3AA6Drw
   	- https://awspring.io/
  	- https://spring.io/projects/spring-cloud-aws
+- Airflow setup ssh conn
+	- https://3lexw.medium.com/apache-airflow-2-1-%E5%9F%BA%E7%A4%8E%E6%95%99%E5%AD%B8-3-%E7%94%A8-ssh-%E9%80%A3%E7%B5%90%E4%B8%80%E5%88%87-%E5%86%8D%E5%8A%A0%E9%BB%9E-operator-954384eac36a
+ 	- https://docs.aws.amazon.com/zh_tw/mwaa/latest/userguide/samples-ssh.html
 
 ### 20230626
 - Mapping docker port
