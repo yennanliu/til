@@ -17,6 +17,10 @@
  	- https://docs.aws.amazon.com/zh_tw/mwaa/latest/userguide/samples-ssh.html
 - Airflow XCom, xcom_pull, xcom_push
 	- https://docs.astronomer.io/learn/airflow-passing-data-between-tasks?tab=traditional#example-dag-using-xcoms
+- Spring JDBC connection pool
+	- https://medium.com/learning-from-jhipster/14-%E6%B7%B1%E5%85%A5-jdbc-connection-pool-%E4%B8%A6%E5%B0%8E%E5%85%A5-h2-db-939adee9c50
+ 	- https://www.baeldung.com/spring-boot-hikari
+    	- https://www.progress.com/tutorials/jdbc/jdbc-jdbc-connection-pooling
 
 ### 20230626
 - Mapping docker port
