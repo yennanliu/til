@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230630
+- Share S3 with Redshift in different AWS account
+  	- How do I COPY or UNLOAD data from Amazon Redshift to an Amazon S3 bucket in another account?
+	- https://repost.aws/knowledge-center/redshift-s3-cross-account
+
 ### 20230627
 - Spring Cloud AWS
 	- https://youtu.be/RN8N3AA6Drw
