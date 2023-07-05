@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230705
+- CDK create Postgre creds
+  	- https://blog.phillipninan.com/provision-an-rds-instance-using-the-aws-cdk-and-secrets
+
 ### 20230630
 - Share S3 with Redshift in different AWS account
   	- How do I COPY or UNLOAD data from Amazon Redshift to an Amazon S3 bucket in another account?
