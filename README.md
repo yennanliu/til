@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 2023010
+- Redshift
+	- COPY JSON to a table
+		- https://docs.aws.amazon.com/redshift/latest/dg/copy-usage_notes-copy-from-json.html
+    		- https://www.bmc.com/blogs/amazon-redshift-copy-json-data/
+
 ### 20230705
 - CDK create Postgre creds
   	- https://blog.phillipninan.com/provision-an-rds-instance-using-the-aws-cdk-and-secrets
