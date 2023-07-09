@@ -10,8 +10,10 @@
 ### 2023010
 - Redshift
 	- COPY JSON to a table
-		- https://docs.aws.amazon.com/redshift/latest/dg/copy-usage_notes-copy-from-json.html
-    		- https://www.bmc.com/blogs/amazon-redshift-copy-json-data/
+ 		- https://docs.aws.amazon.com/redshift/latest/dg/copy-usage_notes-copy-from-json.html
+   		- https://www.bmc.com/blogs/amazon-redshift-copy-json-data/
+       	- Monitoring Amazon Redshift using CloudWatch metrics
+      		- https://docs.aws.amazon.com/redshift/latest/mgmt/metrics-listing.html#redshift-metrics
 
 ### 20230705
 - CDK create Postgre creds
