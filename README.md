@@ -14,6 +14,8 @@
    		- https://www.bmc.com/blogs/amazon-redshift-copy-json-data/
        - Monitoring Amazon Redshift using CloudWatch metrics
       		- https://docs.aws.amazon.com/redshift/latest/mgmt/metrics-listing.html#redshift-metrics
+       - troubleshoot high or full disk usage with Amazon Redshift
+         	- https://repost.aws/knowledge-center/redshift-high-disk-usage
 - URL VS URI
 	- https://codingbeginner01.com/difference-between-uri-and-url/
    	- https://www.cnblogs.com/blknemo/p/13198506.html#:~:text=URI%E5%92%8CURL%E7%9A%84%E5%8C%BA%E5%88%AB%20%E2%9F%B3&text=%E7%BB%9F%E4%B8%80%E8%B5%84%E6%BA%90%E6%A0%87%E8%AF%86%E7%AC%A6(Uniform,%E8%B5%84%E6%BA%90%E5%90%8D%E7%A7%B0%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%82
