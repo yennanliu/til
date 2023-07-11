@@ -18,6 +18,7 @@
          	- https://repost.aws/knowledge-center/redshift-high-disk-usage
        	- Policy allow Redshift spectrum query s3
        		- https://repost.aws/zh-Hant/knowledge-center/redshift-resolve-access-denied-errors
+       		- https://www.youtube.com/watch?v=yClHAALFXRk
 	
 - URL VS URI
 	- https://codingbeginner01.com/difference-between-uri-and-url/
