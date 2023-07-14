@@ -7,7 +7,11 @@
 
 # PROGRESS
 
-### 2023010
+### 20230717
+- Step func workshop
+	- https://catalog.workshops.aws/stepfunctions/en-US/basics/hello-world/step-1
+
+### 20230710
 - Redshift
 	- COPY JSON to a table
  		- https://docs.aws.amazon.com/redshift/latest/dg/copy-usage_notes-copy-from-json.html
