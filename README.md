@@ -12,6 +12,9 @@
 	- https://www.metabase.com/docs/latest/installation-and-operation/creating-RDS-database-on-AWS#decouple-your-rds-database-from-the-elastic-beanstalk-deployment
 - Setup subnet in redshift console for using existing VPC
 	- https://stackoverflow.com/questions/59451752/cant-access-my-vpc-in-aws-console-for-creating-my-redshift-cluster
+ 	- https://docs.aws.amazon.com/redshift/latest/mgmt/getting-started-cluster-in-vpc.html
+- NAT gateways
+	- https://docs.aws.amazon.com/vpc/latest/userguide/vpc-nat-gateway.html
 
 ### 20230715
 - Step func workshop
