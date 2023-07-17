@@ -10,6 +10,8 @@
 ### 20230717
 - Metabase connect to DB in VPC
 	- https://www.metabase.com/docs/latest/installation-and-operation/creating-RDS-database-on-AWS#decouple-your-rds-database-from-the-elastic-beanstalk-deployment
+- Setup subnet in redshift console for using existing VPC
+	- https://stackoverflow.com/questions/59451752/cant-access-my-vpc-in-aws-console-for-creating-my-redshift-cluster
 
 ### 20230715
 - Step func workshop
