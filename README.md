@@ -8,6 +8,10 @@
 # PROGRESS
 
 ### 20230717
+- Metabase connect to DB in VPC
+	- https://www.metabase.com/docs/latest/installation-and-operation/creating-RDS-database-on-AWS#decouple-your-rds-database-from-the-elastic-beanstalk-deployment
+
+### 20230715
 - Step func workshop
 	- https://catalog.workshops.aws/stepfunctions/en-US/basics/hello-world/step-1
 
