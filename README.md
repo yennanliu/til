@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230721
+- Metabase environment variables
+	- https://www.metabase.com/docs/latest/configuring-metabase/environment-variables
+
 ### 20230717
 - Metabase connect to DB in VPC
 	- https://www.metabase.com/docs/latest/installation-and-operation/creating-RDS-database-on-AWS#decouple-your-rds-database-from-the-elastic-beanstalk-deployment
