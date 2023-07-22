@@ -7,12 +7,16 @@
 
 # PROGRESS
 
+### 20230722
+- Spring boot security social login: Github, Google
+	- https://youtu.be/us0VjFiHogo
+
 ### 20230721
 - Metabase environment variables
 	- https://www.metabase.com/docs/latest/configuring-metabase/environment-variables
 
 ### 20230717
-- Metabase connect to DB in VPC
+- Metabase connects to DB in VPC
 	- https://www.metabase.com/docs/latest/installation-and-operation/creating-RDS-database-on-AWS#decouple-your-rds-database-from-the-elastic-beanstalk-deployment
 - Setup subnet in redshift console for using existing VPC
 	- https://stackoverflow.com/questions/59451752/cant-access-my-vpc-in-aws-console-for-creating-my-redshift-cluster
