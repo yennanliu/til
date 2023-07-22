@@ -10,6 +10,8 @@
 ### 20230722
 - Spring boot security social login: Github, Google
 	- https://youtu.be/us0VjFiHogo
+ - AWS Lambda calculate concurrent
+   	- https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/lambda-concurrency.html
 
 ### 20230721
 - Metabase environment variables
