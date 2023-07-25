@@ -7,6 +7,30 @@
 
 # PROGRESS
 
+### 20230723
+- Maven package all dependency in jar
+	- https://docs.aws.amazon.com/lambda/latest/dg/java-package.html
+	- https://github.com/yennanliu/LambdaHelloWorld/blob/master/lab4/KinesisClient/pom.xml#L85
+```
+<!-- maven.xml -->
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-shade-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <createDependencyReducedPom>false</createDependencyReducedPom>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>shade</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+```
+
 ### 20230722
 - Spring boot security social login: Github, Google
 	- https://youtu.be/us0VjFiHogo
