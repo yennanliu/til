@@ -10,6 +10,8 @@
 ### 20230722
 - Spring boot security social login: Github, Google
 	- https://youtu.be/us0VjFiHogo
+ - Spring boot security - in memory user setup
+   	- https://youtu.be/66DtzkhBlSA?t=515
  - AWS Lambda calculates concurrent
    	- https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/lambda-concurrency.html
    	- https://docs.aws.amazon.com/zh_tw/lambda/latest/dg/burst-concurrency.html
