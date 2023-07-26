@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230726
+- Route53 + API
+  	- https://cloudbytes.dev/aws-academy/cdk-api-gateway-with-custom-domain
+  	- https://github.com/rehanhaider/aws-cdk-code-samples/tree/main/apigw_route53
+
 ### 20230723
 - Maven package all dependency in jar
 	- https://docs.aws.amazon.com/lambda/latest/dg/java-package.html
