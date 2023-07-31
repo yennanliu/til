@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230731
+- Java : equals() VS ==
+	- https://zhuanlan.zhihu.com/p/338350987
+ 	- https://blog.csdn.net/william_munch/article/details/115373117
+
 ### 20230726
 - Route53 + API
   	- https://cloudbytes.dev/aws-academy/cdk-api-gateway-with-custom-domain
