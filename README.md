@@ -11,7 +11,7 @@
 - SQL cross join
   ```sql
   -- sql
-  SEELCT .. FROM table_A, table_B
+  SELECT .. FROM table_A, table_B
   ```
   - https://www.sqlshack.com/sql-cross-join-with-examples/
   - https://launchschool.com/books/sql/read/joins
