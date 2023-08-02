@@ -9,6 +9,10 @@
 
 ### 20230802
 - SQL cross join
+  ```sql
+  -- sql
+  SEELCT .. FROM table_A, table_B
+  ```
   - https://www.sqlshack.com/sql-cross-join-with-examples/
   - https://launchschool.com/books/sql/read/joins
   - https://www.experts-exchange.com/questions/23880407/select-from-table-a-table-b.html
