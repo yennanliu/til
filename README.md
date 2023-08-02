@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20230802
+- SQL cross join
+  - https://www.sqlshack.com/sql-cross-join-with-examples/
+  - https://launchschool.com/books/sql/read/joins
+  - https://www.experts-exchange.com/questions/23880407/select-from-table-a-table-b.html
+
 ### 20230731
 - Java : equals() VS ==
 	- https://zhuanlan.zhihu.com/p/338350987
