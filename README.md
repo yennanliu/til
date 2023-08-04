@@ -14,6 +14,9 @@
   	- https://github.com/Trigl/kinesis-producer
   	- https://blog.csdn.net/Trigl/article/details/80475966
   	- https://baixin.ink/2018/05/23/akka-study/
+- connect to my Amazon Redshift cluster
+  	- My cluster can't be accessed by an Amazon Elastic Compute Cloud (Amazon EC2) instance that is in a different VPC
+  	- https://repost.aws/knowledge-center/cannot-connect-redshift-cluster
 
 ### 20230802
 - SQL cross join
