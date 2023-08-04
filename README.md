@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230804
+- Cloudwatch -> Kinesis
+	- https://repost.aws/zh-Hant/knowledge-center/cloudwatch-logs-stream-to-kinesis
+- Akka send to Kinesis
+  	- https://github.com/Trigl/kinesis-producer
+  	- https://blog.csdn.net/Trigl/article/details/80475966
+  	- https://baixin.ink/2018/05/23/akka-study/
+
 ### 20230802
 - SQL cross join
   ```sql
