@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230808
+- Spring integration test
+	- https://youtu.be/lh1oQHXVSc0?t=1483
+   	- https://testcontainers.com/
+
 ### 20230804
 - Cloudwatch -> Kinesis
 	- https://repost.aws/zh-Hant/knowledge-center/cloudwatch-logs-stream-to-kinesis
