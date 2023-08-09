@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230809
+- Spark stream + kinesis
+	- https://baixin.ink/2018/08/02/spark-streaming-kinesis/
+
 ### 20230808
 - Spring integration test
 	- https://youtu.be/lh1oQHXVSc0?t=1483
