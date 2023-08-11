@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230811
+- Build BI System from Scratch -- Kinesis firehose s3 prefix
+	- https://catalog.us-east-1.prod.workshops.aws/workshops/a861fb26-12b0-4669-b3c3-ae1def49735d/en-US/build-analytics-system/kinesis-data-firehose
+
 ### 20230809
 - Spark stream + kinesis
 	- https://baixin.ink/2018/08/02/spark-streaming-kinesis/
