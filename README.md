@@ -401,6 +401,7 @@ Flag value	Description
 	- https://auth0.com/docs/secure/tokens/json-web-tokens
 	- https://www.metabase.com/docs/latest/people-and-groups/authenticating-with-jwt#enabling-jwt-authentication
 	- https://github.com/metabase/sso-examples
+<p><img src ="https://github.com/yennanliu/til/blob/master/doc/pic/JWT_1.png" ></p>
 
 ### 20230417
 - SSL/TLS certificate
