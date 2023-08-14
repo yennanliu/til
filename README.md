@@ -7,6 +7,22 @@
 
 # PROGRESS
 
+### 20230814
+- VPC peering
+  - https://docs.aws.amazon.com/zh_tw/vpc/latest/peering/create-vpc-peering-connection.html
+  - https://docs.aws.amazon.com/zh_tw/vpc/latest/peering/create-vpc-peering-connection.html#same-account-same-region
+  - https://docs.aws.amazon.com/zh_tw/vpc/latest/peering/vpc-peering-routing.htmlhttps://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/VPC_Route_Tables.html
+  - https://rdpapa.tw/2022/09/10/aws-vpc-peering/
+  - https://www.kmp.tw/post/awsvpcpeering/
+  - https://medium.com/@1000lin/aws-network-planning-d1424e171846
+- VPC terms
+	- VPC (Virtual Private Cloud): 在實務上我們會將需要獨立的環境(網段)，用VPC區隔開來。例如: vpc-sit、vpc-uat、vpc-prod、vit-workspace
+ 	- Subnet : Subnet就是在VPC的網段下，再細分不同的子網段。Subnet可區分為Public、Private和Vpn-Only三種，在subnet的Route Table中，能將流量route到Internet Gateway的屬於Public Subnet；如果只能將流量route到Virtual Private Gateway就是Vpn-Only Subnet； 否則就是Private Subnet
+    	- Internet Gateway : Internet Gateway可以attach在vpc上，為該vpc提供向外access internet的能力。
+       	- NAT Gateway : NAT Gateway扮演了讓Private Subnet可以透過Net Address Translation間接向外訪問Internet的能力；也就是Source NAT。
+       	- Route Tables : 每個subnet都有一個Route Table，來決定Traffics的流向。
+       	- Peering Connection : 二個獨立的VPC之間，若需要互相溝通，則需要建立Peering Connection，在本文的範例中，將用來打通vpc-workspace和vpc-sit之間的流量。
+
 ### 20230811
 - Build BI System from Scratch -- Kinesis firehose s3 prefix
 	- https://catalog.us-east-1.prod.workshops.aws/workshops/a861fb26-12b0-4669-b3c3-ae1def49735d/en-US/build-analytics-system/kinesis-data-firehose
