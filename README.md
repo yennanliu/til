@@ -15,6 +15,9 @@
   - https://rdpapa.tw/2022/09/10/aws-vpc-peering/
   - https://www.kmp.tw/post/awsvpcpeering/
   - https://medium.com/@1000lin/aws-network-planning-d1424e171846
+- VPC peering debug
+  	- https://docs.aws.amazon.com/vpc/latest/peering/troubleshoot-vpc-peering-connections.html
+  	- https://docs.aws.amazon.com/vpc/latest/reachability/what-is-reachability-analyzer.html
 - VPC terms
 	- VPC (Virtual Private Cloud): 在實務上我們會將需要獨立的環境(網段)，用VPC區隔開來。例如: vpc-sit、vpc-uat、vpc-prod、vit-workspace
  	- Subnet : Subnet就是在VPC的網段下，再細分不同的子網段。Subnet可區分為Public、Private和Vpn-Only三種，在subnet的Route Table中，能將流量route到Internet Gateway的屬於Public Subnet；如果只能將流量route到Virtual Private Gateway就是Vpn-Only Subnet； 否則就是Private Subnet
