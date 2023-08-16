@@ -10,6 +10,8 @@
 ### 20230816
 - VPC peering via CDK
 	- https://blog.purple-technology.com/cross-account-vpc-peering-with-aws-cdk/
+- Subnet type
+  	- https://docs.aws.amazon.com/zh_tw/vpc/latest/userguide/configure-subnets.html
 
 ### 20230814
 - VPC peering
