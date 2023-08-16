@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20230816
+- VPC peering via CDK
+	- https://blog.purple-technology.com/cross-account-vpc-peering-with-aws-cdk/
+
 ### 20230814
 - VPC peering
   - https://docs.aws.amazon.com/zh_tw/vpc/latest/peering/create-vpc-peering-connection.html
