@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230819
+- Zipkin Spring Cloud
+  	- Zipkin is an application that monitors and manages the Spring Cloud Sleuth logs of your Spring Boot application.
+  	- Trace spring app request
+	- https://youtu.be/Cm75_MIo_aY?t=626
+ 	- https://www.1ju.org/spring-cloud/tracing-services-with-zipkin
+    	- https://www.tpisoftware.com/tpu/articleDetails/2682
+
 ### 20230816
 - VPC peering via CDK
 	- https://blog.purple-technology.com/cross-account-vpc-peering-with-aws-cdk/
