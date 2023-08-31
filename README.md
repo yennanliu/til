@@ -711,6 +711,11 @@ Flag value	Description
 	Authentication（驗證）：確認使用者是否真的是其所宣稱的那個人的過程。
 	Authorization（授權）：根據使用者的角色來授予應有的權限。
 	```
+ 	- https://youtu.be/L8M_eXV0OVk?si=4Ce72KAIBAzdN9Kw&t=33
+    		- Authentication : can access the App (software)
+    			- example : can access to a friend's house
+    		- Authorization : can use function in an App
+    			- example : can access rooms in the house
 	- https://matthung0807.blogspot.com/2018/03/authenticationauthorization.html
 	- https://www.ithome.com.tw/voice/134389
 	- https://www.onelogin.com/learn/authentication-vs-authorization#:~:text=Authentication%20and%20authorization%20are%20two,authorization%20determines%20their%20access%20rights.
