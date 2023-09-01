@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230901
+- Spring boot security + JWT
+	- https://yanbin.blog/springboot-security-jwt-token-how-to-abcs/
+   	- https://jwt.io/
+   	- https://jwt.io/introduction
+   	- code demo
+   	  	- https://github.com/yennanliu/SpringPlayground/blob/main/springBasics/springBootBasic1/src/main/java/com/yen/SpringBootPart1/controller/AuthController.java
+
 ### 20230819
 - Zipkin Spring Cloud
   	- Zipkin is an application that monitors and manages the Spring Cloud Sleuth logs of your Spring Boot application.
