@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230903
+- Hibernate : “Detached Entity Passed to Persist” Error
+	- https://www.baeldung.com/hibernate-detached-entity-passed-to-persist
+   	- https://blog.csdn.net/Lancis/article/details/128560064
+   	- code demo:
+   	  	- https://github.com/yennanliu/SpringPlayground/blob/assignment-dev-03--FE-view-dev/springAssignmentSystem/backend/SpringAssignmentSystem/src/main/java/com/yen/SpringAssignmentSystem/domain/Assignment.java#L36
+
 ### 20230901
 - Spring boot security + JWT
 	- https://yanbin.blog/springboot-security-jwt-token-how-to-abcs/
