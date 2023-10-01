@@ -8,11 +8,14 @@
 # PROGRESS
 
 ### 20231001
-- Java - create SDK and import to project
+- Java
+  - create SDK and import to project
   	- https://blog.csdn.net/u012814856/article/details/113665071
   	- https://www.cnblogs.com/h--d/p/13060688.html
   	- https://learn.temporal.io/getting_started/java/
   	- https://zhuanlan.zhihu.com/p/407358702
+  - Arrays.asList VS new ArrayList()
+    	- https://www.baeldung.com/java-arrays-aslist-vs-new-arraylist#:~:text=asList%20method%20returns%20a%20type,the%20add%20and%20remove%20methods.
 
 ### 20230903
 - Hibernate : “Detached Entity Passed to Persist” Error
