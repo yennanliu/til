@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20231001
+- Java - create SDK and import to project
+  	- https://blog.csdn.net/u012814856/article/details/113665071
+  	- https://www.cnblogs.com/h--d/p/13060688.html
+  	- https://learn.temporal.io/getting_started/java/
+
 ### 20230903
 - Hibernate : “Detached Entity Passed to Persist” Error
 	- https://www.baeldung.com/hibernate-detached-entity-passed-to-persist
