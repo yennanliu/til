@@ -12,6 +12,7 @@
   	- https://blog.csdn.net/u012814856/article/details/113665071
   	- https://www.cnblogs.com/h--d/p/13060688.html
   	- https://learn.temporal.io/getting_started/java/
+  	- https://zhuanlan.zhihu.com/p/407358702
 
 ### 20230903
 - Hibernate : “Detached Entity Passed to Persist” Error
