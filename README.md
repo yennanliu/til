@@ -16,6 +16,8 @@
   	- https://zhuanlan.zhihu.com/p/407358702
   - Arrays.asList VS new ArrayList()
     	- https://www.baeldung.com/java-arrays-aslist-vs-new-arraylist#:~:text=asList%20method%20returns%20a%20type,the%20add%20and%20remove%20methods.
+  - Continue VS break VS pass
+    	- https://www.digitalocean.com/community/tutorials/how-to-use-break-continue-and-pass-statements-when-working-with-loops-in-python-3
 
 ### 20230903
 - Hibernate : “Detached Entity Passed to Persist” Error
