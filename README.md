@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20231005
+- React print class info instead of "Object"
+  - https://stackoverflow.com/questions/41336663/console-logresult-prints-object-object-how-do-i-get-result-name
+  ```javascript
+  // javascript
+  // example
+  console.log(JSON.stringify(myClass)))
+  ```
+
 ### 20231001
 - Java
   - create SDK and import to project
