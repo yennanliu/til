@@ -8,19 +8,24 @@
 # PROGRESS
 
 ### 20231006
+- Ways do Client-Server bi communication
+  - Comet
+  - Web socket
+
 - Web socket
   - WebSocket 是 HTML5 開始提供的一種在單個 TCP 連線上進行全雙工通訊的協定。
   - WebSocket 使得使用者端和伺服器之間的資料交換變得更加簡單，允許伺服器端主動向使用者端推播資料。在 WebSocket API 中，瀏覽器和伺服器只需要完成一次握手，兩者之間就直接可以建立永續性的連線，並進行雙向資料傳輸。
   - 在 WebSocket API 中，瀏覽器和伺服器只需要做一個握手的動作，然後，瀏覽器和伺服器之間就形成了一條快速通道。兩者之間就直接可以資料互相傳送。
   - 簡單的說，就是一次握手，持續通訊。
   - Ref
-    	- https://tw511.com/a/01/16646.html
-    	- https://www.syscom.com.tw/ePaper_New_Content.aspx?id=368&EPID=194&TableName=sgEPArticle
-    	- https://github.com/yennanliu/SpringPlayground/tree/main/springChatRoom
-    	- https://spring.io/guides/gs/messaging-stomp-websocket/
+    - https://tw511.com/a/01/16646.html
+    - https://www.syscom.com.tw/ePaper_New_Content.aspx?id=368&EPID=194&TableName=sgEPArticle
+    - https://github.com/yennanliu/SpringPlayground/tree/main/springChatRoom
+    - https://spring.io/guides/gs/messaging-stomp-websocket/
+
 - Comet
-  	- Long Polling
-  	- Streaming
+  - Long Polling
+  - Streaming
 
 ### 20231005
 - Javascript print class info instead of "Object"
