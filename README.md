@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20231008
+- Java design pattern
+  - 適配器模式 (Adapter Pattern)
+    	- 創造一個適配器 ，它用於實現上面的接口，但是所有的方法都是空方法 ，這樣，我們就可以轉而定義自己的類來繼承下面這個類即可
+    	- https://www.readfog.com/a/1639984655800307712
+    	- https://www.runoob.com/design-pattern/adapter-pattern.html
+    	- https://youtu.be/r4fdPmZuzmY?si=GmePG_JsutE60l0I&t=1320
+
 ### 20231006
 - Ways do Client-Server bi communication
   - Comet
