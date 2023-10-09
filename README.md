@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20231009
+- Java spring boot :  `object references an unsaved transient instance - save the transient instance before flushing` error
+   	- https://blog.csdn.net/wsaicyj/article/details/123966389
+	```java
+	// java
+	// example
+	@ManyToOne(cascade = CascadeType.PERSIST)
+	```
+  
 ### 20231008
 - Java design pattern
   - 適配器模式 (Adapter Pattern)
