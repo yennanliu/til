@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20231103
+- CSS grid
+  - https://www.youtube.com/watch?v=fYcz3FUqv7M
+
 ### 20231009
 - Java spring boot :  `object references an unsaved transient instance - save the transient instance before flushing` error
    	- https://blog.csdn.net/wsaicyj/article/details/123966389
