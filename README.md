@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20231104
+- STOMP (Simple Text Oriented Message Protocol)
+	- A WebSocket implementation by Spring boot
+   	- https://blog.csdn.net/qq_21294185/article/details/130657375
+   	- https://blog.csdn.net/u013749113/article/details/131455579
+
 ### 20231103
 - CSS grid
   - https://www.youtube.com/watch?v=fYcz3FUqv7M
