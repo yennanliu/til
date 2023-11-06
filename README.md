@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20231106
+- Software testing
+  	- Unit test
+  	- Functional test
+  	- Integration test
+  	- end-to-end test
+  	- https://moduscreate.com/blog/an-overview-of-unit-integration-and-e2e-testing/
+  	- https://www.twilio.com/blog/unit-integration-end-to-end-testing-difference
+
 ### 20231104
 - STOMP (Simple Text Oriented Message Protocol)
 	- A WebSocket implementation by Spring boot
