@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20231107
+- Spring @Configuration
+  - recognized as config class, setup get bean method in it, then bean will be auto injected by Spring boot when app run 
+  - https://youtu.be/17Igk4Podd4?si=LxQ353ybO4j4MjVz&t=767
+
 ### 20231106
 - Software testing
   	- Unit test
