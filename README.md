@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20231112
+- Redis GUI App
+  	- https://github.com/RedisInsight/RedisInsight
+  	- https://redis.com/redis-enterprise/redis-insight/#insight-form
+  	- https://redis.io/resources/tools/ - list
+
 ### 20231107
 - Spring @Configuration
   - recognized as config class, setup get bean method in it, then bean will be auto injected by Spring boot when app run 
