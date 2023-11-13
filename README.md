@@ -8,9 +8,11 @@
 # PROGRESS
 
 ### 20231113
-- try-with-resource VS try-catch-final ?
+- Java : try-with-resource VS try-catch-final ?
   	- try-with-resource: prefer, code more elegant, resource closing already implemented automatically
 	- https://javaguide.cn/java/basis/syntactic-sugar.html#try-with-resource
+- JS SocketJS: common API (e.g. Stomp.over,....)
+  	- https://www.twblogs.net/a/5c03de16bd9eee728baac84b
 
 ### 20231112
 - Redis GUI App
