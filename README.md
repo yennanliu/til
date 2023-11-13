@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20231113
+- try-with-resource VS try-catch-final ?
+  	- try-with-resource: prefer, code more elegant, resource closing already implemented automatically
+	- https://javaguide.cn/java/basis/syntactic-sugar.html#try-with-resource
+
 ### 20231112
 - Redis GUI App
   	- https://github.com/RedisInsight/RedisInsight
