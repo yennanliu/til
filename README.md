@@ -13,6 +13,10 @@
 	- https://javaguide.cn/java/basis/syntactic-sugar.html#try-with-resource
 - JS SocketJS: common API (e.g. Stomp.over,....)
   	- https://www.twblogs.net/a/5c03de16bd9eee728baac84b
+- CAS (Compare And Swap) 算法
+  - https://javaguide.cn/java/concurrent/java-concurrent-questions-02.html#%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E4%B9%90%E8%A7%82%E9%94%81
+  - 實現樂觀鎖(Optimistic lock)
+  - compare expected val and actual val, ONLY update if they are the same
 
 ### 20231112
 - Redis GUI App
