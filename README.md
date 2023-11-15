@@ -10,7 +10,7 @@
 ### 20231114
 - Java : throw exception VS try-catch
   	```
-   	1.throw 是語句拋出一個異常，如throw new Exception();他不處理異常，直接拋出異常；
+	1.throw 是語句拋出一個異常，如throw new Exception();他不處理異常，直接拋出異常；
 
 	2.throws是表示方法拋出異常，需要呼叫者來處理，如果不想處理就一直向外拋，最後會有jvm來處理；
 	
