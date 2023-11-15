@@ -7,6 +7,19 @@
 
 # PROGRESS
 
+### 20231114
+- Java : throw exception VS try-catch
+  	```
+   	1.throw 是語句拋出一個異常，如throw new Exception();他不處理異常，直接拋出異常；
+
+	2.throws是表示方法拋出異常，需要呼叫者來處理，如果不想處理就一直向外拋，最後會有jvm來處理；
+	
+	3.try catch 是自己來捕捉別人拋出的異常，然後在catch裡面去處理。
+   	```
+  	- https://www.cnblogs.com/JamesWang1993/p/9066593.html#:~:text=1.throw%20%E6%98%AF%E8%AF%AD%E5%8F%A5%E6%8A%9B,%E5%9C%A8catch%E9%87%8C%E9%9D%A2%E5%8E%BB%E5%A4%84%E7%90%86%E3%80%82
+  	- https://blog.csdn.net/ztx114/article/details/78251126
+  	- https://openhome.cc/zh-tw/java/exception/throw/  - Some consideration
+
 ### 20231113
 - Java : try-with-resource VS try-catch-final ?
   	- try-with-resource: prefer, code more elegant, resource closing already implemented automatically
