@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20231116
+- junit.jupiter : fix "null pointer" error when use @Before
+	- https://stackoverflow.com/questions/61692036/setup-function-is-throwing-nullpointerexception-when-using-beforeeach-in-juni
+	```
+	 *    -> so, do below
+	 *      - 1) add annotaiton : @ExtendWith(MockitoExtension.class)
+	 *      - 2) use @BeforeEach
+	```
+
 ### 20231114
 - Java : throw exception VS try-catch
   	```
