@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20231117
+- Java : Dependency Injection (DI)
+  	- https://matthung0807.blogspot.com/2019/08/java-dependency-injection.html
+  	- https://www.digitalocean.com/community/tutorials/java-dependency-injection-design-pattern-example-tutorial
+
 ### 20231116
 - junit.jupiter : fix "null pointer" error when use @Before
 	- https://stackoverflow.com/questions/61692036/setup-function-is-throwing-nullpointerexception-when-using-beforeeach-in-juni
