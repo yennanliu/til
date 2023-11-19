@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20231118
+- Java mockito
+  	- @Mocks VS @InjectMocks
+  	  	- https://matthung0807.blogspot.com/2018/08/mockito-mockinjectmocks.html
+  	  	- https://juejin.cn/post/7056621888088309790
+
 ### 20231117
 - Java : Dependency Injection (DI)
   	- https://matthung0807.blogspot.com/2019/08/java-dependency-injection.html
