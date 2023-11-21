@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20231121
+- TCP VS UDP
+  	- https://nordvpn.com/zh-tw/blog/tcp-udp-bijiao/#:~:text=TCP%20%E6%9C%89%E9%8C%AF%E8%AA%A4%E6%AA%A2%E6%9F%A5%E5%92%8C,%E6%9C%8D%E5%8B%99%EF%BC%8C%E4%BE%8B%E5%A6%82FTP%20%E6%AA%94%E6%A1%88%E5%82%B3%E8%BC%B8%E3%80%82
+
+ - Java concurrency example: bank
+   	- https://www.unlogged.io/post/java-concurrency-unlocked-a-comparative-guide-to-synchronization-tools
+
 ### 20231118
 - Java mockito
   	- @Mocks VS @InjectMocks
