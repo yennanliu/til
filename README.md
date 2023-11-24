@@ -12,6 +12,8 @@
   	- https://matthung0807.blogspot.com/2021/02/spring-boot-redirect-url.html
   	- https://blog.csdn.net/cyan20115/article/details/106551434
   	- [example code](https://github.com/DenimMazuki/URLShortener/blob/master/src/main/java/urlshortener/app/controller/URLController.java#L43)
+- Jackson : json <--> java class instance
+  	- https://cloud.tencent.com/developer/article/1704523
 
 ### 20231123
 - Common security issue when web development
