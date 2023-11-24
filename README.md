@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20231123
+- Common security issue when web development
+  - https://www.cloudflare.com/zh-tw/learning/security/what-is-web-application-security/
+  - https://medium.com/starbugs/%E8%BA%AB%E7%82%BA-web-%E5%B7%A5%E7%A8%8B%E5%B8%AB-%E4%BD%A0%E4%B8%80%E5%AE%9A%E8%A6%81%E7%9F%A5%E9%81%93%E7%9A%84%E5%B9%BE%E5%80%8B-web-%E8%B3%87%E8%A8%8A%E5%AE%89%E5%85%A8%E8%AD%B0%E9%A1%8C-29b8a4af6e13
+  
+
 ### 20231122
 - Spring boot : @PathVariable VS @RequestParam
 - https://www.baeldung.com/spring-pathvariable
