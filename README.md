@@ -14,6 +14,9 @@
   	- [example code](https://github.com/DenimMazuki/URLShortener/blob/master/src/main/java/urlshortener/app/controller/URLController.java#L43)
 - Jackson : json <--> java class instance
   	- https://cloud.tencent.com/developer/article/1704523
+- Jedis : java lib for Redis
+  	- https://www.jianshu.com/p/a1038eed6d44
+  	- https://www.cnblogs.com/-beyond/p/10991139.html
 
 ### 20231123
 - Common security issue when web development
