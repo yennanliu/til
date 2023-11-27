@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20231127
+- Fix using Swagger 2.x
+  - // Fix using Swagger 2.x : https://blog.51cto.com/u_15740726/5540690
+  - [commit](https://github.com/yennanliu/SpringPlayground/commit/a130670214eaa15e51705a00acafff97c939bba0)
+
 ### 20231124
 - Spring boot redirect : RedirectView
   	- https://matthung0807.blogspot.com/2021/02/spring-boot-redirect-url.html
