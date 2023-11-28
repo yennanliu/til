@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20231128
+- RedisTemplate basic API (Java redis client)
+  	- https://ost.51cto.com/posts/2333
+
 ### 20231127
 - Fix using Swagger 2.x
   - // Fix using Swagger 2.x : https://blog.51cto.com/u_15740726/5540690
