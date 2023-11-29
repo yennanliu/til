@@ -7,6 +7,16 @@
 
 # PROGRESS
 
+### 20231129
+- Spring boot read files under /resources
+  	- https://www.cnblogs.com/caicz/p/17301789.html
+  	- [example](https://github.com/yennanliu/SpringPlayground/blob/main/springWarehouse/src/main/java/com/yen/springWarehouse/controller/DownloadController.java#L107)
+  	```java
+   	// java
+   	// exmaple
+   	File file = new File("src/main/resources/" + downloadUrl);
+   	```
+
 ### 20231128
 - RedisTemplate basic API (Java redis client)
   	- https://ost.51cto.com/posts/2333
