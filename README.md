@@ -16,6 +16,10 @@
   	- https://rickhw.github.io/2020/05/16/DistributedSystems/Distributed-Transactions/
   	- https://hackmd.io/@KingTheseus/distributed_transaction
   	- https://medium.com/brobridge/%E6%B7%BA%E8%AB%87%E5%BE%AE%E6%9C%8D%E5%8B%99%E6%9E%B6%E6%A7%8B%E4%BA%A4%E6%98%93%E5%AF%A6%E7%8F%BE-b6b531b2503a
+ - Java how to init Optional
+   	- https://www.developer.com/java/java-optional-object/#:~:text=You%20can%20create%20an%20Optional,if%20the%20value%20is%20null.
+   	- https://www.baeldung.com/java-optional
+   	- https://www.ruoxue.org/java-147-initialize-optional-in-java/
 
 ### 20231129
 - Spring boot read files under /resources
