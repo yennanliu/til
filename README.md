@@ -7,6 +7,19 @@
 
 # PROGRESS
 
+### 20231206
+
+1. mybatis 帶入變數方式? 差別
+2. redis實現分散式鎖
+3. websocket實現原理
+4. 如何偵測死鎖? 看什麼metrics ? cmd ?
+5. 實現 thread 方式? 如何讓資源獨享?
+6. java網路框架? Netty運作方式?
+7. 分庫分表方式?
+8. http 服務斷開 步驟? (client <-> server)
+9. redis 支持數據結構?
+10. 慢查詢? 如何優化?
+
 ### 20231205
 - Redis pros and cons
 	- https://prosconslab.com/articles/32/13-advantages-and-disadvantages-of-redis
