@@ -20,6 +20,7 @@
 9. redis 支持數據結構?
 10. 慢查詢? 如何優化?
 11. String, StringBuilder, StringBuffer差別, 使用場景?  哪ㄧ個可以用在thread安全?
+12. java 如何實現比較二個String是否相等 ?
 
 ### 20231205
 - Redis pros and cons
