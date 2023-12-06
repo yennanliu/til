@@ -19,6 +19,7 @@
 8. http 服務斷開 步驟? (client <-> server)
 9. redis 支持數據結構?
 10. 慢查詢? 如何優化?
+11. String, StringBuilder, StringBuffer差別, 使用場景?  哪ㄧ個可以用在thread安全?
 
 ### 20231205
 - Redis pros and cons
