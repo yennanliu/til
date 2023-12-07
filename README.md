@@ -30,7 +30,15 @@
 5. 實現 thread 方式? 如何讓資源獨享?
 6. java網路框架? Netty運作方式?
 7. 分庫分表方式?
-8. http 服務斷開 步驟? (client <-> server)
+8. http 連線斷開 步驟? (client <-> server)
+    - 4 hands shake
+    ```
+    1. client 發起請求
+    2. server 接受請求
+    3. server 斷開連接
+    4. client 斷開連接
+    ```
+    - https://blog.csdn.net/myzksky/article/details/80451051
 9. redis 支持數據結構?
 10. 慢查詢? 如何優化?
 11. String, StringBuilder, StringBuffer差別, 使用場景?  哪ㄧ個可以用在thread安全?
