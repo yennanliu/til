@@ -20,8 +20,12 @@
   -  Mybatis VS Hibernate ?
     Hibernate屬於全自動ORM映射工具，使用Hibernate查詢關聯對象或者關聯集合對象時，可以根據對象關係模型直接獲取，所以它是全自動的。而Mybatis在查詢關聯對象或關聯集合對象時，需要手動編寫sql來完成，所以，稱之為半自動ORM映射工具。
 
-2. redis實現分散式鎖
+2. redis, Zookeeper 實現分散式鎖
+
 3. websocket實現原理
+  - https://www.readfog.com/a/1662980721344614400
+  - https://github.com/abbshr/abbshr.github.io/issues/22
+
 4. 如何偵測死鎖? 看什麼metrics ? cmd ?
 5. 實現 thread 方式? 如何讓資源獨享?
 6. java網路框架? Netty運作方式?
