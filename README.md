@@ -39,9 +39,34 @@
     4. client 斷開連接
     ```
     - https://blog.csdn.net/myzksky/article/details/80451051
+
 9. redis 支持數據結構?
+    - https://segmentfault.com/a/1190000040102333
+    - https://javaguide.cn/database/redis/redis-data-structures-01.html
+    - basic : string、list、hash、set、sorted set
+    - 也支援更高階資料結構, e.g.：HyperLogLog、Geo、BloomFilter
+
 10. 慢查詢? 如何優化?
+
 11. String, StringBuilder, StringBuffer差別, 使用場景?  哪ㄧ個可以用在thread安全?
+  
+  - https://www.runoob.com/w3cnote/java-different-of-string-stringbuffer-stringbuilder.html
+  - https://www.readfog.com/a/1633579016528171008
+  - https://c.biancheng.net/view/5822.html
+  
+  - String VS StringBuffer 主要性能區別：`String 是不可變的對象, 因此在每次對String
+    類型進行改變的時候，都會產生一個新的String 對象，然後將指針指向新的String對象`，所以經常改變內容的
+    字串最好不要用String ，因為每次產生物件都會對系統效能產生影響，特別當記憶體中無引用物件多了以後， JVM 的GC
+    就會開始運作，效能就會降低。
+
+  - 使用 StringBuffer 類別時，每次都會對 StringBuffer 物件本身進行操作，而不是產生新的物件並更改物件引用。 
+    所以多數情況下推薦使用 StringBuffer ，特別是字串物件經常改變的情況。
+
+  -  use case
+    - 如果要操作少量的數據，用String
+    - 單線程操作大量數據，用StringBuilder
+    - 多線程操作大量數據，用StringBuffer。
+
 12. java 如何實現比較二個String是否相等 ?
 
 ### 20231205
