@@ -10,6 +10,16 @@
 ### 20231206
 
 1. mybatis 帶入變數方式? 差別
+  - #{}和${}的區別是什麼？
+    #{}是預編譯處理，${}是字元串替換。
+    Mybatis在處理#{}時，會將sql中的#{}替換為?號，調用PreparedStatement的set方法來賦值；
+    Mybatis在處理${}時，就是把${}替換成變數的值。
+    使用#{}可以有效的防止SQL註入，提高系統安全性。
+    https://www.zendei.com/article/70565.html
+  - 批量插入語法?
+  -  Mybatis VS Hibernate ?
+    Hibernate屬於全自動ORM映射工具，使用Hibernate查詢關聯對象或者關聯集合對象時，可以根據對象關係模型直接獲取，所以它是全自動的。而Mybatis在查詢關聯對象或關聯集合對象時，需要手動編寫sql來完成，所以，稱之為半自動ORM映射工具。
+
 2. redis實現分散式鎖
 3. websocket實現原理
 4. 如何偵測死鎖? 看什麼metrics ? cmd ?
