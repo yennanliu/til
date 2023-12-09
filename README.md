@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20231209
+
+- Java Redis distribution lock poc
+- Java CDC(Change Data Capture) POC
+  	- https://medium.com/@systemdesignbychk/system-design-demystifying-change-data-capture-cdc-in-event-driven-microservices-using-debezium-7ed24336bc5a
+  	- https://cloud.tencent.com/developer/article/1483833?fbclid=IwAR1IavrHB41EBjTavtrkIJUSLb1S6o4bKippEKl0L9u65vvwC4VlYPfiPLE
+  	- https://github.com/confluentinc/demo-change-data-capture
+
 ### 20231206
 
 1. mybatis 帶入變數方式? 差別
