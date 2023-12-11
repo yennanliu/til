@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20231211
+- Java : Sorting, Comparable VS Comparator
+ - https://www.pkslow.com/archives/java-sorting
+ - https://openhome.cc/zh-tw/java/collection/comparator/
+ - https://blog.csdn.net/dl962454/article/details/112731217
+
 ### 20231209
 
 - Java distribution lock POC
