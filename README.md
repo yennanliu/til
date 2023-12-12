@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20231212
+- Java Spring boot OAuth2 login with google
+  - https://www.codejava.net/frameworks/spring-boot/oauth2-login-with-google-example
+  
+
 ### 20231211
 - Java : Sorting, Comparable VS Comparator
  - https://www.pkslow.com/archives/java-sorting
