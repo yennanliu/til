@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20231218
+- Spring boot: @Component : so the instance can be injected to the container (if NOT bean, service, controller...)
+   - https://youtu.be/V5iKz8HPiI4?si=r28o--dQURuUW494&t=395
+
 ### 20231212
 - Java Spring boot OAuth2 login with google
   - https://www.codejava.net/frameworks/spring-boot/oauth2-login-with-google-example
