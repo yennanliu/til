@@ -29,6 +29,7 @@
   - redis 上鎖 command
 - DB
   - 上鎖 command
+  - 複合index, example create_time + user_id, 如果只有user_id 在where condition, 仍會有索引效果?
 - BE
   - 分庫transaction 如何設計? 實現?
   - 死鎖問題如何發生? 解決方式?
