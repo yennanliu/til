@@ -10,10 +10,19 @@
 ### 20231220
 - Flink
   - checkpoint
+  - checkpoint VS save point ?
+    - https://zhuanlan.zhihu.com/p/79526638
+    - https://cloud.tencent.com/developer/article/1780677
   - job manager VS task manager
+    - job manager ~= master
+    - worker manager
+    - https://nightlies.apache.org/flink/flink-docs-master/zh/docs/concepts/flink-architecture/
+    - https://nightlies.apache.org/flink/flink-docs-master/zh/docs/try-flink/flink-operations-playground/#:~:text=%E4%B8%80%E4%B8%AAFlink%20%E9%9B%86%E7%BE%A4%E6%80%BB%E6%98%AF,%E7%BB%84%E6%88%90%E4%BA%86%E4%B8%80%E4%B8%AAFlink%20Job%E3%80%82
 - Kafka
   - 資料不遺漏 實現方式?
   - Topic or partition can have ordering ?
+    - ONLY partition ordering (Topic is NOT ordering, or lost parallism), but cusumer can consume in ordering
+    - https://www.cnblogs.com/yisany/p/14736360.html
   - exactly once 底層實現方式?
 - Redis
   - pros and cons
