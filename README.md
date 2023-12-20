@@ -7,6 +7,24 @@
 
 # PROGRESS
 
+### 20231220
+- Flink
+  - checkpoint
+  - job manager VS task manager
+- Kafka
+  - 資料不遺漏 實現方式?
+  - Topic or partition can have ordering ?
+  - exactly once 底層實現方式?
+- Redis
+  - pros and cons
+  - redis 上鎖 command
+- DB
+  - 上鎖 command
+- BE
+  - 分庫transaction 如何設計? 實現?
+  - 死鎖問題如何發生? 解決方式?
+  - DB isolcation ? 不同層級?
+
 ### 20231218
 - Spring boot: @Component : so the instance can be injected to the container (if NOT bean, service, controller...)
    - https://youtu.be/V5iKz8HPiI4?si=r28o--dQURuUW494&t=395
