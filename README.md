@@ -30,6 +30,12 @@
 - DB
   - 上鎖 command
   - 複合index, example create_time + user_id, 如果只有user_id 在where condition, 仍會有索引效果?
+   -> NO,  如果 1)非使用全部複合index or 2)where 條件並非從左綴索引開始, 則複合index不發揮作用
+   - 複合索引遵循最左匹配原則，只有索引中最左列匹配到，下一列才有可能被匹配。 如果左邊欄位使用的是非等值查詢，則索引右邊的欄位將不會被查詢使用，也不會被排序使用。
+   - https://www.begtut.com/mysql/mysql-composite-index.html
+   - https://blog.csdn.net/riemann_/article/details/94840416
+   - https://www.cnblogs.com/lijiaman/p/14364171.html
+   - 
 - BE
   - 分庫transaction 如何設計? 實現?
   - 死鎖問題如何發生? 解決方式?
