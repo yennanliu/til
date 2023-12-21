@@ -34,6 +34,20 @@
     - https://github.com/yennanliu/CS_basics/blob/master/doc/faq/kafka/faq_kafka.md#2-how-does-kafka-implement-exactly-once-
 - Redis
   - pros and cons
+    - pros:
+      - 資料儲存在內存， 讀寫速度快，效能優異
+      - 支援資料持久化，便於資料備份、恢復
+      - 支援簡單的事務，操作滿足原子性
+      - 支援String、List、Hash、Set、Zset五種資料類型，滿足多場景需求
+      - 支持主從複製，實現讀寫分離，分擔讀的壓力
+      - 支援哨兵機制，實現自動故障轉移
+    - cons:
+      - 資料儲存在內存，主機斷電則資料遺失
+      - 儲存容量受到實體記憶體的限制，只能用於小資料量的高效能操作
+      - 線上擴容比較困難，系統上線時必須確保有足夠的空間
+      - 用於快取時，易出現’緩存雪崩‘，’快取擊穿‘等問題
+    - https://worktile.com/kb/p/34706
+    - https://ibatis.io/2iDF34
   - redis 上鎖 command
 - DB
   - 上鎖 command
