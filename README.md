@@ -23,7 +23,15 @@
   - Topic or partition can have ordering ?
     - ONLY partition ordering (Topic is NOT ordering, or lost parallism), but cusumer can consume in ordering
     - https://www.cnblogs.com/yisany/p/14736360.html
-  - exactly once 底層實現方式?
+  - exactly once 底層實現方式? (Idempotence + Transaction)
+    - 冪等性 Idempotence
+    - 事務性 Transaction
+    - <p><img src ="./doc/pic/kafka_Idempotence.png" ></p>
+    - <p><img src ="./doc/pic/kafka_Transaction_1.png" ></p>
+    - <p><img src ="./doc/pic/kafka_Transaction_2.png" ></p>
+    - https://www.lixueduan.com/posts/kafka/10-exactly-once-impl/
+    - https://blog.csdn.net/zc19921215/article/details/108466393#:~:text=Kafka%E5%B9%82%E7%AD%89%E6%80%A7%EF%BC%9A,number%E8%BF%99%E4%B8%A4%E4%B8%AA%E6%A6%82%E5%BF%B5%E3%80%82
+    - https://github.com/yennanliu/CS_basics/blob/master/doc/faq/kafka/faq_kafka.md#2-how-does-kafka-implement-exactly-once-
 - Redis
   - pros and cons
   - redis 上鎖 command
