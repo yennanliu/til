@@ -15,7 +15,7 @@
     - https://cloud.tencent.com/developer/article/1780677
   - job manager VS task manager
     - job manager ~= master
-    - worker manager
+    -  task manager ~= worker manager
     - https://nightlies.apache.org/flink/flink-docs-master/zh/docs/concepts/flink-architecture/
     - https://nightlies.apache.org/flink/flink-docs-master/zh/docs/try-flink/flink-operations-playground/#:~:text=%E4%B8%80%E4%B8%AAFlink%20%E9%9B%86%E7%BE%A4%E6%80%BB%E6%98%AF,%E7%BB%84%E6%88%90%E4%BA%86%E4%B8%80%E4%B8%AAFlink%20Job%E3%80%82
 - Kafka
@@ -29,6 +29,30 @@
   - redis 上鎖 command
 - DB
   - 上鎖 command
+    - https://medium.com/@martin87713/mysql-lock-55ca187e4af2
+  - Mysql鎖類型: (都是悲觀鎖)
+    - 全局鎖
+      ```sql
+      # sql
+      # lock
+      flush tables with read lock
+      # unlock
+      unlock tables
+      ```
+    - 表鎖
+      ```sql
+      # lock
+      #lock tables user read;
+      LOCK TABLE T WRITE;
+      # unlock
+      #unlock tables
+      UNLOCK table;
+      ```
+    - 行鎖
+      ```sql
+      select ... for update;
+      ```
+    - 讀寫鎖
   - 複合index, example create_time + user_id, 如果只有user_id 在where condition, 仍會有索引效果?
    -> NO,  如果 1)非使用全部複合index or 2)where 條件並非從左綴索引開始, 則複合index不發揮作用
    - 複合索引遵循最左匹配原則，只有索引中最左列匹配到，下一列才有可能被匹配。 如果左邊欄位使用的是非等值查詢，則索引右邊的欄位將不會被查詢使用，也不會被排序使用。
