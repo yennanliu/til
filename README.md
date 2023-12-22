@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20231222
+- Spring boot exclude sub lib in pom dep
+  	- [code example](https://github.com/timebusker/spring-boot/blob/master/spring-boot-5-Async/pom.xml#L22)
+- Spring boot async (multi thread)
+  - https://github.com/timebusker/spring-boot/blob/master/spring-boot-5-Async/src/main/java/cn/timebusker/config/TaskExecutorConfig.java
+  - https://zhuanlan.zhihu.com/p/134636915
+  - https://www.cnblogs.com/rhy2103/p/16596219.html
+
 ### 20231220
 - Flink
   - checkpoint
