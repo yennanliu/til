@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20231225
+- Cache 三大現象
+  - 緩存穿透
+  - 緩存擊穿
+  - 緩存雪崩
+
 ### 20231222
 - Spring boot exclude sub lib in pom dep
   	- [code example](https://github.com/timebusker/spring-boot/blob/master/spring-boot-5-Async/pom.xml#L22)
