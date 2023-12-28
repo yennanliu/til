@@ -110,8 +110,25 @@
   - DB isolcation ? 不同層級?
 
 ### 20231218
-- Spring boot: @Component : so the instance can be injected to the container (if NOT bean, service, controller...)
+- Spring boot: `@Component`
+   - Spring 啟動後, 會掃描, 初始化該類的無參數構造方法, 並將初始化後的instance放入spring容器
+   - so the instance can be injected to the container (if NOT bean, service, controller...)
+   - https://youtu.be/dcmhIij3eNM?si=NW2Z4wW_5t6_HitP&t=113
    - https://youtu.be/V5iKz8HPiI4?si=r28o--dQURuUW494&t=395
+- Spring boot : `@PostConstruct`
+   - 保證該方法在參數構造方法初始化後 立刻執行
+   - https://youtu.be/dcmhIij3eNM?si=3KKKz3ldEPE0_RFo&t=122
+```java
+// java
+
+@Component
+public class ZKClient{
+
+   @PostConstruct
+   public void init(){
+	}
+}
+```
 
 ### 20231212
 - Java Spring boot OAuth2 login with google
