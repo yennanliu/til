@@ -116,7 +116,7 @@
    - https://youtu.be/dcmhIij3eNM?si=NW2Z4wW_5t6_HitP&t=113
    - https://youtu.be/V5iKz8HPiI4?si=r28o--dQURuUW494&t=395
 - Spring boot : `@PostConstruct`
-   - 保證該方法在參數構造方法初始化後 立刻執行
+   - 保證該方法在無參數構造方法初始化後 立刻執行 (e.g. @Component -> @PostConstruct)
    - https://youtu.be/dcmhIij3eNM?si=3KKKz3ldEPE0_RFo&t=122
 ```java
 // java
