@@ -7,6 +7,16 @@
 
 # PROGRESS
 
+### 20231230
+- Spring boot `@bean`
+  	- 在用@Configuration修飾class後, 在方法上使用`@bean`, 則該方法會自動被註冊入Spring容器, 進行IOC管理(inverse of control)
+  	- e.g. @Configuration類似於xml文件的配置, 而@bean類似於xml文件裡的配置k-v
+  	- https://blog.51cto.com/u_15067225/2900410
+  	- https://blog.csdn.net/z69183787/article/details/108105329
+  	- https://youtu.be/BXjMbUVs0rY?si=uRgcgOF5grj1MPtb&t=548
+- Zookeeper distribution lock client library written in Java - curator
+  	- https://github.com/yennanliu/curator
+
 ### 20231225
 - Cache 三大現象
   - 緩存穿透
