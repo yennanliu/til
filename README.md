@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230103
+
+- InnoDB
+  - 是MySQL和MariaDB的資料庫引擎之一，最初由MySQL AB發行。InnoDB由Innobase Oy公司所開發，2006年五月時由甲骨文公司併購。與傳統的ISAM與MyISAM相比，InnoDB的最大特色就是支援了ACID相容的事務（Transaction）功能，類似於PostgreSQL
+  - [wiki](https://zh.wikipedia.org/zh-tw/InnoDB#:~:text=InnoDB%EF%BC%8C%E6%98%AFMySQL%E5%92%8CMariaDB,%EF%BC%89%E5%8A%9F%E8%83%BD%EF%BC%8C%E9%A1%9E%E4%BC%BC%E6%96%BCPostgreSQL%E3%80%82)
+  - Other Mysql engine : MyISAM
+
 ### 20231230
 - Spring boot `@bean`
   	- 在用@Configuration修飾class後, 在方法上使用`@bean`, 則該方法會自動被註冊入Spring容器, 進行IOC管理(inverse of control)
@@ -85,6 +92,7 @@
   - redis 上鎖 command
 - DB
   - 上鎖 command
+    - https://www.xiaolincoding.com/mysql/lock/mysql_lock.html#%E8%A1%A8%E7%BA%A7%E9%94%81
     - https://medium.com/@martin87713/mysql-lock-55ca187e4af2
   - Mysql鎖類型: (都是悲觀鎖)
     - 全局鎖
@@ -119,6 +127,7 @@
 - BE
   - 分庫transaction 如何設計? 實現?
   - 死鎖問題如何發生? 解決方式?
+    - https://note.dolyw.com/database/01-MySQL-Lock.html#_6-3-%E5%A6%82%E4%BD%95%E9%98%B2%E6%AD%A2%E6%AD%BB%E9%94%81
   - DB isolcation ? 不同層級?
 
 ### 20231218
