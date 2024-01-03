@@ -44,10 +44,12 @@
     - https://nightlies.apache.org/flink/flink-docs-master/zh/docs/try-flink/flink-operations-playground/#:~:text=%E4%B8%80%E4%B8%AAFlink%20%E9%9B%86%E7%BE%A4%E6%80%BB%E6%98%AF,%E7%BB%84%E6%88%90%E4%BA%86%E4%B8%80%E4%B8%AAFlink%20Job%E3%80%82
 - Kafka
   - 資料不遺漏 實現方式?
+    - via `Ack`
+    - [ref](https://github.com/yennanliu/CS_basics/blob/master/doc/faq/kafka/faq_kafka.md#3-how-kafka-avoid-data-missing-)
   - Topic or partition can have ordering ?
     - ONLY partition ordering (Topic is NOT ordering, or lost parallism), but cusumer can consume in ordering
     - https://www.cnblogs.com/yisany/p/14736360.html
-  - exactly once 底層實現方式? (Idempotence + Transaction)
+  - `Exactly once` 底層實現方式? (Idempotence + Transaction)
     - 冪等性 Idempotence
     - 事務性 Transaction
     - <p><img src ="./doc/pic/kafka_Idempotence.png" ></p>
