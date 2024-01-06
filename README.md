@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230106
+- Zeppelin SDK + Flink
+  	- https://www.laitimes.com/article/1pl86_1vmmq.html
+  	- https://github.com/apache/zeppelin/tree/master/zeppelin-client-examples/src/main/java/org/apache/zeppelin/client/examples - example code
+  	- https://lrting.top/backend/7737/
+  	- https://lrting.top/backend/8097/
+
 ### 20230103
 
 - InnoDB
