@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20230107
+- Steps when FE loads HTML (how many requests FE sends to BE ??)
+	- https://www.youtube.com/watch?v=mw0fcq3V5rQ&list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP&index=55
+   	- get HTML
+   	- get CSS
+   	- get pic
+   	- get JS
+
 ### 20230106
 - Zeppelin SDK + Flink
   	- https://www.laitimes.com/article/1pl86_1vmmq.html
