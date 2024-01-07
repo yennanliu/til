@@ -7,7 +7,7 @@
 
 # PROGRESS
 
-### 20230107
+### 20240107
 - Steps when FE loads HTML (how many requests FE sends to BE ??)
 	- https://www.youtube.com/watch?v=mw0fcq3V5rQ&list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP&index=55
    	- get HTML
@@ -15,14 +15,14 @@
    	- get pic
    	- get JS
 
-### 20230106
+### 20240106
 - Zeppelin SDK + Flink
   	- https://www.laitimes.com/article/1pl86_1vmmq.html
   	- https://github.com/apache/zeppelin/tree/master/zeppelin-client-examples/src/main/java/org/apache/zeppelin/client/examples - example code
   	- https://lrting.top/backend/7737/
   	- https://lrting.top/backend/8097/
 
-### 20230103
+### 20240103
 
 - InnoDB
   - 是MySQL和MariaDB的資料庫引擎之一，最初由MySQL AB發行。InnoDB由Innobase Oy公司所開發，2006年五月時由甲骨文公司併購。與傳統的ISAM與MyISAM相比，InnoDB的最大特色就是支援了ACID相容的事務（Transaction）功能，類似於PostgreSQL
