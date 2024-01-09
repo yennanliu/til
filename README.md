@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20240109
+- VSCode NodeJs 語法提示
+  	- https://blog.csdn.net/honeycandys/article/details/123489268
+  	- https://juejin.cn/s/vscode%20nodejs%E4%BB%A3%E7%A0%81%E6%8F%90%E7%A4%BA
+
 ### 20240107
 - Steps when FE loads HTML (how many requests FE sends to BE ??)
 	- https://www.youtube.com/watch?v=mw0fcq3V5rQ&list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP&index=55
