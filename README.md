@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20230112
+- JS Promise
+  	- https://www.runoob.com/js/js-promise.html
+  	- https://www.runoob.com/nodejs/nodejs-mongodb.html
+
 ### 20240109
 - VSCode NodeJs 語法提示
   	- https://blog.csdn.net/honeycandys/article/details/123489268
