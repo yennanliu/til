@@ -7,6 +7,22 @@
 
 # PROGRESS
 
+### 20230113
+
+- Java 受檢例外（Checked Exception), 執行時期例外（Runtime Exception）
+
+  - 受檢例外（Checked Exception)
+    - 在某些情況下例外的發生是可預期的，例如使用輸入輸出功能時，可能會由於硬體環境問題，而使得程式無法正常從硬體取得輸入或進行輸出，這種錯誤是可預期發生的，像這類的例外稱之為「受檢例外」（Checked Exception），對於受檢例外編譯器會要求您進行例外處理，
+  
+  - 執行時期例外（Runtime Exception
+    - 像 NumberFortmatException 例外是「執行時期例外」（Runtime exception），也就是例外是發生在程式執行期間，並不一定可預期它的發生，編譯器不要求您一定要處理，對於執行時期例外若沒有處理，則例外會一直往外丟，最後由 JVM 來處理例外，JVM 所作的就是顯示例外堆疊訊息，之後結束程式。
+
+  - Thoughts
+    - 如果您在方法中會有例外的發生，而您並不想在方法中直接處理，而想要由呼叫方法的呼叫者來處理，則您可以使用 "throws" 關鍵字來宣告這個方法將會丟出例外，例如 java.ioBufferedReader 的 readLine() 方法就聲明會丟出 java.io.IOException。使用 "throws" 聲明丟出例外的時機，通常是工具類別的某個工具方法，因為作為被呼叫的工具，本身並不需要將處理例外的方式給定義下來，所以在方法上使用"throws"聲明會丟出例外，由呼叫者自行決定如何處理例外是比較合適的，您可以如下使用 "throws" 來丟出例外：
+
+  - Ref
+    - https://github.com/JustinSDK/JavaSE6Tutorial/blob/master/docs/CH10.md
+
 ### 20230112
 - JS Promise
   	- https://www.runoob.com/js/js-promise.html
