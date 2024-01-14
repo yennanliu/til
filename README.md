@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20230114
+
+- Stock 技術分析 : KD指標(Stochastic Oscillator)
+  	- https://www.cmoney.tw/learn/course/technicals/topic/484
+  	- https://www.oanda.com/bvi-ft/lab-education/technical_analysis/use_kd/
+  	- https://rich01.com/what-is-kd-indicator/
+
 ### 20230113
 
 - Java 受檢例外（Checked Exception), 執行時期例外（Runtime Exception）
