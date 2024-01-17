@@ -7,14 +7,19 @@
 
 # PROGRESS
 
-### 20230114
+### 20240117
+- TS transaction library : TypeORM
+  - https://blog.csdn.net/qq_33270001/article/details/121181295
+  - https://hackmd.io/@yygg/rJPQmsLG2?utm_source=preview-mode&utm_medium=rec
+
+### 20240114
 
 - Stock 技術分析 : KD指標(Stochastic Oscillator)
   	- https://www.cmoney.tw/learn/course/technicals/topic/484
   	- https://www.oanda.com/bvi-ft/lab-education/technical_analysis/use_kd/
   	- https://rich01.com/what-is-kd-indicator/
 
-### 20230113
+### 20240113
 
 - Java 受檢例外（Checked Exception), 執行時期例外（Runtime Exception）
 
@@ -30,7 +35,7 @@
   - Ref
     - https://github.com/JustinSDK/JavaSE6Tutorial/blob/master/docs/CH10.md
 
-### 20230112
+### 20240112
 - JS Promise
   	- https://www.runoob.com/js/js-promise.html
   	- https://www.runoob.com/nodejs/nodejs-mongodb.html
