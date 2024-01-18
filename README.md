@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240119
+- Web : 會話控制方式:
+  - token
+  - session
+  - cookie
+  - [ref](https://www.youtube.com/watch?v=UeENe6tys_U&list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP&index=168)
+
 ### 20240117
 - TS transaction library : TypeORM
   - https://blog.csdn.net/qq_33270001/article/details/121181295
