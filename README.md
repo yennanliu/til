@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20240120:
+- Postman : pressure test
+  - https://blog.csdn.net/qq_43842093/article/details/125016545
+  - https://apifox.com/apiskills/postman-pressure-testing-guide/
+  - https://hackmd.io/@mko123654/HkJZiE689
+
 ### 20240119
 - Web : 會話控制方式:
   - token
