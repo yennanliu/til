@@ -13,6 +13,8 @@
   - session
   - cookie
   - [ref](https://www.youtube.com/watch?v=UeENe6tys_U&list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP&index=168)
+  - [cookie VS session](https://www.youtube.com/watch?v=qUKeEzl1wPI&list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP&index=178)
+  - [sesssion intro](https://www.youtube.com/watch?v=lzFRXiipArg&list=PLmOn9nNkQxJGOPF4yPJ_H8lyn73KBcPtP&index=177)
 
 ### 20240117
 - TS transaction library : TypeORM
