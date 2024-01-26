@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240126
+- Zeppelin Flink interpreter setting
+  	- https://www.cnblogs.com/shine-rainbow/p/zeppelin-an-zhuang-ji-pei-zhihive-hespark-jie-shi.html
+
 ### 20240120:
 - Postman : pressure test
   - https://blog.csdn.net/qq_43842093/article/details/125016545
