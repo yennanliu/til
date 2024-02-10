@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20240210
+- Postman pressure test
+  - Right-click "collections" and select "run collection" (NOT click endpoint), then ...
+  - https://juejin.cn/post/7108288696025088008
+
 ### 20240126
 - Zeppelin Flink interpreter setting
   	- https://www.cnblogs.com/shine-rainbow/p/zeppelin-an-zhuang-ji-pei-zhihive-hespark-jie-shi.html
