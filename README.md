@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20240212
+- 股票除權息
+  - https://www.sinotrade.com.tw/richclub/aiinvest/-5ea7edfd0d95d31484fdead5
+  - https://www.sinotrade.com.tw/richclub/aiinvest/-62bbe71461e0f7202caa5570
+
+### 20240211
+- Jmeter makes POST request
+  - https://github.com/yennanliu/utility_shell/tree/master/jmeter/pic
+
 ### 20240210
 - Postman pressure test
   - Right-click "collections" and select "run collection" (NOT click endpoint), then ...
