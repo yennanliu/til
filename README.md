@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20240214
+- JDWP : java遠程調用測試
+ - https://youtu.be/Z70NBYFYl0s?si=jZ8-SLuIlKqhcJ-V
+ - https://www.jianshu.com/p/4b322505087f
+ - https://qsli.github.io/2018/08/12/jdwp/
+
 ### 20240212
 - 股票除權息
   - https://www.sinotrade.com.tw/richclub/aiinvest/-5ea7edfd0d95d31484fdead5
