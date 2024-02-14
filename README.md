@@ -13,6 +13,9 @@
 - Java 常用名詞中英對照
   - https://www.cnblogs.com/harry335/p/5366481.html
   - https://blog.csdn.net/cwdysg/article/details/60952558
+- Java 對象 (object) VS 實例 (instance)
+  - `實例是對象的實例化`, Car.java是對象, 而 Car car1 = new Car(), car1 是實例
+  - https://blog.csdn.net/jinheng_/article/details/109029982
 
 ### 20240214
 - JDWP : java遠程調用測試
