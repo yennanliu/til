@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240215
+- Spring @Configuration 介紹
+  - https://www.youtube.com/watch?v=YkY__WrqejM&list=PLSGSXGjRyTbYqL_tsaFvsyqc0sNDv4j2g&index=26
+- Java 常用名詞中英對照
+  - https://www.cnblogs.com/harry335/p/5366481.html
+  - https://blog.csdn.net/cwdysg/article/details/60952558
+
 ### 20240214
 - JDWP : java遠程調用測試
  - https://youtu.be/Z70NBYFYl0s?si=jZ8-SLuIlKqhcJ-V
