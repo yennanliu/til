@@ -16,6 +16,14 @@
 - Java 對象 (object) VS 實例 (instance)
   - `實例是對象的實例化`, Car.java是對象, 而 Car car1 = new Car(), car1 是實例
   - https://blog.csdn.net/jinheng_/article/details/109029982
+- Spring boot add a custom query in JpaRepository
+ ```java
+    // Define custom query native sql query with name param
+    @Query(value= "select * from employees e where e.first_name =:firstName and e.last_name = :lastName", 
+    nativeQuery = true )
+    Employee findByNativeSQLNameParam(@Param("firstName") String firstName, @Param("lastName") String lastName);
+ ```
+ - https://mohosinmiah1610.medium.com/spring-boot-unit-testing-repository-layer-492bd004d417
 
 ### 20240214
 - JDWP : java遠程調用測試
