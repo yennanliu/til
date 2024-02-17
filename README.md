@@ -12,6 +12,9 @@
   - https://www.runoob.com/w3cnote/scrapy-detail.html
   - https://www.youtube.com/watch?v=fnwvYAtCFko
   - https://medium.com/seaniap/python%E7%B6%B2%E9%A0%81%E7%88%AC%E8%9F%B2-scrapy%E7%9A%84%E5%AE%89%E8%A3%9D%E8%88%87%E4%BD%BF%E7%94%A8%E5%85%A5%E9%96%80-1-878598d7e0e1
+- Spring boot redis lock 3rd party pkg
+   - https://github.com/kekingcn/spring-boot-klock-starter
+   - https://www.tw511.com/a/01/51578.html
 
 ### 20240215
 - Spring @Configuration 介紹
