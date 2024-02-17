@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20240217
+- Python scrapy 爬蟲框架
+  - https://www.runoob.com/w3cnote/scrapy-detail.html
+  - https://www.youtube.com/watch?v=fnwvYAtCFko
+  - https://medium.com/seaniap/python%E7%B6%B2%E9%A0%81%E7%88%AC%E8%9F%B2-scrapy%E7%9A%84%E5%AE%89%E8%A3%9D%E8%88%87%E4%BD%BF%E7%94%A8%E5%85%A5%E9%96%80-1-878598d7e0e1
+
 ### 20240215
 - Spring @Configuration 介紹
   - https://www.youtube.com/watch?v=YkY__WrqejM&list=PLSGSXGjRyTbYqL_tsaFvsyqc0sNDv4j2g&index=26
