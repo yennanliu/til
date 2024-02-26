@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240226
+- RDS Mysql upgrade
+  - https://aws.amazon.com/cn/blogs/china/amazon-rds-for-mysql-5-7-to-8-0-upgrade-guide/
+  - https://aws.amazon.com/cn/blogs/china/amazon-rds-for-mysql-5-7-to-8-0-pre-check/
+  - https://blog.bitipcman.com/rds-mysql-57-to-8-major-version-upgrade/
+  - https://docs.aws.amazon.com/zh_tw/AmazonRDS/latest/UserGuide/USER_UpgradeDBInstance.MySQL.html
+
 ### 20240222
 - Spring boot `mockMvc` test controller
    - https://youtu.be/es_fTKyfI4w?si=0i4y2DVyQrNYKeUw&t=1726
