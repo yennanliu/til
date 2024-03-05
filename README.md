@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20240305
+- AWS Terraform create app runner with ECR
+ - https://medium.com/kocsistem/how-to-deploy-docker-image-to-aws-app-runner-with-terraform-5048eecff047
+ - https://prashant-48386.medium.com/terraform-deploy-docker-image-on-aws-apprunner-from-ecr-repository-8ed5423bf3d4
+
 ### 20240226
 - RDS Mysql upgrade
   - https://aws.amazon.com/cn/blogs/china/amazon-rds-for-mysql-5-7-to-8-0-upgrade-guide/
