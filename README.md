@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240308
+- Terraform build ECS service
+  - EC2
+    - https://spacelift.io/blog/terraform-ecs
+  - Fargete
+    - https://erik-ekberg.medium.com/terraform-ecs-fargate-example-1397d3ab7f02
+
 ### 20240305
 - AWS Terraform create app runner with ECR
  - https://medium.com/kocsistem/how-to-deploy-docker-image-to-aws-app-runner-with-terraform-5048eecff047
