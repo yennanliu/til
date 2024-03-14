@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240314
+- add swagger to NodeJS
+  - https://dev.to/desmondsanctity/documenting-nodejs-api-using-swagger-4klp 
+
 ### 20240308
 - Terraform build ECS service
   - EC2
