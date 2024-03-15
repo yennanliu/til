@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240315
+- Express js auto generates Swagger doc, and populate
+  - https://blog.csdn.net/weixin_48390984/article/details/131962926
+
 ### 20240314
 - add swagger to NodeJS
   - https://dev.to/desmondsanctity/documenting-nodejs-api-using-swagger-4klp 
