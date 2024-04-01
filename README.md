@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240401
+- AWS Cloudwatch - Slack integration
+   - https://medium.com/verybuy-dev/%E5%B0%87-aws-cloudwatch-alarms-%E7%99%BC%E4%BD%88%E5%88%B0-slack-c283959a90ca
+
 ### 20240315
 - Express js auto generates Swagger doc, and populate
   - https://blog.csdn.net/weixin_48390984/article/details/131962926
