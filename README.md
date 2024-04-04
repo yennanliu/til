@@ -8,7 +8,7 @@
 # PROGRESS
 
 ### 20240404
-- IntelliJ 在source code 加斷點
+- IntelliJ 在 3rd party library source code 加斷點
   	- https://youtu.be/uNdIUa_gEVY?si=mhBgwmZF8RSJLs0P&t=470
 
 ### 20240401
