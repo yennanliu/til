@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240408
+- Spring security auth user from DB (custom userid, pwd)
+  - https://www.youtube.com/watch?v=JhX1pv1iCFk&list=PLmOn9nNkQxJEnBjOMEXPLRjoTRNvhHIl2&index=8
+
 ### 20240404
 - IntelliJ 在 3rd party library source code 加斷點
   	- https://youtu.be/uNdIUa_gEVY?si=mhBgwmZF8RSJLs0P&t=470
