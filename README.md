@@ -10,6 +10,7 @@
 ### 20240408
 - Spring security auth user from DB (custom userid, pwd)
   - https://www.youtube.com/watch?v=JhX1pv1iCFk&list=PLmOn9nNkQxJEnBjOMEXPLRjoTRNvhHIl2&index=8
+  - https://youtu.be/HCJH6I5egJk?si=hig7yhJEfPMomAEl
 
 ### 20240404
 - IntelliJ 在 3rd party library source code 加斷點
