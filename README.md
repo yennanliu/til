@@ -11,6 +11,8 @@
 - Spring security auth user from DB (custom userid, pwd)
   - https://www.youtube.com/watch?v=JhX1pv1iCFk&list=PLmOn9nNkQxJEnBjOMEXPLRjoTRNvhHIl2&index=8
   - https://youtu.be/HCJH6I5egJk?si=hig7yhJEfPMomAEl
+- Spring security custom config (哪些endpoints可被訪問, 跳轉路徑..)
+  - https://youtu.be/UWkOQZzAumw?si=KDwX0-1VVQB4yOXW&t=490
 
 ### 20240404
 - IntelliJ 在 3rd party library source code 加斷點
