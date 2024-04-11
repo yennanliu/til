@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20240411
+- Spring security auth with cookie, token
+ -  https://youtu.be/GP5dAxqcO54?si=hc39rO8Py6rWl-58
+ - <p><img src ="./doc/pic/spring_security_token.png" ></p>
+
+
 ### 20240408
 - Spring security auth user from DB (custom userid, pwd)
   - https://www.youtube.com/watch?v=JhX1pv1iCFk&list=PLmOn9nNkQxJEnBjOMEXPLRjoTRNvhHIl2&index=8
