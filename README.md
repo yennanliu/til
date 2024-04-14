@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240414
+- Spring boot create modules under module
+  - https://youtu.be/zisQrnBHvn0?si=l53lvIr4Ba978Msl&t=437
+
 ### 20240411
 - Spring security auth with cookie, token
  -  https://youtu.be/GP5dAxqcO54?si=hc39rO8Py6rWl-58
