@@ -12,6 +12,7 @@
   - https://aws.amazon.com/cn/blogs/china/amazon-rds-for-mysql-5-7-to-8-0-upgrade-guide/
   - https://www.wake.wiki/archives/mysql57%E5%8D%87%E7%BA%A7%E5%88%B0mysql80%E7%9A%84%E5%AE%9E%E8%B7%B5%E5%88%86%E4%BA%AB -- check script
   - https://dev.mysql.com/doc/refman/8.0/en/upgrading.html -- official doc
+  - https://downloads.mysql.com/archives/shell/ - download validate script
 
 ### 20240414
 - Spring boot create modules under module
