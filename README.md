@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240417
+- AWS RDS Mysql 5.x -> 8.x Upgrade
+  - https://aws.amazon.com/cn/blogs/china/amazon-rds-for-mysql-5-7-to-8-0-upgrade-guide/
+
 ### 20240414
 - Spring boot create modules under module
   - https://youtu.be/zisQrnBHvn0?si=l53lvIr4Ba978Msl&t=437
