@@ -22,6 +22,7 @@
 - Spring security auth with cookie, token
  -  https://youtu.be/GP5dAxqcO54?si=hc39rO8Py6rWl-58
  - <p><img src ="./doc/pic/spring_security_token.png" ></p>
+ - <p><img src ="./doc/pic/spring_security_token2.png" ></p>
 
 
 ### 20240408
