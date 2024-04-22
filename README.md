@@ -10,6 +10,15 @@
 ### 20240422
 - VS Code change theme
   - https://blog.csdn.net/qq_21237549/article/details/121515693
+- VS code enable TS syntax checks inline
+  - https://stackoverflow.com/questions/43908813/how-to-setup-vscode-to-show-typescript-error-inline
+```json
+# .vscode/settings.json
+{
+    "files.autoSave": "afterDelay",
+    "editor.hover.enabled": true
+}
+```
 
 ### 20240417
 - AWS RDS Mysql 5.x -> 8.x Upgrade
