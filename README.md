@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240422
+- VS Code change theme
+  - https://blog.csdn.net/qq_21237549/article/details/121515693
+
 ### 20240417
 - AWS RDS Mysql 5.x -> 8.x Upgrade
   - https://aws.amazon.com/cn/blogs/china/amazon-rds-for-mysql-5-7-to-8-0-upgrade-guide/
