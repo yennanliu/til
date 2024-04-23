@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20240423
+- K8S basic
+  - https://youtu.be/E8NuVrhsCfg?si=aZcEv4uPmgbwzRLs&t=270
+  - <p><img src ="./doc/pic/k8s_concept_1.png" ></p>
+
+
 ### 20240422
 - VS Code change theme
   - https://blog.csdn.net/qq_21237549/article/details/121515693
