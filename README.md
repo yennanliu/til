@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240522
+- Node js update Mysql client for Mysql 8.x.x
+  - use `mysql2` instead of `mysql` client lib
+  - https://www.npmjs.com/package/mysql2
+  - https://www.npmjs.com/package/@types/mysql
+  - https://blog.csdn.net/Mr_Bobcp/article/details/135937091
+
 ### 20240423
 - K8S basic
   - https://youtu.be/E8NuVrhsCfg?si=aZcEv4uPmgbwzRLs&t=270
