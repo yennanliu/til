@@ -14,6 +14,10 @@
   - https://www.baeldung.com/java-linked-hashmap
   - https://doc.yonyoucloud.com/doc/wiki/project/java-collection/linkedhashmap.html#:~:text=LinkedHashMap%20%E6%98%AFHashMap%20%E7%9A%84%E4%B8%80%E4%B8%AA,null%20%E5%80%BC%E5%92%8Cnull%20%E9%94%AE%E3%80%82
 
+- Java : `Entry` - static internal class, for creating a single linked list (example : for LinkedHashMap)
+  	- https://blog.csdn.net/weixin_44874132/article/details/113367441
+  	- https://blog.csdn.net/yaomingyang/article/details/78748130
+  
 ### 20240522
 - Node js update Mysql client for Mysql 8.x.x
   - use `mysql2` instead of `mysql` client lib
