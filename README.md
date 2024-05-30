@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240530
+- Java : `LinkedHashMap` - hashMap with ordering feature
+  - https://yanglukuan.github.io/2017/09/05/java/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E4%B9%8BLinkedHashMap%E8%AF%A6%E8%A7%A3/
+  - https://docs.oracle.com/javase/8/docs/api/java/util/LinkedHashMap.html
+  - https://www.baeldung.com/java-linked-hashmap
+  - https://doc.yonyoucloud.com/doc/wiki/project/java-collection/linkedhashmap.html#:~:text=LinkedHashMap%20%E6%98%AFHashMap%20%E7%9A%84%E4%B8%80%E4%B8%AA,null%20%E5%80%BC%E5%92%8Cnull%20%E9%94%AE%E3%80%82
+
 ### 20240522
 - Node js update Mysql client for Mysql 8.x.x
   - use `mysql2` instead of `mysql` client lib
