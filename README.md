@@ -14,7 +14,15 @@
   - https://medium.com/@charming_rust_oyster_221/flask-%E9%85%8D%E7%BD%AE-https-%E7%B6%B2%E7%AB%99-ssl-%E5%AE%89%E5%85%A8%E8%AA%8D%E8%AD%89-36dfeb609fa8
   - https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
 - Flask + socketIO
-  - https://medium.com/@charming_rust_oyster_221/%E4%BD%BF%E7%94%A8-flask-socketio-%E5%AE%8C%E6%88%90-websocket-%E9%9B%99%E5%90%91%E9%80%9A%E8%A8%8A-49fd734f52ae 
+  - https://medium.com/@charming_rust_oyster_221/%E4%BD%BF%E7%94%A8-flask-socketio-%E5%AE%8C%E6%88%90-websocket-%E9%9B%99%E5%90%91%E9%80%9A%E8%A8%8A-49fd734f52ae
+- IntelliJ format code with `google java code format plugin`
+  - https://stackoverflow.com/questions/42979700/how-to-configure-google-java-code-formatter-in-intellij-idea-17
+  - https://github.com/yennanliu/utility_shell/blob/master/intellij/intellij_command.sh#L32
+  ```
+  # step 1) install plugin
+  # step 2) enable plugin in whole project
+  # step 3) go to java file, press "Option + Command + L" format code
+  ```
 
 ### 20240530
 - Java : `LinkedHashMap` - hashMap with ordering feature
