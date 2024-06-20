@@ -21,7 +21,7 @@
   ```
   # step 1) install plugin
   # step 2) enable plugin in whole project
-  # step 3) go to java file, press "Option + Command + L" format code
+  # step 3) go to java dir / file, press "Option + Command + L" format code ( if do on dir, then can format all files under dir at once)
   ```
 
 ### 20240530
