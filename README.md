@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20240620
+- SSL (Secure Sockets Layer)
+  - https://www.cloudflare.com/zh-tw/learning/ssl/what-is-ssl/
+- Flask + SSL
+  - https://medium.com/@charming_rust_oyster_221/flask-%E9%85%8D%E7%BD%AE-https-%E7%B6%B2%E7%AB%99-ssl-%E5%AE%89%E5%85%A8%E8%AA%8D%E8%AD%89-36dfeb609fa8
+  - https://blog.miguelgrinberg.com/post/running-your-flask-application-over-https
+- Flask + socketIO
+  - https://medium.com/@charming_rust_oyster_221/%E4%BD%BF%E7%94%A8-flask-socketio-%E5%AE%8C%E6%88%90-websocket-%E9%9B%99%E5%90%91%E9%80%9A%E8%A8%8A-49fd734f52ae 
+
 ### 20240530
 - Java : `LinkedHashMap` - hashMap with ordering feature
   - https://yanglukuan.github.io/2017/09/05/java/Java%E9%9B%86%E5%90%88%E6%A1%86%E6%9E%B6%E4%B9%8BLinkedHashMap%E8%AF%A6%E8%A7%A3/
