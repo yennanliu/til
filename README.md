@@ -23,6 +23,7 @@
   # step 2) enable plugin in whole project
   # step 3) go to java dir / file, press "Option + Command + L" format code ( if do on dir, then can format all files under dir at once)
   ```
+  - extra config : https://github.com/google/google-java-format/blob/master/README.md#intellij-jre-config
 
 ### 20240530
 - Java : `LinkedHashMap` - hashMap with ordering feature
