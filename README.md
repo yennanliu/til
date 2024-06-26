@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240526
+- `jps -l` show running java progress
+  	- https://javaguide.cn/java/jvm/jdk-monitoring-and-troubleshooting-tools.html#jps-%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89-java-%E8%BF%9B%E7%A8%8B
+
 ### 20240524
 - When MySQL index failed
   - https://www.51cto.com/article/702691.html
