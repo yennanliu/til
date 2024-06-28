@@ -11,6 +11,8 @@
 - RX Java
   - https://www.baeldung.com/rx-java
   - https://eric-hisuyi.medium.com/%E4%BB%8B%E7%B4%B9-rxjavar-6374a90f55a8
+- GCP VM auto-scaling
+  - https://kejyuntw.gitbooks.io/google-cloud-platform-learning-notes/content/google-compute-engine/auto-scaling/auto-scaling-README.html
 
 ### 20240526
 - `jps -l` show running java progress
