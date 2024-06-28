@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20240527
+- RX Java
+  - https://www.baeldung.com/rx-java
+  - https://eric-hisuyi.medium.com/%E4%BB%8B%E7%B4%B9-rxjavar-6374a90f55a8
+
 ### 20240526
 - `jps -l` show running java progress
   	- https://javaguide.cn/java/jvm/jdk-monitoring-and-troubleshooting-tools.html#jps-%E6%9F%A5%E7%9C%8B%E6%89%80%E6%9C%89-java-%E8%BF%9B%E7%A8%8B
