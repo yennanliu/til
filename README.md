@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240530
+- IntelliJ compile project as jar
+  - https://matthung0807.blogspot.com/2022/08/intellij-build-executable-jar.html
+
 ### 20240527
 - RX Java
   - https://www.baeldung.com/rx-java
