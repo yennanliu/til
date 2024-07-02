@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240702
+- Java get thread memory usage
+  - https://blog.csdn.net/xlxxcc/article/details/51121324
+  ```bash
+  udo jstack -l 14949
+  ```
+
 ### 20240530
 - IntelliJ compile project as jar
   - https://matthung0807.blogspot.com/2022/08/intellij-build-executable-jar.html
