@@ -7,6 +7,16 @@
 
 # PROGRESS
 
+### 20240705
+- java `Future.cancel`
+  - https://my.oschina.net/nipin/blog/795485
+  - https://wenku.csdn.net/answer/5a6647277c684b3c912f20f177fb5f1a
+- java `newScheduledThreadPool`
+  - https://www.cnblogs.com/ZXF6/p/14012036.html
+  - https://www.jianshu.com/p/a21081cdc1d9
+- java `ExecutorService`
+  - https://ithelp.ithome.com.tw/m/articles/10207656
+
 ### 20240702
 - Java get thread memory usage
   - https://blog.csdn.net/xlxxcc/article/details/51121324
