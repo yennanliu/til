@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+### 20240708
+- Spring boot `Qualifier`
+   - https://kucw.io/doc/springboot/8/
+   - https://blog.csdn.net/qq78442761/article/details/114572648
+   ```
+   @Qualifier 的用途，是去指定要注入的 Bean 的「名字」是什麼，進而解決同時有兩個同樣類型的 Bean 存在的問題
+   ``` 
+
 ### 20240705
 - java `Future.cancel`
   - https://my.oschina.net/nipin/blog/795485
