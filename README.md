@@ -14,6 +14,10 @@
    ```
    @Qualifier 的用途，是去指定要注入的 Bean 的「名字」是什麼，進而解決同時有兩個同樣類型的 Bean 存在的問題
    ``` 
+- Spring boot thread pool
+   - https://blog.csdn.net/u010986241/article/details/138205146
+   - https://github.com/yennanliu/SpringPlayground/pull/158/commits/aeba8fa68973e4ca7439e0563a2e28a15497d4ae
+
 
 ### 20240705
 - java `Future.cancel`
