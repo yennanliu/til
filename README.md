@@ -46,6 +46,8 @@
   - https://eric-hisuyi.medium.com/%E4%BB%8B%E7%B4%B9-rxjavar-6374a90f55a8
   - https://juejin.cn/post/6844903656878243847
   - https://www.youtube.com/watch?v=7mbjhNCWqvs&list=PLZ3FH0lcV0117kiek3g-qiQDkO4ezy_Ro
+  - https://youtu.be/EExlnnq5Grs?si=fDg8PI4BDW4EmqaQ
+  - https://github.com/WebDevSquad/reactive-java-workshop/tree/master
 - GCP VM auto-scaling
   - https://kejyuntw.gitbooks.io/google-cloud-platform-learning-notes/content/google-compute-engine/auto-scaling/auto-scaling-README.html
 
