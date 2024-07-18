@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240718
+- java `Class<?>`
+  - https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/dev/ClassType.java#L38
+
 ### 20240708
 - Spring boot `Qualifier`
    - https://kucw.io/doc/springboot/8/
