@@ -8,10 +8,17 @@
 # PROGRESS
 
 ### 20240727
-- Servlet（Server Applet
+- Servlet（Server Applet)
    - https://zh.wikipedia.org/zh-tw/Java_Servlet
    - Servlet（Server Applet），全稱Java Servlet。是用Java編寫的伺服器端程式。其主要功能在於互動式地瀏覽和修改資料，生成動態Web內容。狹義的Servlet是指Java語言實現的一個介面，廣義的Servlet是指任何實現了這個Servlet介面的類別，一般情況下，人們將Servlet理解為後者。
   - Servlet執行於支援Java的應用伺服器中。從實現上講，Servlet可以回應任何類別型的請求，但絕大多數情況下Servlet只用來擴充基於HTTP協定的Web伺服器。
+- Java JUC `ExecutorService` : `submit() VS execute()`
+  - https://www.cnblogs.com/handsomeye/p/6225033.html
+  - execute()和submit()方法的差異：
+    - 1. 接收的參數不一樣
+    - 2. submit()有回傳值，而execute()沒有
+	- 例如，有個validation的task，希望該task執行完後告訴我它的執行結果，是成功還是失敗，然後繼續下面的操作。
+    - 3. submit()可以進行Exception處理;
 
 ### 20240718
 - java `Class<?>`
