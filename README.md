@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20240727
+- Servlet（Server Applet
+   - https://zh.wikipedia.org/zh-tw/Java_Servlet
+   - Servlet（Server Applet），全稱Java Servlet。是用Java編寫的伺服器端程式。其主要功能在於互動式地瀏覽和修改資料，生成動態Web內容。狹義的Servlet是指Java語言實現的一個介面，廣義的Servlet是指任何實現了這個Servlet介面的類別，一般情況下，人們將Servlet理解為後者。
+  - Servlet執行於支援Java的應用伺服器中。從實現上講，Servlet可以回應任何類別型的請求，但絕大多數情況下Servlet只用來擴充基於HTTP協定的Web伺服器。
+
 ### 20240718
 - java `Class<?>`
   - https://github.com/yennanliu/JavaHelloWorld/blob/main/src/main/java/dev/ClassType.java#L38
