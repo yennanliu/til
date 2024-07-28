@@ -9,7 +9,7 @@
 
 ### 20240728
 - `Function` - java Lambda expression
-  - https://youtu.be/H-ijsS-pfgQ?si=O57xZSpkvM97q0q_
+  - https://youtu.be/H-ijsS-pfgQ?si=AL7Oqp-7hPmnVyIi
 
 ### 20240727
 - Servlet（Server Applet)
