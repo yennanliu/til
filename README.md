@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+### 20240728
+- `Function` - java Lambda expression
+  - https://youtu.be/H-ijsS-pfgQ?si=O57xZSpkvM97q0q_
+
 ### 20240727
 - Servlet（Server Applet)
    - https://zh.wikipedia.org/zh-tw/Java_Servlet
