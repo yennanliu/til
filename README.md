@@ -7,6 +7,9 @@
 
 # PROGRESS
 
+### 20240811
+- Java grpc
+
 ### 20240729
 - 背壓 (back pressure)
    - https://youtu.be/N-c1OV3s-Tk?si=BU0bdNCEaR2hQoBC&t=918
