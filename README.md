@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20240813
+- Spring boot `SSE` (Server-Sent Events)
+  - https://github.com/CodingChaozhang/spring_boot_practice_demo/blob/master/springboot_sse/Spring%20boot%E6%95%B4%E5%90%88SSE%E5%AE%9E%E7%8E%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%AE%9E%E6%97%B6%E6%8E%A8%E9%80%81%E6%B5%81%E4%BF%A1%E6%81%AF.md
+  - https://www.baeldung.com/spring-server-sent-events
+  - https://medium.com/codimis/what-is-server-sent-event-sse-and-how-to-use-it-in-java-spring-boot-7f4ffa828882
+  - SSE VS websocket
+    - https://youtu.be/xUux3Ycjh7U?si=2FmjgXG0iBE6NUTl&t=1141
+
+
 ### 20240812
 - Protobuf
   - https://www.wdbyte.com/tool/protobuf/
