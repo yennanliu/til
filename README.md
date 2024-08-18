@@ -24,6 +24,9 @@
 
 ### 20240811
 - Java grpc
+  - https://github.com/yennanliu/til/blob/master/doc/grpc_vs_http.md
+  - https://youtu.be/qEB3yFzETVs?si=rx2bn9HEsftZj2VQ
+  - https://youtu.be/l1SxNef-vsA?si=kSa0qF9nXBlTlbr7
 
 ### 20240729
 - 背壓 (back pressure)
