@@ -7,7 +7,13 @@
 
 # PROGRESS
 
-### 20230818
+### 20240822
+- Java `@inject`
+  - https://blog.51cto.com/u_16175497/7155587
+  - https://www.cnblogs.com/yjmyzz/p/j2ee-cdi-inject.html
+  - https://blog.csdn.net/qq_34120041/article/details/53672199
+
+### 20240818
 - Bazel - build tool
   - https://bazel.build/?hl=zh-tw
   - https://bazel.build/start/java?hl=zh-tw
