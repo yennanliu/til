@@ -7,6 +7,20 @@
 
 # PROGRESS
 
+### 20240824
+- spring boot SQL logging level
+  - https://github.com/yennanliu/SpringPlayground/blob/main/webFluxPoc/src/main/resources/application.yaml#L9
+  ```
+  logging:
+  level:
+    org:
+      springframework:
+        r2dbc: debug
+  ```
+- R2DBC client : `DatabaseClient`
+   - https://github.com/yennanliu/SpringPlayground/blob/main/webFluxPoc/src/test/java/com/yen/webFluxPoc/R2DBCTest.java#L115
+   
+
 ### 20240822
 - Java `@inject`
   - https://blog.51cto.com/u_16175497/7155587
