@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+### 20240830
+- `Guice` : java dependency injection tool
+  - https://github.com/google/guice/wiki/Injections
+  - https://www.baeldung.com/guice
+  - https://www.digitalocean.com/community/tutorials/google-guice-dependency-injection-example-tutorial
+  - https://jimwayne.blogspot.com/2015/09/guice-dependency-imjection.html
+  - https://blog.csdn.net/cunchi4221/article/details/107477193
+  - https://peter0930260535.medium.com/java%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E6%83%B3%E4%BA%86%E8%A7%A3google-guice-framework-%E5%85%88%E4%BE%86%E8%AA%8D%E8%AD%98dependency-injection-1c6acbdcaf9d
+
 ### 20240824
 - spring boot SQL logging level
   - https://github.com/yennanliu/SpringPlayground/blob/main/webFluxPoc/src/main/resources/application.yaml#L9
