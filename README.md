@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240901
+- `lombok.SneakyThrows`:
+  - https://www.cnblogs.com/acmaner/p/13967688.html
+  - https://github.com/hantsy/spring-reactive-sample/blob/master/schedule/src/main/java/com/example/demo/Application.java#L18
+  - 在java的異常體系中Exception異常有兩個分支，一個是運行時異常RuntimeException，一個是編譯時異常，在Exception下的所有非RuntimeException異常，例如IOException、SQLException等；所有的運行時異常不捕獲，編譯時異常是一定要捕獲，否則編譯會報錯。 `@SneakyThrows就是利用了這個機制，將目前方法拋出的異常，包裝成RuntimeException，騙過編譯器，讓呼叫點可以不用顯示處理異常資訊`。
+
+
 ### 20240830
 - `Guice` : java dependency injection tool
   - https://github.com/google/guice/wiki/Injections
