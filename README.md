@@ -22,6 +22,10 @@
   - https://jimwayne.blogspot.com/2015/09/guice-dependency-imjection.html
   - https://blog.csdn.net/cunchi4221/article/details/107477193
   - https://peter0930260535.medium.com/java%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E6%83%B3%E4%BA%86%E8%A7%A3google-guice-framework-%E5%85%88%E4%BE%86%E8%AA%8D%E8%AD%98dependency-injection-1c6acbdcaf9d
+  - https://www.tutorialspoint.com/guice/guice_quick_guide.htm
+  - https://github.com/mvpjava/google-guice-tutorials
+  - https://medium.com/javarevisited/dependency-injection-using-google-guice-framework-97c3ca5a5d82
+  - https://github.com/eugenp/tutorials/tree/master/di-modules/guice
 
 ### 20240824
 - spring boot SQL logging level
