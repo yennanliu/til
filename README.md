@@ -7,6 +7,16 @@
 
 # PROGRESS
 
+### 20240908
+- Rx Java `fromCallable`:
+   - https://blog.csdn.net/u010784887/article/details/79320856
+   - https://blog.csdn.net/dingshuhong_/article/details/51088069
+   - https://blog.51cto.com/u_16099261/7079805
+  ```java
+  // example code
+  Single.fromCallable()
+  ```
+
 ### 20240901
 - `lombok.SneakyThrows`:
   - https://www.cnblogs.com/acmaner/p/13967688.html
