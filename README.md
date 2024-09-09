@@ -12,9 +12,26 @@
    - https://blog.csdn.net/u010784887/article/details/79320856
    - https://blog.csdn.net/dingshuhong_/article/details/51088069
    - https://blog.51cto.com/u_16099261/7079805
+   - [code example](https://github.com/yennanliu/JavaHelloWorld/blob/main/dev_projects/RxJava/RxJava/src/main/java/com/yen/Util/FileUtil.java#L48)
   ```java
   // example code
-  Single.fromCallable()
+   return Single.fromCallable(
+            () ->
+                //  NOTE !! : java.nio.file.Files
+                Files.list(Paths.get(dir))
+                    .filter(file -> !Files.isDirectory(file))
+                    .map(
+                        file -> {
+                          System.out.println(
+                              "file = " + file + " filename = " + file.getFileName());
+                          return file;
+                        })
+                    .collect(Collectors.toList()))
+        .onErrorReturn(
+            e -> {
+              System.out.println("(RX) get file list exception: " + e.getMessage());
+              return List.of(); // return an empty list if an error occurs
+            });
   ```
 
 ### 20240901
