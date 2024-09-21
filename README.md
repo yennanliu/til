@@ -7,6 +7,50 @@
 
 # PROGRESS
 
+### 20240922
+- Rx Java `fromCallable` example:
+- Callable Implementation: The lambda expression () -> sendEmail() is replaced by an anonymous inner class that implements Callable<SmtpResponse>. The call() method returns the result of the sendEmail() method.
+- fromCallable: The fromCallable(callable) method creates an Observable from the Callable object.
+```java
+// lambda expression
+import static rx.Observable.fromCallable;
+
+Observable<SmtpResponse> rxSendEmail(Ticket ticket) {
+    // Create a synchronous Observable
+    return fromCallable(() -> sendEmail());
+}
+
+// without lambda expression
+import static rx.Observable.fromCallable;
+import java.util.concurrent.Callable;
+
+Observable<SmtpResponse> rxSendEmail(Ticket ticket) {
+    // Create a Callable object that calls sendEmail()
+    Callable<SmtpResponse> callable = new Callable<SmtpResponse>() {
+        @Override
+        public SmtpResponse call() throws Exception {
+            return sendEmail();
+        }
+    };
+
+    // Create a synchronous Observable from the Callable
+    return fromCallable(callable);
+}
+
+
+// equivalent code of lambda expression above
+Callable<SmtpResponse> callable = new Callable<SmtpResponse>() {
+    @Override
+    public SmtpResponse call() throws Exception {
+        return sendEmail();
+    }
+};
+
+Observable<SmtpResponse> observable = Observable.fromCallable(callable);
+```
+
+
+
 ### 20240908
 - Rx Java `fromCallable`:
    - https://blog.csdn.net/u010784887/article/details/79320856
