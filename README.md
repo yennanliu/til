@@ -12,7 +12,7 @@
 - Callable Implementation: The lambda expression () -> sendEmail() is replaced by an anonymous inner class that implements Callable<SmtpResponse>. The call() method returns the result of the sendEmail() method.
 - fromCallable: The fromCallable(callable) method creates an Observable from the Callable object.
 ```java
-// lambda expression
+/** V1 : lambda expression */
 import static rx.Observable.fromCallable;
 
 Observable<SmtpResponse> rxSendEmail(Ticket ticket) {
@@ -20,7 +20,7 @@ Observable<SmtpResponse> rxSendEmail(Ticket ticket) {
     return fromCallable(() -> sendEmail());
 }
 
-// without lambda expression
+/** V2 : WITHOUY lambda expression */
 import static rx.Observable.fromCallable;
 import java.util.concurrent.Callable;
 
@@ -38,7 +38,7 @@ Observable<SmtpResponse> rxSendEmail(Ticket ticket) {
 }
 
 
-// equivalent code of lambda expression above
+/**  equivalent code of lambda expression above */
 Callable<SmtpResponse> callable = new Callable<SmtpResponse>() {
     @Override
     public SmtpResponse call() throws Exception {
