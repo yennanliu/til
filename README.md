@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+### 20240923
+- python test : `flexmock`
+   - https://docs.python.org/zh-tw/3/library/unittest.mock-examples.html
+   - https://pypi.org/project/flexmock/
+   - https://wsfdl.com/python/2015/06/02/Python%E7%9A%84%E6%B5%8B%E8%AF%95%E4%B9%8Bmock.html
+   - https://flexmock.readthedocs.io/en/latest/start/
+
 ### 20240922
 - Rx Java `fromCallable` example:
 - Callable Implementation: The lambda expression () -> sendEmail() is replaced by an anonymous inner class that implements Callable<SmtpResponse>. The call() method returns the result of the sendEmail() method.
