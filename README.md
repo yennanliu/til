@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+### 20241005
+- Docker : pass env variable to docker env
+  - https://release.com/blog/how-to-set-docker-compose-environment-variables#:~:text=Passing%20an%20environment%20variable%20from%20the%20host&text=Save%20the%20file%20and%20run,%26%26%20docker%20compose%20up%20again.
+  - https://docs.docker.com/compose/how-tos/environment-variables/set-environment-variables/
+
 ### 20240929
 - Java TreeMap `FloorKey()`
   - java.util.TreeMap.floorKey() 方法傳回小於或等於給定鍵的最大鍵，或如果沒有該鍵，則傳回 null。
