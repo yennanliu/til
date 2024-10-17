@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+### 20241017
+- `Django` ORM : models.ManyToManyField
+    - Django will automatically create `intermedia` table for many-to-many relationship management
+    - https://medium.com/my-back-end-life/django-orm-%E6%A8%A1%E5%9E%8B%E5%B1%A4-manytomany-%E5%A4%9A%E5%B0%8D%E5%A4%9A-34dc9faef65c
+    - https://docs.djangoproject.com/en/5.1/topics/db/examples/many_to_many/
+
 ### 20241005
 - Docker : pass env variable to docker env
   - https://release.com/blog/how-to-set-docker-compose-environment-variables#:~:text=Passing%20an%20environment%20variable%20from%20the%20host&text=Save%20the%20file%20and%20run,%26%26%20docker%20compose%20up%20again.
