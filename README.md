@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20241031
+- Django saas
+  - https://ithelp.ithome.com.tw/users/20161866/ironman/7404?page=1
+
 ### 20241017
 - `Django` ORM : models.ManyToManyField
     - Django will automatically create `intermedia` table for many-to-many relationship management
