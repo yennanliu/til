@@ -10,6 +10,8 @@
 ## 20241031
 - Django saas
   - https://ithelp.ithome.com.tw/users/20161866/ironman/7404?page=1
+- 循序圖 (Sequence Diagram)
+  - https://medium.com/@jean-huang/%E5%AD%B8%E6%9C%83%E5%BE%AA%E5%BA%8F%E5%9C%96-sequence-diagram-%E5%9F%BA%E7%A4%8E%E6%A6%82%E5%BF%B5-%E6%95%99%E5%AD%B8-%E5%AF%A6%E4%BE%8B-ad7472f6550f
 
 ### 20241017
 - `Django` ORM : models.ManyToManyField
