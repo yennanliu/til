@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20241103
+- Allow YouTube embeds in README
+  - https://githubvideo.com/
+
 ## 20241031
 - Django saas
   - https://ithelp.ithome.com.tw/users/20161866/ironman/7404?page=1
