@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20241105
+- git large file storage
+  - https://git-lfs.com/
+
 ## 20241103
 - Allow YouTube embeds in README
   - https://githubvideo.com/
