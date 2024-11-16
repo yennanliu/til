@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20241116
+- Integration test (e2e) ref:
+  - https://github.com/kafbat/kafka-ui/blob/main/e2e-tests/src/test/java/io/kafbat/ui/smokesuite/SmokeTest.java
+
 ## 20241105
 - git large file storage
   - https://git-lfs.com/
