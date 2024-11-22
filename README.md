@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+## 20241122
+- DB N+1 Problem
+   - https://docs.sentry.io/product/issues/issue-details/performance-issues/n-one-queries/
+   - https://hackmd.io/@were1122was/BkUpHXuAq
+
 ## 20241116
 - Integration test (e2e) ref:
   - https://github.com/kafbat/kafka-ui/blob/main/e2e-tests/src/test/java/io/kafbat/ui/smokesuite/SmokeTest.java
