@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20241123
+- Spring boot : `@RequestBody` VS `@Payload`
+  - https://stackoverflow.com/questions/22069844/what-is-the-difference-between-a-request-payload-and-request-body
+  - https://www.51cto.com/article/786465.html
+  - https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/messaging/handler/annotation/Payload.html
+
 ## 20241122
 - DB N+1 Problem
    - https://docs.sentry.io/product/issues/issue-details/performance-issues/n-one-queries/
