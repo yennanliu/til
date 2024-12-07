@@ -7,6 +7,17 @@
 
 # PROGRESS
 
+## 20241207
+- how to check `console.log` in pop up window
+- 1. Open the Popup Window:
+  	- Trigger the popup window in your application, or open it manually if you have its URL.
+- 2. Right-Click in the Popup:
+	- In the popup window, right-click anywhere in the content.
+- 3. Select “Inspect”:
+	- From the context menu, choose “Inspect”.
+- 4. Switch to the Console Tab:
+     	- In the DevTools that open, navigate to the “Console” tab to view the logs.
+
 ## 20241123
 - Spring boot : `@RequestBody` VS `@Payload`
   - https://stackoverflow.com/questions/22069844/what-is-the-difference-between-a-request-payload-and-request-body
