@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+## 20241208
+- Spring boot `redis` cache
+  - https://docs.spring.io/spring-data/redis/reference/redis/redis-cache.html
+  - https://www.tpisoftware.com/tpu/articleDetails/1525
+  - https://chikuwa-tech-study.blogspot.com/2023/08/spring-boot-using-cache-and-redis.html
+  - https://www.baeldung.com/spring-boot-redis-cache
+
 ## 20241207
 - how to check `console.log` in pop up window
 - 1. Open the Popup Window:
