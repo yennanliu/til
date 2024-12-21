@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20241221
+- Selenium IDE, Grid (node) - e2e test
+  - https://tech-blog.cymetrics.io/posts/nick/selenuim/
+  - https://www.selenium.dev/documentation/grid/
+  - https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en&pli=1
+
 ## 20241208
 - Spring boot `redis` cache
   - https://docs.spring.io/spring-data/redis/reference/redis/redis-cache.html
