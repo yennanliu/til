@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20241229
+- AWS `VPC(Virtual Private Cloud)`
+  - https://godleon.github.io/blog/AWS/AWS-SOA-VPC/
+
 ## 20241221
 - Selenium IDE, Grid (node) - e2e test
   - https://tech-blog.cymetrics.io/posts/nick/selenuim/
