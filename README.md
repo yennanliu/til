@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+## 20250131
+- `BUD` optimization
+   - https://dev.to/coderjay06/the-b-u-d-technique-5ann
+   - Bottlenecks
+   - Unnecessary Work
+   - Duplicated Work
+
 ## 20241229
 - AWS `VPC(Virtual Private Cloud)`
   - https://godleon.github.io/blog/AWS/AWS-SOA-VPC/
