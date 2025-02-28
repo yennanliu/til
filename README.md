@@ -10,6 +10,8 @@
 ## 20250228
 - AI coding tool
   - https://blog.google/technology/developers/gemini-code-assist-free/
+   - example cmd:
+      - https://github.com/yennanliu/SpringPlayground/pull/193#pullrequestreview-2650437679
   - https://www.cursor.com/
   - https://github.com/features/copilot
 
