@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250228
+- AI coding tool
+  - https://blog.google/technology/developers/gemini-code-assist-free/
+  - https://www.cursor.com/
+  - https://github.com/features/copilot
+
 ## 20250131
 - `BUD` optimization
    - https://dev.to/coderjay06/the-b-u-d-technique-5ann
