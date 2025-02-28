@@ -15,6 +15,11 @@
   - https://www.cursor.com/
   - https://github.com/features/copilot
 
+- OpenID Connect (OIDC)
+  - https://hennge.com/tw/blog/what-is-openid-connect.html
+  - https://learn.microsoft.com/zh-tw/entra/identity-platform/v2-protocols-oidc
+  - https://shuninjapan.medium.com/%E6%B7%B1%E5%85%A5%E6%B7%BA%E5%87%BA-openid-connect-%E4%B8%80-8701bbf00958
+
 ## 20250131
 - `BUD` optimization
    - https://dev.to/coderjay06/the-b-u-d-technique-5ann
