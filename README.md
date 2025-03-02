@@ -14,6 +14,8 @@
       - https://github.com/yennanliu/SpringPlayground/pull/193#pullrequestreview-2650437679
   - https://www.cursor.com/
   - https://github.com/features/copilot
+     - copilot code review
+        - https://docs.github.com/en/copilot/using-github-copilot/code-review/configuring-coding-guidelines
 
 - OpenID Connect (OIDC)
   - https://hennge.com/tw/blog/what-is-openid-connect.html
