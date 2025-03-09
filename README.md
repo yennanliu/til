@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+## 20250309
+- Chatgpt
+  - thinking model start from `o` (e.g. 01, o3-mini...)
+  - https://youtu.be/EWvNQjAaOHw?si=PwnYazMY7Mf2doVw&t=1590
+
 ## 20250228
 - AI coding tool
   - https://blog.google/technology/developers/gemini-code-assist-free/
