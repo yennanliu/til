@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250312
+- Claude artifacts
+  - https://youtu.be/EWvNQjAaOHw?si=uBXzmapItK1N-VkA&t=4244
+  - https://madewithclaude.com/
+  - https://medium.com/@simon3458/claude-artifacts-application-1-55713bb4214e
+
 ## 20250309
 - Chatgpt
   - thinking model start from `o` (e.g. 01, o3-mini...)
