@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250316
+- SSTable (save which key saved at which  tables)
+  - https://ithelp.ithome.com.tw/m/articles/10243418
+
 ## 20250312
 - Claude artifacts
   - https://youtu.be/EWvNQjAaOHw?si=uBXzmapItK1N-VkA&t=4244
