@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+## 20250318
+- Linkedin API
+  - https://github.com/eracle/linkedin
+  - https://learn.microsoft.com/en-us/linkedin/
+
 ## 20250316
 - SSTable (save which key saved at which  tables)
   - https://ithelp.ithome.com.tw/m/articles/10243418
