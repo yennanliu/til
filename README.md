@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+## 20250329
+- google dynamic-rendering (web scraping for dynamic from js)
+   - Dynamic Rendering（動態渲染）是一種技術，專門用來解決 JavaScript 渲染問題，讓 Googlebot 和其他爬蟲 更容易索引 JavaScript 驅動的網站（如單頁應用 SPA）。
+   - Google 於 2022 年宣布將逐步淘汰 Dynamic Rendering，因為 Googlebot 已經能夠更好地解析 JavaScript。官方建議改用 SSR（伺服器端渲染）或 Hydration（混合渲染） 來提升 SEO。
+   - https://developers.google.com/search/docs/crawling-indexing/javascript/dynamic-rendering?hl=zh-tw
+   - https://web.dev/articles/rendering-on-the-web?hl=zh-tw#server-side
+
 ## 20250322
 - HTTP 301 VS 302 redirect
 
