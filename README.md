@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250501
+- CDK TS example
+  - https://github.com/aws-samples/aws-cdk-examples/tree/main/typescript
+  - chat app stack
+    - https://github.com/aws-samples/aws-cdk-examples/tree/main/typescript/api-websocket-lambda-dynamodb
+
 ## 20250329
 - google dynamic-rendering (web scraping for dynamic from js)
    - Dynamic Rendering（動態渲染）是一種技術，專門用來解決 JavaScript 渲染問題，讓 Googlebot 和其他爬蟲 更容易索引 JavaScript 驅動的網站（如單頁應用 SPA）。
