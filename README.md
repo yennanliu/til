@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+## 20250515
+- Java spring boot Docker `multi-stage build`
+   - https://kucw.io/blog/springboot-docker-image/
+   - only use the `last built image` so can have smaller fize size
+
 ## 20250501
 - CDK TS example
   - https://github.com/aws-samples/aws-cdk-examples/tree/main/typescript
