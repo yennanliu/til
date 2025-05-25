@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250525
+- Uber [MoneyCon 2019] Reliable Processing in a Streaming Payment System
+- https://youtu.be/5TD8m7w1xE0?si=ituYBgX-iSecIsRe
+
 ## 20250515
 - Java spring boot Docker `multi-stage build`
    - https://kucw.io/blog/springboot-docker-image/
