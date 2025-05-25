@@ -10,6 +10,62 @@
 ## 20250525
 - Uber [MoneyCon 2019] Reliable Processing in a Streaming Payment System
 - https://youtu.be/5TD8m7w1xE0?si=ituYBgX-iSecIsRe
+- HTTP VS SSE
+✅ 基本概念比較
+
+特性	HTTP（Request/Response）	SSE（Server-Sent Events）
+資料流向	客戶端向伺服器請求，伺服器回應一次	伺服器主動推送資料給客戶端
+連線方式	短連線，一次請求一次回應	長連線，持續開啟並推送
+協定	HTTP 1.1 / 2	HTTP（Text-based stream）
+雙向通訊	❌ 否（僅 client → server）	❌ 否（僅 server → client）
+用途	傳統網頁、API 請求	即時通知、即時資料更新
+支援度	廣泛支援（所有瀏覽器）	廣泛支援（除了 IE 不完全支援）
+輕量程度	較輕	輕量（比 WebSocket 更簡單）
+維護連線	每次重新連接	持續連線，斷線會自動重連
+
+⸻
+
+✅ 使用情境
+
+場景	建議技術
+表單提交、API 請求	HTTP
+即時股票報價、聊天室訊息推送	SSE（或 WebSocket）
+即時通知系統（例如後台更新提醒）	SSE
+雙向遊戲對戰、語音/視訊通訊	WebSocket
+
+
+⸻
+
+✅ 範例：SSE 實作（Node.js）
+
+Server（Express）:
+
+app.get('/events', (req, res) => {
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+
+  setInterval(() => {
+    res.write(`data: ${new Date().toISOString()}\n\n`);
+  }, 1000);
+});
+
+Client（HTML + JavaScript）:
+
+<script>
+  const evtSource = new EventSource('/events');
+  evtSource.onmessage = (e) => {
+    console.log('Received:', e.data);
+  };
+</script>
+
+
+⸻
+
+✅ 總結建議
+	•	✅ HTTP：適合傳統請求/回應模型。
+	•	✅ SSE：適合單向即時推送（通知、系統事件）。
+	•	✅ WebSocket：適合雙向即時互動（遊戲、協作工具）。
 
 ## 20250515
 - Java spring boot Docker `multi-stage build`
