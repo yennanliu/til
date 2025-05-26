@@ -8,6 +8,13 @@
 # PROGRESS
 
 ## 20250525
+- practicing web scraping site
+- **[http://books.toscrape.com/](http://books.toscrape.com/)**
+- **[https://quotes.toscrape.com/](https://quotes.toscrape.com/)**
+
+
+
+## 20250525
 - Uber [MoneyCon 2019] Reliable Processing in a Streaming Payment System
 - https://youtu.be/5TD8m7w1xE0?si=ituYBgX-iSecIsRe
 - HTTP VS SSE
