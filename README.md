@@ -7,6 +7,22 @@
 
 # PROGRESS
 
+## 20250627
+
+1. Spring boot transaction per level
+2. ACID in db
+3. feign use which design pattern 
+4. ribbon use which design pattern
+5. redis Sentinel mode explain
+	- 哨兵模式用於監控 Redis 系統，哨兵會監控 Master 是否正常運行。當 Master 出現故障或下線時，哨兵會將其所屬的其中一個 Slave 升格為 Master，並將其他的 Slave 指向新的 Master。
+	- https://hackmd.io/@tienyulin/redis-master-slave-replication-sentinel-cluster
+	- https://redis.io/learn/operate/redis-at-scale/high-availability/understanding-sentinels
+6.  Redis Distributed Lock 
+7.  explain optimistic lock vs pessimistic lock in DB 
+8. msg queue mode
+	- ack or send without checking ...
+
+
 ## 20250525
 - practicing web scraping site
 - **[http://books.toscrape.com/](http://books.toscrape.com/)**
