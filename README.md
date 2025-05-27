@@ -7,7 +7,7 @@
 
 # PROGRESS
 
-## 20250627
+## 20250527
 
 1. Spring boot transaction per level
 2. ACID in db
@@ -21,6 +21,7 @@
 7.  explain optimistic lock vs pessimistic lock in DB 
 8. msg queue mode
 	- ack or send without checking ...
+9. spring cloud explain, which components you used ?
 
 
 ## 20250525
