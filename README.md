@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250603
+- Cache strategy, general pattern for sys design interview
+  - https://systemdesignschool.io/primer#core-design-challenges
+
 ## 20250527
 
 1. Spring boot transaction per level
