@@ -10,6 +10,9 @@
 ## 20250603
 - Cache strategy, general pattern for sys design interview
   - https://systemdesignschool.io/primer#core-design-challenges
+- Sys design course
+   - video: https://www.youtube.com/@SystemDesignSchool
+   - course: https://systemdesignschool.io/primer
 
 ## 20250527
 
