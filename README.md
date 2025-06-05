@@ -7,6 +7,24 @@
 
 # PROGRESS
 
+## 20250605
+- Why `API gateway` ?
+  - https://systemdesignschool.io/primer#core-design-challenges
+  - when you have dozens, or even hundreds, of microservices, exposing each one directly to clients can lead to several problems:
+    - Inconsistent Interfaces, Increased Latency, Security Concerns, Traffic spikes
+    - An API Gateway solves these issues, by acting as a single entry point for all API requests. It routes requests to the appropriate services, handles cross-cutting concerns like authentication, and even helps optimize performance with caching and rate limiting. Think of it as a traffic cop that directs and controls the flow of requests in your system.
+   
+- API gateway
+  - Request Handling: Clients send API requests to the gateway instead of directly to backend services
+  - Routing: The gateway then inspects the request and determines which backend service it needs to forward the request to
+  - Cross-Cutting Features: While processing requests, the gateway can perform a variety of tasks:
+	- Authentication: Ensures the request comes from a valid user or system
+	- Rate Limiting: Caps the number of requests a client can make in a specific time frame to protect backend services
+	- Caching: Serves frequent requests from a cache instead of hitting backend services, reducing latency
+	- Logging and Monitoring: Tracks request details for debugging or usage analytics
+  - Response Aggregation: For some use cases, the gateway might fetch data from multiple backend services and combine the responses into a single payload for the client
+  - API Gateways not only simplify how clients interact with backend services, but also centralize management for features like security, traffic control, and monitoring, making systems easier to scale and maintain.
+
 ## 20250603
 - Cache strategy, general pattern for sys design interview
   - https://systemdesignschool.io/primer#core-design-challenges
