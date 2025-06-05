@@ -25,6 +25,49 @@
   - Response Aggregation: For some use cases, the gateway might fetch data from multiple backend services and combine the responses into a single payload for the client
   - API Gateways not only simplify how clients interact with backend services, but also centralize management for features like security, traffic control, and monitoring, making systems easier to scale and maintain.
 
+- API gateway VS Load balancer
+
+| Feature                       | **Load Balancer**                                           | **API Gateway**                                                 |
+| ----------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| **Primary Role**              | Distribute traffic across multiple backend servers          | Manage and route API requests from clients to services          |
+| **Level**                     | Network/Transport Layer (L4) or Application Layer (L7)      | Application Layer (L7 only)                                     |
+| **Core Function**             | Balances traffic to ensure availability and fault tolerance | Routes, authenticates, throttles, transforms API requests       |
+| **Understands HTTP APIs?**    | Only at L7 (HTTP-aware load balancers)                      | Yes — built for HTTP APIs                                       |
+| **Smart Routing**             | Basic (round-robin, IP hash, etc.)                          | Advanced (e.g., path-based `/users`, method-based `POST /auth`) |
+| **Security Features**         | Usually minimal (SSL termination, basic filtering)          | Built-in auth, rate limiting, request validation, CORS, etc.    |
+| **Aggregation/Orchestration** | ❌ No                                                        | ✅ Can aggregate multiple services into one response             |
+| **Example Tools**             | AWS ELB, NGINX, HAProxy, Envoy                              | Kong, Apigee, Amazon API Gateway, Zuul, Spring Cloud Gateway    |
+
+
+- A Load Balancer is like a traffic cop that distributes cars (requests) evenly across multiple lanes (servers) so that no one lane gets jammed.
+  
+- An API Gateway is like a concierge desk that:
+
+  - Authenticates your request
+  - Decides which internal service should serve you
+  - May modify the request/response
+  - Keeps track of usage, limits abuse, etc.
+ 
+- Can we use both ? -- yes, they are often used together
+  
+```
+                 +---------------------+
+                 |     Load Balancer   |
+                 +---------------------+
+                        | forwards to
++-------------------------------------------------------+
+|                  API Gateway(s)                      |
+|  /auth -> Auth Service                                |
+|  /user -> User Service                                |
+|  /billing -> Billing Service                          |
++-------------------------------------------------------+
+                        | calls downstream microservices
+
+```
+
+
+
+  
 ## 20250603
 - Cache strategy, general pattern for sys design interview
   - https://systemdesignschool.io/primer#core-design-challenges
