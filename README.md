@@ -8,6 +8,9 @@
 # PROGRESS
 
 ## 20250607
+- golang intro
+  - https://www.forevergame.org/golang/?fbclid=IwY2xjawKwy6tleHRuA2FlbQIxMQBicmlkETFyR0RRRWpYdXRBWHYzTGNWAR45zcBCCuirWRYH8WQi3GySpygpv8pdJ9CcEufQik9J9jxIzDgAZdw4_JEPoQ_aem_cI6n5YGVIrIwDhUuYou96w
+
 - `2 phases commit` VS `TC/C`  transactions
 
 - There are multiple approaches for handling distributed transactions, especially when multiple services or databases are involved. Two of the most discussed ones are:
