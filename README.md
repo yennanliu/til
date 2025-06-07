@@ -92,14 +92,22 @@ Phase 3: Cancel
 
 ⸻
 
-🔧 When to Use What?
-	•	✅ Use 2PC:
-	•	For strongly consistent distributed DBs with native XA support.
-	•	In tightly-coupled internal systems.
-	•	✅ Use TCC:
-	•	For loosely-coupled microservices.
-	•	When transactions involve user actions, payments, bookings, etc.
-	•	When eventual consistency is acceptable but compensation is needed.
+
+⸻
+
+## 🔧 When to Use What?
+
+### ✅ Use 2PC:
+- For **strongly consistent distributed databases** with native **XA support**.
+- In **tightly-coupled internal systems** where blocking locks and strict ACID properties are acceptable.
+
+### ✅ Use TCC:
+- For **loosely-coupled microservices** architectures.
+- When transactions involve **user actions**, **payments**, **bookings**, etc.
+- When **eventual consistency** is acceptable but **compensation logic** is required.
+
+⸻
+
 
 ## 20250605
 - Why `API gateway` ?
