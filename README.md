@@ -7,6 +7,100 @@
 
 # PROGRESS
 
+## 20250607
+- `2 phases commit` VS `TC/C`  transactions
+
+- There are multiple approaches for handling distributed transactions, especially when multiple services or databases are involved. Two of the most discussed ones are:
+
+⸻
+
+✅ 1. Two-Phase Commit (2PC)
+
+🔗 What is it?
+
+A classic consensus protocol that ensures all participants (e.g., databases or services) agree to commit or abort a transaction.
+
+📦 Phases:
+
+Phase 1: Prepare
+	•	The coordinator sends a PREPARE request to all participants.
+	•	Each participant:
+	•	Executes the transaction up to the commit point.
+	•	Locks necessary resources.
+	•	Responds READY (vote to commit) or NO (vote to abort).
+
+Phase 2: Commit / Abort
+	•	If all respond READY, coordinator sends COMMIT.
+	•	If any respond NO, it sends ABORT.
+	•	Participants act accordingly.
+
+✅ Pros:
+	•	Strong consistency across services.
+	•	Easy to reason about.
+
+❌ Cons:
+	•	Blocking: If coordinator crashes after Phase 1, participants may be stuck holding locks.
+	•	No built-in recovery or compensation.
+	•	Slow: involves multiple network round-trips and locks.
+
+⸻
+
+✅ 2. Try-Confirm/Cancel (TCC)
+
+🔁 What is it?
+
+A business-level, application-managed protocol to simulate transactions across distributed systems using compensating actions.
+
+📦 Phases:
+
+Phase 1: Try
+	•	Reserve resources.
+	•	Do tentative operations (e.g., freeze funds, reserve stock).
+	•	Must be idempotent.
+
+Phase 2: Confirm
+	•	Finalize the reserved actions (e.g., actually deduct funds, ship item).
+
+Phase 3: Cancel
+	•	Roll back the tentative actions (e.g., unfreeze funds).
+	•	Must also be idempotent.
+
+✅ Pros:
+	•	Non-blocking: No locks held after try phase.
+	•	More resilient to partial failures.
+	•	Great for business transactions (e.g., e-commerce, payments).
+
+❌ Cons:
+	•	More complex: requires developer to implement try, confirm, and cancel.
+	•	Harder to reason about failure cases and compensation logic.
+	•	Needs strong idempotency guarantees.
+
+⸻
+
+🔄 Summary Comparison
+
+| Feature                    | 2PC (Two-Phase Commit)       | TCC (Try-Confirm/Cancel)              |
+|---------------------------|------------------------------|----------------------------------------|
+| Coordination Level        | Database / Middleware        | Application / Business Logic           |
+| Locking                   | Yes (can block resources)    | No (tentative operations only)         |
+| Compensation              | Not built-in                 | Explicit cancel logic required         |
+| Use Case                  | Distributed DB transactions  | Business logic across services         |
+| Failure Handling          | Complex and blocking         | More flexible, with compensation       |
+| Performance               | Slower due to blocking       | Faster, non-blocking                   |
+| Scalability               | Limited                      | Good for microservices                 |
+| Example                   | XA transactions              | Booking, payments, order management    |
+
+⸻
+
+🔧 When to Use What?
+	•	✅ Use 2PC:
+	•	For strongly consistent distributed DBs with native XA support.
+	•	In tightly-coupled internal systems.
+	•	✅ Use TCC:
+	•	For loosely-coupled microservices.
+	•	When transactions involve user actions, payments, bookings, etc.
+	•	When eventual consistency is acceptable but compensation is needed.
+
 ## 20250605
 - Why `API gateway` ?
   - https://systemdesignschool.io/primer#core-design-challenges
