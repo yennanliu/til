@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250611
+- Async in python
+  - https://docs.llamaindex.ai/en/stable/getting_started/async_python/
+
 ## 20250607
 - golang intro
   - https://www.forevergame.org/golang/?fbclid=IwY2xjawKwy6tleHRuA2FlbQIxMQBicmlkETFyR0RRRWpYdXRBWHYzTGNWAR45zcBCCuirWRYH8WQi3GySpygpv8pdJ9CcEufQik9J9jxIzDgAZdw4_JEPoQ_aem_cI6n5YGVIrIwDhUuYou96w
