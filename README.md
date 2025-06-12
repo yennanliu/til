@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+## 20250612
+- Webhook
+  - https://systemdesignschool.io/problems/webhook/solution
+  - Stripe: https://docs.stripe.com/webhooks
+  - Shopify: https://shopify.dev/docs/apps/build/webhooks
+  - GitHub: https://docs.github.com/en/developers/webhooks-and-events/about-webhooks
+
 ## 20250611
 - Async in python
   - https://docs.llamaindex.ai/en/stable/getting_started/async_python/
