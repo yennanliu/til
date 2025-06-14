@@ -71,6 +71,93 @@ Order Created → Inventory Reserved → Payment Successful
 
 ⸻
 
+# The Saga Pattern for Distributed Transactions
+
+The **Saga pattern** is a crucial design pattern used in distributed systems, particularly in **microservices architectures**, to maintain data consistency when a single business operation spans across multiple services and their respective databases.
+
+---
+
+## Why Saga?
+
+In a microservices environment, each service manages its own data. This makes traditional ACID (Atomicity, Consistency, Isolation, Durability) transactions, which are great for single-database operations, impractical for business processes that involve multiple services. Imagine placing an order: it might touch an Order Service, Payment Service, and Inventory Service. A single "all or nothing" transaction across these independent services is often not feasible due to the complexities of distributed systems like network latency and service failures.
+
+This is where the Saga pattern shines. Instead of one monolithic transaction, a saga breaks down a distributed transaction into a **sequence of local transactions**. Each local transaction is handled by a single service and updates only that service's database.
+
+---
+
+## Core Concepts
+
+* **Sequence of Local Transactions:** A saga is a series of independent, atomic operations, each completed within a single service's scope.
+* **Event-Driven Communication:** After a service successfully completes its local transaction, it publishes an event (or sends a message). This event acts as a trigger for the next step in the saga.
+* **Compensating Transactions:** This is the cornerstone of the Saga pattern. If any step within the saga fails, **compensating transactions** are initiated. These are inverse operations designed to undo the changes made by any *preceding successful local transactions*, effectively rolling back the entire distributed transaction to a consistent state.
+
+---
+
+## Benefits of Using Saga
+
+* **Data Consistency in Distributed Systems:** Achieves eventual consistency across multiple services without relying on complex, tightly coupled two-phase commit protocols.
+* **Fault Tolerance:** If a service fails during a saga, compensating transactions ensure that the system can recover and maintain a consistent data state.
+* **Scalability and Decoupling:** Services remain independent, allowing them to scale individually without being constrained by a global transaction manager.
+* **Long-Running Transactions:** Sagas are well-suited for business processes that may take an extended period to complete.
+
+---
+
+## Types of Saga Coordination
+
+There are two primary ways to coordinate a saga:
+
+### 1. Choreography-based Saga
+
+* **Decentralized:** Each service directly participates by publishing events and listening for events from other services. There's no central coordinator.
+* **How it works:** Service A completes its transaction and publishes an event. Service B, listening for that event, performs its transaction and publishes another event, and so on.
+* **Pros:** Simpler for less complex sagas; less prone to a single point of failure.
+* **Cons:** Can become challenging to manage and debug as the number of services and steps grows; harder to get an overall view of the saga's progress.
+
+### 2. Orchestration-based Saga
+
+* **Centralized:** A dedicated "orchestrator" service (often implemented as a state machine) manages and directs the flow of the entire saga.
+* **How it works:** The orchestrator sends commands to individual services, instructing them on what to do. Services respond with events indicating success or failure. The orchestrator then determines the next step or triggers compensating transactions if necessary.
+* **Pros:** Clearer separation of concerns; easier to monitor and manage complex sagas; simplifies error handling and compensating logic.
+* **Cons:** The orchestrator can become a single point of failure or a bottleneck if not designed carefully.
+
+---
+
+## Example Scenario: E-commerce Order
+
+Let's illustrate with a customer placing an order:
+
+1.  **Order Service:**
+    * **Local Transaction 1:** Creates the order and saves it to its database.
+    * **Event:** Publishes "Order Created."
+2.  **Payment Service:**
+    * Listens for "Order Created."
+    * **Local Transaction 2:** Processes payment.
+    * **Event:** Publishes "Payment Processed" (on success) or "Payment Failed" (on failure).
+3.  **Inventory Service:**
+    * Listens for "Payment Processed."
+    * **Local Transaction 3:** Reserves items in inventory.
+    * **Event:** Publishes "Items Reserved" (on success) or "Inventory Shortage" (on failure).
+4.  **Shipping Service:**
+    * Listens for "Items Reserved."
+    * **Local Transaction 4:** Arranges shipping.
+
+### What if a step fails (e.g., Payment fails)?
+
+* The Payment Service publishes a "Payment Failed" event.
+* The Order Service (or the orchestrator, if present) receives this event.
+* **Compensating Transaction:** The Order Service then performs a compensating action to "cancel" or "undo" the initial order creation (e.g., marks the order as failed, or removes it).
+
+---
+
+## Important Considerations for Saga Implementation
+
+* **Idempotency:** All operations within the saga, especially compensating transactions, should be **idempotent**. This means performing them multiple times should have the same effect as performing them once, which is crucial for retries and robust error handling.
+* **Monitoring and Tracing:** Comprehensive monitoring and tracing are essential to track the progress of a saga and quickly diagnose any issues that arise.
+* **Complexity:** While powerful, implementing sagas can introduce significant complexity compared to traditional transactions, particularly when designing compensating actions and handling diverse failure scenarios.
+
+---
+
+
 ## 20250612
 - Webhook
   - https://systemdesignschool.io/problems/webhook/solution
