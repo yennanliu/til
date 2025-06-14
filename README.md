@@ -7,6 +7,70 @@
 
 # PROGRESS
 
+## 20250614
+
+- SAGA - distributed transaction
+	- 分散式交易（Distributed Transaction）Saga Pattern 是一種設計模式， 用來管理跨多個微服務或資料庫的長時間交易，避免使用傳統的兩階段提交（2PC），從而提高系統的可用性與擴展性。
+
+⸻
+
+✅ Saga Pattern 是什麼？
+
+Saga 是將一個分散式交易拆分成 一連串本地交易（local transaction），每個本地交易完成後，會觸發下一步。如果某一步失敗，則會觸發補償動作（compensating transaction），將前面已成功的操作「回滾」。
+
+⸻
+
+✅ Saga Pattern 的兩種實作方式：
+
+方式	概念	適用情境
+Choreography（編排）	每個服務自己監聽事件並觸發下一步	微服務之間耦合度低、流程簡單
+Orchestration（協調）	有一個中央協調器控制整個交易流程	較複雜的交易流程，需要可視性
+
+
+⸻
+
+✅ 範例（訂單服務）
+
+假設你在電商平台下單，這會涉及以下服務：
+	1.	建立訂單（Order Service）
+	2.	扣庫存（Inventory Service）
+	3.	扣款（Payment Service）
+
+正常流程：
+
+Order Created → Inventory Reserved → Payment Successful
+
+如果付款失敗，補償操作：
+
+→ Payment Failed → 取消庫存保留 → 取消訂單
+
+
+⸻
+
+✅ Saga 優點：
+	•	無需使用分散式鎖或兩階段提交（2PC）
+	•	更好地支援微服務架構
+	•	易於水平擴展
+	•	有彈性的錯誤恢復方式
+
+⸻
+
+❗ Saga 缺點與挑戰：
+	•	補償邏輯需手動實作，較複雜
+	•	資料暫時可能不一致（eventual consistency）
+	•	開發測試成本較高
+	•	無法涵蓋所有強一致性需求
+
+⸻
+
+✅ 適合用 Saga 的場景：
+	•	訂單處理系統
+	•	金流系統的異步流程
+	•	訂閱/取消訂閱服務
+	•	有跨服務的業務流程但不要求強一致性
+
+⸻
+
 ## 20250612
 - Webhook
   - https://systemdesignschool.io/problems/webhook/solution
