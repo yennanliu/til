@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250617
+- Install `Redis cluster` on AWS EC2, install django as testing app
+  - https://imehboob.medium.com/step-by-step-guide-to-deploy-redis-cluster-in-aws-to-achieve-high-availability-part-2-93d96afdb2b4
+
 ## 20250614
 
 - SAGA - distributed transaction
