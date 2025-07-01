@@ -14,6 +14,10 @@
    - https://docs.aws.amazon.com/zh_tw/dms/latest/userguide/CHAP_Task.CDC.html
    - https://github.com/ksmin23/my-aws-cdk-examples/tree/main/dms
    - https://github.com/ksmin23/my-aws-cdk-examples/tree/main/dms-serverless
+- CDC (Change Data Capture)
+  - https://docs.databricks.com/aws/en/dlt/what-is-change-data-capture
+  - https://en.wikipedia.org/wiki/Change_data_capture
+  - https://learn.microsoft.com/zh-tw/sql/relational-databases/track-changes/about-change-data-capture-sql-server?view=sql-server-ver17
 
 ## 20250629
 - Claude code setting
