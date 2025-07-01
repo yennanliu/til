@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+## 20250701
+- AWS DMS (data migration service)
+   - https://aws.amazon.com/tw/dms/
+   - https://docs.aws.amazon.com/zh_tw/dms/latest/userguide/Welcome.html
+   - https://docs.aws.amazon.com/zh_tw/dms/latest/userguide/CHAP_Task.CDC.html
+   - https://github.com/ksmin23/my-aws-cdk-examples/tree/main/dms
+   - https://github.com/ksmin23/my-aws-cdk-examples/tree/main/dms-serverless
+
 ## 20250629
 - Claude code setting
   - https://techmoon.xyz/claude-code-best-practices-guide/
