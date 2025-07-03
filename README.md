@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250703
+- DB: Optimistic Lock
+	- https://api.rubyonrails.org/v8.0.2/classes/ActiveRecord/Locking/Optimistic.html
+- DB: Pessimistic Lock
+   - https://api.rubyonrails.org/v8.0.2/classes/ActiveRecord/Locking/Pessimistic.html
+
 ## 20250701
 - AWS DMS (data migration service)
    - https://aws.amazon.com/tw/dms/
