@@ -7,6 +7,40 @@
 
 # PROGRESS
 
+## 20250704
+## 📅 2025-07-04
+
+### ✅ L1, L2, L3 Constructors in AWS CDK
+
+In AWS CDK, constructs are organized into three levels:
+
+---
+
+### 🔹 L1 (Level 1) - CFN Resources
+- Also called **"CloudFormation-only"** or **"CFN constructs"**
+- Direct **1:1 mapping** to CloudFormation resources
+- Names always start with `Cfn` (e.g., `CfnBucket`, `CfnInstance`)
+- Very **low-level** and require detailed configuration
+- **Example:** `aws_s3.CfnBucket`
+
+---
+
+### 🔸 L2 (Level 2) - AWS Constructs
+- **Higher-level abstractions** with sensible defaults
+- Handle much of the **boilerplate and complexity**
+- Automatically implement **AWS best practices**
+- Easier and safer to use than L1 constructs
+- **Example:** `aws_s3.Bucket` (instead of `CfnBucket`)
+
+---
+
+### 🔺 L3 (Level 3) - Patterns
+- The **highest-level** abstractions in CDK
+- Combine multiple L1/L2 constructs into **predefined architectural patterns**
+- Great for building common infrastructure setups quickly
+- **Example:** `aws_ecs_patterns.ApplicationLoadBalancedFargateService`
+
+
 ## 20250703
 - DB: Optimistic Lock
 	- https://api.rubyonrails.org/v8.0.2/classes/ActiveRecord/Locking/Optimistic.html
