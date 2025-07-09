@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250710
+- k8s yaml syntax/term explanation
+  - https://youtu.be/X48VuDVv0do?si=IqCjtU9raPxYscN9&t=4077
+
 ## 20250709
 
 # Docker 中的掛載（Mount）教學 ?
