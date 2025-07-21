@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250721
+- K8S monitor tool:
+  - https://k8slens.dev/
+
 ## 20250710
 - k8s yaml syntax/term explanation
   - https://youtu.be/X48VuDVv0do?si=IqCjtU9raPxYscN9&t=4077
