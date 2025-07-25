@@ -8,7 +8,7 @@
 # PROGRESS
 
 ## 20250725
-- Online CICR calculator
+- Online `CIDR` calculator
   - https://mxtoolbox.com/subnetcalculator.aspx
   - https://youtu.be/aRXg75S5DWA?si=YZr6gYU3R3g9FvBE&t=366
 
