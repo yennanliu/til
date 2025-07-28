@@ -1,6 +1,6 @@
 # til
 > Today I Learned
-- Collection & record my daily learning. 
+- Collect & record my daily learning. 
 - Tech + product + business. 
 
 ---
@@ -8,7 +8,7 @@
 # PROGRESS
 
 ## 20250729
-- AWS - create `https` ingress for EKS (with domain name, route 53, CNAME)
+- AWS - create `https` ingress for EKS (with domain name, Route 53, CNAME)
   - https://youtu.be/5XpPiORNy1o?si=2SU23xR48yoELaG3&t=852
 
 ## 20250725
