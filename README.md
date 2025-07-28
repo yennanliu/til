@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250729
+- AWS - create `https` ingress for EKS (with domain name, route 53, CNAME)
+  - https://youtu.be/5XpPiORNy1o?si=2SU23xR48yoELaG3&t=852
+
 ## 20250725
 - Online `CIDR` calculator
   - https://mxtoolbox.com/subnetcalculator.aspx
