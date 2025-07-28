@@ -10,6 +10,8 @@
 ## 20250729
 - AWS - create `https` ingress for EKS (with domain name, Route 53, CNAME)
   - https://youtu.be/5XpPiORNy1o?si=2SU23xR48yoELaG3&t=852
+- AWS `cert manager` & `TLS` for EKS
+  - https://youtu.be/xwiRjimKW9c?si=IB0wcAfhlzS6-YOZ&t=226
 
 ## 20250725
 - Online `CIDR` calculator
