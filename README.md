@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+## 20250731
+- EKS - Fluentbit - Opensearch (logging)
+  - https://github.com/RekhuGopal/PythonHacks/tree/main/Kubernetes_logging_with_OpenSearch_FluentBit
+  - https://youtu.be/3sMGLmSzCjc?si=Pp9_awM2PBAPr3a2
+
 ## 20250729
 - AWS - create `https` ingress for EKS (with domain name, Route 53, CNAME)
   - https://youtu.be/5XpPiORNy1o?si=2SU23xR48yoELaG3&t=852
