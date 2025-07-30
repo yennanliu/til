@@ -8,6 +8,8 @@
 # PROGRESS
 
 ## 20250731
+- Centralized Logging with OpenSearch (EKS, DB...)
+  - https://youtu.be/TW_ZJABNeEA?si=8O9GKNX0EuGiEWcy&t=431
 - EKS - Fluentbit - Opensearch (logging)
   - https://github.com/RekhuGopal/PythonHacks/tree/main/Kubernetes_logging_with_OpenSearch_FluentBit
   - https://youtu.be/3sMGLmSzCjc?si=Pp9_awM2PBAPr3a2
