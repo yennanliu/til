@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+## 20250801
+- DeepWiki
+  - https://deepwiki.com/yennanliu/CS_basics/2.4-trees-and-heaps
+  - https://deepwiki.com/yennanliu/NYC_Taxi_Pipeline
+
 ## 20250731
 - Centralized Logging with OpenSearch (EKS, DB...)
   - https://youtu.be/TW_ZJABNeEA?si=8O9GKNX0EuGiEWcy&t=431
