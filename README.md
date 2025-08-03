@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+## 20250804
+- `uv`: Python dep management tool
+  - https://docs.astral.sh/uv/#projects
+  - https://blog.awin.one/posts/2025/uv-%E7%B0%A1%E5%96%AE%E4%BB%8B%E7%B4%B9/
+  - https://dev.to/codemee/shi-yong-uv-guan-li-python-huan-jing-53hg
+  - https://www.datacamp.com/tutorial/python-uv
+  - https://learn.deeplearning.ai/courses/mcp-build-rich-context-ai-apps-with-anthropic/lesson/dbabg/creating-an-mcp-server
+
 ## 20250801
 - DeepWiki
   - https://deepwiki.com/yennanliu/CS_basics/2.4-trees-and-heaps
