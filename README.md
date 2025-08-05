@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250805
+- VS Code online
+  - https://vscode.dev/?vscode-lang=zh-tw
+
 ## 20250804
 - `uv`: Python dep management tool
   - https://docs.astral.sh/uv/#projects
