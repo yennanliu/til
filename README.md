@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250808
+- Opensearch `APM` (Application Performance Monitoring)
+  - https://docs.opensearch.org/latest/observing-your-data/
+  - https://aws.amazon.com/tw/opensearch-service/features/observability/
+  - https://discuss.elastic.co/t/apm-server-integration-with-opensearch/287304/3
+
 ## 20250805
 - VS Code online
   - https://vscode.dev/?vscode-lang=zh-tw
