@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+## 20250809
+- `Parlant` - 可控制的大型語言模型對話引擎，專為產業級應用設計
+  - https://reporadar.tech/emcie-co/parlant?fbclid=IwY2xjawMD2e9leHRuA2FlbQIxMABicmlkETFMa0QyUDgyemEyMUp5WGtNAR444eqFGHxRmQSuuqK2iyKcM4VwWLgUG8vlXuEEoznahzou31JZbMdrKnO-Dg_aem_romTS8JgpTN0cLPlpc8Jug
+
 ## 20250808
 - Opensearch `APM` (Application Performance Monitoring)
   - https://docs.opensearch.org/latest/observing-your-data/
