@@ -7,6 +7,34 @@
 
 # PROGRESS
 
+## 20250814
+
+### `/var/log/containers/` vs. `/var/log/pods/`
+
+These two paths on a Kubernetes node serve different but related purposes.
+
+* **`/var/log/pods/`** is where the **actual log files** for each container are stored. The `kubelet` writes the standard output (`stdout`) and standard error (`stderr`) of containers to these files. The structure is nested, with a separate directory for each pod, and then a file (e.g., `0.log`) for each container within that pod. The file names themselves don't contain metadata like the pod or namespace names; that information is derived from the directory path.
+* **`/var/log/containers/`** contains **symlinks** that point to the real log files in `/var/log/pods/`. The filenames of these symlinks are the crucial part—they are structured to include important metadata like the pod name, namespace, and container name (e.g., `myapp-abc123_default_myapp-container-1-1234567890abcdef.log`). This makes it easy for log collectors to parse the metadata directly from the filename without having to navigate the directory structure.
+
+***
+
+### How They Work Together
+
+1.  **Kubernetes writes logs:** The `kubelet` on a node writes the raw container logs to a specific file within `/var/log/pods/`.
+2.  **Symlinks are created:** The `kubelet` then creates a symbolic link (symlink) for that same log file in the `/var/log/containers/` directory.
+3.  **Log collectors read symlinks:** Log collection agents like **Fluent Bit** or **Fluentd** typically **tail** the files in `/var/log/containers/`. Because the symlink filenames are rich with metadata, the collector can easily parse the pod, namespace, and container information, making the log collection process more efficient. This is considered the best practice for log collection in a production environment. 
+
+***
+
+### Summary Table
+
+| Path | What it is | Why it matters |
+| :--- | :--- | :--- |
+| `/var/log/pods/` | The **real logs** for each container, nested by pod and container. | This is the raw source where `kubelet` writes the logs. |
+| `/var/log/containers/` | **Symlinks** to the real log files, with metadata-rich filenames. | This is the **preferred path for log collectors** because the filenames are easy to parse for metadata. |
+
+-------
+
 ## 20250809
 - `Parlant` - 可控制的大型語言模型對話引擎，專為產業級應用設計
   - https://reporadar.tech/emcie-co/parlant?fbclid=IwY2xjawMD2e9leHRuA2FlbQIxMABicmlkETFMa0QyUDgyemEyMUp5WGtNAR444eqFGHxRmQSuuqK2iyKcM4VwWLgUG8vlXuEEoznahzou31JZbMdrKnO-Dg_aem_romTS8JgpTN0cLPlpc8Jug
