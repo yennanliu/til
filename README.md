@@ -7,6 +7,42 @@
 
 # PROGRESS
 
+## 20250818
+- opensearch - `index pattern` example
+```
+PUT _index_template/my-logs-template
+{
+  "index_patterns": ["my-logs-*"], 
+  "template": {
+    "settings": {
+      "number_of_shards": 3,
+      "number_of_replicas": 1,
+      "refresh_interval": "30s"
+    },
+    "mappings": {
+      "dynamic": false,  
+      "properties": {
+        "@timestamp": { "type": "date" },
+        "level": { "type": "keyword" },
+        "logger_name": { "type": "keyword" },
+        "thread_name": { "type": "keyword" },
+        "message": { "type": "text" },
+
+        "event": { "type": "keyword" },
+        "requestId": { "type": "keyword" },
+
+        "request": { "type": "flattened" },
+        "response": { "type": "flattened" },
+
+        "stack_trace": { "type": "text" },
+
+        "properties": { "type": "flattened" } 
+      }
+    }
+  }
+}
+```
+
 ## 20250814
 
 ### `/var/log/containers/` vs. `/var/log/pods/`
