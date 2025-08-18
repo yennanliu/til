@@ -8,7 +8,14 @@
 # PROGRESS
 
 ## 20250818
+
+- opensearch - `index pattern` ref
+	- https://youtu.be/KBMTES9lMOM?si=LeKWn9AV-t6ySL9d
+- opensearch `Dynamic templates `
+    - https://youtu.be/T6DYdlKBKkA?si=MIWpHBSEVl1-l7kI
+
 - opensearch - `index pattern` example
+  
 ```
 PUT _index_template/my-logs-template
 {
