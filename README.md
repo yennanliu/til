@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250830
+- CDC - change data capture
+  - tool
+    - [debezium](https://debezium.io/)
+      - https://github.com/debezium/debezium
+
 ## 20250818
 
 - opensearch - `index pattern` ref
