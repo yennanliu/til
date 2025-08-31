@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+## 20250901
+- Claude code + git `worktree`
+  - https://youtu.be/Bz5fyyCa2-0?si=RKj_GQ6bpanrQH4z
+  - https://youtu.be/9FOHZo7Gc28?si=jVCSK_swejtqhtJx
+
 ## 20250830
 - CDC - change data capture
   - tool
