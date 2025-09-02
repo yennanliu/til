@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250902
+- Kafka UI project
+- https://github.com/kafbat/kafka-ui
+  - MSK conn setting
+    - https://ui.docs.kafbat.io/quick-start/prerequisites/permissions/msk-+serverless-setup
+
 ## 20250901
 - Claude code + git `worktree`
   - https://youtu.be/Bz5fyyCa2-0?si=RKj_GQ6bpanrQH4z
