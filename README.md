@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+## 20250905
+- twilio whatsapp
+  - https://learn.microsoft.com/zh-tw/shows/on-dotnet/using-twilio-to-send-whatsapp-messages
+  - https://medium.com/peerone-technology-%E7%9A%AE%E5%81%B6%E7%8E%A9%E4%BA%92%E5%8B%95%E7%A7%91%E6%8A%80/%E4%BD%BF%E7%94%A8-twilio-python-sdk-%E6%89%93%E9%80%A0%E7%B0%A1%E8%A8%8A%E5%85%A9%E6%AD%A5%E9%A9%9F%E9%A9%97%E8%AD%89%E6%9C%8D%E5%8B%99-78dac4a89e32
+  - https://learn.microsoft.com/zh-tw/dynamics365/customer-service/administer/configure-whatsapp-channel
+  - https://ithelp.ithome.com.tw/articles/10258646
+
 ## 20250902
 - Kafka UI project
 - https://github.com/kafbat/kafka-ui
