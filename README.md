@@ -7,6 +7,31 @@
 
 # PROGRESS
 
+# 20250911
+
+- BFS time complexity
+Breadth-First Search (BFS) time complexity depends on the way the graph is represented:
+
+🔹 Graph Representations
+	1.	Adjacency List (most common in practice):
+	•	Each vertex is enqueued/dequeued once → O(V)
+	•	Each edge is explored at most once → O(E)
+	•	✅ Total = O(V + E)
+	2.	Adjacency Matrix:
+	•	Checking all neighbors of a vertex costs O(V)
+	•	Doing this for all vertices costs O(V^2)
+	•	✅ Total = O(V^2)
+
+⸻
+
+🔹 Summary
+	•	BFS with adjacency list: O(V + E)
+	•	BFS with adjacency matrix: O(V^2)
+
+👉 Space complexity is O(V) for the queue + O(V) for the visited array.
+
+---
+
 ## 20250910
 - Kafka UI auth
   - https://ui.docs.kafbat.io/configuration/authentication
