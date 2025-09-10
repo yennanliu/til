@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+## 20250910
+- Kafka UI auth
+  - https://ui.docs.kafbat.io/configuration/authentication
+  - OAuth2: https://ui.docs.kafbat.io/configuration/authentication/for-the-ui/oauth2
+  - LDAP: https://ui.docs.kafbat.io/configuration/authentication/for-the-ui/ldap-active-directory
+
 ## 20250905
 - Twilio whatsapp API doc
   - https://www.twilio.com/docs/whatsapp
