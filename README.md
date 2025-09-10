@@ -13,14 +13,14 @@
 Breadth-First Search (BFS) time complexity depends on the way the graph is represented:
 
 🔹 Graph Representations
-	1.	Adjacency List (most common in practice):
-	•	Each vertex is enqueued/dequeued once → O(V)
-	•	Each edge is explored at most once → O(E)
-	•	✅ Total = O(V + E)
-	2.	Adjacency Matrix:
-	•	Checking all neighbors of a vertex costs O(V)
-	•	Doing this for all vertices costs O(V^2)
-	•	✅ Total = O(V^2)
+1.	Adjacency List (most common in practice):
+ - Each vertex is enqueued/dequeued once → O(V)
+ - Each edge is explored at most once → O(E)
+ - ✅ Total = O(V + E)
+2.	Adjacency Matrix:
+ - Checking all neighbors of a vertex costs O(V)
+ - Doing this for all vertices costs O(V^2)
+ - ✅ Total = O(V^2)
 
 ⸻
 
