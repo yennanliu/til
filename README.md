@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+# 20250919
+- Claude `prompt generator`
+   - https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec
+   - https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/prompt-generator
+   - https://learn.deeplearning.ai/courses/building-toward-computer-use-with-anthropic/lesson/kmnd5/real-world-prompting
+   - https://docs.claude.com/zh-TW/docs/build-with-claude/prompt-engineering/prompt-generator
+
 # 20250911
 
 - BFS time complexity
