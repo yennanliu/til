@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20250928
+- Chrome MCP
+  - https://developer.chrome.com/blog/chrome-devtools-mcp?fbclid=IwY2xjawNFda5leHRuA2FlbQIxMABicmlkETFPRDA5dzAxeGNLTWNUaU9IAR5WZ8Hxg1LgYGBvC1Dm9k7tcjY6TQTwQgie9Jj1Az8ikL2LC1YhdsoO9X-YvQ_aem_Qo3ByzdCsjzWK2sHlPwHKg&hl=zh-tw
+  - https://blog.huli.tw/2025/09/27/chrome-built-in-prompt-api/?fbclid=IwY2xjawNFdXRleHRuA2FlbQIxMABicmlkETFLR2dSRnlVMVlaRkJUN1lSAR7gSEqjctWBfCdIRClGhKp2Itwa36c0U3zjpr1WcsG-5DlpQA1RW0OX7de7-w_aem_ftkw5TtnX2sJt1p4nezqdg
+
+
 # 20250919
 - Claude `prompt generator`
    - https://claude.ai/public/artifacts/3796db7e-4ef1-4cab-b70c-d045778f23ec
