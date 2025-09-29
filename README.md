@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20250529
+- Redis benchmarks
+  - https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/
+
 # 20250928
 - Chrome MCP
   - https://developer.chrome.com/blog/chrome-devtools-mcp?fbclid=IwY2xjawNFda5leHRuA2FlbQIxMABicmlkETFPRDA5dzAxeGNLTWNUaU9IAR5WZ8Hxg1LgYGBvC1Dm9k7tcjY6TQTwQgie9Jj1Az8ikL2LC1YhdsoO9X-YvQ_aem_Qo3ByzdCsjzWK2sHlPwHKg&hl=zh-tw
