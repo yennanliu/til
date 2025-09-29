@@ -10,6 +10,11 @@
 # 20250529
 - Redis benchmarks
   - https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/
+- `Claude code` add sth to memory
+  - https://youtu.be/X7lgIa6guKg?si=Tx8MtFypdHKqsKAz&t=660
+ ```bash
+# things you want Claude code to remember
+ ```
 
 # 20250928
 - Chrome MCP
