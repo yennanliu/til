@@ -7,7 +7,11 @@
 
 # PROGRESS
 
-# 20250529
+# 20251001
+- Claude code - `agent`, `Subagent`
+  - https://youtu.be/Phr7vBx9yFQ?si=jGlEaz4jgE8B_Tfo&t=149
+
+# 20250929
 - Redis benchmarks
   - https://redis.io/docs/latest/operate/oss_and_stack/management/optimization/benchmarks/
 - `Claude code` add sth to memory
