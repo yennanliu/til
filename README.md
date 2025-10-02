@@ -24,9 +24,10 @@
 - Chrome MCP
   - https://developer.chrome.com/blog/chrome-devtools-mcp?fbclid=IwY2xjawNFda5leHRuA2FlbQIxMABicmlkETFPRDA5dzAxeGNLTWNUaU9IAR5WZ8Hxg1LgYGBvC1Dm9k7tcjY6TQTwQgie9Jj1Az8ikL2LC1YhdsoO9X-YvQ_aem_Qo3ByzdCsjzWK2sHlPwHKg&hl=zh-tw
   - https://blog.huli.tw/2025/09/27/chrome-built-in-prompt-api/?fbclid=IwY2xjawNFdXRleHRuA2FlbQIxMABicmlkETFLR2dSRnlVMVlaRkJUN1lSAR7gSEqjctWBfCdIRClGhKp2Itwa36c0U3zjpr1WcsG-5DlpQA1RW0OX7de7-w_aem_ftkw5TtnX2sJt1p4nezqdg
-- Claude code MCP
+- Claude code MCP server
   - https://youtu.be/X7lgIa6guKg?si=qfUI9GFE3jm6t2nR
   - https://docs.claude.com/en/docs/claude-code/mcp
+  - https://youtu.be/DfWHX7kszQI?si=ZcpdDSvjELWK3q13
 
 # 20250919
 - Claude `prompt generator`
