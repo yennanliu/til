@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20251011
+- Scale out VS Scale up
+  - Scale-up: (vertical scaling) Enhances a `SINGLE` server's power by adding more resources like CPU, RAM, or storage.
+  - Scale-out: (horizontal scaling) Adds `MORE` servers to a system to distribute the workload across multiple machines.  
+
 # 20251001
 - Claude code - `agent`, `Subagent`
   - https://youtu.be/Phr7vBx9yFQ?si=jGlEaz4jgE8B_Tfo&t=149
