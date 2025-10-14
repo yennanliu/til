@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+# 20251014
+- Spec Kit
+  - https://github.com/github/spec-kit
+  - https://zhuanlan.zhihu.com/p/1955597807982446342
+  - https://thecodingpro.com/b/rnd2an5BW9QnJstglRxY
+  - https://ithelp.ithome.com.tw/articles/10394078
+
 # 20251011
 - Scale out VS Scale up
   - Scale-up: (vertical scaling) Enhances a `SINGLE` server's power by adding more resources like CPU, RAM, or storage.
