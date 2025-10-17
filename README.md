@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20251018
+- anthropic ` Agent Skills`
+  - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills?fbclid=IwY2xjawNfqABleHRuA2FlbQIxMABicmlkETFBWjhnYjR2bTdJSDhEY1JsAR5CoJUdU8nhBV0wdek0NnPxSozsEPzELAl6sUd2eJhxMQvQKhFDWNNzzOG-WA_aem_IKMDB7C9Qi801CfoqS8Ojg
+  - https://colab.research.google.com/drive/1_nF3VCfRAYgSLI3fPab8UfLYA2Q6FsXd?usp=sharing&fbclid=IwY2xjawNfqAJleHRuA2FlbQIxMABicmlkETFBWjhnYjR2bTdJSDhEY1JsAR7P87LXnCvVvGgaqvWML2iC7oGZmPkVIuHX7mXiNscfkTDWnls6FaqvxsGZ9A_aem_3bK5lqJSKODknZMRbK-BUA
+
 # 20251014
 - Spec Kit
   - https://github.com/github/spec-kit
