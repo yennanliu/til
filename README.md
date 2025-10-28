@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20251028
+- google Gemini code assistant setup doc
+  - https://developers.google.com/gemini-code-assist/docs/review-github-code?hl=zh-tw
+
 # 20251018
 - anthropic ` Agent Skills`
   - https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills?fbclid=IwY2xjawNfqABleHRuA2FlbQIxMABicmlkETFBWjhnYjR2bTdJSDhEY1JsAR5CoJUdU8nhBV0wdek0NnPxSozsEPzELAl6sUd2eJhxMQvQKhFDWNNzzOG-WA_aem_IKMDB7C9Qi801CfoqS8Ojg
