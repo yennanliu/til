@@ -7,6 +7,25 @@
 
 # PROGRESS
 
+# 20251029
+
+- How to Set Up a `Whatsapp` Companion Phone
+```
+
+### 📱 How to Set Up a Companion Phone
+
+The process involves getting a QR code on your new (companion) phone and scanning it with your main (primary) phone.
+
+#### **Step 1: On Your NEW (Companion) Phone**
+
+1.  Download and open the latest version of WhatsApp.
+2.  On the first screen where it asks you to agree to the terms and enter your phone number, **do not** enter your number.
+3.  Look for an option to link the device. This will be in a different place depending on your phone:
+    * **On Android:** Tap the **three-dot menu** (⋮) in the top-right corner and select **"Link as companion device"** or **"Link to existing account."**
+    * **On iPhone:** Tap the **"Link this device to an existing account"** option, which should be visible on the phone number registration screen.
+4.  A **QR code** will appear on the screen. Leave this code visible.
+```
+
 # 20251028
 - google Gemini code assistant setup doc
   - https://developers.google.com/gemini-code-assist/docs/review-github-code?hl=zh-tw
