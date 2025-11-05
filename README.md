@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20251105
+- `git fetch && git rebase` VS  `git pull`
+   - https://github.com/yennanliu/utility_shell/blob/master/git_github/git_fetch_git_pull_diff.txt
+
 # 20251029
 
 - How to Set Up a `Whatsapp` Companion Phone
