@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20251106
+- K8S HPA (`Kubernetes Horizontal Pod Autoscaler (HPA) `)
+  - https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
+  - https://ithelp.ithome.com.tw/articles/10197046
+  - https://github.com/880831ian/Kubernetes-HPA
+
 # 20251105
 - `git fetch && git rebase` VS  `git pull`
    - https://github.com/yennanliu/utility_shell/blob/master/git_github/git_fetch_git_pull_diff.txt
