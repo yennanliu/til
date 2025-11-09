@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20251109
+- Gemini file search API
+  - https://ai.google.dev/gemini-api/docs/file-search?linkId=17612261&hl=zh-tw
+  - https://ai.google.dev/gemini-api/docs/file-search?hl=zh-tw
+  - https://github.com/doggy8088/gemini-api-cookbook
+
 # 20251106
 - K8S HPA (`Kubernetes Horizontal Pod Autoscaler (HPA) `)
   - https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
