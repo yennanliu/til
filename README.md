@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20251112
+- PyCon Taiwan 2025 videos
+  - https://www.youtube.com/playlist?list=PLqtzN042Qpfc00fcQJEJPlg18Vbj0DskX
+
 # 20251109
 - Gemini file search API
   - https://ai.google.dev/gemini-api/docs/file-search?linkId=17612261&hl=zh-tw
