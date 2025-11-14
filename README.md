@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+# 20251114
+- docker instance connects to app (DB, kafka, ...) in different container (e.g. different network)
+```bash
+docker run -it \
+...
+--network my-app-my_kafka-network \
+....
+```
+
 # 20251112
 - PyCon Taiwan 2025 videos
   - https://www.youtube.com/playlist?list=PLqtzN042Qpfc00fcQJEJPlg18Vbj0DskX
