@@ -79,6 +79,9 @@ The process involves getting a QR code on your new (companion) phone and scannin
 # 20251001
 - Claude code - `agent`, `Subagent`
   - https://youtu.be/Phr7vBx9yFQ?si=jGlEaz4jgE8B_Tfo&t=149
+  - https://www.youtube.com/watch?v=mEt-i8FunG8
+  - https://code.claude.com/docs/en/sub-agents
+  - https://hackmd.io/@BASHCAT/BJgGV1zvll
 
 # 20250929
 - Redis benchmarks
