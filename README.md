@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20251211
+- AWS MCP server
+  - https://github.com/awslabs/mcp
+  - https://aws.amazon.com/tw/about-aws/whats-new/2025/07/aws-api-mcp-server-available/
+
 # 20251114
 - docker instance connects to app (DB, kafka, ...) in different container (e.g. different network)
 ```bash
