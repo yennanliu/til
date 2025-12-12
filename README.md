@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20251212
+- MFA (Multi-Factor Authentication)?
+  - In AWS Cognito, MFA (Multi-Factor Authentication) is an extra security layer requiring users to provide a second verification method (like an SMS code, email code, or TOTP app code) besides their password to log in, preventing unauthorized access even if passwords are stolen
+
 # 20251211
 - AWS MCP server
   - https://github.com/awslabs/mcp
