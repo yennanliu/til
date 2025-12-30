@@ -7,6 +7,26 @@
 
 # PROGRESS
 
+# 20251231
+- Claude code `skill`
+```
+又一個 Claude Code Agent Skill 好物 - 控制瀏覽器
+是的是的，我們有 Playwright MPC，我們有Google Chrome DevTools，沒事要這個 Skill 幹嘛？我這麼說吧。有了這個browser skill，你可以用它來看瀏覽器，截圖分析並完成所有可以在瀏覽器上的所有動作，而且，省下成千上百個 Token。
+因為他是Skill，一開始只會載入小小的 Metadata、要更要的資料時再載入 SKILL.md，真的需要時才會去事入可執行檔案腳本。
+速度快，用量小，功能強，控制精準有效，還可以截圖分析。說平替MCP也不為過。大家沒事來試試吧！
+安裝方式：
+claude 進入
+先安裝市集：
+/plugin marketplace add iamzhihuix/happy-claude-skills
+再從市集安裝 Skill：
+/plugin install browser@happy-claude-skills
+最後重啟 Claude Code 就行。直接在對話框問問題：
+使用方式：
+「幫我用browser skill 在 ChatGPT 上問今天的天氣再傳回來」。
+就會看到啟動瀏覽器、讀資料，抓圖存檔等等。最後把答案丟回來給你，極好玩，大家趕快來試試
+```
+
+
 # 20251217
 - `Claude` for Financial Services
   - https://www.anthropic.com/news/claude-for-financial-services
