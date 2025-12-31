@@ -26,6 +26,9 @@ claude 進入
 就會看到啟動瀏覽器、讀資料，抓圖存檔等等。最後把答案丟回來給你，極好玩，大家趕快來試試
 ```
 
+- Android dev intro
+  - https://kucw.io/blog/android/1/
+
 
 # 20251217
 - `Claude` for Financial Services
