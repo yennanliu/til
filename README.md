@@ -26,6 +26,9 @@
 
 # 20251231
 - Claude code `skill`
+- https://skillsmp.com/zh
+- https://skillsmp.com/
+
 ```
 又一個 Claude Code Agent Skill 好物 - 控制瀏覽器
 是的是的，我們有 Playwright MPC，我們有Google Chrome DevTools，沒事要這個 Skill 幹嘛？我這麼說吧。有了這個browser skill，你可以用它來看瀏覽器，截圖分析並完成所有可以在瀏覽器上的所有動作，而且，省下成千上百個 Token。
