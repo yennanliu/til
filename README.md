@@ -12,6 +12,7 @@
 - attendant sharing
 	- https://www.facebook.com/share/p/1CZSvCp78D/
 	- https://www.facebook.com/share/p/1A1n6KPgMc/
+    - https://gist.github.com/coodoo/44573fde984b445e8de2d467561a49d0
 
 技術文件
 - GitHub Actions 整合：code.claude.com/docs/en/github-actions
