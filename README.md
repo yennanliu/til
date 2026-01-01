@@ -7,6 +7,22 @@
 
 # PROGRESS
 
+# 20260101
+- Claude code Taipei meetup
+- attendant sharing
+	- https://www.facebook.com/share/p/1CZSvCp78D/
+	- https://www.facebook.com/share/p/1A1n6KPgMc/
+
+技術文件
+- GitHub Actions 整合：code.claude.com/docs/en/github-actions
+- 記憶與 Context：code.claude.com/docs/en/memory
+- 外掛開發：code.claude.com/docs/en/plugins
+重點外掛
+- code-review：具備信賴度評分的多 Agent PR 審查
+- pr-review-toolkit：針對評論、測試、錯誤、型別的專門化 Agent
+- ralph-wiggum：長時間執行支援
+
+
 # 20251231
 - Claude code `skill`
 ```
