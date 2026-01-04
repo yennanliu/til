@@ -28,6 +28,7 @@
 - Claude code `skill`
 - https://skillsmp.com/zh
 - https://skillsmp.com/
+- https://www.youtube.com/watch?v=CEvIs9y1uog
 
 ```
 又一個 Claude Code Agent Skill 好物 - 控制瀏覽器
