@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260113
+- claude code `coworker`
+  - https://claude.com/blog/cowork-research-preview
+
 # 20260101
 - Claude code Taipei meetup
 - attendant sharing
