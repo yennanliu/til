@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260115
+- claude code `Ralph Wiggum Plugin` plugin
+  - https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum
+
 # 20260113
 - claude code `coworker`
   - https://claude.com/blog/cowork-research-preview
