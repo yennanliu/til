@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260117
+- `cloud code` when to use `agent, skill, plugin, MCP...` ?
+  - https://yennj12.js.org/yennj12_blog_V4/posts/claude-code-architecture-explained-zh/
+
 # 20260115
 - claude code `Ralph Wiggum Plugin` plugin
   - https://github.com/anthropics/claude-code/tree/main/plugins/ralph-wiggum
