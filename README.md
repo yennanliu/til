@@ -8,13 +8,12 @@
 # PROGRESS
 
 # 20260119
-- `cloud code`  multi agent demo
+- `cloud code`  multi-agent demo
   - https://youtu.be/-Ffa56oaiIs?si=zyFVVAGpFVWu_Gpc
   - https://github.com/georgevetticaden/multi-agent-health-insight-system-v2-generated-by-3-amigo-agents-pattern
   - https://github.com/georgevetticaden/3-amigo-agents
   - https://www.anthropic.com/engineering/multi-agent-research-system
 
-- 
 # 20260117
 - `cloud code` when to use `agent, skill, plugin, MCP...` ?
   - https://yennj12.js.org/yennj12_blog_V4/posts/claude-code-architecture-explained-zh/
