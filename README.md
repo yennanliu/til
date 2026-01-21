@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260121
+- claude code `superpower`
+  - https://github.com/obra/superpowers?fbclid=IwY2xjawPc-31leHRuA2FlbQIxMABicmlkETFXbUJXT3laeWNobTRHazlIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHv-jdmWClCHDFitsSvmJ2IoYd4Y6HXebI9W2ePNedBEAeFz4IGUt-5l6zgeK_aem_eDEVL1yuUyrrwXRYxK6LnA
+  - https://github.com/gtgrthrst/system-monitor-api/tree/main?fbclid=IwY2xjawPc-39leHRuA2FlbQIxMABicmlkETFXbUJXT3laeWNobTRHazlIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHhEvEF_1jdL21dZJUv5CYS99S2ZuApFCAdA_8TWvlqIYcxGmAeaBkfiH_GCi_aem_BCZencdryPSXuNpTTjFLuQ
+
 # 20260119
 - `cloud code`  multi-agent demo
   - https://youtu.be/-Ffa56oaiIs?si=zyFVVAGpFVWu_Gpc
