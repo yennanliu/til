@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260123
+- Install/setup claude code
+  - https://code.claude.com/docs/en/getting-started
+
 # 20260121
 - claude code `superpower`
   - https://github.com/obra/superpowers?fbclid=IwY2xjawPc-31leHRuA2FlbQIxMABicmlkETFXbUJXT3laeWNobTRHazlIc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHv-jdmWClCHDFitsSvmJ2IoYd4Y6HXebI9W2ePNedBEAeFz4IGUt-5l6zgeK_aem_eDEVL1yuUyrrwXRYxK6LnA
