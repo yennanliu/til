@@ -18,6 +18,7 @@
   ? for         Claude Code has switched from npm to native installer. Run `claude install` or see
   shortcuts     https://docs.anthropic.com/en/docs/claude-code/getting-started for more options.
   ```
+  - so, if install via `npm`, can run `claude install` migrate to native install
 
 # 20260121
 - claude code `superpower`
