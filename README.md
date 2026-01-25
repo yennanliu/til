@@ -10,6 +10,9 @@
 # 20260124
 - Anthropic 黑客松冠軍的 Claude Code 設置
 	- https://github.com/affaan-m/everything-claude-code
+    - post
+      - https://x.com/affaanmustafa/status/2012378465664745795 (short version)
+      - https://x.com/affaanmustafa/status/2014040193557471352
 
 # 20260123
 - Install/setup claude code
