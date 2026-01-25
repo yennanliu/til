@@ -13,6 +13,8 @@
     - post
       - https://x.com/affaanmustafa/status/2012378465664745795 (short version)
       - https://x.com/affaanmustafa/status/2014040193557471352
+    - other ref (in X post)
+      - https://agenticcoding.substack.com/p/32-claude-code-tips-from-basics-to
 
 # 20260123
 - Install/setup claude code
