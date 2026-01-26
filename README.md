@@ -9,7 +9,7 @@
 
 # 20260127
 - google workspace sudio
-  - automate with gemini
+  - automate with gemini (workflow)
     - https://workspace.google.com/studio/
 
 # 20260124
