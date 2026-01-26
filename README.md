@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260127
+- google workspace sudio
+  - automate with gemini
+    - https://workspace.google.com/studio/
+
 # 20260124
 - Anthropic 黑客松冠軍的 Claude Code 設置
 	- https://github.com/affaan-m/everything-claude-code
