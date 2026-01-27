@@ -11,6 +11,8 @@
 - google workspace sudio
   - automate with gemini (workflow)
     - https://workspace.google.com/studio/
+- clawdbot
+  - https://github.com/clawdbot/clawdbot
 
 # 20260124
 - Anthropic 黑客松冠軍的 Claude Code 設置
