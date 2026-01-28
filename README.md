@@ -13,6 +13,7 @@
     - https://workspace.google.com/studio/
 - clawdbot
   - https://github.com/clawdbot/clawdbot
+  - https://youtu.be/1qkQEffNacQ?si=r1r1ZkvaZlTBgUTZ  -- install on github code space
 
 # 20260124
 - Anthropic 黑客松冠軍的 Claude Code 設置
