@@ -14,6 +14,38 @@
 - clawdbot
   - https://github.com/clawdbot/clawdbot
   - https://youtu.be/1qkQEffNacQ?si=r1r1ZkvaZlTBgUTZ  -- install on github code space
+  - https://www.aivi.fyi/aiagents/introduce-Moltbot
+
+```bash
+  # 安裝
+curl -fsSL https://molt.bot/install.sh | bash
+
+# 啟動
+clawdbot gateway
+
+# 停止
+clawdbot gateway stop
+
+# 使用whatsapp登陸
+clawdbot channels login --channel whatsapp
+
+# 檢查WhatsApp是否連通
+curl -I https://web.whatsapp.com/
+
+# 選擇模型
+clawdbot configure --section model
+
+# 1) 設定 MiniMax Anthropic-compatible Base URL（官方推薦）
+clawdbot config set models.providers.minimax.baseUrl "https://api.minimaxi.com/anthropic"
+
+clawdbot config set models.providers.minimax.baseUrl "https://api.minimax.io/anthropic"
+
+# 2) 設定 MiniMax API Key（對應 MINIMAX_API_KEY）
+clawdbot config set models.providers.minimax.apiKey "sk-cp-9CcEcNkvBGlY2IQnZt9p6a2dxE8P2pWf7Lys-T3mVu1rZ98IbayEdjErUw-9ufPXbVJVdxFK_mkIZzduCXcuCsSseXxxh37nFeZ7474Zppy74Ek
+
+# 3)（建議）明確走 Anthropic Messages 相容協議
+clawdbot config set models.providers.minimax.api "anthropic-messages"
+```
 
 # 20260124
 - Anthropic 黑客松冠軍的 Claude Code 設置
