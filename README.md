@@ -7,6 +7,9 @@
 
 # PROGRESS
 
+# 20260202
+- How to `tmp` allow ALL claude code op in a `session` ?
+
 # 20260201
 - LC Search
   - https://lcsearch.netlify.app/
