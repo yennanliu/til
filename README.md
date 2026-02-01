@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260201
+- LC Search
+  - https://lcsearch.netlify.app/
+
 # 20260127
 - google workspace sudio
   - automate with gemini (workflow)
