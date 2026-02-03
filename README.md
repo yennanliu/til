@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260203
+- BE interview ref
+  - https://www.explainthis.io/zh-hant/swe-questions/backend
+
+
 # 20260202
 - How to `tmp` allow ALL claude code op in a `session` ?
 
