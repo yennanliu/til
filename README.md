@@ -7,6 +7,34 @@
 
 # PROGRESS
 
+# 20260214
+- https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb
+```
+FinLab財經實驗室
+每次叫 AI 做網頁，出來的都長一樣。
+紫色漸層、Inter 字體。
+開發圈有個詞叫「AI slop」，就是千篇一律的 AI 產出。
+光 2025 年，這個詞就被提到超過兩百萬次。還被選為年度詞彙。
+受夠了！但問題到底出在哪？
+AI 其實懂設計。字體搭配、色彩理論、動畫節奏，它都知道。
+問題是，它預設選最安全的選項。
+訓練資料裡最多的網頁長什麼樣？就是那種。所以你不說，它就給你那種。
+Anthropic 最近公開了一段提示詞，只有大概 400 字，專門解決這件事。
+方法出奇簡單。
+它告訴 Claude：「你會傾向做出無聊、保守的設計。不要。」
+然後列了一張清單。不要 Inter、不要 Roboto、不要紫色漸層、不要千篇一律的版面。
+結果？同樣一句「做一個產品官網」，產出完全不同。有獨特字體、有氛圍配色、有流暢動畫。
+整段提示詞，沒有教 AI 任何新東西。
+它只是告訴 AI：哪些路不要走。
+你帶一隻導盲犬出門，你不會告訴牠每一步怎麼走。
+你告訴牠，哪裡不能去。
+AI 也一樣。它的能力超過你想像。真正缺的，是限制。
+限制，反而產生創意。
+試試列一張「不要」清單。
+來源：prompting_for_frontend_aesthetics.ipynb (上網搜尋即可)
+#FinLabAI
+```
+
 # 20260203
 - BE interview ref
   - https://www.explainthis.io/zh-hant/swe-questions/backend
