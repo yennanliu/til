@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260215
+- claude code `Agent Teams` example: `BackTester - 投資回測系統`
+ - LargitData - 大數軟體
+   - 完整影片教學: https://www.largitdata.com/course/258/
+   - 程式碼: https://github.com/ywchiu/vibe-backtester
+
 # 20260214
 - https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb
 ```
