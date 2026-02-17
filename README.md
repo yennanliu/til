@@ -17,6 +17,10 @@
  - LargitData - 大數軟體
    - 完整影片教學: https://www.largitdata.com/course/258/
    - 程式碼: https://github.com/ywchiu/vibe-backtester
+   - sub agent VS agent team
+   - sub agent: 只可以跟main agent溝通, sub agent之間無法彼此溝通
+   - agent team: 可跟main agent溝通, sub agent之間可以彼此溝通, 消耗更多tokens
+   <p><img src ="./doc/pic/subagent_vs_agent_team.png" ></p>
 
 # 20260214
 - https://github.com/anthropics/claude-cookbooks/blob/main/coding/prompting_for_frontend_aesthetics.ipynb
