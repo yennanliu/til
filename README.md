@@ -13,8 +13,9 @@
  - https://code.claude.com/docs/zh-TW/plugin-marketplaces
 
 # 20260215
-- Claude code `Agent Teams` example: `BackTester - 投資回測系統.`
- - LargitData - 大數軟體
+- Claude code `Agent Teams`
+- https://code.claude.com/docs/en/agent-teams
+ - LargitData - 大數軟體  (` example: `BackTester - 投資回測系統)
    - 完整影片教學: https://www.largitdata.com/course/258/
    - 程式碼: https://github.com/ywchiu/vibe-backtester
    - sub agent VS agent team
