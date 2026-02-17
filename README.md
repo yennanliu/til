@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260217
+- Claude code auto allows any cmd
+```bash
+claude --dangerously-skip-permissions 
+```
+
 # 20260216
 - Claude plugin marketplaces
  - https://code.claude.com/docs/zh-TW/discover-plugins
