@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260222
+- Claude code tips
+- TODO: add it to claude code setting
+  - https://github.com/yennanliu/utility_shell/blob/master/claude_code/doc/tip.txt
+
 # 20260217
 - Claude code auto allows any cmd
 ```bash
