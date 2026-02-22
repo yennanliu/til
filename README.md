@@ -11,6 +11,8 @@
 - Claude code tips
 - TODO: add it to claude code setting
   - https://github.com/yennanliu/utility_shell/blob/master/claude_code/doc/tip.txt
+- Spec driven dev (SDD)
+  - https://www.infoq.com/articles/enterprise-spec-driven-development/?topicPageSponsorship=d0a83785-14b2-4600-9447-0cc3487cd745
 
 # 20260217
 - Claude code auto allows any cmd
