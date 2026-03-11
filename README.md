@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260311
+- `使用 Argo CD 持續部署` - Argo CD 是 Kubernetes 的宣告式 GitOps 持續交付工具
+	- https://docs.aws.amazon.com/zh_tw/eks/latest/userguide/argocd.html
+
 # 20260310
 - LC - tree traversal type VS LC problem pattern
   - https://github.com/yennanliu/CS_basics/commit/05c680972d7b61d3c57f2f4ba212d9da1837e187
