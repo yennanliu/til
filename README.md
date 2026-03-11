@@ -10,6 +10,8 @@
 # 20260311
 - `使用 Argo CD 持續部署` - Argo CD 是 Kubernetes 的宣告式 GitOps 持續交付工具
 	- https://docs.aws.amazon.com/zh_tw/eks/latest/userguide/argocd.html
+- Claude code `stream` API with AWS bedrock
+  - https://anthropic.skilljar.com/claude-in-amazon-bedrock/276721
 
 # 20260310
 - LC - tree traversal type VS LC problem pattern
