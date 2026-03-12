@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260312
+- Claude code - scrape and extract `json` only response from claude code regarding gen a json config for AWS event beidge rule
+   - system assistant msg
+   - stop msg
+   - https://anthropic.skilljar.com/claude-in-amazon-bedrock/276724
+
 # 20260311
 - `使用 Argo CD 持續部署` - Argo CD 是 Kubernetes 的宣告式 GitOps 持續交付工具
 	- https://docs.aws.amazon.com/zh_tw/eks/latest/userguide/argocd.html
