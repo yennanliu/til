@@ -7,6 +7,16 @@
 
 # PROGRESS
 
+# 20260315
+- Claude code - change using model
+  - https://github.com/yennanliu/utility_shell/blob/master/claude_code/cmd.sh#L135
+  ```bash
+  # (claude code CLI)
+  # /model haiku
+  
+  /model <model_name>
+  ```
+
 # 20260312
 - Claude code - scrape and extract `json` only response from claude code regarding gen a json config for AWS event beidge rule
    - system assistant msg
