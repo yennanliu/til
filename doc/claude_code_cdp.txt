@@ -1,0 +1,83 @@
+# https://www.facebook.com/photo/?fbid=26132349676428965&set=a.133329123424376
+
+
+Day 74
+自製 Nano Banana 的 skill，讓 Claude Code 自動操作需要登入的網站
+
+我讓 Claude Code 自動連上「我已經登入的 Chrome」，用 Gemini 網頁版生圖——全程不用手動介入。關鍵是 Chrome 一個很少人知道的內建協定：CDP。今天完整分享做法，包含兩個大坑和一個資安陷阱。
+
+故事是這樣的：我想讓 Claude Code 自動幫我用 Gemini 網頁版生圖。但問題來了——Gemini 要登入 Google 帳號，而一般的瀏覽器自動化（Playwright、Puppeteer）都是開一個全新瀏覽器，完全沒有登入狀態。
+
+要怎麼讓 AI agent 用「你已經登入的瀏覽器」來操作？
+
+Day 72 有提到 Agent Browser 不能操作需要登入的平台，其實官方文件早就有 CDP 連線的方法，之前雖然看到但沒試成功。後來在 Lee Chun Wei 的提醒後才終於搞定。
+
+答案就是 CDP——Chrome DevTools Protocol。
+
+CDP 是 Chrome 內建的除錯協定，開發者工具（DevTools）就是透過它跟瀏覽器溝通的。Playwright 和 Puppeteer 都支援用 connectOverCDP() 連上一個已經在跑的 Chrome，這樣就能直接用你的 cookies、登入狀態、所有已開的分頁。
+
+⚠️ 第一個大坑：Chrome 136 的安全限制
+
+Chrome 136 以後，如果用預設 profile 啟動 Chrome 加上 `--remote-debugging-port=9222`，Chrome 會直接拒絕：「DevTools remote debugging requires a non-default data directory」。
+
+原因是 Google 發現攻擊者會利用 remote debugging 竊取 cookies，所以收緊了限制。
+
+一開始想到的做法是把 cookies 複製到 `/tmp/` 暫存目錄。但這其實更危險——複製出來的 cookies 失去了 Chrome 的 App-Bound Encryption 保護，本機任何程式都能讀取。等於是為了方便，把安全門戶大開。
+
+✅ 正確做法：建立專用 debug profile
+
+1⃣ 用 `--remote-debugging-port=9222 --user-data-dir=~/.chrome-debug-profile` 啟動 Chrome
+2⃣ 第一次打開時手動登入 Google（session 會永久保存在這個 profile 裡）
+3⃣ Playwright 用 `chromium.connectOverCDP('http://localhost:9222')` 連上去
+4⃣ 拿到帶著登入狀態的 context，開新分頁就能操作了
+
+這個 debug Chrome 跟你平常的 Chrome 是完全獨立的兩個 instance，可以同時開，互不影響。
+
+🔧 自動化 Gemini 的實作細節（第二個坑）
+
+連上之後，Playwright 自動導航到 gemini.google.com，找到輸入框（contenteditable div），打字送出 prompt，然後輪詢等圖片生成。
+
+這邊又踩了一個坑：Gemini 生成的圖片是從 `lh3.googleusercontent.com` 載入的，因為跨域關係，用 `canvas.toDataURL()` 會被 CORS 擋住（tainted canvas）。最後改用 Playwright 的 `page.request.get()` 才成功下載。
+
+💡 整個流程是怎麼做出來的
+
+以上這些其實是在睡前請 AI 幫我想辦法解決的，沒意外的話是用 default 的 medium effort 完成的。跟 AI 討論的過程中，它甚至幫我做了一個獨立的 debug 版 Chrome——專門給 skill 用來連 Gemini 生圖的。第一次點開它用非 headless 模式登入 Google，之後就全部設定好了，後續都能自動執行。
+
+了解它的做法並詢問了一些問題後，也把原本的資安疑慮解決了。
+
+🎯 封裝成 skill，一句話搞定
+
+整套流程跑通後，我把它做成了一個 Claude Code skill（gemini-web-image）。以後只要說「幫我用 Gemini 生一張圖」，Claude 就會自動執行：
+
+開 debug Chrome → Playwright 自動化 → 下載圖片 → 關掉 debug Chrome
+
+平常的 Chrome 完全不受影響。
+
+🚀 進一步迭代：headless 模式
+
+後來我又讓它改用 headless 模式（`--headless=new`）執行。這樣整個過程完全在背景跑，不會彈出任何瀏覽器視窗。
+
+Chrome 的 new headless 模式跑的是完整的瀏覽器引擎，Gemini 那些 JS 重度的 UI 一樣能正常運作。唯一的限制是第一次登入 Google 還是要用有畫面的模式——但登入一次之後 session 就保存在 debug profile 裡，之後全部都能 headless 執行。
+
+🌐 延伸應用
+
+這個方法不只適用於 Gemini。任何需要登入才能操作的網站，只要在 debug profile 裡登入一次，之後 AI agent 就能用你的身份去操作。
+
+想像一下：
+
+・自動幫你在 Notion 整理筆記
+・在 Linear 更新 issue
+・在 Slack 回訊息
+
+這些都變成可能的了。
+
+🔐 安全性提醒
+
+專用 debug profile 比複製 cookies 到 `/tmp/` 安全得多——登入資料有獨立的加密保護，不會暴露在暫存目錄。但你還是等於把瀏覽器的控制權交給 AI，所以要確保你信任執行的程式碼，也要注意不要讓 agent 操作到敏感的帳戶設定。
+
+📌 今天的兩個重點
+
+1⃣ 遇到問題先請 AI 幫你解決，持續追問直到找出解法
+2⃣ 成功後，用 skill-creator 幫你把流程封裝成 skill，下次可以直接用
+
+你有沒有什麼重複性的工作，是希望 AI 能直接幫你在網頁上完成的？像是自動更新某個系統、定期整理資料、或是操作特定的內部工具？歡迎分享你的情境，說不定 CDP 這招就能派上用場。 🚀
