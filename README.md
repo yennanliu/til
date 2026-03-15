@@ -8,6 +8,9 @@
 # PROGRESS
 
 # 20260315
+-  AI Agent 透過 Skill 直接操控你正在用的 Chrome 瀏覽器 ?  - `Skill chrome-cdp`
+	- https://github.com/pasky/chrome-cdp-skill
+    - https://www.facebook.com/share/p/18a83A3tZA/
 - Claude code - use cdp (Chrome DevTools Protocol) - reuse existing Chrome cookie (agent web automation)
   - https://github.com/yennanliu/til/blob/master/doc/claude_code_cdp.txt
 - Claude code - change using the model
