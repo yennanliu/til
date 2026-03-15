@@ -8,7 +8,9 @@
 # PROGRESS
 
 # 20260315
-- Claude code - change using model
+- Claude code - use cdp (Chrome DevTools Protocol) - reuse existing Chrome cookie (agent web automation)
+  - https://github.com/yennanliu/til/blob/master/doc/claude_code_cdp.txt
+- Claude code - change using the model
   - https://github.com/yennanliu/utility_shell/blob/master/claude_code/cmd.sh#L135
   ```bash
   # (claude code CLI)
