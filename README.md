@@ -9,6 +9,7 @@
 
 # 20260316
 - Anthropic 官方正式發布了 Claude Certified Architect – Foundations 認證
+- Become a Claude Certified Architect
 	- https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request
 
 # 20260315
