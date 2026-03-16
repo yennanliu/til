@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260316
+- Anthropic 官方正式發布了 Claude Certified Architect – Foundations 認證
+	- https://anthropic.skilljar.com/claude-certified-architect-foundations-access-request
+
 # 20260315
 -  AI Agent 透過 Skill 直接操控你正在用的 Chrome 瀏覽器 ?  - `Skill chrome-cdp`
 	- https://github.com/pasky/chrome-cdp-skill
