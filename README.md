@@ -7,6 +7,9 @@
 
 # PROGRESS
 
+# 20260317 mock call site:
+- https://www.pramp.com/#/
+
 # 20260316
 - Anthropic 官方正式發布了 Claude Certified Architect – Foundations 認證
 - Become a Claude Certified Architect
