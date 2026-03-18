@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260318
+- OPENCLAW intro YT
+  - https://www.youtube.com/@PahudDev
+
 # 20260317 
 - mock interview site:
 	- https://www.pramp.com/#/
