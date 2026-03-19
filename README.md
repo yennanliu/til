@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260319
+- Claude code - official `financial plugins.`
+  -  https://github.com/anthropics/financial-services-plugins
+
 # 20260318
 - OPENCLAW intro YT
   - https://www.youtube.com/@PahudDev
