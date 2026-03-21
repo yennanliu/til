@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260321
+- `/simplify` claude code plugin
+  - https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md
+
 # 20260319
 - Claude code - official `financial plugins.`
   -  https://github.com/anthropics/financial-services-plugins
