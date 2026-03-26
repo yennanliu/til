@@ -11,6 +11,9 @@
 - Amazon 技術長如何做筆記
   - https://www.aboutamazon.com/news/workplace/amazon-cto-werner-vogels-note-taking-hacks
   - https://www.facebook.com/share/p/1FyDprNK8z/
+- BE programming interview note
+  - https://github.com/yennanliu/CS_basics/blob/master/doc/faq/backend/be_programming_notes.md
+  - https://github.com/yennanliu/CS_basics/blob/master/doc/faq/backend/be_programming_notes_pt2.md
 
 # 20260321
 - `/simplify` claude code plugin
