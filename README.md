@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+# 20260327
+- Claude Code 新增功能：`自動模式`
+  - 自動模式不會像傳統模式一樣逐一批准檔案寫入和 bash 命令，或完全跳過權限檢查，而是讓 Claude 代表你做出權限決定
+  -  每個操作在執行前都會經過安全檢查
+  - https://www.bnext.com.tw/article/90416/claude-code-auto-mode
+```bash
+claude --enable-auto-mode
+```
+
 # 20260326
 - Amazon 技術長如何做筆記
   - https://www.aboutamazon.com/news/workplace/amazon-cto-werner-vogels-note-taking-hacks
