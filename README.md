@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260328
+- Vibe Coding 協作到自建 Dev Agent？從 Claude / Codex 到 OpenHands
+	- https://openhands.dev/
+	- https://blog.caesar-chi.com/2025/06/dev-agent-claude-codex-openhands.html
+
+
 # 20260327
 - Claude Code 新增功能：`自動模式`
   - 自動模式不會像傳統模式一樣逐一批准檔案寫入和 bash 命令，或完全跳過權限檢查，而是讓 Claude 代表你做出權限決定
