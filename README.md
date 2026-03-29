@@ -7,6 +7,29 @@
 
 # PROGRESS
 
+# 20260329
+
+- 本週 GitHub 在AI金融領域成長最快的專案
+```
+//⭐️本週 GitHub 在AI金融領域成長最快的專案：
+⸻
+1. TauricResearch/TradingAgents（+9.3K ★）
+一個多代理（multi-agent）的 LLM 框架，運作方式就像一家交易公司——分析師、研究員、風控會彼此討論後才決定進場。支援 GPT-5、Claude、Grok、Gemini。
+⸻
+2. virattt/ai-hedge-fund（49.6K ★）
+由多個 LLM 代理組成的團隊，各自扮演不同角色：多頭、空頭、基本面、技術面、風控等。可以說是 GitHub 上最接近「AI 對沖基金」的專案。
+⸻
+3. NoFxAiOS/nofx（11.2K ★）
+自動化 AI 交易助理。會自己選模型、抓市場資料、決定何時交易。本週新增「安全模式」，當 AI 連續 3 次以上判斷失誤時，會自動保護部位。
+⸻
+4. Jon-Becker/prediction-market-analysis（2.3K ★）
+目前最大規模的公開預測市場資料集，包含 Polymarket 與 Kalshi 的交易歷史，容量達 36GB。已經有研究者基於這個資料集發表論文。
+⸻
+5. pmxt-dev/pmxt（1.2K ★）
+可以把它想成預測市場版的 CCXT——用單一 API 串接 Polymarket、Kalshi、Limitless、Myriad。本週持續有修正與更新推出。
+```
+
+
 # 20260328
 - Claude Code 官方釋出的秘技
 	- https://claude.ai/public/artifacts/63f8bd66-e0de-4692-865f-e4b409e211c9?fbclid=IwY2xjawQ0yTFleHRuA2FlbQIxMABicmlkETFRYmR0S3ZJcHh0Qm93VXNac3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHjVR0D4dAlnUAxorc6YrsyzHheIw6Uv5Uawfq63X7M9I5oN7EEkRBrLZ8rxU_aem_gYi-HSg7FUMsGPiyo4AqbQ
