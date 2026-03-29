@@ -9,6 +9,10 @@
 
 # 20260329
 
+- claude code `/skill-creator`
+  - Claude Code 的 skill-creator 是 Anthropic 推出的元技能（meta-skill），讓用戶透過自然語言「教導」Claude 建立、優化和封裝特定的自動化工作流程（Skills）。即使不會程式設計，也能透過與 Claude 對話，定義任務邏輯、預設輸入輸出，將複雜任務封裝為可重複使用的技能包
+  - https://yu-wenhao.com/zh-TW/blog/claude-skills-guide/
+
 - OpenCode
   - https://github.com/anomalyco/opencode
   - [Ref 1](https://hackmd.io/@BASHCAT/B1zktAnNZx#:~:text=OpenCode%20%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F,%E8%90%AC%E9%96%8B%E7%99%BC%E8%80%85%E5%9C%A8%E4%BD%BF%E7%94%A8%E3%80%82)
