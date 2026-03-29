@@ -9,6 +9,10 @@
 
 # 20260329
 
+- OpenCode
+  - https://github.com/anomalyco/opencode
+  - [Ref 1](https://hackmd.io/@BASHCAT/B1zktAnNZx#:~:text=OpenCode%20%E5%88%B0%E5%BA%95%E6%98%AF%E4%BB%80%E9%BA%BC%EF%BC%9F,%E8%90%AC%E9%96%8B%E7%99%BC%E8%80%85%E5%9C%A8%E4%BD%BF%E7%94%A8%E3%80%82)
+
 - 本週 GitHub 在AI金融領域成長最快的專案
 ```
 //⭐️本週 GitHub 在AI金融領域成長最快的專案：
