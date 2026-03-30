@@ -8,6 +8,11 @@
 # PROGRESS
 
 # 20260330
+- RAG chunking
+  - https://ihower.tw/blog/12373-rag-chunking
+  - https://vip.studycamp.tw/t/%E3%80%8A%E7%AD%86%E8%A8%98%E3%80%8B7-7-rag-context%EF%BC%88%E6%96%87%E6%9C%AC%EF%BC%89%E5%88%87%E5%89%B2/8296
+  - https://learn.microsoft.com/zh-tw/azure/architecture/ai-ml/guide/rag/rag-chunking-phase
+
 - Agentic workflow
   - https://marcus-lau.com/writing/skills/
   ```
