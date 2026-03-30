@@ -7,6 +7,20 @@
 
 # PROGRESS
 
+# 20260330
+- Agentic workflow
+  - https://marcus-lau.com/writing/skills/
+  ```
+  前幾天看了 
+	@bohr_cc
+	 說 agentic workflow 是來真的
+	很有感，便趁週末把我如何用 skills 自動跑 PR 的流程寫出來
+	agentic workflow 第一步是讓人只需要當決策
+	第二步就是給予 agents 足夠的工具讓它自己跑，人只驗收成果
+	最近不論是 Karpathy 的 autoresearch 或者是 chroma 的 context-1，感覺都正循這個方向發展
+	我深信只要給予 agents 好的 tools，agents 便能自行完成很多困難的任務
+  ```
+
 # 20260329
 
 - claude code `/skill-creator`
