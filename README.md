@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260401
+- Claude Code 原始碼洩漏事件完整解析：2026 年 AI 產業最大資安烏龍
+	- https://cloudinsight.cc/zh/blog/claude-code-source-leak
+
 # 20260330
 - RAG chunking
   - https://ihower.tw/blog/12373-rag-chunking
