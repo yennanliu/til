@@ -10,6 +10,10 @@
 # 20260401
 - Claude Code 原始碼洩漏事件完整解析：2026 年 AI 產業最大資安烏龍
 	- https://cloudinsight.cc/zh/blog/claude-code-source-leak
+- Kustomize
+ - https://ithelp.ithome.com.tw/articles/10352286
+- SDD
+ - https://kaochenlong.com/sdd-spec-driven-development
 
 # 20260330
 - RAG chunking
