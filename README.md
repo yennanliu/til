@@ -14,6 +14,9 @@
  	- https://ithelp.ithome.com.tw/articles/10352286
 - SDD
  	- https://kaochenlong.com/sdd-spec-driven-development
+- OpenSpec
+ 	- [OpenSpec](https://www.youtube.com/watch?v=fiKQwZFBBD0)
+    - https://kaochenlong.com/openspec
 
 # 20260330
 - RAG chunking
