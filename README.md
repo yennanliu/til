@@ -7,6 +7,20 @@
 
 # PROGRESS
 
+# 20260406
+
+```
+Chrome迎來大更新，Chrome 146 最新版，在網址列輸入 chrome://inspect/#remote-debugging，打開遠端偵錯開關。然後給 Claude Code 加一行 MCP 配置：
+claude mcp add chrome-devtools -- npx chrome-devtools-mcp@latest --autoConnect
+重啟 session，Claude 就直接接管你目前的 Chrome 了。
+不是開啟一個新的無頭瀏覽器，不是類比點擊——是你正在登入的那個瀏覽器，你所有的 cookie、session、後台權限全都在。
+• "登入我的 GitHub，把所有 star 超過 1000 的 repo 整理成一份表格"
+• "打開我的 Google Analytics，告訴我昨天流量最高的 3 篇文章"
+• "去我的 Twitter 後台，把過去 7 天點讚數最低的 5 條推文刪掉"
+• "幫我檢查一下我的 Stripe 後台，有沒有昨天的退款請求沒處理"
+這些任務的共同點：需要登入、沒有公開 API、以前只能手動做。現在扔給 Claude 就行。
+```
+
 # 20260403
 
 - https://www.youtube.com/watch?v=krdrkl38nRw&t=329s
