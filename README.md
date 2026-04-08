@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260408
+- 用 Claude Code + GitHub Copilot Review 打造 AI 驅動的開發流程
+  - https://blog.wu-boy.com/2026/03/ai-driven-development-with-claude-code-and-github-copilot-review-zh-tw/?fbclid=IwY2xjawRCgqdleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEejKXQqMT7_fJ6tnd0JEY6D_cl24ek_9YIeFK-aTdW7Y42i_9nfXdhMT-cWqc_aem_6t5KWy8hP4OjYpafu6qFLA
+
 # 20260406
 
 ```
