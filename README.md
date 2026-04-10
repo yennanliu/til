@@ -8,6 +8,8 @@
 # PROGRESS
 
 # 20260410
+- Harness Engineering (AI)
+  - https://youtu.be/3DlXq9nsQOE?si=tHNZEqiWMduOdeqC
 - DP `0/1 knapsack counting`
   - https://yennj12.js.org/CS_basics/cheatsheets/dp.html#ultimate-cheat-sheet-when-to-use-which-pattern
   - https://yennj12.js.org/CS_basics/cheatsheets/dp.html#template-4-0-1-knapsack
