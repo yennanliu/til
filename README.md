@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260410
+- DP `0/1 knapsack counting`
+  - https://yennj12.js.org/CS_basics/cheatsheets/dp.html#ultimate-cheat-sheet-when-to-use-which-pattern
+  - https://yennj12.js.org/CS_basics/cheatsheets/dp.html#template-4-0-1-knapsack
+  - LC 494
+
 # 20260408
 - career-ops
   - https://github.com/santifer/career-ops
