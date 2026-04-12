@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260412
+- block - `From Hierarchy to Intelligence.`
+  - https://block.xyz/inside/from-hierarchy-to-intelligence
+
 # 20260410
 - Harness Engineering (AI)
   - https://youtu.be/3DlXq9nsQOE?si=tHNZEqiWMduOdeqC
