@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260413
+-  run chrome MCP
+```bash
+ /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+```
+
 # 20260412
 - block - `From Hierarchy to Intelligence.`
   - https://block.xyz/inside/from-hierarchy-to-intelligence
