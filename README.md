@@ -10,7 +10,14 @@
 # 20260413
 -  run chrome MCP
 ```bash
+# V1
  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
+
+
+# V2
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome \
+    --remote-debugging-port=9222 \
+    --user-data-dir="$HOME/Library/Application Support/Google/Chrome"
 ```
 
 # 20260412
