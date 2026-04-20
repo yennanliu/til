@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260420
+- System Design School - practices
+  - https://systemdesignschool.io/problems
+
 # 20260418
 - Claude code saving token tips:
 ```
