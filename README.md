@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260421
+- install codex CLI
+  - https://developers.openai.com/codex/cli
+
 # 20260420
 - System Design School - practices
   - https://systemdesignschool.io/problems
