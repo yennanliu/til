@@ -11,6 +11,10 @@
 - Google Gemini 團隊主管 Addy Osmani 主導開源的 Agent Skills 專案
   - https://github.com/addyosmani/agent-skills
   - https://www.facebook.com/share/p/1CEgrCKGzW/
+- RBAC VS ABAC ?
+  - 角色型存取控制 (Role-Based Access Control,RBAC)
+  - 屬性型存取控制 (Attribute-Based Access Control,ABAC)
+  - https://www.sailpoint.com/zh-hant/identity-library/rbac-vs-abac-whats-the-difference
 
 # 20260421
 - install codex CLI
