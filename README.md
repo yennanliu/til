@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260423
+- Google Gemini 團隊主管 Addy Osmani 主導開源的 Agent Skills 專案
+  - https://github.com/addyosmani/agent-skills
+  - https://www.facebook.com/share/p/1CEgrCKGzW/
+
 # 20260421
 - install codex CLI
   - https://developers.openai.com/codex/cli
