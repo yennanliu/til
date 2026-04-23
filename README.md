@@ -14,6 +14,8 @@
 # 20260420
 - System Design School - practices
   - https://systemdesignschool.io/problems
+- Resource-estimator (sys design)
+  - https://systemdesignschool.io/resource-estimator
 
 # 20260418
 - Claude code saving token tips:
