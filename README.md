@@ -15,6 +15,9 @@
   - 角色型存取控制 (Role-Based Access Control,RBAC)
   - 屬性型存取控制 (Attribute-Based Access Control,ABAC)
   - https://www.sailpoint.com/zh-hant/identity-library/rbac-vs-abac-whats-the-difference
+- EKS (K8S at AWS) 如何管理權限
+  - https://docs.aws.amazon.com/zh_tw/eks/latest/best-practices/identity-and-access-management.html
+  - https://zhuanlan.zhihu.com/p/458462186
 
 # 20260421
 - install codex CLI
