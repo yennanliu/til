@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260425
+- Agentic engineering
+  - https://youtu.be/PVceSqzp8sY?si=fOZWLOZNlJ3gbKSI
+  - https://yu-wenhao.com/zh-TW/blog/agentic-coding-guide/
+
 # 20260423
 - Google Gemini 團隊主管 Addy Osmani 主導開源的 Agent Skills 專案
   - https://github.com/addyosmani/agent-skills
