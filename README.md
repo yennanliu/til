@@ -7,6 +7,26 @@
 
 # PROGRESS
 
+# 20260430
+- awesome LLM apps
+  - https://github.com/icefort-ai/awesome-llm-webapps
+  ```
+  Perfect! Here are **practical, real-world LLM backend application examples**:
+
+
+| Repository | Use Case | Best For | Link |
+|---|---|---|---|
+| **Continue** | AI code assistant like GitHub Copilot (IDE plugin) | Private coding helper integrated into VSCode/JetBrains | [continuedev/continue](https://github.com/continuedev/continue) |
+| **Tabby** | Self-hosted Copilot alternative for code completion | On-premise coding assistant, multiple IDE support | [TabbyML/tabby](https://github.com/TabbyML/tabby) |
+| **Open Interpreter** | Execute code via LLM, automate tasks, coding workflows | Interactive LLM that runs/modifies code in your shell | [OpenInterpreter/OpenInterpreter](https://github.com/OpenInterpreter/OpenInterpreter) |
+| **OpenAI Issue Labeler** | GitHub issue processing, classification, auto-labeling | Ticket automation system | [openai/openai-issue-labeler](https://github.com/openai/openai-issue-labeler) |
+| **github-issue-gpt-bot** | GitHub issue response automation with LLM | Intelligent ticket processing bot | [emptycrown/github-issue-gpt-bot](https://github.com/emptycrown/github-issue-gpt-bot) |
+| **CodeGeeX** | Multi-language code generation and completion | Self-hosted code generation backend | [THUDM/CodeGeeX](https://github.com/THUDM/CodeGeeX) |
+| **LangChain + RAG Examples** | Document processing, chatbots with knowledge base | Building private document Q&A systems | [langchain-ai/langchain](https://github.com/langchain-ai/langchain) |
+| **Haystack** | Advanced RAG pipelines, document processing | Enterprise document search & QA systems | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) |
+| **llama-index** | Index and query custom data with LLM | Connect LLM to your own database/documents | [jerryjliu/llama_index](https://github.com/jerryjliu/llama_index) |
+
+
 # 20260425
 - Agentic engineering
   - https://youtu.be/PVceSqzp8sY?si=fOZWLOZNlJ3gbKSI
