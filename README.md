@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260501
+- Hyper：跨平臺的酷炫 Terminal
+	- https://hyper.is/
+		- https://noob.tw/hyper/
+
 # 20260430
 - awesome LLM apps
   - https://github.com/icefort-ai/awesome-llm-webapps
