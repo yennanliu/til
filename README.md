@@ -10,6 +10,10 @@
 # 20260502
 - 從會聊天的 AI，到能交辦工作的 Agent (Asgard AI Workshop)
   - https://asgard-ai-platform.github.io/asgard-slides/asgard-ai-agent-workshop/?fbclid=IwY2xjawRioQlleHRuA2FlbQIxMABicmlkETFmemJtVUNpUU5FeENSdDdHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsZ-4S0xFxtYZW_sXWTPFsoiO32flkUnzqwhCcKpKv5sLw-SNCif0IcVyJA9_aem_5Z4091AwhwUAC1Fqfge1nA#1
+ 
+<p align="center"><img src ="./doc/pic/six_part_agent_sys.png" ></p>
+<p align="center"><img src ="./doc/pic/mcp_cli_a2a.png" ></p>
+<p align="center"><img src ="./doc/pic/team_context_rag_harness.png" ></p>
 
 # 20260501
 - Hyper：跨平臺的酷炫 Terminal
