@@ -10,6 +10,10 @@
 # 20260503
 - AI coding terms
   - https://ai-dict.gh.miniasp.com/
+- HyDE (Hypothetical Document Embeddings，假想文件嵌入)
+  - (RAG advanced optimized tech)
+  - https://ywctech.net/ml-ai/beyond-naive-rag-query-transformation/
+  - https://learn.microsoft.com/zh-tw/azure/architecture/ai-ml/guide/rag/rag-information-retrieval
 
 # 20260502
 - 從會聊天的 AI，到能交辦工作的 Agent (Asgard AI Workshop)
