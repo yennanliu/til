@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260503
+- AI coding terms
+  - https://ai-dict.gh.miniasp.com/
+
 # 20260502
 - 從會聊天的 AI，到能交辦工作的 Agent (Asgard AI Workshop)
   - https://asgard-ai-platform.github.io/asgard-slides/asgard-ai-agent-workshop/?fbclid=IwY2xjawRioQlleHRuA2FlbQIxMABicmlkETFmemJtVUNpUU5FeENSdDdHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsZ-4S0xFxtYZW_sXWTPFsoiO32flkUnzqwhCcKpKv5sLw-SNCif0IcVyJA9_aem_5Z4091AwhwUAC1Fqfge1nA#1
