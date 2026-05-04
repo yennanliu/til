@@ -29,6 +29,11 @@
 <p align="center"><img src ="./doc/pic/a2a_in_practice.png" ></p>
 <p align="center"><img src ="./doc/pic/skill_pkg.png" ></p>
 
+<p align="center"><img src ="./doc/pic/claude_plugin_1.png" ></p>
+<p align="center"><img src ="./doc/pic/claude_plugin_2.png" ></p>
+<p align="center"><img src ="./doc/pic/skill_mcp_workflow.png" ></p>
+
+
 # 20260501
 - Hyper：跨平臺的酷炫 Terminal
 	- https://hyper.is/
