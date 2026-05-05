@@ -8,6 +8,8 @@
 # PROGRESS
 
 # 20260505
+- Andrej Karpathy: From Vibe Coding to Agentic Engineering
+  - https://youtu.be/96jN2OCOfLs?si=Az2tcmd1sClDRRVr
 - Agent build tool ref
   - https://github.com/yennanliu/ai_experiment/blob/main/ref/agent_ref.txt
 - Obsidian intro
