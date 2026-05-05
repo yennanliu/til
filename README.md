@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260505
+- Agent build tool ref
+  - https://github.com/yennanliu/ai_experiment/blob/main/ref/agent_ref.txt
+
 # 20260503
 - AI coding terms
   - https://ai-dict.gh.miniasp.com/
