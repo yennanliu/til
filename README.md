@@ -14,6 +14,9 @@
   - https://www.techhanlin.tw/obsidian-what-is-note-app/
 - 科技翰林院怎麼用 Claude Code 終端機？8 個實戰設定全公開
   - https://www.techhanlin.tw/claude-code-workflow-8-settings-guide/?fbclid=IwY2xjawRmdxJleHRuA2FlbQIxMABicmlkETFzZEhMQmVxUWJOeG5ETmZWc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHlGAIagzp-TQ5cVYhh9Xm8dqJOAiJjxoWxxW4ktcDW2m9MF9kbpQ7Kxu1bbX_aem_u7OblM7FQ5zrKyGE3mJj8A
+- Openclaw `202604` update
+  - 用 Anthropic API Key 接龍蝦不會被封帳號，這是 Anthropic 官方認可的做法。會被封的是拿 Claude 訂閱（Pro/Max）的 `OAuth token` 去餵第三方工具。
+  - https://www.techhanlin.tw/openclaw-april-2026-update-claude-code-tutorial/
 
 # 20260503
 - AI coding terms
