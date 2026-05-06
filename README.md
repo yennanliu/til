@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260606
+- AWS agent examples
+  - https://github.com/awslabs/amazon-bedrock-agent-samples
+
 # 20260505
 - Andrej Karpathy: From Vibe Coding to Agentic Engineering
   - https://youtu.be/96jN2OCOfLs?si=Az2tcmd1sClDRRVr
