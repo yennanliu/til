@@ -7,8 +7,8 @@
 
 # PROGRESS
 
-# 20260606
-- AWS agent examples
+# 20260506
+- AWS `bedrock agent` examples (amazon-bedrock-agent-samples)
   - https://github.com/awslabs/amazon-bedrock-agent-samples
 
 # 20260505
