@@ -35,7 +35,7 @@
 # 20260502
 - 從會聊天的 AI，到能交辦工作的 Agent (Asgard AI Workshop)
   - https://asgard-ai-platform.github.io/asgard-slides/asgard-ai-agent-workshop/?fbclid=IwY2xjawRioQlleHRuA2FlbQIxMABicmlkETFmemJtVUNpUU5FeENSdDdHc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHsZ-4S0xFxtYZW_sXWTPFsoiO32flkUnzqwhCcKpKv5sLw-SNCif0IcVyJA9_aem_5Z4091AwhwUAC1Fqfge1nA#1
-  - progress: 82/101
+  - progress: `done`
  
 <p align="center"><img src ="./doc/pic/six_part_agent_sys.png" ></p>
 <p align="center"><img src ="./doc/pic/mcp_cli_a2a.png" ></p>
@@ -49,6 +49,16 @@
 <p align="center"><img src ="./doc/pic/claude_plugin_1.png" ></p>
 <p align="center"><img src ="./doc/pic/claude_plugin_2.png" ></p>
 <p align="center"><img src ="./doc/pic/skill_mcp_workflow.png" ></p>
+
+<p align="center"><img src ="./doc/pic/6_layers.png" ></p>
+<p align="center"><img src ="./doc/pic/plugin_workflow_skill.png" ></p>
+<p align="center"><img src ="./doc/pic/quality_metric.png" ></p>
+<p align="center"><img src ="./doc/pic/cost_economics.png" ></p>
+<p align="center"><img src ="./doc/pic/prod_checklist.png" ></p>
+<p align="center"><img src ="./doc/pic/agent_task_example.png" ></p>
+<p align="center"><img src ="./doc/pic/outlook.png" ></p>
+<p align="center"><img src ="./doc/pic/take_home_map.png" ></p>
+
 
 
 # 20260501
