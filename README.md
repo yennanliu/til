@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+# 20260507
+- Run OpenCLAW on AWS
+  - https://github.com/openabdev/openab/blob/main/docs/refarch/aws-ecs-fargate-spot.md
+  - https://github.com/openabdev/openab
+  - https://www.facebook.com/share/p/1CEuvA4XTr/
+    
+
 # 20260506
 - AWS `bedrock agent` examples (amazon-bedrock-agent-samples)
   - https://github.com/awslabs/amazon-bedrock-agent-samples
