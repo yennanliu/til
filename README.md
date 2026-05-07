@@ -12,6 +12,8 @@
   - https://github.com/openabdev/openab/blob/main/docs/refarch/aws-ecs-fargate-spot.md
   - https://github.com/openabdev/openab
   - https://www.facebook.com/share/p/1CEuvA4XTr/
+- PTT Scraping strategy
+  - https://github.com/yennanliu/WebScraping2/blob/main/doc/ptt/scraping_strategy.md
     
 
 # 20260506
