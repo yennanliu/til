@@ -10,6 +10,9 @@
 # 20260508
 - https://voidzero.dev/
   - good UI design
+- awesome-LangGraph
+  - https://github.com/von-development/awesome-LangGraph
+   
 
 # 20260507
 - Run OpenCLAW on AWS
