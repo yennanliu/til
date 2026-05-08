@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260508
+- https://voidzero.dev/
+  - good UI design
+
 # 20260507
 - Run OpenCLAW on AWS
   - https://github.com/openabdev/openab/blob/main/docs/refarch/aws-ecs-fargate-spot.md
