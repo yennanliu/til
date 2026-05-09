@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260510
+- needcode AI coding interview
+  - https://neetcode.io/practice/ai-coding
+
 # 20260508
 - https://voidzero.dev/
   - good UI design
