@@ -10,6 +10,32 @@
 # 20260510
 - needcode AI coding interview
   - https://neetcode.io/practice/ai-coding
+- Claude code context management example:
+  - https://www.facebook.com/share/p/14dqDFJHGjA/
+```
+上回談個人化 Context 的重要性, 其實這觀點用在開發上依然有效｡ 我手上的一個專案, 花了點心思, 把所有的 Context 都集中起來放在同一個 Git Repo, 所有無法直接用理想結構放進 Repo 的資訊, 一律用 Coding Agent ( 其實我們是用 Claude Code, 不過任一套 Coding Agent, 例如 Codex 其實都可以, 以下通稱 Coding Agent ) 處理後再歸檔, 而所有的作業 (開發, 維運) 就用最理想的 Context 為主軸來進行, 若這些資訊有需要對外交流溝通或協作的, 也比照同樣方式靠 Coding Agent  轉換為需要的結構再拿出來｡
+從結果來看, 這做法最佳化了中間階段的開發與維運等需要 code / docs 交互作用的部分, 隨時讓兩者都處於最佳狀態, 而各種資訊的進出 (requirement, infrastructure, tech stack 選擇, issue tracking, report / presentation ...) 乍看之下好像多花了些資源在處理, 實際上這些都把不同角色間的 "資訊傳遞" 過程都省掉了｡
+別以為只是把規格文件擺在 /docs 而已, 所謂的流程簡化, 改變的是過去習以為常的 "文書處理", 我舉幾個案例:
+1. 系統分析設計:
+會議上談了一些需求, 我能同時理解商業需求跟技術規格, 於是我會後就開了 coding agent, 把會議上的決議, 直接產成 spec + scenario 放到 git repo, 對於 developer 可以直接看 spec, 對於 product owner / ux designer 可以直接看 scenario, 對我 (architect) 可以隨時核對 spec + scenario 是否一致
+2. 系統開發:
+開發人員對同一個 repo, 一樣把 coding agent 開起來, spec 早就到位了, 別的會議談過的 tech stack 等等技術選擇相關資訊也到位了, 可以立即開發 (後面的事情大家都很熟了, 略過)
+3. 架構溝通:
+我需要定期摘要架構上的進展, (也包含我沒親自經手的技術細節) 做成報告或簡報在其他場合說明, 這時相關資訊其實都到位了 (架構, 需求, 進度, code, spec ...), 因此我要的內容也是一樣, coding agent 開起來, 把我需要的方向說明一下, slide 的 agenda / item content 就出來了, 必要時我直接看到對應的 source code 來求證也沒問題.
+4. 專案需求與進度溝通:
+對於 Product Owner, 做法也是一樣, 需求, 產出, 測試結果, Issues 等待處理事項, 以及 roadmap 都在裡面了, 當 PO 需要產出特定需要的溝通素材時, 也是花一些 token 就能夠搞定, 而且整理這些素材的來源都是第一手資訊 (你只要 git pull 就可以拿到最新狀態了), 比起其他資訊系統, 你掌握的資訊更正確也更及時｡
+5. 就連維運, 本來需要開發一些小工具或是 CLI 來處理, 也因為 Context 高度集中, 有些簡單的任務開 coding agent 出來處理就解決了, 需要預先準備 CLI / scripts 也是一樣做法
+整套方法執行下來, 我的感想是開發其實跟大家差不多, 我們用 ai coding 並沒有特別快, 然而最有感的差別在於: 我們少掉很多溝通跟協作的浪費, 也少掉很多為了資訊傳遞做的白工... 
+歸納成心得, 有這幾點:
+1. Core Context:
+軟體開發最重要的 Context 就是這些東西 ( requirements, specs, architecture, infrastructure, source code, tests ... ), 務必把他照顧好, 這是最核心的原則
+2. 用 Coding Agent 做資料進出的操作介面:
+照顧好 context 的方法, 資訊進出這個 repo, 都統一用同樣的工具 ( claude code ) 用一樣的組態來處理, 進去的資料會有一致的規範, 拿出來的資料可以按照你期待的方式調整｡ 在這做法中, 資訊會用最有效率的結構來儲存 ( markdown + link ), 以 "使用" 最佳化的方式, 遠比以 "收集" 最佳化的方式更有效率
+3. 省下資訊交接與移轉的浪費:
+各種文件的 "交接" 以及 "移轉", 這些是過去人跟人協作最花時間的部分, 過去為了不同的目的跟對象, 我們必須寫許多內容類似但是不同格式的文件, 現在受惠 LLM 對文字的理解, 這些問題都可以靠工具與模型來解決了｡甲要理解問題, 寫成文件 (ex: PRD) 後給 乙, 乙 讀完文件再轉成另一種形式的文件 (ex: SD 文件) 給丙, 這些很浪費人力的流程, 在這架構下不再需要存在了｡
+重複上一篇的結論: 
+各種使用 AI 的場景, 重要的就三件事, 分別是 LLM x Agent Harness x Context, 而前兩者你大可以花錢選市面上最好的來用, 唯獨第三點 (Context) 你得自己準備, 如果品質不好, 這沒辦法假手他人的｡ 短期來看, 掌握工具是必要的, 但是長期來看, 好好的治理你專案相關的各種 Context 才是最關鍵的差異
+```
 
 # 20260508
 - https://voidzero.dev/
