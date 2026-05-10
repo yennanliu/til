@@ -14,6 +14,11 @@
 ```
 CrewAI 是一種開放原始碼架構，專門專注於自動多代理程式協同運作，可在 GitHub 上取得。它提供結構化方法來建立專業自主代理程式團隊，以協作解決複雜的任務，而無需人工介入。 CrewAI強調以角色為基礎的協調和任務委派
 ```
+- serpapi API key
+  - https://serpapi.com/
+```
+Serper API Key 是使用 Serper.dev 服務的唯一識別碼，這是一個專門用於快速、低成本獲取 Google 搜尋結果的 API 工具。它常被開發者用來為 AI 代理（如 LangChain、n8n）賦予即時上網搜尋的「眼睛」和「手腳」
+```
 - Needcode AI coding interview
   - https://neetcode.io/practice/ai-coding
 - Claude code context management example:
