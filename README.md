@@ -8,7 +8,10 @@
 # PROGRESS
 
 # 20260510
-- crewAI
+- 3 main Agentic framework
+  - `LangGraph, AutoGen, CrewAI`
+  - https://brianjhang.com/ai/trends/ai-agent-frameworks-battle-2025/
+- CrewAI
   - https://github.com/crewAIInc/crewAI
   - https://docs.aws.amazon.com/zh_tw/prescriptive-guidance/latest/agentic-ai-frameworks/crewai.html
 ```
