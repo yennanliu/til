@@ -8,7 +8,13 @@
 # PROGRESS
 
 # 20260510
-- needcode AI coding interview
+- crewAI
+  - https://github.com/crewAIInc/crewAI
+  - https://docs.aws.amazon.com/zh_tw/prescriptive-guidance/latest/agentic-ai-frameworks/crewai.html
+```
+CrewAI 是一種開放原始碼架構，專門專注於自動多代理程式協同運作，可在 GitHub 上取得。它提供結構化方法來建立專業自主代理程式團隊，以協作解決複雜的任務，而無需人工介入。 CrewAI強調以角色為基礎的協調和任務委派
+```
+- Needcode AI coding interview
   - https://neetcode.io/practice/ai-coding
 - Claude code context management example:
   - https://www.facebook.com/share/p/14dqDFJHGjA/
