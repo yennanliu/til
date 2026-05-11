@@ -12,6 +12,7 @@
   - `AIP-108 Java Task SDK and the Language Coordinator Layer`
   - https://cwiki.apache.org/confluence/display/AIRFLOW/AIP-108+Java+Task+SDK+and+the+Language+Coordinator+Layer
 - Harness engineering
+  - `Agent = Model + Harness`
   - https://www.facebook.com/share/p/18bkaDCBSm/
 ```
 Agent Harness Engineering：為什麼 AI Agent 的好壞，取決於模型以外的東西，Addy Osmani 這篇文章整理了一個正在成形的概念，叫 Harness Engineering。簡單講就是：一個 coding agent 不是只有模型，而是「模型加上包在模型外面的整套工作系統」。
