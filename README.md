@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260511
+- Airflow AIP 108
+  - `AIP-108 Java Task SDK and the Language Coordinator Layer`
+  - https://cwiki.apache.org/confluence/display/AIRFLOW/AIP-108+Java+Task+SDK+and+the+Language+Coordinator+Layer
+
 # 20260510
 - 3 main Agentic framework
   - `LangGraph, AutoGen, CrewAI`
