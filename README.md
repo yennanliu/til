@@ -8,6 +8,9 @@
 # PROGRESS
 
 # 20260512
+- Deploy OpenCLaw on `pure` cloud
+  - https://github.com/chrysb/alphaclaw
+  - https://github.com/garrytan/gbrain
 - How to check AI accuracy?
   - https://github.com/yennanliu/til/blob/master/doc/how_check_AI_accuracy.txt
 
