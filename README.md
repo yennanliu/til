@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260512
+- How to check AI accuracy?
+  - https://github.com/yennanliu/til/blob/master/doc/how_check_AI_accuracy.txt
+
 # 20260511
 - Airflow AIP 108
   - `AIP-108 Java Task SDK and the Language Coordinator Layer`
