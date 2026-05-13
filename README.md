@@ -7,6 +7,18 @@
 
 # PROGRESS
 
+# 20260513
+- How to get token from google email ? (for LLM app)
+ - go to `myaccount.google.com/apppasswords`
+```
+### Gmail App Password setup
+
+1. Enable **2-Step Verification** on your Google account
+2. Go to [myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords)
+3. Create an App Password (select app: **Mail**, device: **Other**)
+4. Copy the 16-character password into `.env` as `GMAIL_APP_PASSWORD`
+```
+
 # 20260512
 - Deploy OpenCLaw on `pure` cloud
   - https://github.com/chrysb/alphaclaw
