@@ -18,6 +18,8 @@
 3. Create an App Password (select app: **Mail**, device: **Other**)
 4. Copy the 16-character password into `.env` as `GMAIL_APP_PASSWORD`
 ```
+- RAG/ embeddings intro nb
+  - https://github.com/GoogleCloudPlatform/generative-ai/tree/main/embeddings
 
 # 20260512
 - Deploy OpenCLaw on `pure` cloud
