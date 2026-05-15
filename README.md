@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260515
+- Naive RAG
+  - https://youtu.be/ea2W8IogX80?si=aGSjT7_DyuhdjhSU&t=2331
+<p align="center"><img src ="./doc/pic/naive_RAG.png" ></p>
+
 # 20260513
 - How to get token from google email ? (for LLM app)
  - go to `myaccount.google.com/apppasswords`
