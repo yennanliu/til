@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+# 20260516
+- Agent learning steps
+  - https://www.facebook.com/share/p/1E8czhBz78/
+<p align="center"><img src ="./doc/pic/agent_1.jpg" ></p>
+<p align="center"><img src ="./doc/pic/agent_2.jpg" ></p>
+<p align="center"><img src ="./doc/pic/agent_3.jpg" ></p>
+
+
 # 20260515
 - Naive RAG
   - https://youtu.be/ea2W8IogX80?si=aGSjT7_DyuhdjhSU&t=2331
