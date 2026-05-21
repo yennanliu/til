@@ -9,6 +9,7 @@
 
 # 20260521
 - VS Code Tunnel (coding via remote server)
+  - https://vscode.dev/agents
 ```
 VS Code 推出了一個「基於雲端」的「遠端開發」服務，你只要連到 https://vscode.dev/agents 這個網址，就可以讓你透過 VS Code Tunnel 服務連回你的「本機」。等於你人在外面，用公司的電腦，或是公用的電腦，都可以用家裡的電腦進行「開發」任務，也可以透過 GitHub Copilot 擔任 AI Agent 幫你做任何事，更可以開啟 Terminal 下指令，就跟你「在家」完全一樣！😍
 這個「網頁版」的 VS Code 讓你從世界各地都能連上，也支援「行動版網頁」，所以手機也能寫 Code 喔！所以，這跟本就是 GitHub 版的「龍蝦」方案了吧？😄 👍
