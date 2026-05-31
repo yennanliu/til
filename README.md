@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260531
+- AI sys design ref
+  - https://github.com/yennanliu/ai-system-design-guide
+  - https://bytebytego.com/courses/genai-system-design-interview/introduction-and-overview
+
 # 20260521
 - VS Code Tunnel (coding via remote server)
   - https://vscode.dev/agents
