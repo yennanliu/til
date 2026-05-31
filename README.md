@@ -11,6 +11,36 @@
 - AI sys design ref
   - https://github.com/yennanliu/ai-system-design-guide
   - https://bytebytego.com/courses/genai-system-design-interview/introduction-and-overview
+- Smoke test
+```
+Smoke Testing（冒煙測試） 是軟體開發中一種快速、淺層的驗證測試，目的是確認系統的核心功能是否正常運作，值得進一步進行更完整的測試。
+
+這個名稱源自硬體工程：
+
+當新組裝的電子設備第一次通電時，如果沒有冒煙（Smoke），表示至少沒有立即性的重大故障，可以繼續檢查其他功能。
+
+在軟體開發中，意思類似：
+
+先確認系統沒有「明顯壞掉」，再投入時間做完整測試。
+```
+
+| 測試類型                | 目的         | 範圍 |
+| ------------------- | ---------- | -- |
+| Smoke Testing       | 驗證核心功能是否存活 | 很小 |
+| Sanity Testing      | 驗證特定修復是否有效 | 小  |
+| Integration Testing | 驗證模組間整合    | 中  |
+| Regression Testing  | 確保舊功能沒被破壞  | 大  |
+| End-to-End Testing  | 模擬完整使用者流程  | 大  |
+
+->
+```
+Smoke Testing = 軟體版本的「開機檢查」。
+
+它不保證系統完全正確，只回答一個問題：
+
+「這個版本是否具備基本可運作能力，值得繼續測試或發布？」
+```
+
 
 # 20260521
 - VS Code Tunnel (coding via remote server)
