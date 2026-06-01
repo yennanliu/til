@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260601
+- `RAG` learning/concept nb
+  - https://github.com/yennanliu/ai_experiment/tree/main/rag_poc/nb
+
 # 20260531
 - AI sys design ref
   - https://github.com/yennanliu/ai-system-design-guide
