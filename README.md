@@ -10,6 +10,7 @@
 # 20260531
 - AI sys design ref
   - https://github.com/yennanliu/ai-system-design-guide
+  - https://www.aidaddy.tech/
   - https://bytebytego.com/courses/genai-system-design-interview/introduction-and-overview
 - Smoke test
 ```
