@@ -8,8 +8,9 @@
 # PROGRESS
 
 # 20260601
-- `RAG` learning/concept nb
+- `RAG` learning/concept nb, posts
   - https://github.com/yennanliu/ai_experiment/tree/main/rag_poc/nb
+  - https://yennj12.js.org/yennj12_blog_V4/tags/fde/
 
 # 20260531
 - AI sys design ref
