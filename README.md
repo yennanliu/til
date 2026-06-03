@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+# 20260602
+- pi.dev
+  - https://pi.dev/
+  - https://repoinside.com/badlogic/pi-mono
+  ```
+  Pi.dev（通常稱為 Pi Coding Agent）是一款專為開發者設計的開源、極簡主義 AI 終端編程助手。它的核心設計理念是提供一個輕量級的「骨架」，讓使用者根據自己的工作流程來打造專屬的開發環境，而不是強迫開發者適應複雜的既有框架
+  ```
+
 # 20260601
 - `RAG` learning/concept nb, posts
   - https://github.com/yennanliu/ai_experiment/tree/main/rag_poc/nb
