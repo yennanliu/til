@@ -17,7 +17,7 @@
 
 # 20260601
 - `RAG` learning/concept nb, posts
-  - https://github.com/yennanliu/ai_experiment/tree/main/rag_poc/nb
+  - https://github.com/yennanliu/ai_experiment/tree/main/fde_nb
   - https://yennj12.js.org/yennj12_blog_V4/tags/fde/
 
 # 20260531
