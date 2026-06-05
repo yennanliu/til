@@ -21,9 +21,17 @@
   ```
 
 # 20260601
-- `RAG` learning/concept nb, posts
+- `AI agent` learning/concept nb, posts
   - https://github.com/yennanliu/ai_experiment/tree/main/fde_nb
   - https://yennj12.js.org/yennj12_blog_V4/tags/fde/
+- `AI agent` docs
+  - https://docs.cloud.google.com/architecture/choose-design-pattern-agentic-ai-system?hl=zh-tw
+  - https://codelabs.developers.google.com/adkcourse/instructions?hl=zh-tw#0
+  - https://cloud.google.com/blog/topics/developers-practitioners/building-collaborative-ai-a-developers-guide-to-multi-agent-systems-with-adk
+- `AI agent` videos
+  - https://www.youtube.com/watch?v=GDm_uH6VxPY&t=8s
+  - https://www.youtube.com/watch?v=KZPo15M2DbM&list=PLIivdWyY5sqLNeW9MPxldbbevMEJGMWBG
+  - https://www.youtube.com/@googlecloudtech/search?query=agent
 
 # 20260531
 - AI sys design ref
