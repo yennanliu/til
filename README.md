@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260605
+- Claude code `dynamic workflow.`
+  - https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
+  - https://moksaweb.com/claude-dynamic-workflows/
+
 # 20260602
 - pi.dev
   - https://pi.dev/
