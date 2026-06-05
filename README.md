@@ -32,6 +32,8 @@
   - https://www.youtube.com/watch?v=GDm_uH6VxPY&t=8s
   - https://www.youtube.com/watch?v=KZPo15M2DbM&list=PLIivdWyY5sqLNeW9MPxldbbevMEJGMWBG
   - https://www.youtube.com/@googlecloudtech/search?query=agent
+- `AI agent` codelab
+  - https://codelabs.developers.google.com/s/results?hl=zh-tw&q=Qingyue(Annie)%20Wang
 
 # 20260531
 - AI sys design ref
