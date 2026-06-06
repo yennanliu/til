@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260606
+- Fast MCP
+  - https://gofastmcp.com/getting-started/welcome
+  - https://youtu.be/XwlVHm3JKWU?si=RmyexnwaILJ5qPMe&t=424
+
 # 20260605
 - Claude code `dynamic workflow.`
   - https://claude.com/blog/a-harness-for-every-task-dynamic-workflows-in-claude-code
