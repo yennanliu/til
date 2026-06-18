@@ -7,6 +7,36 @@
 
 # PROGRESS
 
+# 20260618
+```
+Google 剛推出了一個新標準，做 SEO / GEO 的人值得關注。
+叫做 OKF（Open Knowledge Format）。
+簡單講，它解決一個問題：
+AI 理解你的網站，靠爬 HTML。
+但 HTML 充滿版型、廣告、導覽列⋯⋯
+真正有用的內容，其實只佔一小部分。
+OKF 的邏輯是：
+與其讓 AI 辛苦解析你的網站，不如直接給它一份「乾淨的知識地圖」。
+OKF 的本質其實很簡單：
+📁 一個資料夾
+📄 每篇文章 = 一個 Markdown 檔案
+🏷️ 頂部加幾行 metadata（標題、類型、標籤）
+🔗 文章之間互相連結，形成知識圖譜
+沒有新語言。沒有 SDK。沒有伺服器。
+就是 Markdown + YAML frontmatter。
+跟其他標準有何不同？
+llms.txt → 告訴外部 AI 爬蟲「你的網站有什麼」
+schema.org → 告訴 Google 搜尋引擎「這頁內容是什麼類型」
+OKF → 給 AI Agent 一份可直接讀取、可導航的知識包
+三者不互相取代，可以同時部署。
+現在值得做嗎？
+老實說：OKF 今天不會直接帶來流量或 AI 引用。
+但有三個理由讓我認為值得現在動手：
+1️⃣ Google 親自制定並推動，被 AI 生態採納的機率不低
+2️⃣ 部署成本極低——靜態網站幾乎是「放個資料夾」就完成
+3️⃣ 跟 llms.txt、Schema markup 一脈相承，做 GEO 本來就該走這方向 See less
+```
+
 # 20260606
 - Fast MCP
   - https://gofastmcp.com/getting-started/welcome
