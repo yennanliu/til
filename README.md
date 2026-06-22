@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260622
+- 如何避免用 AI 反而學不到東西
+  - ExplainThis 全端開發雙週報 #82
+  - https://explainthis.substack.com/p/explainthis-82-ai?utm_source=post-email-title&publication_id=1632126&post_id=202802754&utm_campaign=email-post-title&isFreemail=true&r=1f3twe&triedRedirect=true&utm_medium=email
+
+
 # 20260618
 ```
 Google 剛推出了一個新標準，做 SEO / GEO 的人值得關注。
