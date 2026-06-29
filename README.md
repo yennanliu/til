@@ -11,6 +11,10 @@
 
 - langfuse score
   - https://langfuse.com/faq/all/what-are-scores
+- AWS learning path
+  - https://www.ernestchiang.com/zh/posts/2023/aws-learning-path-and-strategy/
+- AWS re-invent note
+  - https://www.ernestchiang.com/zh/awscategories/
 
 # 20260623
 
