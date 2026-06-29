@@ -9,6 +9,75 @@
 
 # 20260629
 
+- https://github.com/cloudflare/security-audit-skill
+  - Cloudflare 開源了他們的 AI 安全稽核系統 — 六階段 Multi-Agent Pipeline 的教科書級範例
+```
+Cloudflare 開源了他們的 AI 安全稽核系統 — 六階段 Multi-Agent Pipeline 的教科書級範例
+
+Cloudflare 最近開源了一個叫 security-audit-skill 的專案，把他們內部用 AI agent 做安全稽核的系統公開出來。
+
+這是一個「multi-agent + verification loop」的實戰範例，是 Cloudflare 實際在用來找漏洞的系統。
+
+▋ 六個階段的 Pipeline
+
+整個稽核流程分六個 phase：
+
+1️⃣ Recon（偵察）
+• 多個平行 research agents 掃描整個 codebase
+• 產出 architecture.md：架構圖、信任邊界、輸入端口
+• 就像滲透測試的第一步：先搞清楚這個系統長什麼樣
+
+2️⃣ Hunt（攻擊）
+• 多個平行 general agents 從不同角度攻擊 codebase
+• 七個攻擊面向：injection、access control、business logic、cryptography、feature abuse、chained attacks、wildcard
+• 每個 agent 可以再 spawn sub-agents 往更深的地方挖
+
+3️⃣ Validate（驗證）
+• 另一批獨立的 agents 嘗試推翻每一個發現
+• 找到漏洞的 agent 跟驗證漏洞的 agent 不是同一個——adversarial review 殺掉 false positives
+（跟我績效考核系統的 Writer/Scorer 分離是同一個設計原則）
+
+4️⃣ Report（報告）
+• 產出 REPORT.md（人看的）+ FINDINGS-DETAIL.md（MEDIUM 以上的詳細追蹤）
+
+5️⃣ Structured Output（結構化輸出）
+• 產出 findings.json，符合預定義的 JSON schema
+• 用 Node.js 驗證器確認格式正確
+
+6️⃣ Independent Verification（獨立驗證）
+• 全新的 agents 逐一比對結構化輸出中的每一個事實宣稱 vs 實際原始碼
+• 最後一道防線：確保報告裡說的每一句話都是真的
+
+▋ 設計原則：只報你能 exploit 的東西
+
+這個系統有幾個我覺得非常硬核的原則：
+
+• 「An attacker could theoretically...」不算 finding。「Send this request, get this result」才算。
+• 每個發現都要有具體的攻擊情境：誰是攻擊者、做什麼、得到什麼
+• Defense-in-depth 的缺失不是漏洞——如果 Layer A 已經擋住攻擊，Layer B 不存在只是 hardening note
+• 嚴重度要同時看 likelihood x impact，不是打勾清單偏差
+• 多次 run 是 additive——測試顯示單次 run 大約只能找到所有漏洞的一半
+
+▋ 十大反模式（Anti-Patterns）
+他們還列了安全稽核報告最常見的十大爛法，幾個我覺得很有感的：
+
+• 把所有偏離 OWASP 的東西都當 bug 報（OWASP 是 checklist 不是 bug list）
+• 用「potentially」「theoretically」這種字眼（你要嘛能 exploit 要嘛不能）
+• 用十個 LOW 來充報告厚度（三個 MEDIUM 比十個 LOW 有用）
+• 不提 codebase 做得好的地方（如果 auth 很扎實就說，這樣你報的問題才有公信力）
+• 太快放棄（「有 parameterized queries 所以沒有 SQL injection」是懶結論——去查每一個 sql.raw()）
+
+▋ 為什麼這跟我們之前聊的都有關
+
+如果你有在追我最近寫的文章，會發現這個系統完美對應了我們討論過的每一個概念：
+
+• Multi-Agent：Hunt phase 用平行 agents 從不同角度攻擊
+• Verification Loop：Validate phase 用獨立 agent 推翻發現
+• 資訊隔離：找漏洞的跟驗證的不是同一個 agent
+• Harness > Model：整個六階段 pipeline 就是 harness，模型只是裡面的一顆引擎
+• Hill Climbing：多次 run 是 additive，每次讀前一次的 findings.json 來避開已知問題、補充遺漏
+``` 
+
 - langfuse score
   - https://langfuse.com/faq/all/what-are-scores
 - AWS learning path
