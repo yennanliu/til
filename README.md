@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260629
+
+- langfuse score
+  - https://langfuse.com/faq/all/what-are-scores
+
 # 20260623
 
 - Agent sys note
