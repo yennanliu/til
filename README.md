@@ -15,6 +15,8 @@
   - https://www.ernestchiang.com/zh/posts/2023/aws-learning-path-and-strategy/
 - AWS re-invent note
   - https://www.ernestchiang.com/zh/awscategories/
+- Nick Hsu：AI 讓做事的成本趨近零，人類只剩 builder 和 seller
+  - https://hackmd.io/@JbhlYkBtRJukuvsXMtL6lg/By85ZqJXMx?fbclid=IwY2xjawSu_JBleHRuA2FlbQIxMABicmlkETJmakk4S1VjRnNtQklGYVBMc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHnmv1hsIlPavQm7m8tiVMVIfxdNI9gk2wyWBTYbdTQfDnLr772o3vwbWM2qk_aem_EVfMgOk2x4G2PUASF11Ofg
 
 # 20260623
 
