@@ -10,6 +10,8 @@
 # 20260630
 - hello interview
   - https://www.hellointerview.com/experience/stories/cmox72jt90duh0eadek0jdgpj
+- book of elon
+  - https://eugeneintw.github.io/book-of-elon/
 
 # 20260629
 
