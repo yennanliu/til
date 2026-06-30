@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260630
+- hello interview
+  - https://www.hellointerview.com/experience/stories/cmox72jt90duh0eadek0jdgpj
+
 # 20260629
 
 - https://github.com/cloudflare/security-audit-skill
