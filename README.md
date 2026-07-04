@@ -7,6 +7,9 @@
 
 # PROGRESS
 
+# 20260704
+- https://github.com/anthropics/financial-services
+
 # 20260630
 - hello interview
   - https://www.hellointerview.com/experience/stories/cmox72jt90duh0eadek0jdgpj
