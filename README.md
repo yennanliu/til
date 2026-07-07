@@ -14,6 +14,9 @@
   - https://www.youtube.com/watch?v=PDFbMJuBg5g
   - https://www.youtube.com/watch?v=WyW4Ifu4rSo
   - https://www.youtube.com/watch?v=5jdpRv-WE2A&t=40s
+ 
+- AWS - Guidance for Multi-Provider Generative AI Gateway on AWS (LiteLLM)
+  - https://docs.aws.amazon.com/solutions/multi-provider-generative-ai-gateway-on-aws/?utm_source=chatgpt.com
 
 - Google agents-cli
   - 別再手刻 Google Cloud 部署腳本！Google agents-cli 讓你的 AI 助理變身部署專家。
