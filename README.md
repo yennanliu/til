@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+# 20260707
+
+- Flink at Grab
+  - https://engineering.grab.com/an-elegant-platform
+  - https://engineering.grab.com/safer-flink-deployments
+  - https://engineering.grab.com/the-complete-stream-processing-journey-on-flinksql
+  - https://jobs.smartrecruiters.com/Grab/744000136146299-lead-platform-engineer-flink
+
 # 20260704
 - https://github.com/anthropics/financial-services
 ```
