@@ -15,6 +15,10 @@
   - https://www.youtube.com/watch?v=WyW4Ifu4rSo
   - https://www.youtube.com/watch?v=5jdpRv-WE2A&t=40s
 
+- Google agents-cli
+  - 別再手刻 Google Cloud 部署腳本！Google agents-cli 讓你的 AI 助理變身部署專家。
+  - https://youtu.be/iznAjWlErWA?si=xyWjepWarIysGOYL
+
 - Flink at Grab
   - https://engineering.grab.com/an-elegant-platform
   - https://engineering.grab.com/safer-flink-deployments
