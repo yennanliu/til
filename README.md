@@ -9,6 +9,12 @@
 
 # 20260707
 
+- LiteLLM intro
+  - https://youtu.be/-A9Gk6zFU_M?si=XxwtGlFVSPovWGh-
+  - https://www.youtube.com/watch?v=PDFbMJuBg5g
+  - https://www.youtube.com/watch?v=WyW4Ifu4rSo
+  - https://www.youtube.com/watch?v=5jdpRv-WE2A&t=40s
+
 - Flink at Grab
   - https://engineering.grab.com/an-elegant-platform
   - https://engineering.grab.com/safer-flink-deployments
