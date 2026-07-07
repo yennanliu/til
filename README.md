@@ -17,18 +17,19 @@
 
 - `LiteLLM` VS `LiteLLM Gateway`
   - https://llmgateway.io/blog/llm-gateway-vs-litellm
-```
+
+````markdown
 ## LiteLLM 與 LiteLLM Gateway 的差異
 
 雖然 **LiteLLM** 和 **LiteLLM Gateway** 都屬於 LiteLLM 生態系，但它們的定位不同：
 
-| 項目     | LiteLLM         | LiteLLM Gateway    |
-| ------ | --------------- | ------------------ |
-| 定位     | Python 函式庫（SDK） | API Gateway（代理伺服器） |
-| 執行方式   | 直接整合到應用程式中      | 獨立部署的服務            |
-| 主要用途   | 在程式中統一呼叫不同 LLM  | 集中管理所有 LLM API 存取  |
-| 使用對象   | 開發者             | DevOps、平台工程師、企業 IT |
-| 是否需要部署 | 不需要             | 需要部署 Gateway       |
+| 項目 | LiteLLM | LiteLLM Gateway |
+|------|---------|-----------------|
+| 定位 | Python 函式庫（SDK） | API Gateway（代理伺服器） |
+| 執行方式 | 直接整合到應用程式中 | 獨立部署的服務 |
+| 主要用途 | 在程式中統一呼叫不同 LLM | 集中管理所有 LLM API 存取 |
+| 使用對象 | 開發者 | DevOps、平台工程師、企業 IT |
+| 是否需要部署 | 不需要 | 需要部署 Gateway |
 
 ### LiteLLM：統一的 LLM SDK
 
@@ -36,23 +37,23 @@ LiteLLM 是一個 **Python 函式庫**，提供與 OpenAI API 相容的介面，
 
 例如，您可以使用同一組 API 呼叫：
 
-* OpenAI GPT
-* Anthropic Claude
-* Google Gemini
-* Azure OpenAI
-* Amazon Bedrock
-* Vertex AI
-* Ollama
-* 以及其他數十種模型供應商
+- OpenAI GPT
+- Anthropic Claude
+- Google Gemini
+- Azure OpenAI
+- Amazon Bedrock
+- Vertex AI
+- Ollama
+- 以及其他數十種模型供應商
 
 開發者只需要更換 `model` 名稱，而不需要修改大量程式碼。
 
 **適合情境：**
 
-* 建立 AI 應用程式
-* 快速切換模型供應商
-* 避免被單一供應商綁定
-* 簡化不同 API 的整合工作
+- 建立 AI 應用程式
+- 快速切換模型供應商
+- 避免被單一供應商綁定
+- 簡化不同 API 的整合工作
 
 ---
 
@@ -74,18 +75,18 @@ Application C ─┘                      ├──► Claude
 
 Gateway 可提供許多企業級管理功能，例如：
 
-* API Key 管理
-* 使用者驗證（Authentication）
-* 存取權限控制（Authorization）
-* Rate Limit（流量限制）
-* 配額（Quota）管理
-* 成本追蹤（Cost Tracking）
-* 使用紀錄（Logging）
-* 模型路由（Model Routing）
-* 負載平衡（Load Balancing）
-* 故障切換（Failover）
-* 快取（Caching）
-* 統一監控（Observability）
+- API Key 管理
+- 使用者驗證（Authentication）
+- 存取權限控制（Authorization）
+- Rate Limit（流量限制）
+- 配額（Quota）管理
+- 成本追蹤（Cost Tracking）
+- 使用紀錄（Logging）
+- 模型路由（Model Routing）
+- 負載平衡（Load Balancing）
+- 故障切換（Failover）
+- 快取（Caching）
+- 統一監控（Observability）
 
 ---
 
@@ -93,10 +94,10 @@ Gateway 可提供許多企業級管理功能，例如：
 
 如果您的需求是：
 
-* 開發單一 AI 應用
-* 在程式中呼叫 LLM
-* 希望快速切換模型供應商
-* 不需要集中管理 API
+- 開發單一 AI 應用
+- 在程式中呼叫 LLM
+- 希望快速切換模型供應商
+- 不需要集中管理 API
 
 **LiteLLM 就足夠了。**
 
@@ -106,12 +107,12 @@ Gateway 可提供許多企業級管理功能，例如：
 
 如果您的需求包括：
 
-* 多個應用程式共用 LLM
-* 多個團隊共同使用 AI
-* 需要統一管理 API Key
-* 控制使用成本
-* 建立企業 AI 平台
-* 需要權限、監控與稽核
+- 多個應用程式共用 LLM
+- 多個團隊共同使用 AI
+- 需要統一管理 API Key
+- 控制使用成本
+- 建立企業 AI 平台
+- 需要權限、監控與稽核
 
 **LiteLLM Gateway 會是更適合的選擇。**
 
@@ -121,25 +122,28 @@ Gateway 可提供許多企業級管理功能，例如：
 
 可以將兩者想像成：
 
-* **LiteLLM**：像是資料庫驅動程式（Driver），讓您的程式可以方便地連接不同的資料來源。
-* **LiteLLM Gateway**：像是 API Gateway 或反向代理（如 NGINX），所有請求都先經過它，再轉送到後端服務，並在中間進行安全控管、流量管理與監控。
+- **LiteLLM**：像是資料庫驅動程式（Driver），讓您的程式可以方便地連接不同的資料來源。
+- **LiteLLM Gateway**：像是 API Gateway 或反向代理（如 NGINX），所有請求都先經過它，再轉送到後端服務，並在中間進行安全控管、流量管理與監控。
 
 ---
 
 ## 如何選擇？
 
-| 使用情境          | 建議                 |
-| ------------- | ------------------ |
-| 個人開發、PoC、原型開發 | 使用 LiteLLM         |
-| 單一應用程式        | 使用 LiteLLM         |
-| 多個應用共用 LLM    | 使用 LiteLLM Gateway |
-| 企業 AI 平台      | 使用 LiteLLM Gateway |
-| 需要權限管理與成本控制   | 使用 LiteLLM Gateway |
+| 使用情境 | 建議 |
+|----------|------|
+| 個人開發、PoC、原型開發 | 使用 LiteLLM |
+| 單一應用程式 | 使用 LiteLLM |
+| 多個應用共用 LLM | 使用 LiteLLM Gateway |
+| 企業 AI 平台 | 使用 LiteLLM Gateway |
+| 需要權限管理與成本控制 | 使用 LiteLLM Gateway |
 | 希望集中管理多家模型供應商 | 使用 LiteLLM Gateway |
 
-**總結來說：**LiteLLM 著重於**程式開發與模型抽象化**，讓開發者能以一致的方式呼叫不同的 LLM；而 LiteLLM Gateway 則著重於**集中管理與企業級治理**，在 LiteLLM 的基礎上增加安全性、監控、流量控制與成本管理等功能，適合多團隊或大規模部署的環境。
+**總結：**
 
-```
+- **LiteLLM** 著重於**程式開發**，提供統一的 API 介面，讓開發者能輕鬆切換不同的 LLM 供應商。
+- **LiteLLM Gateway** 則著重於**企業級管理**，提供集中化的 API 管理、安全控管、流量控制、成本監控與模型路由等功能，適合多團隊或大規模部署的環境。
+````
+
 
  
 - AWS - Guidance for Multi-Provider Generative AI Gateway on AWS (LiteLLM)
