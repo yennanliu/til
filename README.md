@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260711
+
+- https://github.com/withmarbleapp/os-taxonomy
+- https://unwire.hk/2026/07/10/marble-os-taxonomy-open-source/life-tech/school/?utm_id=97758_v0_s00_e0_tv1_a1demo0ecitoxu&fbclid=IwY2xjawS-u_1leHRuA2FlbQIxMABicmlkETJaUkRzakxQT00wYzhsU0VKc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHhV2LNfKBX3YmgqGXrMkoAE-YyyllRmVlS-akGL3VKsCDRL03qfvmQUoacwQ_aem_z9C9bhRIgisgk7olopbSVw
+
 # 20260707
 
 - LiteLLM intro
