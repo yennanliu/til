@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+# 20260712
+
+- 不負責漲跌GoOptions
+  - https://www.facebook.com/gooptions.cc
+  - https://gooptions.cc/trend-core-home/
+  - https://gooptions.cc/trend-core-features/
+
 # 20260711
 
 - https://github.com/withmarbleapp/os-taxonomy
