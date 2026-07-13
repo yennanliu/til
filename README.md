@@ -11,6 +11,8 @@
 - 我去了一趟 世界最大的 AI 工程年會 `AI Engineer World's Fair 2026 · San Francisco`
   - https://doc.jocelinho.com/public/aiewf-2026/
   - https://doc.jocelinho.com/public/
+- name that UI
+  - https://namethatui.com/
 
 # 20260712
 
