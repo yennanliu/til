@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260715
+- AIO (AI overview)
+  - https://wagikg.com.tw/what-is-aio/
+  - https://91app.com/blog/what-is-aioverviews/
+
+
 # 20260713
 - 我去了一趟 世界最大的 AI 工程年會 `AI Engineer World's Fair 2026 · San Francisco`
   - https://doc.jocelinho.com/public/aiewf-2026/
