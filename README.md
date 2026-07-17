@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260716
+- https://msty.ai/
+  - run `chat gpt` with your own model (e.g. ollama.com)
+  - https://youtu.be/GWB9ApTPTv4?si=BhSA9joPvh9R2UCI&t=4303
+  
 # 20260715
 - AIO (AI overview)
   - https://wagikg.com.tw/what-is-aio/
