@@ -7,6 +7,23 @@
 
 # PROGRESS
 
+# 20260719
+- https://www.facebook.com/share/p/1ApkAK2jKs/
+- 原始文章: https://dev.to/.../master-local-fine-tuning-with-gemma...
+- Skill 位置: https://github.com/google-gemma/gemma-skills
+
+```
+用一個 Skill 就可以在本地微調 Gemma ？！
+Google AI 在原本的 gemma-skills 上增加了 gemma-trainer，協助你在自己的本地硬體上訓練與調整 Gemma 模型。
+特點如下：
+1. 搭配 Unsloth 進行單 GPU 訓練，速度快、記憶體用量低，一般個人電腦就能順利跑起來
+2. 它會引導你使用監督式微調（SFT）教模型新知識、直接偏好優化（DPO）對齊使用者偏好，以及獎勵建模（RM）來為回應評分
+3. 支援多模態。除了文字，還提供以影像與音訊訓練模型的清楚指引
+4. 可快速將模型轉換為 GGUF 等輕量格式，透過 LiteRT-LM 部署到手機或 IoT 智慧裝置上，而且這份技能還會持續更新最新的最佳化訓練技巧
+最厲害的是它與 AI Agent 的整合體驗。你不必再手動拼湊訓練流程，只要對 Agent 下達自然語言指令，Agent 就會與你協作：先驗證資料格式、挑選最合適的 LoRA 參數以避免撐爆記憶體、訓練時將資源效率最佳化，最後評估成效並反覆調整。
+```
+
+
 # 20260716
 - https://msty.ai/
   - run `chat gpt` with your own model (e.g. ollama.com)
