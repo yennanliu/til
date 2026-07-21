@@ -9,6 +9,8 @@
 
 # 20260722
 - https://www.growin.ai/en
+- AI code review tools
+  - CodeRabbit、Greptile、Sourcery、PR-Agent、Qodo, gemini, claude ...
 
 # 20260720
 - Leetcode wiki
