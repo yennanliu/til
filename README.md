@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260723
+- Open Knowledge Format (OKF)
+  - https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
+  - https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/toolbox/mdcode/demo
+  - https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing
+
 # 20260722
 - https://www.growin.ai/en
 - coderabbit UI
