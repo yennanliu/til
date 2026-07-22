@@ -12,6 +12,9 @@
   - https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
   - https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/toolbox/mdcode/demo
   - https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing
+- `ai-engineering-from-scratch`
+  - https://github.com/yennanliu/ai-engineering-from-scratch
+  - https://yennj12.js.org/yennj12_blog_V4/search/?q=AI+%E5%B7%A5%E7%A8%8B%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B
 
 # 20260722
 - https://www.growin.ai/en
