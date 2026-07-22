@@ -9,6 +9,8 @@
 
 # 20260722
 - https://www.growin.ai/en
+- coderabbit UI
+  - https://app.coderabbit.ai/settings/repositories
 - AI code review tools
   - CodeRabbit、Greptile、Sourcery、PR-Agent、Qodo, gemini, claude ...
 
