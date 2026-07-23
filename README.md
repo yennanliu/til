@@ -8,6 +8,24 @@
 # PROGRESS
 
 # 20260723
+
+- Anthropic Academy 更新了《Claude Code in Action》課程
+- https://anthropic.skilljar.com/claude-code-in-action
+```
+
+是把「如何讓 Claude Code 跑久一點，又不容易跑偏」整理成一套完整流程。
+
+
+光是第一章，就整理了長時間任務很實用的 6 個觀念：
+1. Plan Mode：先讓 Claude Code 研究程式碼，在唯讀狀態下把計畫、邊界及目標整理好。
+2. /compact：壓縮上下文時，可以指定摘要要保留的重點，降低後面慢慢偏題的機率。
+3. /rewind：方向走歪時，可以回到 checkpoint，分別還原對話或程式碼，也能從指定位置重新摘要後繼續。
+4. /goal：把「完成」寫成可驗證的條件，讓 Claude Code 跨多個 turn 持續處理，直到 evaluator 判定達標。
+5. /loop：在 session 保持開啟時，按間隔重跑 prompt，用來輪詢 CI、部署或其他外部狀態。
+6. worktree：讓平行 session 使用獨立的檔案樹與 branch，減少同時修改相同檔案造成的衝突。
+```
+
+# 20260723
 - Open Knowledge Format (OKF)
   - https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/okf
   - https://github.com/GoogleCloudPlatform/knowledge-catalog/tree/main/toolbox/mdcode/demo
