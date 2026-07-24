@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260724
+- Openworker
+  - https://openworker.com/
+  - https://github.com/andrewyng/openworker
+
 # 20260723
 
 - Anthropic Academy 更新了《Claude Code in Action》課程
