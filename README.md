@@ -7,6 +7,84 @@
 
 # PROGRESS
 
+# 20260727
+- Matt Pocock 的 Agent Skill 設計哲學
+	- https://blog.aihao.tw/2026/07/25/mattpocock-skills-design-philosophy
+ 	- https://github.com/mattpocock/skills
+```
+他把現在的處境叫做 skill hell: 免費的 skill 到處都是，你可以下載、可以自己寫，但你分不出好壞，也不知道它們該怎麼組在一起。缺的不是 skill，是一套判斷 skill 的共用標準。
+——
+🎯 skill 存在的目的
+他的定義是: skill 存在的目的，是從一個隨機的系統裡硬是逼出確定性。
+這裡的「可預測」有明確限定: 指 agent 每次走同樣的流程，不是每次產出同樣的結果。一個 brainstorming skill 應該要「可預測地發散」，token 每次都不一樣，但行為不變。
+他把整套 skill 對應到四個軟體工程的老問題:
+▸ agent 做出來的不是我要的 → grilling session，讓 agent 反過來訪問你
+▸ agent 講話太囉嗦 → CONTEXT.md 共通詞彙表。沒有詞彙表要說「course 的 section 裡的 lesson 被『變成真的』的時候會出問題」，有了就只要說「materialization cascade 會出問題」
+▸ 程式不能動 → TDD 的 red-green 迴圈
+▸ 做出一個大泥球 → 每隔幾天跑一次架構檢查
+小編覺得這組對應就是他設計哲學的核心: 他不是在發明 agent 時代的新流程，而是把已經驗證幾十年的工程紀律，翻譯成 agent 讀得懂的格式。
+——
+🔌 檢查一: Trigger 怎麼被叫起來
+只有兩種選擇:
+▸ model-invoked: 保留 description，agent 自己決定要不要用。代價是這段 description 每一輪都在 context 裡，這叫 context load
+▸ user-invoked: 加上 disable-model-invocation，agent 看不到、叫不動。context load 是零，但你自己就是那個索引，得記得它存在，這叫 cognitive load
+最好的一句話是: cognitive load 不是一個要最小化的成本，而是人保有主導權的代價。這跟一般直覺相反，多數人會預設「能自動就自動」。
+他自己明顯偏好 user-invoked。理由是每多一個 model-invoked skill 就多一個 context pointer，而 pointer 有機率不被跟隨; 與其想辦法提高命中率，他寧可讓這一整類問題不存在。這也是他跟 superpowers 最大的差別，他的總結是「Superpowers 是給 agent 超能力，我的 skills 是給你超能力」。
+代價他也承認: 他自己得記得這幾十個 skill。換來的是把官方那批全裝上 (影片當時 38 個)，跑 /context 只佔 660 tokens。
+user-invoked 一多人就記不住，解法是加一個 router skill，內容就是告訴你有哪些 skill、什麼時候用哪個。
+還有一條分工規則: user-invoked 可以呼叫 model-invoked，但不能呼叫另一個 user-invoked。所以 user-invoked 是編排層，model-invoked 是可重複使用的紀律層。
+——
+🧱 檢查二: Structure 內容怎麼排
+skill 只由兩種東西組成: steps (照順序做的動作，每步結束在一個完成標準上) 跟 reference (隨時查的定義、規則、範本)。
+這些內容排在三層資訊階層上:
+▶ SKILL.md 裡的 step
+▶ SKILL.md 裡的 reference
+▶ 推到外部檔案的 reference，用 pointer 指過去
+要不要往下推，判準不是「檔案太長」，而是 branch。一個 skill 如果有多種用法，每種用法就是一條 branch，每條 branch 都會用到的留在本體，只有部分 branch 用得到的推出去。
+還有一條很實用: pointer 沒被跟隨的時候，先修措辭。決定 agent 什麼時候去讀、讀得多可靠的是 pointer 的措辭，不是它指向什麼。
+——
+🗝 檢查三: Steering 怎麼讓它照做
+leading word 是他說整場演講最想給的一件事。它是一個已經存在於模型預訓練裡的壓縮概念，你放進 skill 的文字裡，agent 會在思考過程跟輸出裡把這個詞複述出來，複述的同時就改變了行為。
+例子: agent 習慣一層一層寫程式，先寫完資料庫層、再寫 API、最後才寫前端。你當然可以寫一長段解釋，但更好的做法是直接用「vertical slice (垂直切片)」這個詞，模型本來就有的先驗會被叫起來。
+兩個要點:
+▸ 它是可驗證的。去 reasoning trace 裡看 agent 有沒有把這個詞說回來，有就代表有效
+▸ 它同時作用在觸發上。所以 description 要用你「真的會講的那些詞」來寫
+他 repo 裡把這件事做得很徹底，幾乎每個術語底下都附一行 Avoid，列出不該用的同義詞，確保意思不會被一堆同義詞換來換去而變模糊。
+steering 的第二個手段是完成標準，拆成兩個軸: 清晰度 (模糊的標準會讓 agent 宣稱做完就進下一步，這叫 premature completion) 跟要求強度 (決定 agent 願意做多少前置工作)。
+他拿 plan mode 當反例，而且說每一種實作都有這個問題: plan mode 有「問澄清問題」跟「產出計畫」兩步，agent 看得到終點是產出計畫，所以問問題那步永遠敷衍。他的解法是拆成兩個 skill，agent 一次只看得到一步。
+但順序是先把完成標準寫明確，再考慮拆。而且藏後續步驟只在真正的 context 邊界才有效 (交給人手動接續、或丟給 subagent)，在同一個 context 裡 inline 呼叫，什麼都沒藏到。
+還有一個獨立的失敗模式叫 negation: 用禁令引導會有反效果，因為禁令把被禁的行為帶進了 context。他的說法是「不要想大象」，講完這句，大象就是唯一在場的東西。修法是改成正面描述目標行為。
+——
+✂️ 檢查四: Pruning 刪到不能再刪
+no-op 測試:「commit message 要寫得很詳細」「要徹底」「實作要好讀」這類句子對 agent 的行為毫無影響，因為它本來就會這樣做。刪掉試試，輸出沒變，那行就是 no-op。他說 agent 自己寫的 skill 尤其滿是 no-op。
+兩個延伸判斷小編覺得比 no-op 本身更有價值:
+▸ no-op 是相對於模型的預設行為，不是相對於讀者。所以兩個人爭論某一行是不是 no-op，其實是在爭論模型的預設行為長什麼樣，該用跑一次來解決，不是用辯的
+▸ 太弱的 leading word 本身就是 no-op。寫「be thorough」等於沒寫，修法是換一個更強的詞 (relentless)，不是換一種技巧
+另外三種讓 skill 變長的原因:
+▸ duplication: 重複會不當抬高這個意思在資訊階層上的位階。它剛好是 leading word 的反面，leading word 是刻意重複同一個詞，duplication 是不小心重複了同一個意思
+▸ sediment: 多人共同維護的預設結局，每個人都往裡面加，沒人有把握刪別人寫的
+▸ sprawl: 每一行都還有效、都不重複，但整份就是太長
+——
+📏 他的 skill 實際上有多小
+grill-me 的全文含 frontmatter 只有 20 個英文字，本體就一行「Run a /grilling session.」。implement 是 70 個字。真正有內容的是被它們呼叫的 model-invoked skill，grilling 全文 136 個字。
+但他的長 skill 也確實存在，wayfinder 兩千多字。所以他的標準不是「一律要短」，而是「每一行都得改變 agent 的行為」。
+——
+🔁 主流程長什麼樣
+grill-with-docs → to-spec → to-tickets → implement → code-review
+▸ 前三步要在同一個沒中斷過的 context window 裡跑完，不要 compact 也不要 clear。上限約 120k，超過就開始注意力衰退，快到了就換新對話
+▸ spec 是終點，tickets 是路線。要改方向時只改 spec、刪掉還沒做的 tickets，不用重寫整份計畫。每個 ticket 剛好一個 context window
+▸ code-review 一定跑 subagent。主 agent 剛把那段程式寫出來，會覺得自己寫得很好，改不動也審不動
+▸ review 分兩軸而且不合併: 一軸看規範、一軸看需求，並排呈現，不重新排名。因為「完全符合規範但做錯東西」跟「做對東西但違反慣例」都很常見，合併會讓一軸遮住另一軸
+▸ effort 從低往高調，不是從高往低。多數人拿到新模型先開高 effort，他認為順序反了: 高 effort 在 benchmark 上划算，但日常任務只是浪費，而且 token 耗越多注意力衰退越快
+——
+⚖️ 跟主流的 skill 寫法差在哪
+小編另外把 Anthropic 官方的 best practices、Anthropic 工程部落格、Perplexity 團隊的維護經驗都看了一輪，放在一起比有三個地方明顯不一樣:
+▸ 主流在教你怎麼讓模型選對 skill，他直接把模型觸發關掉。22 個核心 skill 有 13 個關掉，主流程從頭到尾都是你親手叫
+▸ 主流用長度決定要不要拆檔案 (官方建議 500 行以內)，他用 branch 決定
+▸ 主流傾向持續累加 (Perplexity 的結論是 skill 基本上只增不減)，他把「刪」列為四個檢查項之一
+第 3 點是唯一兩邊建議完全相反的。小編覺得差別來自使用情境: Perplexity 的 skill 跑在自家產品裡給模型用、有 eval 撐著、只有工程師會讀; 他的 skill 是你自己每天打指令叫起來的，你也得讀得懂記得住。所以在挑要照誰的建議之前，先想清楚你的 skill 是哪一種。
+```
+
 # 20260724
 - Openworker
   - https://openworker.com/
