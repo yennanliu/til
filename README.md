@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260728
+- Taste skill
+  - Taste Skill 教學：用 3 個旋鈕減少 AI `網頁`罐頭感（安裝＋實戰）
+  - https://www.alphalab.site/taste-skill?fbclid=IwY2xjawTVtdBleHRuA2FlbQIxMQBzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeQUnUTf2wFMwVMybrKIvAvqBfoUPfdu2eoV9jnycRnUsDjVH-O6UIga361ww_aem_GUUyhdjyqmhqQI8STDSpEA
+
 # 20260727
 - Matt Pocock 的 Agent Skill 設計哲學
 	- https://blog.aihao.tw/2026/07/25/mattpocock-skills-design-philosophy
