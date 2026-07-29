@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+# 20260729
+
+- AI 展
+	- https://aitian.dev/
+    - https://www.threads.com/@when_ai_?hl=en
+	- thread: when_ai
+
 # 20260728
 - Taste skill
   - Taste Skill 教學：用 3 個旋鈕減少 AI `網頁`罐頭感（安裝＋實戰）
