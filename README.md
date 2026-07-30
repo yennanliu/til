@@ -7,6 +7,18 @@
 
 # PROGRESS
 
+# 20260730
+- vLLM ?
+  - **vLLM** 是一個專門為**大型語言模型（Large Language Models, LLM）推論（Inference）**設計的高效能開源框架。它的目標是在相同硬體資源下，讓模型能夠**服務更多使用者、降低延遲，並提升 GPU 利用率**。
+
+> **PyTorch 負責「訓練模型」，vLLM 則專注於「快速提供模型服務」。**
+   - 例如，如果你已經有一個 Llama、Qwen、DeepSeek 或 Mistral 模型，使用 vLLM 可以讓它像 ChatGPT 一樣接受大量並發請求，而不會浪費 GPU 記憶體。
+
+- https://pytorch.com.tw/projects/vllm/
+- https://vllm.hyper.ai/docs/
+- https://ithelp.ithome.com.tw/articles/10356742
+- https://yennj12.js.org/yennj12_blog_V4/posts/ai-eng-from-scratch-phase11-part1-inference-serving-zh/
+
 # 20260729
 
 - AI 展
