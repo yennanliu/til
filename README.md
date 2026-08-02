@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260802
+- `AI eng` learning path
+  - https://www.youtube.com/watch?v=3ug0e84EwPA
+  - https://app.datacamp.com/learn/career-tracks/associate-ai-engineer-for-developers
+
 # 20260730
 - vLLM ?
   - **vLLM** 是一個專門為**大型語言模型（Large Language Models, LLM）推論（Inference）**設計的高效能開源框架。它的目標是在相同硬體資源下，讓模型能夠**服務更多使用者、降低延遲，並提升 GPU 利用率**。
