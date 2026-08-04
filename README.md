@@ -40,6 +40,7 @@
 - Matt Pocock 的 Agent Skill 設計哲學
 	- https://blog.aihao.tw/2026/07/25/mattpocock-skills-design-philosophy
  	- https://github.com/mattpocock/skills
+    - https://www.aihero.dev/grill-with-docs
 ```
 他把現在的處境叫做 skill hell: 免費的 skill 到處都是，你可以下載、可以自己寫，但你分不出好壞，也不知道它們該怎麼組在一起。缺的不是 skill，是一套判斷 skill 的共用標準。
 ——
