@@ -7,6 +7,61 @@
 
 # PROGRESS
 
+# 20260806
+- Forward Deployed Engineering 入門
+- https://www.facebook.com/share/p/19McWvtuVF/
+```
+Anthropic 工程師教你從 Palantir 到 AI 時代的 FDE 基礎介紹和定位，講者Kevin 是 Anthropic applied AI team 的成員，在加入 Anthropic 之前，他到 Rippling 協助建立他們的 FDE function，他是那個團隊的第一位成員，一年之內就把團隊從零擴展到大約 25 人的規模，他自己覺得這件事蠻酷的（that's pretty cool）。更早之前他在 Palantir 做了許多不同的事情。但他開宗明義地說，公司名單本身沒那麼有趣，因為這場演講談的是一個 function。
+他要做的事情是給大家一個 Forward Deployed Engineering 101 的演講：帶觀眾走過這個角色的歷史、這個 function 的本質、Palantir 為什麼選擇以 FDE 作為它的 go-to-market motion，然後把這件事延伸到你如何把它應用到自己的組織和商業模式中去。
+這場演講學習到的是什麼情況下應該要有FDE, 有一個很好的分類方式，接著是FDE跟外包有什麼不一樣，最好有一個共同協作的平台架構，這是之前比較少聽到資訊提到的。下面為全文
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ Palantir 做什麼，FDE 在哪裡
+從宏觀層面來看（high level），Palantir 是一家科技公司，打造了一個名為 Foundry 的軟體 platform。Foundry 做的事情是讓任意規模的組織能夠把所有數據集中到一個地方，然後創建一個 ontology。所謂 ontology，就是為你的數據創造專有名詞（to create proper nouns out of their data）：不再只是 table one、table two、table three 這種抽象的東西，而是如果你有倉庫，就有一個單一的 source of truth 表格專門對應倉庫這個概念。在這個 ontology 之上，Foundry 進一步讓企業能夠在上面建構各種應用程式。
+但如果你把這件事情解釋給某個產業領袖聽，他們的反應會是：好的，你把我的數據整理好了，但這對我的生意到底有什麼用？如果你只是在賣技術（if you're just selling technology），走到這裡故事就停下來了。另一個值得關注的面向是，Foundry 作為一個 app building platform，它的成功完全取決於客戶能夠多好地使用你這個特定的軟體。所以客戶面臨一個巨大的 tax：他們不只要花錢投資購買這個 platform，他們還需要去培訓自己的人員，讓他們在這個 platform 上變得熟練而且有效率。然後等到他們訓練好了之後，然後而且只有到那時候（and then and only then），他們才能開始在上面建構東西。Kevin 直接對著觀眾說了：這是一種很糟糕的商業做法（that is a terrible way to do business）。Palantir 很快就意識到了這一點，與其只賣 services 或只賣 products，應該把兩者結合在一起作為同一個東西賣出去。
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ 賣的是 outcome，把產品和服務包在一起
+這是一個結合了產品與服務的單一交付物（one combined thing）。客戶買的既不是一套軟體（a piece of software），也不是某個人的時間（the time of someone）。他們買的是一個 outcome，也就是一個成果。你派出非常聰明的人，這些人會深入到客戶那邊去，理解客戶業務的本質（the nature of the customer's business），然後在 Foundry 這個 platform 上為客戶建構解決方案。最終你得到的就是那個 outcome，因為客戶在乎的就是那個結果。
+Kevin 用了一個具體的情境來說明這件事：如果你是一個產業領袖，假設你在 CPG（消費品）領域工作，你在乎的是讓更多產品擺上貨架（getting more placement on the shelves），或者讓銷售的 throughput 變得更高。你不在乎數據是怎麼組織的，你也不應該在乎，對吧？那更偏向一個 implementation detail，那是人家怎麼幫你做事的內部細節。Kevin 接著用了一個很生動的比喻：想像你在一家 fine dining restaurant（高級餐廳），服務生在那裡的工作就是滿足你的每一個需求（the waiter is there to cater to your every need）。FDE 扮演的就是這樣一個角色。他們會在你身邊幫你搞清楚怎麼解決你的問題（they will figure out how to solve you the problem），然後動手幫你把軟體建出來。
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ 當你的買家不懂技術：用 Punnett Square 判斷你是否需要 FDE
+那這個把工程師送到最前線的想法到底從何而來？Kevin 說這聽起來確實很荒謬（this ridiculous idea of sending engineers to the forefront），因為如果在場各位熟悉軟體工程師的話，包括他自己在內，軟體工程師大概是最不應該去面對客戶的一群人。所以他說他要把這件事講得非常非常清楚。
+他要求觀眾想像一個 Punnett square（一個 2x2 的矩陣）。它涉及兩個變數：你賣的是什麼（what it is you're selling），以及誰在跟你買（who it is that's buying from you）。
+第一種情況：如果你賣的是一個非常技術性的 platform 或 product，先不管 Foundry，假設你賣的是 GitHub 或者你賣的是 Datadog，那是非常複雜的軟體。但是你的 ICP（ideal customer profile，理想客戶）會是 CTO、CIO，然後你的使用者會是軟體工程師。這些人能夠消化和吸收這種複雜性，因為這本來就是他們工作的一部分（it's part of their job）。這種情況完全沒問題，不需要 FDE。
+第二種情況：你賣的東西沒那麼複雜，而你的買家也沒那麼技術化，這也完全沒問題。拿 Rippling、Jira 或 Slack 來說好了，這些工具可能很複雜，但它們是 configurable 的（可配置的），它們的設計目的不是讓人在上面做開發。所以賣給非技術買家也完全行得通。
+你只有在 Palantir 所處的那個奇特而獨特的情境下才需要 FDE：你必須把非常技術性的東西賣給非技術性的買家（you are having to sell something very technical to a non-technical buyer）。那為什麼 Palantir 歷史上偏偏就碰上了這種情況？他們就不能做一些比較輕鬆的事情嗎？答案是因為 Foundry 的本質。Foundry 作為一個 app building platform，它天然就對大型科技公司缺少吸引力。Google、Meta 這些公司，還有現在的各個 AI labs，他們都有優秀的軟體工程師，可以自己建構組織需要的任何應用程式。但當你賣給一家在石油和天然氣領域工作的 Fortune 500 客戶時，他們就不太會有那種工程深度（engineering depth）了。他們公司裡面的 pipelines 不是 data pipelines，更多是碳氟化合物（fluorocarbons）之類的東西。
+所以為了讓這些客戶真正從你的 platform 獲得完整的價值，你有兩條路可以走。第一條路是你可以選擇相信他們會自己花時間去學習你的 platform、然後使用它。第二條路是你可以這樣跟客戶說：「我們的設定是這樣的（here's the setup）。我們會借給你一些非常優秀的工程師，你不需要雇用他們、不需要招募他們、不需要管理他們、也不需要想辦法留任他們。他們不只受過如何使用這個 platform 的訓練，他們還會非常緊密地跟你一起工作。就像你在一家 fine dining restaurant 裡面一樣，服務生在那裡照顧你的每一個需求。這些 FDE 會幫你搞清楚怎麼解決你的問題，然後動手把軟體建出來。」這就是 Palantir 面向全球 Fortune 500 的 go-to-market 方式。
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ 商業成果：拿下大型合約的數字證據
+這個做法到底實際成效如何？Kevin 說光是他一個人站在台上講「噢這好酷，這裡有一些細節，blah blah blah」是沒有意義的。所以他給了一些具體的數字。看一下 Fortune 500 中的上市 SaaS 公司，用 ACV（average contract value，平均合約價值）來衡量。ACV 的意思就是對於任何一個給定的客戶，那個客戶平均跟那家特定的廠商花了多少錢。
+Palantir 排名第一，ACV 為 400 萬美元（他上次查到的數字）。第二大的是 ServiceNow，ACV 120 萬美元。第三大的他記得大概是 Workday，ACV 約 60 萬美元。然後在這三家之後，沒有任何一家上市 SaaS 公司的 ACV 能夠突破 50 萬美元（there is not a single public SaaS company that even cracks half a million ACV）。Palantir 的 ACV 比排名第二的公司高了超過三倍。Kevin 說光從這些數字來看，他會說這個模式運作得相當好（I would say it works pretty well）。Palantir 目前的估值已經是一個很驚人的數字了（at some ridiculous valuation now），而員工人數也就只有幾千人的規模（only at a few thousand headcount）。
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ FDE 是 design partnership 放大到企業規模，但必須建在可重用 platform 上
+那 FDE 到底是什麼模式？它代表什麼意思？Kevin 先問在場有沒有做新創公司或在早期階段的人。有一些人舉手。他說大部分人應該都熟悉 design partnership 的概念。在新創公司的早期，你不知道你的產品是什麼，你的客戶也不知道他們在買什麼。所以你跟客戶說：「讓我跟你非常緊密地合作，讓我搞清楚你需要什麼。我會投入我的時間、我的精力、我的技術、我的資源。你只需要提供你的問題的 context，告訴我你的問題是什麼，然後我會幫你建出一個非常好的解決方案。」這大致上是多數在 B2B segment 裡面的新創找到 product-market fit 的方式。
+FDE 基本上就是把 design partnership 這個概念拿出來，然後放大到企業規模去執行（scaling it up into enterprise）。這就是 Palantir 的核心主張（the core assertion of Palantir）：誰說 design partnership 只適用於公司的起步階段？為什麼你不能在企業的規模上做完全同樣的事情？
+Kevin 說在場觀眾中那些很聰明、觀察力很敏銳的人可能會提出一個反駁：Kevin，你不能在企業端這樣做，因為你維護不了。如果你為每一個客戶都建構完全客製化的東西，你就是在趕一群貓（herding a whole bunch of cats）。你會有一堆非常糟糕的程式碼（a bunch of really shitty code），沒有工程師會願意替你工作因為他們無法維護這些東西，也沒有人想去學 55 個 repos。
+Kevin 說這個反駁完全正確（you would be totally right）。如果你建立的 FDE function 是讓每一個 FDE 都完全從零開始建構東西的話，那麼朋友們（my friends），你有的就是一個 dev shop。Dev shop 當然沒有什麼錯，那些可以是非常賺錢的生意。但讓一個 FDE program 跟一個 dev shop 之間產生本質差異的那個東西在於：FDE 是建構在一個 platform 之上的。他們永遠不會從頭寫軟體（they are never writing software from scratch）。已經有一組 primitives 存在著，FDE 可以把這些 primitives 組裝（assemble）成某個對客戶來說具有任意高價值（arbitrarily valuable）的應用程式、工作流程或解決方案。Kevin 說這就是那個真正的關鍵成分（that is kind of the really key ingredient here），因為如果少了這個關鍵成分，你就是在一次又一次地從頭發明輪子（reinventing the wheel from scratch again and again），然後在你還沒反應過來之前，維護成本就會把你的 P&L 整個吞掉（your P&L will eat you alive from the maintenance costs），前提是你的工程師們還沒有全部先辭職的話（if your engineers don't all quit first）。
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ 如何開始：先問自己兩個問題
+Kevin接著說，你講了一個故事、你提供了一些框架，但我來這裡不是來聽你講話的（I'm not here to listen to you talk），對吧？我想知道怎麼把這些東西應用到我的組織、我的業務中去，怎麼帶回去給我的團隊。那要怎麼開始做呢？
+他對每一個正在思考 Forward Deployed Engineering 這個概念的人，首先而且最重要（first and foremost）的建議，也是他對所有考慮這件事的人都會說的同一句話：認真地問自己，我需要一個 FDE function 嗎？像真的需要（do I need one）？注意他強調的字是 need 而非 want。想要流行的東西很容易（it's easy to want things that are in vogue），因為大家都在做 AI 所以也想跟著做 AI 很容易。但真正的核心問題是：我的業務中是否有某個 corner case，讓我必須必須（must must）把一個技術上複雜的東西用 GTM 的方式推向一個非技術性的買家？如果我的業務裡面沒有這種情況，FDE 可能就不是正確的選擇（probably FDE is not the right fit）。
+Kevin 接著指出了其他替代方案：如果你有技術性的 go-to-market motion，有很多很棒的事情可以去做，例如做 DevRel（developer relations）、建立一個優秀的 developer engagement 團隊。如果你做的是更傳統的 SaaS 業務，那 SLG（sales-led growth，銷售驅動成長）的 motion 也有很多很好的做法。只有在你需要把技術複雜的東西賣給非技術買家這種特定情境下，你才需要 FDE。這是第一個問題。
+第二個問題是：我有一個 platform 嗎？換一種說法（phrased another way），我是否願意投資去建一個？Kevin 保證，無論讓這些工程師替你賺錢（have these engineers that can make you money）這件事有多誘人，如果他們建構的東西不是在一個擁有某些 shared primitives 的 platform 之上的話，你會陷入非常非常糟糕的境地（you are in for a very bad time）。他說他甚至無法開始形容（I could not begin to stress）那種維護負擔施加在你的團隊身上會有多大，即使你已經有一個很完善的 platform，維護負擔都已經很驚人了，更不用說如果你根本連 platform 都沒有的情況（never mind if you don't have one）。
+所以從 FDE 101 的角度來看，Kevin 真正鼓勵大家認真去思考的就是這兩個問題：第一，我是否必須把複雜的東西賣給非技術買家？第二，我是否有一個 platform 讓我的 FDE 可以在上面進行建構？
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ 自 Palantir 以來有什麼改變：AI 讓所有 platform 都變成 agentic 的了
+現在是 2026 年，AI 的部分顯然不可迴避。自 Palantir 在大約 2004 或 2005 年進入市場以來到現在，改變的是什麼？人工智慧讓建構軟體變得非常非常容易（really really easy to build），讓寫程式碼變得非常容易，也讓為客戶建構精密的可客製化軟體變得非常容易。Kevin 問在場有多少人正在建構 agent for X（保險、法律之類的）？他說他甚至不需要看舉手就知道答案了（I don't even need to see the hands for this one）。
+但 Kevin 說改變的並非全世界突然發現 Palantir 的 FDE motion 是個好主意然後大家都應該去做同樣的事。他個人的 hypothesis（假設）是，改變的是軟體產業本身做生意的方式。為什麼？因為現在幾乎每一個 platform 都是 agentic 的。而這意味著幾乎每一個 platform 都是可客製化的（customizable）。這又進一步意味著你們在場幾乎所有人都會遇到一種情況：你的客戶完全不知道你到底在做什麼
+如果你把你產品的成功或失敗交到客戶的手中，讓它取決於他們自己去 implement 的能力，Kevin 保證，當你嘗試向 up market 銷售（sell into the up market）、或嘗試水平擴展（expand horizontally）、或嘗試垂直擴展（expand vertically）的時候，這不會是一個輕鬆的 motion。這也是為什麼 Kevin 認為 FDE 的概念在 2026 年比以往任何時候都更加相關：產業的結構性變化讓越來越多的公司落入了那個 Punnett square 裡面需要 FDE 的象限。
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿
+▍ Q&A 精華：primitives 粒度、跨公司合作、platform 與 FDE 的工程邊界、完美 profile
+Kevin 說完主要演講內容後開放提問，以下是四個問題的摘錄。
+第一個問題問的是 shared primitives 應該要多 atomic，也就是粒度（granularity）應該多細。提問者說希望能有一些具體的例子。Kevin 先承認這是一個很好的問題，然後給了一個他自己稱為「很律師式的回答」（a very lawyerly answer）：it depends，取決於你進入的是什麼領域和情境。他提供了一些指引性的方向。有很多產業和情境允許你有非常完善的 primitives，在那些情況下，應用程式本身可能 60% 已經建好了，使用者和 FDE 只是在客製化剩下的 40%。但在某些特定的 use cases、某些產業和特定的領域裡，這樣做就不合適了，你需要非常細粒度的配置（extremely granular configurations）和極為細粒度的工具（extremely granular tooling）。Kevin 說如果你試圖做涉及 data model 的事情，或許一個起點是讓使用者不需要從零定義一個 data model。
+Kevin 舉了一個所有人都應該熟悉的 platform 作為例子：AWS。在場許多人都是很棒的工程師。如果你願意的話，你完全可以自己去買 server racks，讓它們上線，然後自己負責維護它們。但自從 1990 年代以來，誰還在這樣做呢？在 AWS 裡面，他們給你一組 shared primitives，比如 DynamoDB，這樣你就不需要從零開始發明一個 database。但 AWS 之所以把 primitives 設計得如此細粒度，是因為他們要服務的客戶群極為廣泛（they're trying to serve an extremely broad swath of customers）。所以 primitives 的粒度選擇，最終取決於你的使用者群體（it depends on your user base）。
+第二個問題涉及多個 FDE 之間的合作機制，特別是來自兩個不同公司的 FDE 在同一個專案上合作的情況。比如像是一個 bake-off 的情境，或是像合作夥伴（partner）這樣的關係。Kevin 說這種模式確實存在。思維模型上就像有一個 contractor（承包商），你需要搞清楚在那個特定情境中誰扮演 contractor 的角色，大致就是這樣的心理框架（that's kind of the mental model）。他也提到，即使是同一家公司內部，讓多個 FDE 一起合作一個專案也是非常被鼓勵的做法（that's a really good pattern），這是一個很好的模式。特別是當你在為客戶做客製化的工作時，你最不想要的就是出現 single point of failure：一個人掌握了所有的資訊，結果他一去度假你就完蛋了（one person knows all the information, they go on vacation and then you're kind of screwed）。
+第三個問題問的是哪些工程變更應該進入 platform 那一側（go onto the platform），哪些工程變更應該留在 forward deployed 那一側。Kevin 說這是一個很好的問題，然後給了一個很明確的回答：任何對某一個特定客戶來說是獨特的、客製的（bespoke and unique to a particular customer）東西，就應該只為那一個客戶存在。任何可以被泛化的東西，長期來看都應該被泛化（anything that can be generalizable should be generalized in the long term）。Kevin 補充了一個很有意思的觀點：在你剛開始做 FDE 的早期，你可能不會有很多不同的 primitives，但這完全沒有關係，因為 FDE 同時也是一個很好的前方偵察方式（FDE is also a great way to scout ahead）。透過 FDE 在客戶端的工作，你可以發現你還能建構哪些額外的 product 和 services，來進一步推動你業務的成功（to further enable the success of your business）。FDE 的工作經驗本身就會餵回 platform 的 roadmap。
+最後一個問題問的是 FDE 的完美 profile（the perfect profile of an FDE）是什麼。Kevin 給了一個非常簡潔的 tagline 作為收尾：一個 FDE 就是一個 customer-facing 的軟體工程師，這就是全部了（an FDE is nothing more than a customer-facing software engineer）。具體來說，這是一個你會以軟體工程師的標準雇用到你的團隊的人，但同時你也信任他們能夠在某種形式或某種能力上面對客戶（you would trust them in front of a customer in some shape or capacity）。至於剩下的那些細節和眉角，Kevin 說你得自己在過程中去摸索出來了
+```
+
 # 20260805
 - LLM automation `idempotency_key`
 - https://yennj12.js.org/yennj12_blog_V4/posts/ai-eng-from-scratch-phase13-part1-mcp-apis-zh/
