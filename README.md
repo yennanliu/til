@@ -7,6 +7,97 @@
 
 # PROGRESS
 
+# 20260805
+- LLM automation `idempotency_key`
+- https://yennj12.js.org/yennj12_blog_V4/posts/ai-eng-from-scratch-phase13-part1-mcp-apis-zh/
+```
+冪等性設計
+對有副作用的工具（退款、發信、建立訂單），必須實作冪等性保護，防止 LLM 重試導致重複操作：
+
+ 1async def request_refund(order_id: str, amount: float, idempotency_key: str):
+ 2    # 1. 查詢 idempotency_key 是否已執行過
+ 3    cached = await redis.get(f"idem:{idempotency_key}")
+ 4    if cached:
+ 5        return json.loads(cached)  # 回傳上次結果，不重複執行
+ 6
+ 7    # 2. 執行退款
+ 8    result = await payment_api.refund(order_id, amount)
+ 9
+10    # 3. 儲存結果，TTL 24 小時（覆蓋 LLM 可能重試的時間窗）
+11    await redis.setex(f"idem:{idempotency_key}", 86400, json.dumps(result))
+12    return result
+
+-> 
+idempotency_key 由 AI Orchestrator 生成（通常為 {session_id}:{tool_name}:{call_index}），確保同一次 LLM 請求中的工具呼叫具有唯一識別。
+```
+
+```
+這段程式碼展示了在大型語言模型（LLM）的 Agent 開發中非常關鍵的「冪等性（Idempotency）」設計模式。
+
+簡單來說，**冪等性確保了「無論同一個操作被執行一次還是多次，其最終的系統狀態與結果都是相同的」**。
+
+## 為什麼 LLM 工具需要冪等性？
+
+在 LLM 的協作環境中，有幾個常見狀況會導致工具被重複呼叫：
+
+1. **網路超時與重試**：AI Orchestrator（調度層）呼叫工具時遇到網路波動，沒收到回應而觸發自動重試。
+2. **LLM 幻覺或邏輯錯誤**：模型在同一次對話生成中，因為理解錯誤，連續輸出兩次相同的 Tool Call 請求。
+3. **使用者重複點擊**：前端使用者覺得 AI 回應太慢，重複按下送出按鈕，導致整個對話流程被觸發兩次。
+
+如果沒有這層保護，當執行的是「退款」、「寄信」或「扣除點數」這類帶有副作用（Side Effects）的操作時，就會發生重複退款或狂發垃圾信的災難。這段程式碼透過 Redis 的 `Check-act-record`（檢查 - 執行 - 紀錄）機制，完美攔截了這些重複請求。
+
+---
+
+## 產生 `idempotency_key` 的 4 種進階策略
+
+除了範例中提到的 `{session_id}:{tool_name}:{call_index}`（基於對話上下文的識別碼），我們還有以下幾種常見且強大的生成策略，可依據不同的業務場景來選擇：
+
+### 1. 使用 LLM 供應商原生的 Tool Call ID (強烈推薦)
+
+OpenAI、Anthropic 等主流模型在回傳工具呼叫請求時，都會自帶一個唯一的 `tool_call_id`（例如：`call_abc123xyz`）。
+
+* **格式**：直接使用該 ID，例如 `idem:call_abc123xyz`。
+* **優點**：最簡單、最直觀。如果是同一次 LLM 生成中的重複執行，這個 ID 會是固定的；它天然與模型綁定，不需要自己維護 `call_index`。
+* **缺點**：如果重試是發生在「重新請 LLM 生成回答」的階段，模型會產生一個全新的 `tool_call_id`，此機制就會失效。
+
+### 2. 業務邏輯唯一鍵 (Business Logic Key)
+
+不依賴 AI 的狀態，而是根據「業務本身」的規則來定義唯一性。
+
+* **格式**：`{tool_name}:{業務唯一識別碼}`，例如 `refund:{order_id}`。
+* **優點**：極度安全。一筆訂單在業務邏輯上通常只能「全額退款一次」。無論 LLM 怎麼發瘋，只要這筆訂單退過款，Redis 就能擋下第二次。
+* **缺點**：缺乏彈性。如果業務允許「多次部分退款」，這個 Key 就會誤擋正常的第二次退款請求。
+
+### 3. 參數雜湊 (Payload Hashing)
+
+將 LLM 傳入的所有參數（Arguments）進行 Hash 運算，並結合 Session ID。
+
+* **格式**：`{session_id}:{tool_name}:{MD5(kwargs)}`。
+* **優點**：精準判斷「完全相同的操作」。如果 LLM 傳入了完全一樣的退款金額與訂單號，Hash 值會相同並被攔截；如果 LLM 第二次決定退不同的金額，Hash 值改變，就會放行。
+* **缺點**：如果參數中包含時間戳記（Timestamp）或隨機字串，Hash 值每次都會改變，導致防護失效。
+
+### 4. 前端請求 ID (Client Request ID)
+
+將生成 Key 的責任推到最源頭（前端 Web/App）。當使用者送出訊息時，前端生成一個 UUID 並一路傳遞到 Tool Call 中。
+
+* **格式**：`{request_uuid}:{tool_name}`。
+* **優點**：能完美解決「使用者狂按送出按鈕」導致的重複執行問題。
+* **缺點**：需要前端配合修改 API 規格，架構侵入性較高。
+
+---
+
+## 策略比較總結
+
+| 策略 | 適用場景 | 防禦範圍 | 實作難度 |
+| --- | --- | --- | --- |
+| **對話索引 (原始範例)** | 適合需要嚴格記錄 Agent 執行步驟的系統 | 攔截 LLM 內部重試 | 中 |
+| **原生 Tool Call ID** | 使用 OpenAI/Anthropic 等標準工具呼叫 API | 攔截 Orchestrator 網路重試 | 低 |
+| **業務邏輯唯一鍵** | 絕對不能重複執行的關鍵財務操作（如：註銷帳號） | 攔截任何形式的重複 | 低 |
+| **參數雜湊 (Hash)** | 同一個對話中，允許對不同參數執行多次相同工具 | 攔截相同參數的幻覺生成 | 高 |
+| **前端請求 ID** | 網頁/App 使用者可能因為網路延遲而重複點擊 | 攔截使用者端的重複觸發 | 高 (需跨團隊) |
+```
+
+
 # 20260802
 - `AI eng` learning path
   - https://www.youtube.com/watch?v=3ug0e84EwPA
