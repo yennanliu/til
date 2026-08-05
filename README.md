@@ -10,6 +10,7 @@
 # 20260805
 - LLM automation `idempotency_key`
 - https://yennj12.js.org/yennj12_blog_V4/posts/ai-eng-from-scratch-phase13-part1-mcp-apis-zh/
+- https://yennj12.js.org/CS_basics/faqs/backend_llm_tool_idempotency.html
 - `idempotency_key 由 AI Orchestrator 生成（通常為 {session_id}:{tool_name}:{call_index}），確保同一次 LLM 請求中的工具呼叫具有唯一識別。`
 
 ---
