@@ -8,6 +8,8 @@
 # PROGRESS
 
 # 20260806
+- How `Stripe` Built Kai, its Company-Wide AI Agent, on Deep Agents
+  - https://www.langchain.com/blog/how-stripe-built-their-knowledge-ai-platform-on-deep-agents?
 - Forward Deployed Engineering 入門
 - https://www.facebook.com/share/p/19McWvtuVF/
 ```
