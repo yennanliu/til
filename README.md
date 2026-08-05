@@ -101,6 +101,82 @@ OpenAI、Anthropic 等主流模型在回傳工具呼叫請求時，都會自帶�
 | **前端請求 ID** | 網頁/App 使用者可能因為網路延遲而重複點擊 | 攔截使用者端的重複觸發 | 高 (需跨團隊) |
 ```
 
+- (continuous from above) 如果真的要`re-try.`
+```
+**不建議將時間戳記直接加在 Key 後面。**
+
+如果改用 `{tool_name}:{業務唯一識別碼}-{time_stamp}`，因為每次呼叫（包含網路波動造成的 100ms 自動重試）的時間戳記都不一樣，Redis 的快取永遠不會命中，**這會讓冪等性保護完全失效**。
+
+針對你提到的兩種情境（**「執行失敗」** 與 **「真的想重新執行」**），標準的架構設計如下：
+
+---
+
+### 情境 1：如果執行失敗了，該怎麼辦？
+
+如果 API 執行失敗（例如網路斷線、第三方金流 500 錯誤），**絕對不能把失敗結果當作成功快取起來**。
+
+你需要使用 **「分散式鎖 + 失敗釋放（Two-Phase Lock）」** 模式。只有成功的結果才存入 24 小時快取；一旦拋出 Exception，就立即刪除鎖，允許下一次重試。
+
+
+async def request_refund(order_id: str, amount: float):
+    idem_key = f"idem:refund:{order_id}"
+    lock_key = f"lock:refund:{order_id}"
+
+    # 1. 檢查是否已有「成功執行」的結果
+    cached = await redis.get(idem_key)
+    if cached:
+        return json.loads(cached)
+
+    # 2. 併發防護：搶占執行鎖（防止同一秒內多個請求同時進來）
+    acquired = await redis.set(lock_key, "IN_PROGRESS", nx=True, ex=30)
+    if not acquired:
+        raise Exception("操作正在處理中，請勿重複送出")
+
+    try:
+        # 3. 執行業務邏輯
+        result = await payment_api.refund(order_id, amount)
+
+        # 4. 成功：存入 24HR 冪等快取，並解鎖
+        await redis.setex(idem_key, 86400, json.dumps(result))
+        return result
+
+    except Exception as e:
+        # 5. 失敗：不做冪等快取，並立即釋放鎖，允許後續重試
+        raise e
+    finally:
+        await redis.delete(lock_key)
+
+
+---
+
+### 情境 2：人工或系統「真的需要強制重新執行」？
+
+如果業務邏輯改變，或是前一次失敗後確定要人工干預重新觸發，有 3 種標準解法：
+
+#### 1. 改用「嘗試次數 (Attempt / Version)」而不是時間戳記
+
+由 Orchestrator 或人工明確控制版本號，而不是自動帶入隨機時間。
+
+* **Key 格式**：`idem:refund:{order_id}:v2` 或 `idem:refund:{order_id}:attempt_2`
+* **優勢**：在 `attempt_2` 的生命週期內，依然享有自動重試防護；但同時又能實現第二次執行。
+
+#### 2. 快取主動失效機制 (Cache Eviction / Force Retry)
+
+在管理後台（或 Orchestrator 邏輯）提供一個「清除冪等鎖」的選項，或在呼叫時傳入 `force_retry=True` 參數：
+
+
+if force_retry:
+    await redis.delete(f"idem:refund:{order_id}")
+
+
+#### 3. 綁定「業務交易單號」而非「主實體 ID」
+
+如果這是一筆新的退款意圖，應該為這筆「退款請求」生成一個 unique 的 `refund_request_id`，而不是拿 `order_id` 當 Key。
+
+* **Key 格式**：`idem:refund:{refund_request_id}`
+* **效果**：同一個 `order_id` 可以產生多次不同的 `refund_request_id`（適合多次部分退款），而每一次的 `refund_request_id` 自身依然具備冪等性。
+```
+
 
 # 20260802
 - `AI eng` learning path
