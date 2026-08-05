@@ -10,6 +10,10 @@
 # 20260805
 - LLM automation `idempotency_key`
 - https://yennj12.js.org/yennj12_blog_V4/posts/ai-eng-from-scratch-phase13-part1-mcp-apis-zh/
+- `idempotency_key 由 AI Orchestrator 生成（通常為 {session_id}:{tool_name}:{call_index}），確保同一次 LLM 請求中的工具呼叫具有唯一識別。`
+
+---
+
 ```
 冪等性設計
 對有副作用的工具（退款、發信、建立訂單），必須實作冪等性保護，防止 LLM 重試導致重複操作：
