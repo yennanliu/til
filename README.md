@@ -7,6 +7,13 @@
 
 # PROGRESS
 
+# 20260812
+- Stop Waiting 10 Minutes to Fail: How CDK Comprehensive Validation Catches Misconfigurations Before Deploy
+  ```
+  ... 讓你在synth階段就幫你預先檢查你很可能馬上要撞牆的問題，然後拋出錯誤給你，讓你的Agent知道怎麼修，然後很快就可以部署成功 ...
+  ```
+  - https://dev.to/pahud/stop-waiting-10-minutes-to-fail-how-cdk-comprehensive-validation-catches-misconfigurations-before-1907
+
 # 20260809
 - 10-k VS 10-Q
 - 分別是美股上市公司的 **10-K（年度報告）** 與 **10-Q（季度報告）**。兩者皆為美國證券交易委員會（SEC）要求提交的強制性財務文件，主要差異如下：
