@@ -7,6 +7,33 @@
 
 # PROGRESS
 
+# 20260814
+- cmd remove `git worktree`
+```
+The command is git worktree remove <path>, run from the repo that owns the worktree:
+
+git -C /Users/jliu/CS_basics    worktree remove /Users/jliu/CS_basics-wt-site
+git -C /Users/jliu/junyiacademy worktree remove /Users/jliu/junyiacademy-kgv6-pt2
+
+git -C <repo> just means "run this in that repo without cd-ing" — you could equally cd /Users/jliu/CS_basics && git worktree remove ../CS_basics-wt-site.
+
+Notes on the family of commands:
+
+┌────────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────┐
+│              Command               │                                    What it does                                    │
+├────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ git worktree list                  │ Show all worktrees + their branches (how I found them)                             │
+├────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────┤
+│ git worktree remove <path>         │ Delete the directory and its admin entry. Refuses if there are uncommitted changes │
+├────────────────────────────────────┼──────────────────────────────────────────────────────────┤
+│ git worktree remove --force <path> │ Same, but discards uncommitted changes — only when you mean it                     │
+├────────────────────────────────────┼──────────────────────────────────────────────────────────┤
+│ git worktree prune                 │ Clean up stale entries after a worktree dir was deleted manually with rm -rf       │
+└────────────────────────────────────┴──────────────────────────────────────────────────────────┘
+
+Two things worth remembering: the main repo needse, so run it from the owning repo (the second onehad to run from junyiacademy, not CS_basics). And deletes its branch — that's a separate git branch-d <name>.
+```
+
 # 20260812
 - Stop Waiting 10 Minutes to Fail: How CDK Comprehensive Validation Catches Misconfigurations Before Deploy
   ```
