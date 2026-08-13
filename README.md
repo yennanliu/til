@@ -13,7 +13,6 @@
 The command is git worktree remove <path>, run from the repo that owns the worktree:
 
 git -C /Users/jliu/CS_basics    worktree remove /Users/jliu/CS_basics-wt-site
-git -C /Users/jliu/junyiacademy worktree remove /Users/jliu/junyiacademy-kgv6-pt2
 
 git -C <repo> just means "run this in that repo without cd-ing" — you could equally cd /Users/jliu/CS_basics && git worktree remove ../CS_basics-wt-site.
 
