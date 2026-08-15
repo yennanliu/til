@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260815
+- A Guide for Early-Career Data Analytics Infrastructure Engineers
+  - https://www.linkedin.com/pulse/guide-early-career-data-analytics-infrastructure-engineers-nettem-wclmc/
+
+
 # 20260814
 - cmd remove `git worktree`
 ```
