@@ -7,6 +7,128 @@
 
 # PROGRESS
 
+# 20260818
+- 前言：認為 AI 將會影響 CS 的工作機會，因而決定選擇不讀 CS 的學生，你們都搞錯了...
+- https://www.facebook.com/share/p/1K7dKhFvzd/
+```
+前言：認為 AI 將會影響 CS 的工作機會，因而決定選擇不讀 CS 的學生，你們都搞錯了，AI 影響的是所有領域(科系)的工作機會，只是 CS 被影響得比較快罷了，五年後，第一志願醫學系、法律系、電機系畢業後的醫師、律師、數位IC設計工程師(我覺得是電機系學生最嚮往的工作之一)，有多少工作內容要變成 AI 在做呢！
+沒關係，你們已經決定不唸資工系了，請在自己的領域裡，好好地成長，希望五年後，你的工作機會沒有大量被 AI 取代。奇怪，難道你不希望你的工作可以大量被 AI 取代，你就在旁邊爽就好了嗎？就像我身邊很多人跟我說：我已經很久不自己寫 code 了，多爽，不是嗎？
+至於資工系的學生，以下給你們參考（感謝 ChatGPT/Gemini 熱情回饋）
+========
+「資工系學生要怎麼選方向，才能降低未來被 AI 取代的風險？」
+我會給一個很明確的原則：
+不要跟 AI 比「寫程式」，而要培養 AI 難以單獨完成的能力：理解複雜系統、設計系統、處理真實世界、承擔責任，以及跨領域解決問題。
+因此，我會優先推薦以下幾條路線。
+1. AI Systems / MLSys
+包括：
+LLM inference
+AI compiler
+GPU optimization
+Distributed AI
+KV-cache
+Quantization / Compression
+AI serving
+Scheduling
+Model efficiency
+這個方向的核心問題是：
+不是「AI 能不能做」，而是「怎麼讓 AI 做得更快、更便宜、更省電、更可靠」。
+AI 越強，這些問題反而越重要。
+而且這不是單純寫 application code，需要同時理解 AI + OS + architecture + distributed systems + hardware。
+2. Computer Architecture + AI Hardware
+AI 正在重新改變計算硬體。
+可以研究：
+GPU / NPU / AI accelerator
+Memory hierarchy
+High-bandwidth memory
+Chiplet
+Hardware-software co-design
+AI accelerator architecture
+Edge AI
+這類工作需要非常深的硬體與系統理解。
+AI 可以幫你寫 RTL、產生程式碼、做設計探索，但如何決定整個架構與 trade-off，仍然需要非常強的工程與研究能力。
+而且這與台灣的半導體、IC、封裝、伺服器與電子產業鏈有很好的連結。
+3. Distributed Systems / Cloud Infrastructure
+AI 時代並不是所有東西都會變成 AI。
+世界仍然需要：
+Cloud
+Database
+Distributed storage
+Networking
+Data center
+Large-scale systems
+Reliability engineering
+尤其當 AI infrastructure 越來越龐大，Distributed Systems + AI 會非常有價值。
+4. Cybersecurity
+安全是一場「攻擊者 vs 防禦者」的持續競賽。
+包括：
+System Security
+Network Security
+Software Security
+AI Security
+Privacy
+Adversarial ML
+Cyber Defense
+AI 可以協助攻擊，也可以協助防禦，但不會讓安全問題消失。
+反而可能讓問題更加複雜。
+5. Robotics / Edge AI / Embedded Systems
+這是另一個重要方向：
+讓 AI 從螢幕裡走進真實世界。
+例如：
+Robotics
+Autonomous vehicles
+Drones
+Industrial AI
+Edge AI
+Embedded AI
+Smart manufacturing
+AI 可以寫程式，但機器人還必須面對：
+感測器、馬達、電力、延遲、環境、不確定性、硬體限制。
+這些真實世界的 constraints 很難單純靠生成式 AI 解決。
+6. AI + Domain Expertise
+這可能是一般資工學生最容易忽略、但未來非常重要的路線。
+例如：
+AI + Medicine
+AI + Finance
+AI + Law
+AI + Semiconductor
+AI + Manufacturing
+AI + Biology
+AI + Robotics
+因為 AI 最容易取代的是「通用型、標準化的工作」。
+反過來說：
+懂 AI，又真正懂一個產業的人，會比只懂 AI 的人更有價值。
+那麼「純軟體工程」呢？
+不是不能走。
+但我會建議不要把自己的核心競爭力定位成：
+「我很會寫 Java / Python / JavaScript。」
+而是：
+「我能設計、建構並維護複雜的軟體系統。」
+差別非常大。
+AI 可以產生大量 code，但它不能因此自動理解一個大型企業系統十年的歷史、所有 architectural trade-offs、組織需求、商業風險與可靠性要求。
+所以 Software Engineering 本身不會消失，但「純 code production」的價值會下降。
+如果我是資工系學生，我會這樣選
+我會把能力組合成：
+CS Fundamentals
+↓
+AI / ML
+↓
+再選一個深度系統方向
+例如：
+AI + MLSys ⭐⭐⭐⭐⭐
+AI + Computer Architecture ⭐⭐⭐⭐⭐
+AI + Distributed Systems ⭐⭐⭐⭐⭐
+AI + Cybersecurity ⭐⭐⭐⭐
+AI + Robotics / Embedded ⭐⭐⭐⭐
+AI + Semiconductor / Manufacturing ⭐⭐⭐⭐
+而不是：
+Python → Framework → AI API → Prompt Engineering
+後者很容易被下一代 AI 工具進一步自動化。
+最重要的一句話
+我會告訴資工系學生：
+不要把自己訓練成「會寫程式的人」，要把自己訓練成「即使 AI 幫你寫程式，你仍然知道該做什麼、為什麼這樣做，以及怎麼把它真正做成的人」。
+這其實也是為什麼我會認為 MLSys / AI Systems 特別值得台灣資工系學生投入——它剛好位於 AI、軟體、系統、硬體與實際產業需求的交叉點
+```
+
 # 20260815
 - A Guide for Early-Career Data Analytics Infrastructure Engineers
   - https://www.linkedin.com/pulse/guide-early-career-data-analytics-infrastructure-engineers-nettem-wclmc/
