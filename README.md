@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260821
+- Claude `/design`
+  - https://www.qrpass.cc/articles/claude-design-instruction
+  - https://rar.design/posts/claude-design-introduction
+  - https://claude.com/product/design
+
 # 20260818
 - 前言：認為 AI 將會影響 CS 的工作機會，因而決定選擇不讀 CS 的學生，你們都搞錯了...
 - https://www.facebook.com/share/p/1K7dKhFvzd/
