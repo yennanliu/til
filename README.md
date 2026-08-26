@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260827
+- Prompt template 提示詞模式
+  - https://yennj12.js.org/ai-engineering-from-scratch/lesson.html?path=phases/11-llm-engineering/01-prompt-engineering
+
 # 20260821
 - Claude `/design`
   - https://www.qrpass.cc/articles/claude-design-instruction
