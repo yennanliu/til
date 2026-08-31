@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260831
+- vLLM
+  - https://vllm.hyper.ai/docs/
+  - https://clay-atlas.com/blog/2023/12/10/vllm-accelerate-decoding/
+
 # 20260827
 - Prompt template 提示詞模式
   - https://yennj12.js.org/ai-engineering-from-scratch/lesson.html?path=phases/11-llm-engineering/01-prompt-engineering
