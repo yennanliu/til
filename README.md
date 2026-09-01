@@ -7,6 +7,18 @@
 
 # PROGRESS
 
+# 20260901
+- AI/LLM evaluation tool
+  - https://yennj12.js.org/ai-engineering-from-scratch/lesson.html?path=phases/11-llm-engineering/10-evaluation
+```
+工具	它做什麼	定價
+promptfoo	開源評估框架，YAML 設定、LLM 評審、CI 整合	免費（開源）
+Braintrust	評估平台，含評分、實驗、資料集、日誌	有免費方案，之後按用量
+LangSmith	LangChain 的評估／可觀測性平台，追蹤、資料集、標註	有免費方案，$39/月起
+DeepEval	Python 評估框架，14 種以上指標，整合 Pytest	免費（開源）
+Arize Phoenix	開源可觀測性 + 評估，追蹤、span 層級評分	免費（開源）
+```
+
 # 20260831
 - vLLM
   - https://vllm.hyper.ai/docs/
