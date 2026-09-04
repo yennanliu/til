@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20260904
+- [ai-engineering-from-scratch code demo](https://github.com/yennanliu/ai_experiment/tree/main/ai-engineering-from-scratch-demo)
+- https://yennj12.js.org/ai-engineering-from-scratch/ - course ZH
+
 # 20260901
 - AI/LLM evaluation tool
   - https://yennj12.js.org/ai-engineering-from-scratch/lesson.html?path=phases/11-llm-engineering/10-evaluation
