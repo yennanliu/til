@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260906
+- LC/code run visualization
+  - https://github.com/laike9m/Cyberbrain
+  - vscode-debug-visualizer (VS Code plugin)
+  - https://mp.weixin.qq.com/s/guCR2DCTGoWf4ojeqq2M8A
+
 # 20260904
 - [ai-engineering-from-scratch code demo](https://github.com/yennanliu/ai_experiment/tree/main/ai-engineering-from-scratch-demo)
 - https://yennj12.js.org/ai-engineering-from-scratch/ - course ZH
