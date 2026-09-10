@@ -8,6 +8,13 @@
 # PROGRESS
 
 # 20260910
+- `Mem0（Apache 2.0）`
+  - `Mem0` 是一個開源的 AI 長期記憶層基礎設施（採用 Apache 2.0 授權），專門用來替 AI 助理與智慧代理（AI Agent）補上跨對話的持續性記憶能力。
+  - https://mem0.ai/
+  - https://zhuanlan.zhihu.com/p/2056029659347919947
+  - https://yennj12.js.org/ai-engineering-from-scratch/lesson.html?path=phases/14-agent-engineering/09-hybrid-memory-mem0
+
+# 20260909
 - `MemGPT`
   - https://yennj12.js.org/ai-engineering-from-scratch/lesson.html?path=phases/14-agent-engineering/07-memory-virtual-context-memgpt
   - https://datasciocean.com/paper-intro/memgpt/
