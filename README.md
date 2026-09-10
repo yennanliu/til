@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20260910
+- `MemGPT`
+  - https://yennj12.js.org/ai-engineering-from-scratch/lesson.html?path=phases/14-agent-engineering/07-memory-virtual-context-memgpt
+  - https://datasciocean.com/paper-intro/memgpt/
+  - https://github.com/letta-ai/letta
+
 # 20260906
 - LC/code run visualization
   - https://github.com/laike9m/Cyberbrain
