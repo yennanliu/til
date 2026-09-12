@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20260912
+- MinMax Code
+  - https://agent.minimax.io/docs/code/welcome
+  - https://youtu.be/P2XNG-B_qKY?si=X__YOB7HQm1P4ZEK&t=652
+
 # 20260911
 
 - Stanford、MIT、CMU 的 5 門 AI 課程
