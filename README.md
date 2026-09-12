@@ -7,6 +7,53 @@
 
 # PROGRESS
 
+# 20260911
+
+- Stanford、MIT、CMU 的 5 門 AI 課程
+```
+1️⃣ Stanford — CS329A: Self-Improving AI Agents
+How can AI agents continuously learn and improve?
+Topics include:
+→ Test-time compute and self-improvement
+→ Tool use, retrieval, and memory
+→ Multi-step reasoning and planning
+→ Agent evaluation and orchestration
+→ Coding agents, research agents, and robotics
+Course:
+https://lnkd.in/guXQghc6
+2️⃣ Stanford — CS329Z: Engineering AI Agents
+A great course on moving from models to complete agentic systems:
+LLM Pipelines → Compound AI Systems → Autonomous Agents
+Students build RAG, tool use, and agent loops from scratch, then learn how to optimize and evaluate agentic systems.
+Course:
+https://lnkd.in/gFT9TsJS
+3️⃣ Stanford — CS146S: The Modern Software Developer
+Software engineering is changing.
+Instead of humans writing every line of code:
+Humans define intent → Agents execute → Humans evaluate and steer
+The course explores coding agents, MCP, agent skills, spec-driven development, loop engineering, and the emerging idea of the “software factory.”
+Course:
+https://lnkd.in/gr7txcrf
+4️⃣ MIT — Modeling: Multimodal AI / How to AI (Almost) Anything
+MIT’s Spring 2026 multimodal AI course explores how AI moves beyond text to reason across images, audio, sensors, actions, and other modalities.
+The progression is particularly interesting:
+Representation → Fusion → Alignment → Reasoning → Generation → Agents
+Course:
+https://lnkd.in/gnfdcWbY
+5️⃣ Carnegie Mellon — 11-768: AI Agents
+A new Fall 2026 course taught by Graham Neubig and Daniel Fried.
+This one is especially hands-on:
+→ Build an agentic harness from scratch
+→ Create agent evaluations
+→ Tool use, context management, skills, and memory
+→ Agent planning and interaction
+→ Train agents with SFT and reinforcement learning
+→ Agent safety and sandboxing
+Course:
+https://lnkd.in/gvKKDmdS
+```
+
+
 # 20260910
 - `Mem0（Apache 2.0）`
   - `Mem0` 是一個開源的 AI 長期記憶層基礎設施（採用 Apache 2.0 授權），專門用來替 AI 助理與智慧代理（AI Agent）補上跨對話的持續性記憶能力。
