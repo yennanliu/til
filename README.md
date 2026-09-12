@@ -8,7 +8,7 @@
 # PROGRESS
 
 # 20260912
-- MinMax Code
+- MiniMax Code
   - https://agent.minimax.io/docs/code/welcome
   - https://youtu.be/P2XNG-B_qKY?si=X__YOB7HQm1P4ZEK&t=652
 
