@@ -15,6 +15,8 @@
 # 20260911
 
 - Stanford、MIT、CMU 的 5 門 AI 課程
+- https://cs336.stanford.edu/
+  - CS336: Language Modeling from Scratch
 ```
 1️⃣ Stanford — CS329A: Self-Improving AI Agents
 How can AI agents continuously learn and improve?
