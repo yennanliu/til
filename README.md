@@ -7,6 +7,14 @@
 
 # PROGRESS
 
+# 20260925
+- ` /claude-api prompt audit`
+```
+/claude-api prompt-audit 是 Anthropic 針對 Claude API 與 Claude Code 推出的提示詞審查與優化工具，旨在幫助開發者清理過時或冗長的系統提示詞，進而降低 API 成本並提升模型準確率。
+```
+- https://www.bnext.com.tw/article/92211/claude-api-cost-optimization-prompt-cache-effort-guide
+
+
 # 20260912
 - MiniMax Code
   - https://agent.minimax.io/docs/code/welcome
