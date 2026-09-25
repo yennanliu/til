@@ -15,6 +15,8 @@
 ```
 - https://www.bnext.com.tw/article/92211/claude-api-cost-optimization-prompt-cache-effort-guide
 
+- 安全性 —— 密鑰、API 金鑰輪替、稽核日誌、守衛
+  - https://yennj12.js.org/ai-engineering-from-scratch/lesson?path=phases%2F17-infrastructure-and-production%2F25-security-secrets-audit&learningPath=software-engineering-fundamentals
 
 # 20260912
 - MiniMax Code
