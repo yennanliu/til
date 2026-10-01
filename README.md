@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20261001
+- TradingAgents: Multi-Agents LLM Financial Trading Framework
+  - https://github.com/TauricResearch/TradingAgents
+
 # 20260925
 - `/claude-api prompt-audit`
 ```
