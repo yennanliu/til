@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20261003
+- Jane Street 是何方神聖？
+  - https://news.cnyes.com/news/id/6354914
+  - https://blog.janestreet.com/formal-methods-at-jane-street-index
+
 # 20261001
 - TradingAgents: Multi-Agents LLM Financial Trading Framework
   - https://github.com/TauricResearch/TradingAgents
