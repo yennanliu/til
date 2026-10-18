@@ -7,6 +7,19 @@
 
 # PROGRESS
 
+# 20261018
+- Anthropic 官方出了重構外掛 Code Modernization，改完還會驗證新舊行為一不一樣
+	- https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization
+	- https://www.facebook.com/share/r/17gcK9nYJj/
+```
+① 先讀懂舊程式：畫出架構地圖，把商業規則一條條挖出來，附上檔案和行號
+② 計畫你批准了才動工，舊的原始碼一個字都不改；COBOL 改寫成 Java、Java 8 升到 17 都可以
+③ 用法：在 Claude Code 打 /plugin install code-modernization@claude-plugins-official，再打 /code-modernization:modernize，它會先問你想怎麼改
+最強的是驗證：舊程式能跑的話，新舊吃同一批輸入，腳本比對輸出是不是一模一樣；還自己想至少十個沒用過的輸入，再故意改壞一個地方，確認測試抓得到。每個模組一個判決，由腳本照證據算出來。
+```
+
+
+
 # 20261003
 - Jane Street 是何方神聖？
   - https://news.cnyes.com/news/id/6354914
