@@ -17,6 +17,9 @@
 ③ 用法：在 Claude Code 打 /plugin install code-modernization@claude-plugins-official，再打 /code-modernization:modernize，它會先問你想怎麼改
 最強的是驗證：舊程式能跑的話，新舊吃同一批輸入，腳本比對輸出是不是一模一樣；還自己想至少十個沒用過的輸入，再故意改壞一個地方，確認測試抓得到。每個模組一個判決，由腳本照證據算出來。
 ```
+- Meta Muse on AWS
+  - https://github.com/yennanliu/cdk-playground/blob/main/muse-test-1/doc/build-your-own-muse.md
+  - https://ai.meta.com/muse/
 
 
 
