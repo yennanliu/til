@@ -7,6 +7,12 @@
 
 # PROGRESS
 
+# 20261023
+- CS 329Z: Engineering AI Agents (!!!)
+  - https://cs329z.stanford.edu/index.html#schedule
+  - https://www.youtube.com/playlist?list=PLVKEyLMx8AmU
+
+
 # 20261018
 - Anthropic 官方出了重構外掛 Code Modernization，改完還會驗證新舊行為一不一樣
 	- https://github.com/anthropics/claude-plugins-official/tree/main/plugins/code-modernization
