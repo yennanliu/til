@@ -7,6 +7,11 @@
 
 # PROGRESS
 
+# 20261030
+- Github AI code review tools
+  - greptile
+    - https://app.greptile.com/yen-dev/-/analytics
+
 # 20261023
 - CS 329Z: Engineering AI Agents (!!!)
   - https://cs329z.stanford.edu/index.html#schedule
