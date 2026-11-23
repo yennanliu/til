@@ -7,6 +7,19 @@
 
 # PROGRESS
 
+# 20261123
+- manifest vs artifacts 意思
+  - Manifest 指的是「清單、宣告或描述規則的說明檔/概念」，而 Artifacts 則指「實際產出的成果、建構物或獨立作品」。兩者最常在軟體開發、DevOps 與 AI 工具（如 Claude）中被放在一起比較。
+```
+Manifest（清單／規格／顯化）• 科技與開發領域：用來描述「有哪些東西、設定是什麼、機器該怎麼做」的元資料（Metadata）或宣告檔。例如：JAR 的 MANIFEST.MF、PWA 的 manifest.json、Kubernetes 設定檔或套件清單。
+• 日常與流行語：作動詞或名詞時，可指「明顯展現、顯化（透過專注與行動實現目標）」或運輸/貨物清單。
+
+
+Artifacts（產出物／建構物／獨立作品）• 軟體開發與 CI/CD：編譯、打包或建置流程後產生的實體檔案或產出物，例如 JAR、APK、二進位檔、測試報告或管線留存的檔案。
+• AI 工具（如 Claude / Claude Code）：AI 生成並放在獨立面板或預覽視窗中的可互動成品、程式碼、文件、圖表或小工具
+```
+
+
 # 20261030
 - Github AI code review tools
   - greptile
