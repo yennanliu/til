@@ -7,6 +7,15 @@
 
 # PROGRESS
 
+# 20261124
+- Uber LLM skill factory
+```
+Uber 把 AI 用量放大 7 倍，單位成本反而降下來，他們做了什麼？這篇是 Uber Engineering 8 月底發的長文，作者是 Uday Kiran，標題叫 Running a Software Factory Efficiently at Uber Scale，講的是他們怎麼一邊讓全公司大量使用 AI agent，一邊把每一塊錢的效益榨出來。
+```
+- https://www.facebook.com/share/p/1CAUHMtL47/
+- https://www.uber.com/us/en/blog/efficient-software-factory/
+- https://x.com/UberEng/status/2125008806249930999
+
 # 20261123
 - manifest vs artifacts 意思
   - Manifest 指的是「清單、宣告或描述規則的說明檔/概念」，而 Artifacts 則指「實際產出的成果、建構物或獨立作品」。兩者最常在軟體開發、DevOps 與 AI 工具（如 Claude）中被放在一起比較。
