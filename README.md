@@ -7,6 +7,10 @@
 
 # PROGRESS
 
+# 20261128
+- Claude prompt / skill clean local git worktree
+  - https://github.com/yennanliu/utility_shell/blob/master/claude_code/prompt.sh#L36
+
 # 20261124
 - Uber LLM skill factory
 ```
